@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+<rect width="1200" height="100%" fill="white"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#34495e"/></marker></defs>
+<path d="M365,105 L430,105" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M770,105 L835,105" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1005,165 L1005,305" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M835,375 L770,375" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M430,375 L365,375" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="25" y="45" width="340" height="120" rx="10" fill="#f6eee3" stroke="#567086" stroke-width="2"/>
+<text x="195.0" y="97.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Brief and references</text>
+<text x="195.0" y="133.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">three rough layouts</text>
+<rect x="430" y="45" width="340" height="120" rx="10" fill="#f6eee3" stroke="#567086" stroke-width="2"/>
+<text x="600.0" y="97.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Coarse vector studies</text>
+<text x="600.0" y="133.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">silhouette and contact</text>
+<rect x="835" y="45" width="340" height="120" rx="10" fill="#f6eee3" stroke="#567086" stroke-width="2"/>
+<text x="1005.0" y="97.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Concept selection</text>
+<text x="1005.0" y="133.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">target and specification</text>
+<rect x="835" y="305" width="340" height="145" rx="10" fill="#f6eee3" stroke="#567086" stroke-width="2"/>
+<text x="1005.0" y="351.5" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Semantic decomposition</text>
+<text x="1005.0" y="387.5" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">entities and two graphs</text>
+<text x="1005.0" y="423.5" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">meaningful native parts</text>
+<rect x="430" y="305" width="340" height="145" rx="10" fill="#f6eee3" stroke="#567086" stroke-width="2"/>
+<text x="600.0" y="351.5" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Progressive assembly</text>
+<text x="600.0" y="387.5" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">focal interactions first</text>
+<text x="600.0" y="423.5" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">local and whole inspection</text>
+<rect x="25" y="305" width="340" height="145" rx="10" fill="#f6eee3" stroke="#567086" stroke-width="2"/>
+<text x="195.0" y="351.5" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Critique and retain</text>
+<text x="195.0" y="387.5" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">adaptive correction</text>
+<text x="195.0" y="423.5" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">bounded stopping</text>
+<text x="600" y="235" text-anchor="middle" font-family="Arial" font-size="26" fill="#243447">PROPOSED AND UNRUN</text>
+<text x="600" y="525" text-anchor="middle" font-family="Arial" font-size="26" fill="#243447">Exact copy  /  live text  /  editable paths  /  current evidence</text>
+</svg>

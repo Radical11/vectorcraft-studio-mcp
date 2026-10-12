@@ -1,0 +1,35 @@
+{
+  "status": "PROPOSED ONLY. Not a current workflow_record schema, executable integration, or experimental output.",
+  "compatibility": "Keep the five-tool interface; version any future contract explicitly. Existing runs retain original requirements. Do not silently accept these kinds in the current gateway.",
+  "layout": {
+    "origin": "upper-left",
+    "coordinate_system": "normalized x y width height",
+    "copy": "actual required and editable strings with roles",
+    "alternatives": "three visibly different ideas and reading orders",
+    "negative_space": "record calm regions and focal separation",
+    "example_radio_bounds": [0.38, 0.48, 0.27, 0.22]
+  },
+  "blockout": {
+    "files": "coarse native vector plus full/use-size views",
+    "tests": ["silhouette", "proportion", "gesture", "contact", "reading order"],
+    "interpretation": "temporary 2D geometry not a final style or 3D render",
+    "observation": "agent-observed limits and deliberate departures"
+  },
+  "entity_graph": {
+    "entities": [
+      {"id":"radio.case","role":"supported focal device","parent":"radio","bounds":"from chosen study","anchors":["support_edge","screw_seat"],"critical_features":["opened case","grille","two knobs"],"native_objects":"actual document IDs after construction"},
+      {"id":"tool.driver","role":"active tool","parent":"repair.scene","bounds":"from study","anchors":["tip","grip_center"],"critical_features":["continuous shaft","visible handle"],"native_objects":"actual IDs"},
+      {"id":"student.grip","role":"working hand","parent":"student","bounds":"from study","anchors":["grip_center","wrist"],"critical_features":["credible grasp","clear contour"],"native_objects":"actual IDs"}
+    ],
+    "spatial_relations": ["driver tip contacts screw seat","hand encloses handle","support hand contacts case edge","case contains screw","occlusion preserves visible tool tip"],
+    "assembly_dependencies": ["case and screw anchor before driver","driver before grip contour"],
+    "invariants": "dependency graph acyclic; spatial graph may contain cycles; neither graph is an aesthetic score"
+  },
+  "assembly": {
+    "batches": "focal interactions then supporting context then visible detail",
+    "record": ["run and document revision", "created or edited IDs", "relationship observations", "local and whole-scene views", "remaining budget", "retained-best snapshot"],
+    "priority": "meaning-bearing defects before details invisible at intended size",
+    "stopping": "resolved retained best; three correction rounds; two non-improving rounds; explicit resource exhaustion",
+    "hard_constraints": ["exact required copy", "live text", "editable paths", "no embedded raster substitute", "current evidence"]
+  }
+}

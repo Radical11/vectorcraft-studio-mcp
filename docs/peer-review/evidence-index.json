@@ -1,0 +1,24 @@
+{
+  "description": "Sanitized derivative claim index. Relative project paths only; raw private logs and vault sources excluded. Historical summaries document observations, not independent replication.",
+  "historical_summary": {
+    "import": "Preserved manifest identified gateway 1.0.0 and Studio helper 2. Import occurred on local 12 October 2026. Pre-import development dates not inferred.",
+    "v3": "Version-three workflow enforcement and benchmarks were recorded on 12 October 2026; earlier helper research/review contracts already existed.",
+    "trace": "Implementation acceptance report recorded about 69770 initial anchors and about 27925 after selective reconstruction; counts do not establish quality.",
+    "comparison_correction": "Early favorable reviews were challenged by equal 450x600 and 600x450 comparisons; poster equal, original infographic preferred.",
+    "designer": "designer-v1, portable installer and public alpha followed on 12 October 2026. Source now distinguishes observed consequential regression from score changes.",
+    "private_support": "Immutable imported manifest, historical acceptance report and local Git history were inspected; machine locations and identifying commits withheld. Public summaries are evidence derivatives, not raw archives."
+  },
+  "claims": [
+    {"claim":"398 archived files unchanged","files":["public-evidence/archive-integrity.json"]},
+    {"claim":"124 Windows checks and 113 self-contained subset","files":["public-evidence/test-results.json","scripts/test_suite.py",".github/workflows/checks.yml"]},
+    {"claim":"mixed historical outcomes and cohesion losses","files":["public-evidence/historical-revisit.json"]},
+    {"claim":"matched briefs and two fresh model reviewers","files":["docs/EVALUATION.md","benchmarks/briefs31","public-evidence/visual-comparisons.json"]},
+    {"claim":"owner Q P Q selects revised cases","files":["public-evidence/owner-review.json"]},
+    {"claim":"native reopening live text and raster-free exports","files":["public-evidence/artwork-production.json","public-evidence/selected-artwork.json","examples"]},
+    {"claim":"repair exhausted three rounds moderate fidelity and remaining anatomy issues","files":["docs/EVALUATION.md","public-evidence/visual-comparisons.json"]},
+    {"claim":"full routing probe and limited quick edit","files":["public-evidence/full-activation.json","public-evidence/quick-activation.json"]},
+    {"claim":"portable clean install and rollback preserve unrelated settings","files":["public-evidence/clean-checkout.json","public-evidence/installation-rollback.json","scripts/install.py","tests/test_install.py"]},
+    {"claim":"five-tool interface prerequisites revision invalidation and compatibility","files":["src/workflow.py","src/designer.py","src/vectorcraft_gateway.py","tests/test_workflow.py","tests/test_designer.py"]},
+    {"claim":"future algorithm and 54-output protocol unimplemented and unrun","files":["docs/peer-review/manuscript.md"]}
+  ]
+}

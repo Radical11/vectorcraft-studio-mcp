@@ -1,0 +1,29 @@
+{
+  "edition": "public",
+  "pages": 20,
+  "technical_svg_figures": 8,
+  "comparison_figures": 3,
+  "references": 13,
+  "docx": {
+    "pages": 20,
+    "docx_zip_valid": true,
+    "author_properties_blank": true,
+    "citation_bookmarks_valid": true,
+    "embedded_figures": 11,
+    "pdf_sha256": "cedd2f3e644362189d630a9fe2ba18c1b2c73761d0883fc74ddbe012f9974a68",
+    "docx_sha256": "25890d0e245eea0ce0eebbb929b3dd3f8f0c744d72075b46660512d222880e5a",
+    "blind_text_links_metadata_media_audit": "not applicable"
+  },
+  "blind_audit": "Text, relationships, author properties, PDF metadata and links, and embedded image metadata passed separately. Blind files remain outside public distribution.",
+  "render": "LibreOffice 26.8.0.3 through bundled render_docx.py and Poppler",
+  "visual_inspection": {
+    "status": "agent-observed",
+    "tool": "tools.view_image",
+    "pages": "All 20 public and all 20 blind pages inspected; title border and crowded labels corrected before final render. No observed clipping, broken glyphs, or pagination defects.",
+    "limit": "This verifies document presentation, not the proposed algorithm or artistic superiority."
+  },
+  "historical_suite": "124 recorded Windows checks including 113 self-contained; historical live tests not rerun for this documentation task",
+  "algorithm": "Proposed only; 54-output study unrun",
+  "gateway_source": "Unchanged from maintained pre-documentation version",
+  "alpha": "Existing alpha tag and downloads preserved"
+}

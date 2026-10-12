@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460">
+<rect width="1200" height="100%" fill="white"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#34495e"/></marker></defs>
+<path d="M280,140 L320,140" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M580,140 L620,140" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M880,140 L920,140" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="20" y="70" width="260" height="140" rx="10" fill="#eaf1f6" stroke="#567086" stroke-width="2"/>
+<text x="150.0" y="114.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Imported helpers</text>
+<text x="150.0" y="150.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">gateway 1.0.0</text>
+<text x="150.0" y="186.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Studio version 2</text>
+<rect x="320" y="70" width="260" height="140" rx="10" fill="#eaf1f6" stroke="#567086" stroke-width="2"/>
+<text x="450.0" y="114.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Version 3</text>
+<text x="450.0" y="150.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">gates and</text>
+<text x="450.0" y="186.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">revision evidence</text>
+<rect x="620" y="70" width="260" height="140" rx="10" fill="#eaf1f6" stroke="#567086" stroke-width="2"/>
+<text x="750.0" y="114.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">designer-v1</text>
+<text x="750.0" y="150.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">concept review</text>
+<text x="750.0" y="186.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">native study</text>
+<rect x="920" y="70" width="260" height="140" rx="10" fill="#edf3eb" stroke="#567086" stroke-width="2"/>
+<text x="1050.0" y="114.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Public alpha</text>
+<text x="1050.0" y="150.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">matched review</text>
+<text x="1050.0" y="186.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">owner selection</text>
+<text x="150" y="45" text-anchor="middle" font-family="Arial" font-size="26" fill="#243447">12 October 2026</text>
+<text x="450" y="270" text-anchor="middle" font-family="Arial" font-size="26" fill="#243447">Unequal sizes corrected</text>
+<text x="790" y="320" text-anchor="middle" font-family="Arial" font-size="26" fill="#243447">Score movement is not regression</text>
+<text x="600" y="405" text-anchor="middle" font-family="Arial" font-size="26" fill="#243447">Originals retained and mixed outcomes disclosed</text>
+</svg>

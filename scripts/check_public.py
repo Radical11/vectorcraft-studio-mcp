@@ -6,9 +6,9 @@ parser=argparse.ArgumentParser();parser.add_argument('--root');a=parser.parse_ar
 for p in ('LICENSE-MIT','LICENSE-APACHE','NOTICE','ASSETS.md','README.md','CONTRIBUTING.md','docs/SUPPORTED.md','docs/EVALUATION.md'):
  assert (ROOT/p).is_file(),p
 ledger=(ROOT/'ASSETS.md').read_text(encoding='utf-8');assets=[]
-for directory in ('tests/fixtures','examples','site/assets'):
+for directory in ('tests/fixtures','examples','site/assets','docs/peer-review'):
  for p in (ROOT/directory).rglob('*'):
-  if p.is_file() and p.suffix.lower() in ('.png','.jpg','.jpeg','.svg','.vectorcraft','.pdf'):
+  if p.is_file() and p.suffix.lower() in ('.png','.jpg','.jpeg','.svg','.vectorcraft','.pdf','.docx'):
    rel=p.relative_to(ROOT).as_posix();assert '| '+rel+' |' in ledger,'Missing asset provenance: '+rel;assets.append(rel)
 for directory in ('src','skills','tests','docs','site','examples','public-evidence'):
  for p in (ROOT/directory).rglob('*'):

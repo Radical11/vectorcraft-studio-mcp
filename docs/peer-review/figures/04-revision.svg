@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<rect width="1200" height="100%" fill="white"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#34495e"/></marker></defs>
+<path d="M270,135 L320,135" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M570,135 L620,135" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M870,135 L920,135" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1060,245 L180,245" fill="none" stroke="#34495e" stroke-width="3" marker-end="url(#arrow)" stroke-dasharray="9 7"/>
+<rect x="345.0" y="207.0" width="550" height="32" fill="white"/>
+<text x="620.0" y="232.0" text-anchor="middle" font-family="Arial" font-size="25" fill="#243447">subsequent edit creates revision r + 1</text>
+<rect x="20" y="70" width="250" height="130" rx="10" fill="#eaf1f6" stroke="#567086" stroke-width="2"/>
+<text x="145.0" y="109.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Revision r</text>
+<text x="145.0" y="145.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">planned edits</text>
+<text x="145.0" y="181.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">pending state</text>
+<rect x="320" y="70" width="250" height="130" rx="10" fill="#eaf1f6" stroke="#567086" stroke-width="2"/>
+<text x="445.0" y="109.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Capture</text>
+<text x="445.0" y="145.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">native snapshot</text>
+<text x="445.0" y="181.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">full and use views</text>
+<rect x="620" y="70" width="250" height="130" rx="10" fill="#edf3eb" stroke="#567086" stroke-width="2"/>
+<text x="745.0" y="109.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Confirm</text>
+<text x="745.0" y="145.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">actual observation</text>
+<text x="745.0" y="181.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">current mappings</text>
+<rect x="920" y="70" width="260" height="130" rx="10" fill="#edf3eb" stroke="#567086" stroke-width="2"/>
+<text x="1050.0" y="109.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">Preflight</text>
+<text x="1050.0" y="145.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">eligible packet</text>
+<text x="1050.0" y="181.0" text-anchor="middle" font-family="Arial" font-size="28" fill="#162c3e">review readiness</text>
+<text x="600" y="330" text-anchor="middle" font-family="Arial" font-size="26" fill="#243447">New edits clear readiness and require refreshed evidence</text>
+<text x="600" y="382" text-anchor="middle" font-family="Arial" font-size="26" fill="#243447">Old snapshots survive as retained comparison artifacts</text>
+</svg>
