@@ -1,0 +1,11 @@
+{
+  "fresh_session": true,
+  "model": "gpt-6.1-sol",
+  "automatic_route": "vectorcraft-studio",
+  "default_quality_profile": "designer-v1",
+  "installed_skills_read": true,
+  "live_status_inspected": true,
+  "vault": "configured shared knowledge vault",
+  "limitation": "Routing-only read-only probe; it establishes no complete fresh design or aesthetic quality",
+  "sanitized_derivative": true
+}

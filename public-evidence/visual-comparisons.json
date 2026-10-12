@@ -1,0 +1,176 @@
+{
+  "sanitized_derivative": true,
+  "protocol": "Two fresh blind reviewers actually observed 12 full/use previews each and read neutral inspections/briefs. No targets, creator scores, histories or expected verdicts.",
+  "cases": {
+    "campus-poster": {
+      "clear_improvement_agreed": true,
+      "consequential_regression_in_improved": false,
+      "reviewer_verdicts": {
+        "communication": {
+          "winner": "Q",
+          "clear_improvement": true,
+          "reason": "At 450 x 600, Q makes the walking action and torchlight discovery more immediate: the larger profile walker has a visible torch, a long beam leading to a recognizable moth and foliage, and a winding path. P conveys the activity but its small circular-headed figure and repeated triangular trees are more generic.",
+          "communication": "Both immediately identify a night walk and retain readable date, time and meeting point. Q connects the invitation to an observable outdoor discovery rather than relying mostly on the title.",
+          "copy": "Both preserve every required phrase as live text in inspection. Q's 'Moths. Shadows. A path you know differently.' is specific and visibly supported by the beam and moth. P's beam invitation is also relevant. Neither names a real university.",
+          "composition": "Q's diagonal beam provides a strong route from walker to nocturnal subject; its larger scene occupies the middle without compromising the separate information footer. P has more empty space above a smaller scene, weakening that image's prominence.",
+          "illustration": "Q's profile, bent arm, stride and distinct torch establish a clearer focal silhouette. The large lit moth remains recognizable at intended size. P's botanical repeats and geometric walker communicate more diagrammatically.",
+          "craft": "Both show clean edges, consistent colors and separated text. Q's foliage crosses the beam intentionally and gives the image a specific discovery. No clipping or collision materially obstructs required information.",
+          "consequential_regression": {
+            "present": false,
+            "candidate": null,
+            "evidence": "Q preserves P's readable required information and outdoor walking/beam meaning; the different trees and copy do not visibly remove a required strength."
+          },
+          "remaining_weaknesses": [
+            "The secondary invitation and free-entry line are small and muted at intended size in both.",
+            "Q's large floating leaf forms are stylized and spatially ambiguous; the scene still lacks specific campus architecture, though the text establishes the fictional campus context."
+          ]
+        },
+        "craft": {
+          "winner": "Q",
+          "clear_improvement": true,
+          "reason": "Q gives the walker a readable profile, bent gripping arm, explicit torch body and separated stride. Its beam converges on the torch and exposes a moth among leaves; at 450 x 600 this action is clearer than P's circular head, tube limbs and near-invisible torch. This strengthens the required walking/torchlight/nature relationship.",
+          "communication": "Both read immediately as AFTER DARK campus night walks and provide clear date, time and meeting details. Q connects the invitation to a visible moth and lit foliage more specifically.",
+          "copy": "Both preserve all required wording. Q's Moths. Shadows. supporting sentence is short and supported by the image. Footer text remains readable in both use images.",
+          "composition": "Both reserve calm dark space around the title and separate event details with a rule. Q's diagonal beam and larger walker create a stronger continuous route from path to nocturnal nature without obstructing copy.",
+          "illustration": "Q has a distinct facial profile and bent elbow leading to a visible torch; the stride separates shoes and knees. P uses a featureless disk head, blunt torso and rounded sticks. Q's moth is recognizable at use size.",
+          "craft": "Q improves contour articulation and hand/tool causality. Some angular trouser and shoulder joins remain crude, but the silhouette communicates a person walking rather than assembled rods.",
+          "consequential_regression": {
+            "present": false,
+            "candidate": null,
+            "evidence": "No material loss of required information, intended-size readability or night-walk action observed."
+          },
+          "remaining_weaknesses": [
+            "Q's walking feet are not firmly grounded in the path; the rear shoe appears to float at its edge.",
+            "Q's oversized leaf shapes read as symbolic foliage; neither scene establishes a campus through architecture."
+          ]
+        }
+      },
+      "neutral_labels": {
+        "P": "baseline",
+        "Q": "improved"
+      }
+    },
+    "repair-cafe": {
+      "clear_improvement_agreed": true,
+      "consequential_regression_in_improved": false,
+      "reviewer_verdicts": {
+        "communication": {
+          "winner": "P",
+          "clear_improvement": true,
+          "reason": "At 768 x 512, P communicates a shared repair more convincingly: both faces lean toward the opened upright radio, the left student's articulated hand grips the case, and the right student's screwdriver shaft visibly meets a screw inside the chassis. Q includes the required objects but its flat faces, isolated block arms and shallow tray-like radio make the attentive joint action less specific.",
+          "communication": "P's gaze, proximity and workshop setting reinforce two students working together. Its separated opened panel, grille, knobs and exposed wires make the repair activity readable without copy. Q's broad tabletop is clear but the gesture feels assembled and less attentive.",
+          "copy": "Both are wordless as requested, with no logos or real campus identity.",
+          "composition": "P clusters faces and hands around the radio while leaving usable foreground workbench space. Q leaves more empty bench space but spreads the students farther apart and weakens their shared focal relationship.",
+          "illustration": "P's tool handle, shaft and tip remain traceable to a small visible screw at use size. The supporting hand overlaps the case edge and exposed components read as a radio interior. Q also shows contact, grille and knobs, but its box reads more like a low board or tray than an opened tabletop radio.",
+          "craft": "P's grille and case perspective are coherent enough to identify the equipment; its expressions and hand articulation add meaningful attention rather than only decoration. Several small wires and component marks reduce to fine detail, but do not conceal the main screwdriver contact.",
+          "consequential_regression": {
+            "present": false,
+            "candidate": null,
+            "evidence": "P's extra detail does not visibly hide the core tool contact or eliminate Q's clear workbench space. Q's simpler contact is somewhat easier to isolate, but the contact remains readable in P at the intended size."
+          },
+          "remaining_weaknesses": [
+            "P's right forearm is a conspicuously long diagonal shape and its hand/handle cluster takes closer looking to parse.",
+            "P's interior component detail is dense and some tiny joints lose definition at use size.",
+            "Neither scene alone proves a university identity; the fictional student context is interpretive."
+          ]
+        },
+        "craft": {
+          "winner": "P",
+          "clear_improvement": true,
+          "reason": "P shows two students leaning toward the same opened radio, one hand bracing its front casing and the other curling around a red screwdriver with a continuous shaft ending at a visible screw. The contact remains identifiable at 768 x 512. Q's stick-like arms and minimally marked hand do not convincingly grip or steady the device, and its flat slab reads less clearly as an opened case.",
+          "communication": "P communicates collaborative attention through both faces and converging arms, while retaining visible workbench space. Q gives the action more empty space but the faces seem passive and the mechanics are less credible.",
+          "copy": "Both are wordless, as requested; no distracting typography or logos observed.",
+          "composition": "P centers the radio between both students, with a removed panel extending onto a consistently angled tabletop. Background tools contextualize repair without hiding the screwdriver. Q's large empty table weakens the emphasis on active collaboration.",
+          "illustration": "P's speaker grille, two knobs, open enclosure, components and looping wires are readily recognized. Its supporting fingers wrap around the casing edge. Q includes these categories schematically but its radio reads like a board with components on top.",
+          "craft": "P's facial profiles, clothing contours, finger bends and continuous tool shaft make a substantial functional gain over Q. P still has awkward hand anatomy: the screwdriver-side fingers crowd the handle and the long foreground forearm joins the hand ambiguously.",
+          "consequential_regression": {
+            "present": true,
+            "candidate": "Q",
+            "evidence": "Q loses credible hand/tool relationships: the red handle lies against a minimally indicated arm end rather than a convincingly wrapped grip, and the supporting hand terminates as a rounded stick at the radio edge. This materially weakens the required repair mechanics despite a visible shaft-to-screw endpoint."
+          },
+          "remaining_weaknesses": [
+            "P's operating hand is crowded by several finger contours; the grip could be simpler and more anatomically coherent.",
+            "P's supporting arm and casing overlap conceal the wrist transition.",
+            "P's open front/back arrangement is interpretive rather than an unmistakably engineered radio enclosure."
+          ]
+        }
+      },
+      "neutral_labels": {
+        "P": "improved",
+        "Q": "baseline"
+      }
+    },
+    "urban-heat": {
+      "clear_improvement_agreed": true,
+      "consequential_regression_in_improved": false,
+      "reviewer_verdicts": {
+        "communication": {
+          "winner": "Q",
+          "clear_improvement": true,
+          "reason": "Q replaces P's two separate generic tree diagrams with a single street scene that visibly contrasts shaded and sunlit pavement, traces sunlight to canopy and exposed ground, and shows root uptake followed by upward moisture arrows. At 600 x 450 this makes the two processes act on one comprehensible urban subject.",
+          "communication": "Both distinguish shade from evapotranspiration. Q connects numbered explanations to a shared tree and a recognizable road edge; the shaded region and sunlit region communicate the surface contrast more concretely than P's oval and short ground line.",
+          "copy": "Both retain the exact required title, conditional-effects note and EPA credit. Q explicitly says evaporation uses energy and helps cool surrounding air; P says evaporation uses heat from air. Q's opening sentence sets up the incoming/outgoing contrast clearly. Source credit is visible, but this review has not independently verified the primary source.",
+          "composition": "Q's central tree links the left shade explanation, right water explanation and street below into a single causal sequence. P's symmetrical columns are easy to scan but make the mechanisms seem like independent icon examples.",
+          "illustration": "Q includes canopy, sun, intercepted ray, two rays to exposed surface, shaded pavement, roots and upward moisture movement. P includes the basic mechanisms but has no strong street depiction and a much smaller shaded/unshaded contrast.",
+          "craft": "Q's leaders and distinct arrow colors survive at intended size. Small surface labels and the pale shade leader are less immediate than the main text, but they are still discernible. The road plane gives useful context instead of ornamental complexity.",
+          "consequential_regression": {
+            "present": false,
+            "candidate": null,
+            "evidence": "Q preserves the two explanations, caveat and source while adding a shared causal scene. Its extra leaders do not materially obscure the mechanism arrows or teaching sequence."
+          },
+          "remaining_weaknesses": [
+            "The shaded-surface leader in Q has low contrast against the pavement.",
+            "At use size, root and surface labels are relatively small.",
+            "Neither image explains the word evapotranspiration beyond the water/vapour mechanism; an introductory reader may still need that term linked explicitly to root uptake and leaf release.",
+            "The credit is a source title rather than a direct source URL, and current source verification cannot be inferred from the rendered diagram."
+          ]
+        },
+        "craft": {
+          "winner": "Q",
+          "clear_improvement": true,
+          "reason": "Q locates shade, sunlit surface, root uptake and upward vapour around one tree on an identifiable street plane. Orange rays visibly reach the canopy or unshaded paving, while blue arrows leave the crown. P explains the two mechanisms legibly but uses two separate tree icons and thin ground bars, making the actual street relationship less concrete.",
+          "communication": "Q makes a single causal scene from sun to leaves and surfaces and from roots to upward moisture. Both differentiate the mechanisms and state the relevant conditions. P's two-column order is somewhat faster to scan, but Q better fulfills the street diagram requirement.",
+          "copy": "Both have the exact title, qualified cooling claims and visible EPA credit. Q's sentence about evaporation using energy is plain and avoids a guaranteed comfort claim. Source correctness was not independently researched in this blind image review.",
+          "composition": "Q places shade copy left, moisture copy right, and joins both around a central tree and shared street. Leaders and colored arrows remain separated at use size. P has more generous body-text size, but its street is reduced to unrelated horizontal bars.",
+          "illustration": "Q's tree trunk, branching canopy, roots and perspectival street are legible together. The shadow is a substantial planar area rather than P's detached oval; unshaded paving is visibly exposed to rays.",
+          "craft": "Q adds useful spatial coherence and causal contact, not merely extra detail. Sun arrows terminate on canopy or exposed paving, blue upward arrows are visibly distinct, and the street edge and lane marks establish subject-specific setting.",
+          "consequential_regression": {
+            "present": false,
+            "candidate": null,
+            "evidence": "Q's smaller body copy is still readable at 600 x 450; no observed change materially undermines the common brief."
+          },
+          "remaining_weaknesses": [
+            "Q's shadow is a geometric polygon whose relation to the low right-hand sun is simplified.",
+            "Q's long vapour leader competes slightly with the diagonal sun ray.",
+            "Both use small low-contrast source/condition lines; these need closer viewing than the main title and mechanisms."
+          ]
+        }
+      },
+      "neutral_labels": {
+        "P": "baseline",
+        "Q": "improved"
+      }
+    }
+  },
+  "clear_improvements_agreed": 3,
+  "no_consequential_regression": true,
+  "independent_visual_gate_passed": true,
+  "owner_anonymous_review": {
+    "sanitized_derivative": true,
+    "date": "2026-10-12",
+    "anonymous_choices": {
+      "campus-poster": "Q",
+      "repair-cafe": "P",
+      "urban-heat": "Q"
+    },
+    "meaning": "Owner preferred the retained designer-v1 version in each anonymous pair. Publication was already authorized in the project plan and follows this artwork gate.",
+    "scope": "Taste preference on these three comparisons, not a claim of professional superiority or endorsement."
+  },
+  "publication": "experimental release authorized after recorded artwork selection",
+  "limitations": [
+    "Creator-authored case studies, not randomized independent-agent trials or general professional superiority.",
+    "Only three inspected calibration references per brief, below 15\u201325-work research target.",
+    "Repair retained version used three correction rounds; target fidelity remains moderate, simplified forearm/spare tools disclosed.",
+    "Vault lessons were retrieved during critique; no claim of fresh vault retrieval before initial construction."
+  ]
+}

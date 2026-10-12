@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+/.local/
+/baseline/
+/work/
+/outputs/
+/.venv/
+tests/legacy/*result*.json

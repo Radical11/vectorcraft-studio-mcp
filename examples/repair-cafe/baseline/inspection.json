@@ -1,0 +1,1794 @@
+{
+  "artboards": [
+    {
+      "height": 1024.0,
+      "name": "Artboard 1",
+      "width": 1536.0,
+      "x": 0.0,
+      "y": 0.0
+    }
+  ],
+  "colorMode": "Rgb",
+  "currentLayer": 1,
+  "isolation": null,
+  "layerRows": [],
+  "layers": [
+    {
+      "bounds": {
+        "height": 1044.4749763309956,
+        "width": 1558.0099648833275,
+        "x": -1.4200029373168945,
+        "y": -7.460002779960632
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 269.3478141141975,
+            "width": 614.7799726724625,
+            "x": 492.7599720954895,
+            "y": 422.8599749803543
+          },
+          "children": [
+            {
+              "anchors": 2,
+              "bounds": {
+                "height": 8.259999632835388,
+                "width": 5.899999737739563,
+                "x": 967.1199510097504,
+                "y": 643.519965171814
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 147,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#d4cfac",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 3.539999842643738,
+              "visible": true
+            },
+            {
+              "bounds": {
+                "height": 9.4399995803833,
+                "width": 14.159999370574951,
+                "x": 960.0399513244629,
+                "y": 649.4199649095535
+              },
+              "children": [
+                {
+                  "anchors": 2,
+                  "bounds": {
+                    "height": 9.4399995803833,
+                    "width": 0.0,
+                    "x": 967.1199510097504,
+                    "y": 649.4199649095535
+                  },
+                  "closed": false,
+                  "fill": "None",
+                  "id": 146,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "#51685d",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "strokeWidth": 2.359999895095825,
+                  "visible": true
+                },
+                {
+                  "anchors": 2,
+                  "bounds": {
+                    "height": 0.0,
+                    "width": 14.159999370574951,
+                    "x": 960.0399513244629,
+                    "y": 654.1399646997452
+                  },
+                  "closed": false,
+                  "fill": "None",
+                  "id": 145,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "#51685d",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "strokeWidth": 2.359999895095825,
+                  "visible": true
+                }
+              ],
+              "id": 144,
+              "kind": "Compound Path",
+              "locked": false,
+              "name": "<Compound Path>",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "visible": true
+            },
+            {
+              "bounds": {
+                "height": 22.41999900341034,
+                "width": 28.319998741149902,
+                "x": 1006.0599492788315,
+                "y": 534.959969997406
+              },
+              "children": [
+                {
+                  "anchors": 2,
+                  "bounds": {
+                    "height": 8.259999632835388,
+                    "width": 18.8799991607666,
+                    "x": 1007.2399492263794,
+                    "y": 549.119969367981
+                  },
+                  "closed": false,
+                  "fill": "None",
+                  "id": 143,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "#93603d",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "strokeWidth": 3.539999842643738,
+                  "visible": true
+                },
+                {
+                  "anchors": 2,
+                  "bounds": {
+                    "height": 9.4399995803833,
+                    "width": 28.319998741149902,
+                    "x": 1006.0599492788315,
+                    "y": 534.959969997406
+                  },
+                  "closed": false,
+                  "fill": "None",
+                  "id": 142,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "#93603d",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "strokeWidth": 3.539999842643738,
+                  "visible": true
+                }
+              ],
+              "id": 141,
+              "kind": "Compound Path",
+              "locked": false,
+              "name": "<Compound Path>",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "visible": true
+            },
+            {
+              "anchors": 2,
+              "bounds": {
+                "height": 89.67999601364136,
+                "width": 49.55999779701233,
+                "x": 968.2999509572983,
+                "y": 563.2799687385559
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 140,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#52685d",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 8.259999632835388,
+              "visible": true
+            },
+            {
+              "anchors": 2,
+              "bounds": {
+                "height": 30.679998636245728,
+                "width": 21.239999055862427,
+                "x": 1017.8599487543106,
+                "y": 532.5999701023102
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 139,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#ba593e",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 20.059999108314514,
+              "visible": true
+            },
+            {
+              "anchors": 6,
+              "bounds": {
+                "height": 141.63686870411038,
+                "width": 102.6599954366684,
+                "x": 1004.8799493312836,
+                "y": 422.8599749803543
+              },
+              "closed": true,
+              "fill": "#d3a171",
+              "id": 138,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "bounds": {
+                "height": 30.679998636245728,
+                "width": 29.499998688697815,
+                "x": 508.09997141361237,
+                "y": 632.8999656438828
+              },
+              "children": [
+                {
+                  "anchors": 2,
+                  "bounds": {
+                    "height": 14.159999370574951,
+                    "width": 29.499998688697815,
+                    "x": 508.09997141361237,
+                    "y": 649.4199649095535
+                  },
+                  "closed": false,
+                  "fill": "None",
+                  "id": 137,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "#ac764f",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "strokeWidth": 3.539999842643738,
+                  "visible": true
+                },
+                {
+                  "anchors": 2,
+                  "bounds": {
+                    "height": 14.159999370574951,
+                    "width": 28.319998741149902,
+                    "x": 509.2799713611603,
+                    "y": 632.8999656438828
+                  },
+                  "closed": false,
+                  "fill": "None",
+                  "id": 136,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "#ac764f",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "strokeWidth": 3.539999842643738,
+                  "visible": true
+                }
+              ],
+              "id": 135,
+              "kind": "Compound Path",
+              "locked": false,
+              "name": "<Compound Path>",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "visible": true
+            },
+            {
+              "anchors": 7,
+              "bounds": {
+                "height": 242.2078153205955,
+                "width": 134.51999402046204,
+                "x": 492.7599720954895,
+                "y": 449.9999737739563
+              },
+              "closed": true,
+              "fill": "#ddaf7f",
+              "id": 134,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            }
+          ],
+          "id": 133,
+          "kind": "Group",
+          "locked": false,
+          "name": "hands-and-tool",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 253.6999887228012,
+            "width": 623.0399723052979,
+            "x": 511.6399712562561,
+            "y": 593.9599673748016
+          },
+          "children": [
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 25.959998846054077,
+                "width": 30.679998636245728,
+                "x": 1057.9799469709396,
+                "y": 754.4399602413177
+              },
+              "closed": true,
+              "fill": "#d6c59d",
+              "id": 131,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 25.959998846054077,
+                "width": 30.679998636245728,
+                "x": 1001.3399494886398,
+                "y": 757.9799600839615
+              },
+              "closed": true,
+              "fill": "#d6c59d",
+              "id": 130,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 16.519999265670776,
+                "width": 18.8799991607666,
+                "x": 957.6799514293671,
+                "y": 645.8799650669098
+              },
+              "closed": true,
+              "fill": "#d4cfac",
+              "id": 129,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 3,
+              "bounds": {
+                "height": 34.13469727786185,
+                "width": 184.07999181747437,
+                "x": 754.7199604511261,
+                "y": 669.479964017868
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 128,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#c76d4f",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 5.899999737739563,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 9.4399995803833,
+                "width": 9.4399995803833,
+                "x": 914.0199533700943,
+                "y": 680.0999635457993
+              },
+              "closed": true,
+              "fill": "#d8c798",
+              "id": 127,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 23.599998950958252,
+                "width": 36.57999837398529,
+                "x": 901.0399539470673,
+                "y": 674.1999638080597
+              },
+              "closed": true,
+              "fill": "#354d42",
+              "id": 126,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 9.4399995803833,
+                "width": 9.4399995803833,
+                "x": 858.5599558353424,
+                "y": 639.9799653291702
+              },
+              "closed": true,
+              "fill": "#d8c798",
+              "id": 125,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 23.599998950958252,
+                "width": 36.57999837398529,
+                "x": 845.5799564123154,
+                "y": 634.0799655914307
+              },
+              "closed": true,
+              "fill": "#354d42",
+              "id": 124,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 9.4399995803833,
+                "width": 9.4399995803833,
+                "x": 775.9599595069885,
+                "y": 645.8799650669098
+              },
+              "closed": true,
+              "fill": "#d8c798",
+              "id": 123,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 23.599998950958252,
+                "width": 36.57999837398529,
+                "x": 762.9799600839615,
+                "y": 639.9799653291702
+              },
+              "closed": true,
+              "fill": "#354d42",
+              "id": 122,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 2,
+              "bounds": {
+                "height": 82.59999632835388,
+                "width": 0.0,
+                "x": 660.3199646472931,
+                "y": 695.4399628639221
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 121,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#c5bc8f",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 2.359999895095825,
+              "visible": true
+            },
+            {
+              "anchors": 2,
+              "bounds": {
+                "height": 82.59999632835388,
+                "width": 0.0,
+                "x": 648.519965171814,
+                "y": 695.4399628639221
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 120,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#c5bc8f",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 2.359999895095825,
+              "visible": true
+            },
+            {
+              "anchors": 2,
+              "bounds": {
+                "height": 82.59999632835388,
+                "width": 0.0,
+                "x": 636.7199656963348,
+                "y": 695.4399628639221
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 119,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#c5bc8f",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 2.359999895095825,
+              "visible": true
+            },
+            {
+              "anchors": 2,
+              "bounds": {
+                "height": 82.59999632835388,
+                "width": 0.0,
+                "x": 624.9199662208557,
+                "y": 695.4399628639221
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 118,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#c5bc8f",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 2.359999895095825,
+              "visible": true
+            },
+            {
+              "anchors": 2,
+              "bounds": {
+                "height": 82.59999632835388,
+                "width": 0.0,
+                "x": 613.1199667453766,
+                "y": 695.4399628639221
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 117,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#c5bc8f",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 2.359999895095825,
+              "visible": true
+            },
+            {
+              "anchors": 2,
+              "bounds": {
+                "height": 82.59999632835388,
+                "width": 0.0,
+                "x": 601.3199672698975,
+                "y": 695.4399628639221
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 116,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#c5bc8f",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 2.359999895095825,
+              "visible": true
+            },
+            {
+              "anchors": 2,
+              "bounds": {
+                "height": 82.59999632835388,
+                "width": 0.0,
+                "x": 589.5199677944183,
+                "y": 695.4399628639221
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 115,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#c5bc8f",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 2.359999895095825,
+              "visible": true
+            },
+            {
+              "anchors": 2,
+              "bounds": {
+                "height": 82.59999632835388,
+                "width": 0.0,
+                "x": 577.7199683189392,
+                "y": 695.4399628639221
+              },
+              "closed": false,
+              "fill": "None",
+              "id": 114,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "#c5bc8f",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "strokeWidth": 2.359999895095825,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 108.55999517440796,
+                "width": 127.43999433517456,
+                "x": 557.6599692106247,
+                "y": 681.2799634933472
+              },
+              "closed": true,
+              "fill": "#394d43",
+              "id": 113,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 114.45999491214752,
+                "width": 342.19998478889465,
+                "x": 706.3399626016617,
+                "y": 608.1199667453766
+              },
+              "closed": true,
+              "fill": "#a7ae83",
+              "id": 112,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 88.49999606609344,
+                "width": 600.6199733018875,
+                "x": 534.0599702596664,
+                "y": 759.1599600315094
+              },
+              "closed": true,
+              "fill": "#68492f",
+              "id": 111,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 193.51999139785767,
+                "width": 623.0399723052979,
+                "x": 511.6399712562561,
+                "y": 593.9599673748016
+              },
+              "closed": true,
+              "fill": "#8b6044",
+              "id": 110,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            }
+          ],
+          "id": 109,
+          "kind": "Group",
+          "locked": false,
+          "name": "opened-radio",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 487.3399783372879,
+            "width": 1537.5399316549301,
+            "x": 19.050030291080475,
+            "y": 549.674995213747
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 84.9599962234497,
+                "width": 1452.5799354314804,
+                "x": 54.45002871751785,
+                "y": 952.0549773275852
+              },
+              "children": [
+                {
+                  "anchors": 2,
+                  "bounds": {
+                    "height": 84.9599962234497,
+                    "width": 22.41999900341034,
+                    "x": 1484.609965145588,
+                    "y": 952.0549773275852
+                  },
+                  "closed": false,
+                  "fill": "None",
+                  "id": 107,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "#765b41",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "strokeWidth": 36.57999837398529,
+                  "visible": true
+                },
+                {
+                  "anchors": 2,
+                  "bounds": {
+                    "height": 84.9599962234497,
+                    "width": 11.799999475479126,
+                    "x": 54.45002871751785,
+                    "y": 952.0549773275852
+                  },
+                  "closed": false,
+                  "fill": "None",
+                  "id": 106,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "#765b41",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "strokeWidth": 36.57999837398529,
+                  "visible": true
+                }
+              ],
+              "id": 105,
+              "kind": "Compound Path",
+              "locked": false,
+              "name": "<Compound Path>",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 43.659998059272766,
+                "width": 1536.3599317073822,
+                "x": 20.230030238628387,
+                "y": 908.3949792683125
+              },
+              "closed": true,
+              "fill": "#987957",
+              "id": 104,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 358.71998405456543,
+                "width": 1537.5399316549301,
+                "x": 19.050030291080475,
+                "y": 549.674995213747
+              },
+              "closed": true,
+              "fill": "#d9b88b",
+              "id": 103,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            }
+          ],
+          "id": 102,
+          "kind": "Group",
+          "locked": false,
+          "name": "workbench",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 496.1770517187985,
+            "width": 1250.7999444007874,
+            "x": 159.99998688697815,
+            "y": 153.24291319075502
+          },
+          "children": [
+            {
+              "bounds": {
+                "height": 245.836082060362,
+                "width": 210.53591318764506,
+                "x": 1038.2669522603394,
+                "y": 154.14874956249372
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 51.692554206229374,
+                    "width": 54.23687866402588,
+                    "x": 1149.3526866446505,
+                    "y": 293.79160182323363
+                  },
+                  "children": [
+                    {
+                      "anchors": 2,
+                      "bounds": {
+                        "height": 6.368085419590443,
+                        "width": 28.900985409421992,
+                        "x": 1174.6885798992544,
+                        "y": 339.11607060987257
+                      },
+                      "closed": false,
+                      "fill": "None",
+                      "id": 84,
+                      "kind": "Path",
+                      "locked": false,
+                      "name": "<Path>",
+                      "stroke": "#765335",
+                      "strokeOptions": {
+                        "align": "center",
+                        "alignDashes": false,
+                        "arrowAlign": "extend",
+                        "cap": "round",
+                        "dash": null,
+                        "dashOffset": 0.0,
+                        "endArrow": null,
+                        "gradientMode": "within",
+                        "join": "round",
+                        "miterLimit": 4.0,
+                        "profile": "uniform",
+                        "startArrow": null,
+                        "widthPoints": null
+                      },
+                      "strokeWidth": 4.719999648478403,
+                      "visible": true
+                    },
+                    {
+                      "anchors": 2,
+                      "bounds": {
+                        "height": 10.781285727007344,
+                        "width": 13.167499190578837,
+                        "x": 1186.21741596611,
+                        "y": 302.474119484382
+                      },
+                      "closed": false,
+                      "fill": "None",
+                      "id": 83,
+                      "kind": "Path",
+                      "locked": false,
+                      "name": "<Path>",
+                      "stroke": "#765335",
+                      "strokeOptions": {
+                        "align": "center",
+                        "alignDashes": false,
+                        "arrowAlign": "extend",
+                        "cap": "round",
+                        "dash": null,
+                        "dashOffset": 0.0,
+                        "endArrow": null,
+                        "gradientMode": "within",
+                        "join": "round",
+                        "miterLimit": 4.0,
+                        "profile": "uniform",
+                        "startArrow": null,
+                        "widthPoints": null
+                      },
+                      "strokeWidth": 4.719999648478403,
+                      "visible": true
+                    },
+                    {
+                      "anchors": 2,
+                      "bounds": {
+                        "height": 9.211499469154376,
+                        "width": 32.976301157921625,
+                        "x": 1149.3526866446505,
+                        "y": 293.79160182323363
+                      },
+                      "closed": false,
+                      "fill": "None",
+                      "id": 82,
+                      "kind": "Path",
+                      "locked": false,
+                      "name": "<Path>",
+                      "stroke": "#765335",
+                      "strokeOptions": {
+                        "align": "center",
+                        "alignDashes": false,
+                        "arrowAlign": "extend",
+                        "cap": "round",
+                        "dash": null,
+                        "dashOffset": 0.0,
+                        "endArrow": null,
+                        "gradientMode": "within",
+                        "join": "round",
+                        "miterLimit": 4.0,
+                        "profile": "uniform",
+                        "startArrow": null,
+                        "widthPoints": null
+                      },
+                      "strokeWidth": 4.719999648478403,
+                      "visible": true
+                    }
+                  ],
+                  "id": 81,
+                  "kind": "Compound Path",
+                  "locked": false,
+                  "name": "<Compound Path>",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "visible": true
+                },
+                {
+                  "anchors": 5,
+                  "bounds": {
+                    "height": 159.37955249641095,
+                    "width": 197.78157659230737,
+                    "x": 1038.2669522603394,
+                    "y": 154.14874956249372
+                  },
+                  "closed": true,
+                  "fill": "#53402e",
+                  "id": 80,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "None",
+                  "strokeWidth": 0.0,
+                  "visible": true
+                },
+                {
+                  "anchors": 4,
+                  "bounds": {
+                    "height": 230.36971085790128,
+                    "width": 195.2059310483619,
+                    "x": 1053.5969343996226,
+                    "y": 169.61512076495444
+                  },
+                  "closed": true,
+                  "fill": "#d3a171",
+                  "id": 79,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "None",
+                  "strokeWidth": 0.0,
+                  "visible": true
+                }
+              ],
+              "id": 78,
+              "kind": "Group",
+              "locked": false,
+              "name": "<Group>",
+              "visible": true
+            },
+            {
+              "bounds": {
+                "height": 246.9266350348343,
+                "width": 200.97422688070793,
+                "x": 308.0569192868338,
+                "y": 153.24291319075502
+              },
+              "children": [
+                {
+                  "bounds": {
+                    "height": 63.2358525241051,
+                    "width": 38.26512618442143,
+                    "x": 392.0882588843831,
+                    "y": 295.6508954750176
+                  },
+                  "children": [
+                    {
+                      "anchors": 2,
+                      "bounds": {
+                        "height": 10.399879198918143,
+                        "width": 27.706714447579543,
+                        "x": 392.0882588843831,
+                        "y": 348.48686880020455
+                      },
+                      "closed": false,
+                      "fill": "None",
+                      "id": 77,
+                      "kind": "Path",
+                      "locked": false,
+                      "name": "<Path>",
+                      "stroke": "#765335",
+                      "strokeOptions": {
+                        "align": "center",
+                        "alignDashes": false,
+                        "arrowAlign": "extend",
+                        "cap": "round",
+                        "dash": null,
+                        "dashOffset": 0.0,
+                        "endArrow": null,
+                        "gradientMode": "within",
+                        "join": "round",
+                        "miterLimit": 4.0,
+                        "profile": "uniform",
+                        "startArrow": null,
+                        "widthPoints": null
+                      },
+                      "strokeWidth": 4.719999765114949,
+                      "visible": true
+                    },
+                    {
+                      "anchors": 2,
+                      "bounds": {
+                        "height": 16.213481468474242,
+                        "width": 5.1712851252227665,
+                        "x": 425.18209994358176,
+                        "y": 318.69467038170126
+                      },
+                      "closed": false,
+                      "fill": "None",
+                      "id": 76,
+                      "kind": "Path",
+                      "locked": false,
+                      "name": "<Path>",
+                      "stroke": "#765335",
+                      "strokeOptions": {
+                        "align": "center",
+                        "alignDashes": false,
+                        "arrowAlign": "extend",
+                        "cap": "round",
+                        "dash": null,
+                        "dashOffset": 0.0,
+                        "endArrow": null,
+                        "gradientMode": "within",
+                        "join": "round",
+                        "miterLimit": 4.0,
+                        "profile": "uniform",
+                        "startArrow": null,
+                        "widthPoints": null
+                      },
+                      "strokeWidth": 4.719999765114949,
+                      "visible": true
+                    },
+                    {
+                      "anchors": 2,
+                      "bounds": {
+                        "height": 14.813038340849175,
+                        "width": 30.45907654075353,
+                        "x": 396.19075120733544,
+                        "y": 295.6508954750176
+                      },
+                      "closed": false,
+                      "fill": "None",
+                      "id": 75,
+                      "kind": "Path",
+                      "locked": false,
+                      "name": "<Path>",
+                      "stroke": "#765335",
+                      "strokeOptions": {
+                        "align": "center",
+                        "alignDashes": false,
+                        "arrowAlign": "extend",
+                        "cap": "round",
+                        "dash": null,
+                        "dashOffset": 0.0,
+                        "endArrow": null,
+                        "gradientMode": "within",
+                        "join": "round",
+                        "miterLimit": 4.0,
+                        "profile": "uniform",
+                        "startArrow": null,
+                        "widthPoints": null
+                      },
+                      "strokeWidth": 4.719999765114949,
+                      "visible": true
+                    }
+                  ],
+                  "id": 74,
+                  "kind": "Compound Path",
+                  "locked": false,
+                  "name": "<Compound Path>",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "visible": true
+                },
+                {
+                  "anchors": 5,
+                  "bounds": {
+                    "height": 136.3509978726101,
+                    "width": 194.65953002900062,
+                    "x": 314.3716161385411,
+                    "y": 153.24291319075502
+                  },
+                  "closed": true,
+                  "fill": "#263c38",
+                  "id": 73,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "None",
+                  "strokeWidth": 0.0,
+                  "visible": true
+                },
+                {
+                  "anchors": 4,
+                  "bounds": {
+                    "height": 230.73913717068774,
+                    "width": 194.76609678151948,
+                    "x": 308.0569192868338,
+                    "y": 169.43041105490158
+                  },
+                  "closed": true,
+                  "fill": "#ddaf7f",
+                  "id": 72,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "None",
+                  "strokeWidth": 0.0,
+                  "visible": true
+                }
+              ],
+              "id": 71,
+              "kind": "Group",
+              "locked": false,
+              "name": "<Group>",
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 251.2672491049113,
+                "width": 450.7599799633026,
+                "x": 960.0399513244629,
+                "y": 382.8127164865194
+              },
+              "closed": true,
+              "fill": "#bc7256",
+              "id": 70,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 260.0984367142464,
+                "width": 534.5399762392044,
+                "x": 159.99998688697815,
+                "y": 389.3215281953071
+              },
+              "closed": true,
+              "fill": "#467772",
+              "id": 69,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            }
+          ],
+          "id": 68,
+          "kind": "Group",
+          "locked": false,
+          "name": "students",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 430.6999808549881,
+            "width": 1484.439934015274,
+            "x": -1.4200029373168945,
+            "y": -7.460002779960632
+          },
+          "children": [
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 235.99998950958252,
+                "width": 200.59999108314514,
+                "x": 1282.419939994812,
+                "y": 77.49999344348907
+              },
+              "closed": true,
+              "fill": "#d9bf8a",
+              "id": 10,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "bounds": {
+                "height": 388.21998274326324,
+                "width": 528.6399765014648,
+                "x": 19.819996118545532,
+                "y": 13.779996275901794
+              },
+              "children": [
+                {
+                  "anchors": 2,
+                  "bounds": {
+                    "height": 0.0,
+                    "width": 528.6399765014648,
+                    "x": 19.819996118545532,
+                    "y": 195.49998819828033
+                  },
+                  "closed": false,
+                  "fill": "None",
+                  "id": 9,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "#91a68e",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "strokeWidth": 16.519999265670776,
+                  "visible": true
+                },
+                {
+                  "anchors": 2,
+                  "bounds": {
+                    "height": 388.21998274326324,
+                    "width": 0.0,
+                    "x": 284.13998436927795,
+                    "y": 13.779996275901794
+                  },
+                  "closed": false,
+                  "fill": "None",
+                  "id": 8,
+                  "kind": "Path",
+                  "locked": false,
+                  "name": "<Path>",
+                  "stroke": "#91a68e",
+                  "strokeOptions": {
+                    "align": "center",
+                    "alignDashes": false,
+                    "arrowAlign": "extend",
+                    "cap": "round",
+                    "dash": null,
+                    "dashOffset": 0.0,
+                    "endArrow": null,
+                    "gradientMode": "within",
+                    "join": "round",
+                    "miterLimit": 4.0,
+                    "profile": "uniform",
+                    "startArrow": null,
+                    "widthPoints": null
+                  },
+                  "strokeWidth": 16.519999265670776,
+                  "visible": true
+                }
+              ],
+              "id": 7,
+              "kind": "Compound Path",
+              "locked": false,
+              "name": "<Compound Path>",
+              "strokeOptions": {
+                "align": "center",
+                "alignDashes": false,
+                "arrowAlign": "extend",
+                "cap": "round",
+                "dash": null,
+                "dashOffset": 0.0,
+                "endArrow": null,
+                "gradientMode": "within",
+                "join": "round",
+                "miterLimit": 4.0,
+                "profile": "uniform",
+                "startArrow": null,
+                "widthPoints": null
+              },
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 388.21998274326324,
+                "width": 528.6399765014648,
+                "x": 19.819996118545532,
+                "y": 13.779996275901794
+              },
+              "closed": true,
+              "fill": "#f6edd6",
+              "id": 6,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            },
+            {
+              "anchors": 4,
+              "bounds": {
+                "height": 430.6999808549881,
+                "width": 571.1199746131897,
+                "x": -1.4200029373168945,
+                "y": -7.460002779960632
+              },
+              "closed": true,
+              "fill": "#c8d4b5",
+              "id": 5,
+              "kind": "Path",
+              "locked": false,
+              "name": "<Path>",
+              "stroke": "None",
+              "strokeWidth": 0.0,
+              "visible": true
+            }
+          ],
+          "id": 4,
+          "kind": "Group",
+          "locked": false,
+          "name": "room",
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 1024.0,
+            "width": 1536.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "closed": true,
+          "fill": "#efe3c5",
+          "id": 2,
+          "kind": "Rectangle",
+          "locked": false,
+          "name": "<Rectangle>",
+          "stroke": "#000000",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 1.0,
+          "visible": true
+        }
+      ],
+      "clip": false,
+      "color": "#4f80ff",
+      "dimImages": null,
+      "id": 1,
+      "kind": "Layer",
+      "locked": false,
+      "name": "Layer 1",
+      "preview": true,
+      "printable": true,
+      "template": false,
+      "visible": true
+    }
+  ],
+  "objects": 70,
+  "paint": {
+    "appearanceItem": null,
+    "fill": "#ffffff",
+    "fillActive": true,
+    "stroke": "#000000",
+    "strokeWidth": 1.0
+  },
+  "pasteRemembersLayers": false,
+  "redo": [],
+  "selection": [],
+  "selectionBounds": null,
+  "selectionRotation": 0.0,
+  "target": null,
+  "tool": "selection",
+  "units": "Pixels"
+}

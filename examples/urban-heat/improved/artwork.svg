@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900">
+  <title>Locked evaluation urban-heat</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M0 0 L1200 0 L1200 900 L0 900 Z" fill="#f4f0e5" stroke="#000000" stroke-miterlimit="10"/>
+    <text id="eyebrow" transform="matrix(1 0 0 1 60 57)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="22" fill="#567768"><tspan x="0" y="0">URBAN HEAT / TWO COOLING PATHWAYS</tspan></text>
+    <text id="title" transform="matrix(1 0 0 1 56 128)" x="0" y="0" xml:space="preserve" font-family="Georgia" font-size="63" fill="#153d3a"><tspan x="0" y="0">How trees cool a street.</tspan></text>
+    <text id="intro" transform="matrix(1 0 0 1 60 190)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="25" fill="#153d3a"><tspan x="0" y="0">A canopy changes what reaches the ground — and what leaves the tree.</tspan></text>
+    <text id="shade-title" transform="matrix(1 0 0 1 60 302)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="28" fill="#153d3a"><tspan x="0" y="0">1  SHADE</tspan></text>
+    <text id="shade-copy" transform="matrix(1 0 0 1 60 348)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="23" fill="#153d3a"><tspan x="0" y="0">Leaves intercept</tspan><tspan x="0" y="31">sunlight before it</tspan><tspan x="0" y="62">heats the surface.</tspan></text>
+    <text id="water-title" transform="matrix(1 0 0 1 700 259)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="25" fill="#153d3a"><tspan x="0" y="0">2  EVAPOTRANSPIRATION</tspan></text>
+    <text id="water-copy" transform="matrix(1 0 0 1 778 330)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="23" fill="#153d3a"><tspan x="0" y="0">Water leaves foliage as vapour.</tspan><tspan x="0" y="30">Evaporation uses energy,</tspan><tspan x="0" y="60">helping cool the surrounding air.</tspan></text>
+    <text id="cool-ground" transform="matrix(1 0 0 1 80 533)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="22" fill="#50725e"><tspan x="0" y="0">Shaded surface</tspan></text>
+    <text id="warm-ground" transform="matrix(1 0 0 1 846 729)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="22" fill="#a36f34"><tspan x="0" y="0">Sunlit surface</tspan></text>
+    <text id="root" transform="matrix(1 0 0 1 71 729)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="22" fill="#237c87"><tspan x="0" y="0">Water taken up by roots</tspan></text>
+    <text id="note" transform="matrix(1 0 0 1 60 828)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="22" fill="#567768"><tspan x="0" y="0">Cooling varies with tree cover, water availability and local conditions.</tspan></text>
+    <text id="source" transform="matrix(1 0 0 1 60 874)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="20" fill="#567768"><tspan x="0" y="0">Concept diagram | Source: US EPA, Benefits of Trees and Vegetation.</tspan></text>
+    <path id="rule" d="M60 788 L1140 788" fill="none" stroke="#b5c1af" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="street-shade-and-tree">
+      <path d="M80 611 L834 576 L1140 657 L388 706 Z" fill="#b2b29b"/>
+      <path d="M80 611 L388 706 L388 745 L80 650 Z" fill="#bda580"/>
+      <path d="M388 706 L1140 657 L1140 692 L388 745 Z" fill="#ad8f6b"/>
+      <path d="M101 615 L412 688 L756 666 L471 594 Z" fill="#718978"/>
+      <path d="M750 582 L1101 666 L989 673 L638 593 Z" fill="#d6b06c"/>
+      <path d="M548 687 L593 684 M635 681 L680 678 M721 675 L766 672 M807 669 L852 666 M893 663 L938 660" fill="none" stroke="#ece8d8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M80 611 L388 706 L1140 657" fill="none" stroke="#dcd5bc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M443 421 C455.667 448.333 456.333 512 445 612 L480 620 C481.333 524 488.667 458.667 502 424 Z" fill="#8b704e"/>
+      <path d="M465 534 L417 477 M476 512 L538 455" fill="none" stroke="#71684c" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M359 498 C280 483 288 404 346 378 C323 309 405 288 442 323 C482 269 553 302 552 353 C626 331 659 410 609 449 C632 511 557 535 518 495 C476 545 411 523 409 501 Z" fill="#67856a"/>
+      <path d="M347 386 C329 417.333 335 444 365 466 C379 475.333 394.333 474.333 411 463 C415 487 427 498 447 496 C474.333 498.667 492 487.667 500 463 C534.667 482.333 563.667 478 587 450 C568.333 463.333 552 456.667 538 430 C510 429.333 493.333 418 488 396 C458.667 418.667 435.667 419 419 397 C401.667 415 377.667 411.333 347 386 Z" fill="#50725e"/>
+      <path d="M350 375 C367.333 342.333 388.667 334 414 350 M456 325 C474.667 317 496 324 520 346" fill="none" stroke="#96aa7c" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M460 618 L452 658 L419 687 M452 645 L498 666 L526 692 M448 668 L442 700" fill="none" stroke="#8b704e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="sunlight-and-water-flow">
+      <path d="M1088 480 C1088 500.987 1070.987 518 1050 518 C1029.013 518 1012 500.987 1012 480 C1012 459.013 1029.013 442 1050 442 C1070.987 442 1088 459.013 1088 480 Z" fill="#d6a152"/>
+      <path d="M1011 458 L619 413" fill="none" stroke="#d49c4e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M607 397 L619 413 L622 394" fill="none" stroke="#d49c4e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1028 525 L927 617" fill="none" stroke="#d49c4e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M915 601 L927 617 L930 598" fill="none" stroke="#d49c4e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1072 521 L1103 646" fill="none" stroke="#d49c4e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1091 630 L1103 646 L1106 627" fill="none" stroke="#d49c4e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M464 654 L464 458 C472 421.333 478 384.667 482 348" fill="none" stroke="#237c87" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M474 360 L482 348 L487 364" fill="none" stroke="#237c87" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M391 323 C379.667 302.333 379.667 283.667 391 267 L391 257" fill="none" stroke="#237c87" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M382 271 L391 257 L400 271" fill="none" stroke="#237c87" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M482 287 C470.667 266.333 470.667 247.667 482 231 L482 221" fill="none" stroke="#237c87" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M473 235 L482 221 L491 235" fill="none" stroke="#237c87" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M567 324 C555.667 303.333 555.667 284.667 567 268 L567 258" fill="none" stroke="#237c87" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M558 272 L567 258 L576 272" fill="none" stroke="#237c87" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <path id="causal-leaders" d="M225 425 L260 425 L324 446 M760 392 L690 342 L565 292 M984 712 L987 678 M153 546 L276 634 M290 703 L424 674" fill="none" stroke="#779181" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

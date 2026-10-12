@@ -1,0 +1,6 @@
+interface:
+  display_name: "VectorCraft"
+  short_description: "Create editable vector artwork through chat"
+  default_prompt: "Use $vectorcraft to create an editable vector illustration for my project, preview it, and save the requested exports."
+policy:
+  allow_implicit_invocation: true

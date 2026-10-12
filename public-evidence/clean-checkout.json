@@ -1,0 +1,31 @@
+{
+  "fresh_home": true,
+  "installed_probe": {
+    "workflow_tools": [
+      "workflow_begin",
+      "workflow_checkpoint",
+      "workflow_record",
+      "workflow_start",
+      "workflow_status"
+    ],
+    "companion_identity": true,
+    "native_resources_available": true
+  },
+  "rollback_owned_bytes_restored": true,
+  "unrelated_settings_preserved": true,
+  "reinstalled_probe": {
+    "workflow_tools": [
+      "workflow_begin",
+      "workflow_checkpoint",
+      "workflow_record",
+      "workflow_start",
+      "workflow_status"
+    ],
+    "companion_identity": true,
+    "native_resources_available": true
+  },
+  "baseline_access_required": false,
+  "sanitized_derivative": true,
+  "clean_checkout_self_contained_checks": 113,
+  "publication": "not performed"
+}

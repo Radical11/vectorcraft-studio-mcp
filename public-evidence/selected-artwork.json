@@ -1,0 +1,191 @@
+{
+  "sanitized_derivative": true,
+  "text_encoding": "Public text normalized to LF; binary assets preserved. source_sha256 identifies maintained original bytes.",
+  "files": [
+    {
+      "path": "examples/campus-poster/baseline/artwork.pdf",
+      "sha256": "b66fe42712f338576305a05265d5017c60bbbbc7e000cdaa4843a2876550b3fd",
+      "source_sha256": "b66fe42712f338576305a05265d5017c60bbbbc7e000cdaa4843a2876550b3fd"
+    },
+    {
+      "path": "examples/campus-poster/baseline/artwork.svg",
+      "sha256": "f17b5d2e1c17bb7c1b4933ffe001e8555fac9d5d929b27a49d3e333a88fd93e8",
+      "source_sha256": "f17b5d2e1c17bb7c1b4933ffe001e8555fac9d5d929b27a49d3e333a88fd93e8"
+    },
+    {
+      "path": "examples/campus-poster/baseline/artwork.vectorcraft",
+      "sha256": "cb0de91c18f3c0e435dc9c8fc689246cfd55a2a3db9f9ed27d25a104e6eb14e4",
+      "source_sha256": "cb0de91c18f3c0e435dc9c8fc689246cfd55a2a3db9f9ed27d25a104e6eb14e4"
+    },
+    {
+      "path": "examples/campus-poster/baseline/full.png",
+      "sha256": "ca36c7d19cd231e81786db4a958beb88ef7f93f679bff86ba68d882de7708ac6",
+      "source_sha256": "ca36c7d19cd231e81786db4a958beb88ef7f93f679bff86ba68d882de7708ac6"
+    },
+    {
+      "path": "examples/campus-poster/baseline/inspection.json",
+      "sha256": "10f0d9cd43e3ea6a1410ba0761b17adc07b3e405f170ee080fc48201d2df860b",
+      "source_sha256": "fb57d91cbdc8d46cacb743c6cb948a3c9567d4b234a206abc60b87e8ffecd819"
+    },
+    {
+      "path": "examples/campus-poster/baseline/use.png",
+      "sha256": "41ff0378c7b67efaa03976313e51a58d009717d285fb91b862bcedddae31cc0a",
+      "source_sha256": "41ff0378c7b67efaa03976313e51a58d009717d285fb91b862bcedddae31cc0a"
+    },
+    {
+      "path": "examples/campus-poster/improved/artwork.pdf",
+      "sha256": "c3cd9f5a6d510765559e0c5e6728dce8bbb00939d8ec303d04c564385a31a415",
+      "source_sha256": "c3cd9f5a6d510765559e0c5e6728dce8bbb00939d8ec303d04c564385a31a415"
+    },
+    {
+      "path": "examples/campus-poster/improved/artwork.svg",
+      "sha256": "9cd0b75640a684d90cd5a227a8948a3b0e631ad8f2a565633979bb851d91ffcf",
+      "source_sha256": "9cd0b75640a684d90cd5a227a8948a3b0e631ad8f2a565633979bb851d91ffcf"
+    },
+    {
+      "path": "examples/campus-poster/improved/artwork.vectorcraft",
+      "sha256": "2c87b7cc38a65cb60faed43be5655c543556f7b68b26de474ea0512ca8794ff1",
+      "source_sha256": "2c87b7cc38a65cb60faed43be5655c543556f7b68b26de474ea0512ca8794ff1"
+    },
+    {
+      "path": "examples/campus-poster/improved/full.png",
+      "sha256": "4e9fb8491111c0209cbe17fc360bba31d6c30a4b3e588da2453ddcf55daeae64",
+      "source_sha256": "4e9fb8491111c0209cbe17fc360bba31d6c30a4b3e588da2453ddcf55daeae64"
+    },
+    {
+      "path": "examples/campus-poster/improved/inspection.json",
+      "sha256": "bd14c43b5baa50acf80f7e5ac41827e53a62f9a8f9cb7e1793c3532e9dc0c383",
+      "source_sha256": "9bfb3a518360bc0f69726417cc45bb14eeb351fc46c28c23ce2efa49fcddbbff"
+    },
+    {
+      "path": "examples/campus-poster/improved/use.png",
+      "sha256": "840502e038e551946090ee756e5a861ce550438315ea26d5ad3115a875611a1c",
+      "source_sha256": "840502e038e551946090ee756e5a861ce550438315ea26d5ad3115a875611a1c"
+    },
+    {
+      "path": "examples/README.md",
+      "sha256": "37498fc356d0fd4ab2cdc5920c126855f42d3d9d673df12d6428343de3202f16",
+      "source_sha256": "b6779c0c48ad3a9753f3a2f7876098e764c238a7a0d7577f27e71f3f6a16d060"
+    },
+    {
+      "path": "examples/repair-cafe/baseline/artwork.pdf",
+      "sha256": "3bc8a5ea5c3e908110e1a198cc73c65ffffdc31ccd5a3bc1c002cd21791b687e",
+      "source_sha256": "3bc8a5ea5c3e908110e1a198cc73c65ffffdc31ccd5a3bc1c002cd21791b687e"
+    },
+    {
+      "path": "examples/repair-cafe/baseline/artwork.svg",
+      "sha256": "f7f73b998988a5b26ff00652bdc99df35936ed4d6d1ec8c2b23f77f801435ecb",
+      "source_sha256": "f7f73b998988a5b26ff00652bdc99df35936ed4d6d1ec8c2b23f77f801435ecb"
+    },
+    {
+      "path": "examples/repair-cafe/baseline/artwork.vectorcraft",
+      "sha256": "5b17e07a5e96e885812a0558d4014029f8dfc2ede1943f264f93c557c29b4519",
+      "source_sha256": "5b17e07a5e96e885812a0558d4014029f8dfc2ede1943f264f93c557c29b4519"
+    },
+    {
+      "path": "examples/repair-cafe/baseline/full.png",
+      "sha256": "d4e3d8c1bd7b159e87996c1a54cc20cde33baa78fe53b694ad6a1abc78d0e7a7",
+      "source_sha256": "d4e3d8c1bd7b159e87996c1a54cc20cde33baa78fe53b694ad6a1abc78d0e7a7"
+    },
+    {
+      "path": "examples/repair-cafe/baseline/inspection.json",
+      "sha256": "659b0e3019cca102c97afdb189a8c68fa715acc2aef0f320a7e2050cdcdb63d4",
+      "source_sha256": "493d9d7dac297bedc2fffa3b1057d6e627bcdc56aef6317cc0139aebd7e118bb"
+    },
+    {
+      "path": "examples/repair-cafe/baseline/use.png",
+      "sha256": "e17075dffaf9602dcffd396978c73451053fe8edf25f35220c524a08c9a96133",
+      "source_sha256": "e17075dffaf9602dcffd396978c73451053fe8edf25f35220c524a08c9a96133"
+    },
+    {
+      "path": "examples/repair-cafe/improved/artwork.pdf",
+      "sha256": "1f1ad94e42eb6028d42ee06fc784ee2bc50c65913f241d61cd3ace94c39fd258",
+      "source_sha256": "1f1ad94e42eb6028d42ee06fc784ee2bc50c65913f241d61cd3ace94c39fd258"
+    },
+    {
+      "path": "examples/repair-cafe/improved/artwork.svg",
+      "sha256": "ea003547fe2a966eea61686f839d8bc595d805f257db1e05b0808e6a8079254a",
+      "source_sha256": "ea003547fe2a966eea61686f839d8bc595d805f257db1e05b0808e6a8079254a"
+    },
+    {
+      "path": "examples/repair-cafe/improved/artwork.vectorcraft",
+      "sha256": "7dd281873f50cd63dbb8ee5c3820a198b3c0e1616560c835c8514121209baeb2",
+      "source_sha256": "7dd281873f50cd63dbb8ee5c3820a198b3c0e1616560c835c8514121209baeb2"
+    },
+    {
+      "path": "examples/repair-cafe/improved/full.png",
+      "sha256": "851cdfb3810412dacc7dff9ab00b84d277ce5c1aee92fc76e53676015f4b08e2",
+      "source_sha256": "851cdfb3810412dacc7dff9ab00b84d277ce5c1aee92fc76e53676015f4b08e2"
+    },
+    {
+      "path": "examples/repair-cafe/improved/inspection.json",
+      "sha256": "e6278eac1b2510389968c35729be985821512faba586b6d0936b2dd42f7d0014",
+      "source_sha256": "db0b96875033b2e098684000db4c03a1da0a7962bca701fcb54d5979a49fa7db"
+    },
+    {
+      "path": "examples/repair-cafe/improved/use.png",
+      "sha256": "7930a124b895d860094c67ea38e1097bb17a7882b330411a561123b7f2e3855c",
+      "source_sha256": "7930a124b895d860094c67ea38e1097bb17a7882b330411a561123b7f2e3855c"
+    },
+    {
+      "path": "examples/urban-heat/baseline/artwork.pdf",
+      "sha256": "87c445ad78a6978c30588bad000491822555adea564f152949f0f9fc3a4345cf",
+      "source_sha256": "87c445ad78a6978c30588bad000491822555adea564f152949f0f9fc3a4345cf"
+    },
+    {
+      "path": "examples/urban-heat/baseline/artwork.svg",
+      "sha256": "4db225d7a53135e7ff47a3f3e88ba4a29a490a03bcc4c9799c63b390c6605a41",
+      "source_sha256": "4db225d7a53135e7ff47a3f3e88ba4a29a490a03bcc4c9799c63b390c6605a41"
+    },
+    {
+      "path": "examples/urban-heat/baseline/artwork.vectorcraft",
+      "sha256": "f39c8b9161f7ae0838c26db47574454a4d8d30ea56d1d97d8e7d48a35aeb66dd",
+      "source_sha256": "f39c8b9161f7ae0838c26db47574454a4d8d30ea56d1d97d8e7d48a35aeb66dd"
+    },
+    {
+      "path": "examples/urban-heat/baseline/full.png",
+      "sha256": "c50aefaf0594c4f7177c6c22e483b9e8477390fe346a90d0ebb76e54c0e94e73",
+      "source_sha256": "c50aefaf0594c4f7177c6c22e483b9e8477390fe346a90d0ebb76e54c0e94e73"
+    },
+    {
+      "path": "examples/urban-heat/baseline/inspection.json",
+      "sha256": "003ac9c906f1aa9c28ebe55adcc6cee0dc12bba5ea45c09f050a5cb27c6475a1",
+      "source_sha256": "ac0d88766202011829e413af75055d7ba7f0097e20ad9483d72bbb6313e65489"
+    },
+    {
+      "path": "examples/urban-heat/baseline/use.png",
+      "sha256": "79e70113f14f95cabde7d001968d9b23cb075e10387684ec7dce6c559a818f7c",
+      "source_sha256": "79e70113f14f95cabde7d001968d9b23cb075e10387684ec7dce6c559a818f7c"
+    },
+    {
+      "path": "examples/urban-heat/improved/artwork.pdf",
+      "sha256": "6d5a916b51a66f67b97d7d0816efb1d71efcecac783463a36d107bd6eba59814",
+      "source_sha256": "6d5a916b51a66f67b97d7d0816efb1d71efcecac783463a36d107bd6eba59814"
+    },
+    {
+      "path": "examples/urban-heat/improved/artwork.svg",
+      "sha256": "adf14a958a2bb63e73fd6c97b9b29c72fd77c039f6dfcac97094cd4ca3acfca9",
+      "source_sha256": "adf14a958a2bb63e73fd6c97b9b29c72fd77c039f6dfcac97094cd4ca3acfca9"
+    },
+    {
+      "path": "examples/urban-heat/improved/artwork.vectorcraft",
+      "sha256": "8596ebb51aeb072d595700e78a646a18de80d7afdb30d74d7be814f833c4fecc",
+      "source_sha256": "8596ebb51aeb072d595700e78a646a18de80d7afdb30d74d7be814f833c4fecc"
+    },
+    {
+      "path": "examples/urban-heat/improved/full.png",
+      "sha256": "ec5b03ebc8db096b9cfea5f2186bf17cf9272f3d2a6bde13a6e21a2dc84df8d9",
+      "source_sha256": "ec5b03ebc8db096b9cfea5f2186bf17cf9272f3d2a6bde13a6e21a2dc84df8d9"
+    },
+    {
+      "path": "examples/urban-heat/improved/inspection.json",
+      "sha256": "f6e8ad077d47acbeae7be8297f33c3dc09a65a9553e6bd668d41ecda235dc519",
+      "source_sha256": "6b649ad539060a59345096daef8f4751b80da7dcc7688cf608b2e454fdcb577a"
+    },
+    {
+      "path": "examples/urban-heat/improved/use.png",
+      "sha256": "a83b7b5ce4ab6ee107e1dbfc3eb0f38a7e6b7a8fa1b488c64eb69330501abb36",
+      "source_sha256": "a83b7b5ce4ab6ee107e1dbfc3eb0f38a7e6b7a8fa1b488c64eb69330501abb36"
+    }
+  ]
+}

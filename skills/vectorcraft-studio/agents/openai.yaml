@@ -1,0 +1,6 @@
+interface:
+  display_name: "VectorCraft Studio"
+  short_description: "Research, art-direct, build, and critique editable vectors"
+  default_prompt: "Use $vectorcraft-studio to research this design, establish a visual target, build editable vectors that preserve it, and independently critique and improve the result."
+policy:
+  allow_implicit_invocation: true

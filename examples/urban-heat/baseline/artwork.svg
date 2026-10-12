@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900">
+  <title>Locked evaluation urban-heat</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M0 0 L1200 0 L1200 900 L0 900 Z" fill="#f4f0e5" stroke="#000000" stroke-miterlimit="10"/>
+    <text id="title" transform="matrix(1 0 0 1 60 126)" x="0" y="0" xml:space="preserve" font-family="Georgia" font-size="64" fill="#153d3a"><tspan x="0" y="0">How trees cool a street.</tspan></text>
+    <text id="intro" transform="matrix(1 0 0 1 60 190)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="27" fill="#153d3a"><tspan x="0" y="0">Two connected processes help reduce urban heat.</tspan></text>
+    <text id="shade-title" transform="matrix(1 0 0 1 60 278)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="30" fill="#153d3a"><tspan x="0" y="0">1 / SHADE</tspan></text>
+    <text id="water-title" transform="matrix(1 0 0 1 660 278)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="28" fill="#153d3a"><tspan x="0" y="0">2 / EVAPOTRANSPIRATION</tspan></text>
+    <text id="shade-copy" transform="matrix(1 0 0 1 60 735)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="25" fill="#153d3a"><tspan x="0" y="0">Leaves intercept sunlight.</tspan><tspan x="0" y="36">Less solar energy heats the surface.</tspan></text>
+    <text id="water-copy" transform="matrix(1 0 0 1 660 735)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="25" fill="#153d3a"><tspan x="0" y="0">Water released through leaves</tspan><tspan x="0" y="36">evaporates, using heat from air.</tspan></text>
+    <text id="note" transform="matrix(1 0 0 1 60 831)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="22" fill="#617b66"><tspan x="0" y="0">Effects depend on tree cover, water availability and local conditions.</tspan></text>
+    <text id="source" transform="matrix(1 0 0 1 60 875)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="20" fill="#617b66"><tspan x="0" y="0">Concept diagram | Source: US EPA, Benefits of Trees and Vegetation.</tspan></text>
+    <path id="rule" d="M60 810 L1140 810" fill="none" stroke="#b8c4b0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text transform="matrix(1 0 0 1 225 686)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="18" fill="#648a79"><tspan x="0" y="0">Shaded</tspan></text>
+    <text transform="matrix(1 0 0 1 398 686)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="18" fill="#aa733e"><tspan x="0" y="0">Sunlit</tspan></text>
+    <g id="trees-and-mechanisms">
+      <path d="M242 482 L328 482 L328 631 L242 631 Z" fill="#947656"/>
+      <path d="M392 423 C392 478.228 344.094 523 285 523 C225.906 523 178 478.228 178 423 C178 367.772 225.906 323 285 323 C344.094 323 392 367.772 392 423 Z" fill="#67886c"/>
+      <path d="M291 456 C291 497.974 259.212 532 220 532 C180.788 532 149 497.974 149 456 C149 414.026 180.788 380 220 380 C259.212 380 291 414.026 291 456 Z" fill="#739a75"/>
+      <path d="M429 457 C429 494.003 399.003 524 362 524 C324.997 524 295 494.003 295 457 C295 419.997 324.997 390 362 390 C399.003 390 429 419.997 429 457 Z" fill="#5b7c60"/>
+      <path d="M285 550 L218 474 M285 538 L343 473" fill="none" stroke="#5f684a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M105 627 L475 627 L475 643 L105 643 Z" fill="#a99576"/>
+      <path d="M842 482 L928 482 L928 631 L842 631 Z" fill="#947656"/>
+      <path d="M992 423 C992 478.228 944.094 523 885 523 C825.906 523 778 478.228 778 423 C778 367.772 825.906 323 885 323 C944.094 323 992 367.772 992 423 Z" fill="#67886c"/>
+      <path d="M891 456 C891 497.974 859.212 532 820 532 C780.788 532 749 497.974 749 456 C749 414.026 780.788 380 820 380 C859.212 380 891 414.026 891 456 Z" fill="#739a75"/>
+      <path d="M1029 457 C1029 494.003 999.003 524 962 524 C924.997 524 895 494.003 895 457 C895 419.997 924.997 390 962 390 C999.003 390 1029 419.997 1029 457 Z" fill="#5b7c60"/>
+      <path d="M885 550 L818 474 M885 538 L943 473" fill="none" stroke="#5f684a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M705 627 L1075 627 L1075 643 L705 643 Z" fill="#a99576"/>
+      <path d="M164 374 C164 393.33 148.33 409 129 409 C109.67 409 94 393.33 94 374 C94 354.67 109.67 339 129 339 C148.33 339 164 354.67 164 374 Z" fill="#dfb35b"/>
+      <path d="M163 399 L197 454 M198 441 L197 454 L184 449" fill="none" stroke="#c99047" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M228 650 L391 650" fill="none" stroke="#648a79" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M400 650 L465 650" fill="none" stroke="#c99047" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M425 578 L450 621 M440 611 L450 621 L452 607" fill="none" stroke="#c99047" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M797 367 C790.333 354.333 790.333 339 797 321 L797 299 M789 309 L797 299 L805 309" fill="none" stroke="#267d88" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M873 367 C866.333 354.333 866.333 339 873 321 L873 299 M865 309 L873 299 L881 309" fill="none" stroke="#267d88" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M949 367 C942.333 354.333 942.333 339 949 321 L949 299 M941 309 L949 299 L957 309" fill="none" stroke="#267d88" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M885 625 L875 669 L843 678 M885 655 L927 683" fill="none" stroke="#947656" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M418 642 C418 649.732 358.454 656 285 656 C211.546 656 152 649.732 152 642 C152 634.268 211.546 628 285 628 C358.454 628 418 634.268 418 642 Z" fill="#648a79"/>
+      <path d="M885 665 L885 437 L869 402" fill="none" stroke="#267d88" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M867 418 L869 402 L883 412" fill="none" stroke="#267d88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M987 341 L966 324 L949 312" fill="none" stroke="#648a79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text transform="matrix(1 0 0 1 988 342)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="20" fill="#267d88"><tspan x="0" y="0">Water vapour</tspan></text>
+  </g>
+</svg>

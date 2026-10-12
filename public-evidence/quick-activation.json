@@ -1,0 +1,33 @@
+{
+  "fresh_session": true,
+  "mode": "quick",
+  "model": "gpt-6-luna",
+  "sandbox": "danger-full-access",
+  "native_delta": [
+    [
+      "/metadata/modified",
+      1791811981,
+      1791812532
+    ],
+    [
+      "/layers/0/kind/children/0/appearance/items/0/paint/color/b",
+      0.22745098,
+      0.4509804
+    ],
+    [
+      "/layers/0/kind/children/0/appearance/items/0/paint/color/r",
+      0.09019608,
+      0.8901961
+    ],
+    [
+      "/layers/0/kind/children/0/appearance/items/0/paint/color/g",
+      0.23921569,
+      0.7411765
+    ]
+  ],
+  "allowed_metadata_delta": "modification timestamp",
+  "research_records": 0,
+  "text_geometry_preserved": true,
+  "preview": "quick/edited.png",
+  "sanitized_derivative": true
+}

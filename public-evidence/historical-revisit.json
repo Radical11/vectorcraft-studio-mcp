@@ -1,0 +1,114 @@
+{
+  "sanitized_derivative": true,
+  "labels": {
+    "poster": {
+      "P": "v3",
+      "Q": "original"
+    },
+    "infographic": {
+      "P": "v3",
+      "Q": "original"
+    },
+    "editorial": {
+      "P": "first-vector",
+      "Q": "reviewed-vector"
+    }
+  },
+  "reviews": {
+    "communication": {
+      "poster": {
+        "winner": "equal",
+        "clear_improvement": false,
+        "reason": "Both display the complete required event copy readably at 450x600 and communicate rain becoming music through a harp over concentric puddle ripples. P's golden frame and cream information bands give a stronger illustrative focus; Q's dark continuous field feels quieter and its footer is more vertically sequenced. These are different directions, without a clear communication gain.",
+        "consequential_regression": {
+          "present": false,
+          "candidate": null,
+          "evidence": "No essential event information is lost or visibly obscured in either candidate."
+        },
+        "remaining_weaknesses": [
+          "Both harp constructions are more schematic than convincingly instrumental; thin strings and many ripple lines partly merge at use size.",
+          "The subtitle and free-entry line are substantially smaller than the title in both."
+        ]
+      },
+      "infographic": {
+        "winner": "Q",
+        "clear_improvement": true,
+        "reason": "At 600x450 Q gives the three stages stronger visual separation through blue numbered disks and bold labels. The ponding and infiltration labels are easier to locate, and the outgoing arrow has an explicit 'Excess water uses an overflow' explanation. P remains understandable, but its thinner callouts and less distinct process numbering require more searching. Q's larger diagram arrows and simplified soil basin make the runoff-to-ponding-to-infiltration sequence more immediate.",
+        "consequential_regression": {
+          "present": false,
+          "candidate": null,
+          "evidence": "Q preserves the key processes, soil/site caveat and underdrain qualification; no consequential loss of explanatory content is visible."
+        },
+        "remaining_weaknesses": [
+          "Both diagrams rely mostly on text for filtration: sediment retention and nutrient uptake are not distinctly drawn.",
+          "Q's larger summary below the diagram adds some repetition while the sources remain small.",
+          "The uniform downward arrows in both can suggest unconditional infiltration despite the textual site/design caveat."
+        ]
+      },
+      "editorial": {
+        "winner": "Q",
+        "clear_improvement": false,
+        "reason": "Q makes the student and bicycle substantially clearer: the bent arm, hands toward the handlebar, backpack, two feet, wheel rims and triangular frame read promptly at 768x512. Its building windows also establish the campus setting more clearly. However, broad clean replacement forms in the rider and middle building contrast abruptly with the fragmented painterly foliage, arch and puddles. That visible loss of cohesion and lighting nuance prevents an unqualified overall improvement even though Q wins on subject recognition.",
+        "consequential_regression": {
+          "present": true,
+          "candidate": "Q",
+          "evidence": "The long middle building becomes a conspicuously flat yellow panel with uniform windows and repeated arch outlines, while neighboring foliage and the large arch retain jagged tonal fragments. The rider similarly has large smooth blocks that look composited into that textured scene. The tower reflection gains a crisp isolated window block inconsistent with the surrounding broken-water reflection."
+        },
+        "remaining_weaknesses": [
+          "P's rider limbs, pedal area and bicycle frame partly fuse with the fragmented dark shapes, weakening gesture recognition.",
+          "Q's simplified rider/building drawing needs consistent edge treatment and directional shading to integrate with the scene.",
+          "Both foreground reflection fields are visually busy; Q's added curved wheel reflection marks read more like drawn arcs than broken water."
+        ]
+      }
+    },
+    "craft": {
+      "poster": {
+        "winner": "Q",
+        "clear_improvement": true,
+        "reason": "Both communicate the required title, subtitle and event details at 450x600. Q gives the rain-harp metaphor a cleaner continuous silhouette, integrates its strings with the arch and rippling water, and uses a unified dark field that makes the pale title and raindrops immediately legible. P has a stronger warm arch but several string ends visibly extend outside its top and its separated landscape panel is less atmospheric. Q improves the common music-after-rain communication rather than merely adding detail.",
+        "consequential_regression": {
+          "present": false,
+          "candidate": null,
+          "evidence": "Q loses P's warm yellow focal contrast, but the mint arch remains clear and the event information remains readable; this is a tradeoff without a consequential brief failure."
+        },
+        "remaining_weaknesses": [
+          "The instrument is still an abstract harp-like arch rather than a richly specific musical scene.",
+          "The hairline water ripples and strings are delicate at use size.",
+          "Free entry has weaker emphasis than the other event information."
+        ]
+      },
+      "infographic": {
+        "winner": "Q",
+        "clear_improvement": true,
+        "reason": "Q makes the educational sequence easier to scan at 600x450 through bold numbered circles and stronger headings. Its wider, simpler basin cross-section clearly separates ponded water, planting soil and native soil, with distinct incoming, outgoing and downward arrows. The explicit excess-water explanation and concept-diagram qualification help a beginner read the system. P also explains the process accurately, but its lighter label hierarchy and thin flower/root details compete with the small explanatory labels.",
+        "consequential_regression": {
+          "present": false,
+          "candidate": null,
+          "evidence": "Q simplifies the flowers to stems and round tips and reduces introductory copy, while retaining slowing, filtration, infiltration, overflow and site-dependence; no consequential information loss is visible."
+        },
+        "remaining_weaknesses": [
+          "Roots begin below a gap rather than connecting cleanly through the brown surface to the stems.",
+          "The overflow arrow floats above the raised right edge, so the precise water route is schematic.",
+          "The source and limitation copy is small at use size."
+        ]
+      },
+      "editorial": {
+        "winner": "Q",
+        "clear_improvement": true,
+        "reason": "Q improves the brief's central requirement: the rider has a readable face, torso, extended arm, separate bent legs and feet, backpack, and a bicycle with clear frame, wheels and spokes. P's rider and cycle merge into irregular dark fragments around the hands, crank and legs. Q retains the terracotta arch, directional golden light, broad reflective puddles and foreground foliage, so its subject-recognition gain produces an overall common-brief improvement.",
+        "consequential_regression": {
+          "present": true,
+          "candidate": "Q",
+          "evidence": "Q's long middle-ground building has extremely straight, repeated windows and arch outlines, with an abrupt clean edge over the irregular surrounding foliage. The cyclist is similarly smoother than the retained textured scene. This creates a visible pasted-in appearance and weakens spatial/material cohesion relative to P's consistent faceted drawing. The new isolated curved wheel-reflection strokes are also less integrated into the puddle surface."
+        },
+        "remaining_weaknesses": [
+          "Q's corrected rider and architecture need the same edge treatment and light breakup as the surrounding scene.",
+          "Handlebar, grip and front fork remain crowded.",
+          "The rider's near shoe and pedal relationship is still simplified.",
+          "Puddle reflections have inconsistent detail, with selected added clean shapes amid fragmented reflected color."
+        ]
+      }
+    }
+  },
+  "result": "Keep historical records unchanged. Original infographic preferred; poster equal for one reviewer and original preferred by other. Revised editorial clearer subject but both observed cohesion regression; no overall superiority claim."
+}

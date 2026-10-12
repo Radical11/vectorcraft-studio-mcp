@@ -1,0 +1,11 @@
+# Preserve the illustration
+
+Use the built-in imagegen skill for expressive scenes when a rendered target clarifies shape, gesture, depth, atmosphere or texture. Generate illustration separately from final live typography. Favor deliberate contours, manageable color regions and subject-specific detail. Request transparency only for a cutout. Copy the selected generated image into the project, actually inspect it, and preserve prompt/provenance. The gateway cannot invoke Codex's host image tool and does not require a paid API workflow.
+
+Translate by meaningful components: silhouette, structural contours, tonal masses, foreground/background relationships, light direction and characteristic details. Native Bézier paths, gradients, masks and groups support semantic editing. For suitable flat art discover `imageTrace.presets`, trace and inspect tracingResult against source, then expand and simplify at tolerances proportionate to use size. Group/name meaningful parts; preserve the reference separately. Never leave a raster embed or unexpanded image trace as the vector final. Never trace final text.
+
+Test tracing on a representative study before committing to a complex scene. Check contour accuracy, edge noise, holes, thin features and anchor count. If tracing loses important features or produces unusable complexity, rebuild those components with paths. VTracer is a possible future adapter, not a required installation; native tracing already exists.
+
+Compare actual full/use-size renders with the target throughout. Preserve silhouette, spatial rhythm, contrast masses, gesture and narrative cues. Exact pixel equality is not a creative-quality metric. Intentional interpretation is allowed with a specific rationale; accidental losses must be repaired. Revise a weak target openly rather than silently lowering the standard to match easy construction.
+
+Use available tools selectively: web/image/browser tools for reference inspection, Codex imagegen for targets, VectorCraft for editable illustration/type, PhotoCraft for necessary image preparation, DesignCraft for multi-page publishing, and Figma for requested UI/component work. More generic "thinking" tools are not a substitute for strong visual decisions, executable construction and observed comparison.

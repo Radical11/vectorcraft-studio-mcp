@@ -1,0 +1,531 @@
+{
+  "artboards": [
+    {
+      "height": 1200.0,
+      "name": "Artboard 1",
+      "width": 900.0,
+      "x": 0.0,
+      "y": 0.0
+    }
+  ],
+  "colorMode": "Rgb",
+  "currentLayer": 2,
+  "dirty": false,
+  "history": [
+    "New Layer",
+    "Rectangle",
+    "Fill Color",
+    "Stroke Color",
+    "Type",
+    "Type",
+    "Type",
+    "Type",
+    "Ellipse",
+    "Fill Color",
+    "Stroke Color",
+    "Stroke",
+    "Drop Shadow",
+    "Polygon",
+    "Fill Color",
+    "Stroke Color",
+    "Rounded Rectangle",
+    "Fill Color",
+    "Stroke Color",
+    "Type",
+    "Type",
+    "Rounded Rectangle",
+    "Fill Color",
+    "Stroke Color",
+    "Type",
+    "Type"
+  ],
+  "isolation": null,
+  "layerRows": [
+    2
+  ],
+  "layers": [
+    {
+      "bounds": {
+        "height": 1200.0,
+        "width": 900.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 17.875,
+            "width": 376.515625,
+            "x": 95.9765625,
+            "y": 1097.515625
+          },
+          "fill": "#aaa697",
+          "id": 15,
+          "kind": "Type",
+          "locked": false,
+          "name": "An evening of creativity, conver",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "An evening of creativity, conversation, and possibility.",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 29.046875,
+            "width": 164.2138671875,
+            "x": 300.0,
+            "y": 968.462890625
+          },
+          "fill": "#193747",
+          "id": 14,
+          "kind": "Type",
+          "locked": false,
+          "name": "FREE ENTRY",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "FREE ENTRY",
+          "visible": true
+        },
+        {
+          "anchors": 8,
+          "bounds": {
+            "height": 80.0,
+            "width": 500.0,
+            "x": 199.99999999999997,
+            "y": 940.0
+          },
+          "closed": true,
+          "fill": "#e04491",
+          "id": 13,
+          "kind": "Rounded Rectangle",
+          "locked": false,
+          "name": "<Rounded Rectangle>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 24.578125,
+            "width": 144.2568359375,
+            "x": 63.0,
+            "y": 799.083984375
+          },
+          "fill": "#193747",
+          "id": 12,
+          "kind": "Type",
+          "locked": false,
+          "name": "STUDIO HALL",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "STUDIO HALL",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 26.8125,
+            "width": 219.66796875,
+            "x": 105.0,
+            "y": 743.2734375
+          },
+          "fill": "#193747",
+          "id": 11,
+          "kind": "Type",
+          "locked": false,
+          "name": "18 OCT 2026 / 6 PM",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "18 OCT 2026 / 6 PM",
+          "visible": true
+        },
+        {
+          "anchors": 8,
+          "bounds": {
+            "height": 110.0,
+            "width": 110.0,
+            "x": 640.0,
+            "y": 535.0
+          },
+          "closed": true,
+          "fill": "#e04491",
+          "id": 10,
+          "kind": "Rounded Rectangle",
+          "locked": false,
+          "name": "<Rounded Rectangle>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 3,
+          "bounds": {
+            "height": 187.5,
+            "width": 216.50635094610965,
+            "x": 175.7468245269452,
+            "y": 435.0
+          },
+          "closed": true,
+          "fill": "#219e9b",
+          "id": 9,
+          "kind": "Polygon",
+          "locked": false,
+          "name": "<Polygon>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 235.0,
+            "width": 235.0,
+            "x": 582.0,
+            "y": 155.0
+          },
+          "closed": true,
+          "fill": "#eeb12c",
+          "id": 8,
+          "kind": "Ellipse",
+          "locked": false,
+          "name": "<Ellipse>",
+          "stroke": "#193747",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 9.0,
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 18.9921875,
+            "width": 256.0625,
+            "x": 86.0,
+            "y": 362.6103515625
+          },
+          "fill": "#aaa697",
+          "id": 7,
+          "kind": "Type",
+          "locked": false,
+          "name": "Student talks. Fresh perspective",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "Student talks. Fresh perspectives.",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 84.90625,
+            "width": 354.728515625,
+            "x": 110.0,
+            "y": 261.19921875
+          },
+          "fill": "#193747",
+          "id": 6,
+          "kind": "Type",
+          "locked": false,
+          "name": "OF IDEAS",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "OF IDEAS",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 111.71875,
+            "width": 311.083984375,
+            "x": 72.0,
+            "y": 154.47265625
+          },
+          "fill": "#193747",
+          "id": 5,
+          "kind": "Type",
+          "locked": false,
+          "name": "NIGHT",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "NIGHT",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 21.2265625,
+            "width": 232.2490234375,
+            "x": 76.0,
+            "y": 82.7998046875
+          },
+          "fill": "#193747",
+          "id": 4,
+          "kind": "Type",
+          "locked": false,
+          "name": "CAMPUS / AFTER HOURS",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "CAMPUS / AFTER HOURS",
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 1200.0,
+            "width": 900.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "closed": true,
+          "fill": "#f4f0e8",
+          "id": 3,
+          "kind": "Rectangle",
+          "locked": false,
+          "name": "<Rectangle>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        }
+      ],
+      "clip": false,
+      "color": "#ff4f4f",
+      "dimImages": null,
+      "id": 2,
+      "kind": "Layer",
+      "locked": false,
+      "name": "Night of Ideas poster",
+      "preview": true,
+      "printable": true,
+      "template": false,
+      "visible": true
+    },
+    {
+      "bounds": null,
+      "children": [],
+      "clip": false,
+      "color": "#4f80ff",
+      "dimImages": null,
+      "id": 1,
+      "kind": "Layer",
+      "locked": false,
+      "name": "Layer 1",
+      "preview": true,
+      "printable": true,
+      "template": false,
+      "visible": true
+    }
+  ],
+  "objects": 15,
+  "paint": {
+    "appearanceItem": null,
+    "fill": "#e04491",
+    "fillActive": false,
+    "stroke": "None",
+    "strokeWidth": 9.0
+  },
+  "pasteRemembersLayers": false,
+  "path": "original.vectorcraft",
+  "redo": [],
+  "revision": 27,
+  "selection": [
+    15
+  ],
+  "selectionBounds": {
+    "height": 17.875,
+    "width": 376.515625,
+    "x": 95.9765625,
+    "y": 1097.515625
+  },
+  "selectionRotation": 0.0,
+  "target": null,
+  "title": "original.vectorcraft",
+  "tool": "selection",
+  "units": "Points"
+}

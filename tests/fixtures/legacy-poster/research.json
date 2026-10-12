@@ -1,0 +1,122 @@
+{
+  "subject_summary": "Ambient listening suggests sustained tones, repetition, space and environmental attention. Rain supplies ephemeral impacts and widening water rings. The illustration can join rain and music without claiming an exact physical visualization.",
+  "audience_and_use": "Students; 900x1200 poster viewed at 450x600. Essential event content should read quickly. No audience interviews conducted.",
+  "synthesis": "References contrast sparse notation, intricate liquid rhythm and performer specificity. Opportunity: a luminous harp made from hanging rain, its strings continuing into a quiet courtyard puddle. Use large editorial serif title and legible sans-serif footer. Avoid generic gradients plus circles as the whole concept.",
+  "facts": [
+    {
+      "claim": "CymaScope describes making sound vibrations visible in water. Used only as conceptual background, not scientific accuracy claim.",
+      "source_url": "https://cymascope.com/cymatics-history/"
+    }
+  ],
+  "assumptions": [
+    "Audience hypothesis: students respond to evocative music imagery with immediately readable logistics.",
+    "Fictional test brief; date and venue supplied, not verified as real."
+  ],
+  "gaps": [
+    "7 inspected works below target 15; discovery and one bounded targeted gap pass completed. Three MoMA 1953 detail pages displayed no artwork. Eno cover loaded only a thin top strip; Unsplash displayed gray placeholder. These were not counted. Multiple navigation timeouts required screenshot-state recovery.",
+    "Creator of cymatic image and designers of some event posters not verified. No stylistic copying; contextual visual observations only.",
+    "Soiree image top cropped; observation restricted to visible regions."
+  ],
+  "discovery_passes": 1,
+  "gap_filling_passes": 1,
+  "references": [
+    {
+      "title": "Musica Viva 1958",
+      "creator": "Josef Muller-Brockmann",
+      "url": "https://www.moma.org/collection/works/7233",
+      "accessed": "2026-10-11",
+      "source_type": "museum archive",
+      "observation": "Small color diamonds scatter through an oblique ivory field, while tilted detail text anchors its lower left.",
+      "transformation": "Transfer expressive negative space, not its diamonds or oblique grid.",
+      "visual_inspection": {
+        "tool": "mcp__cua_repl.js getScreenshot",
+        "evidence": "CUA getScreenshot on tab 1; action title Actually inspect Musica Viva poster",
+        "observation": "Small color diamonds scatter through an oblique ivory field, while tilted detail text anchors its lower left."
+      }
+    },
+    {
+      "title": "Music for Nine Post Cards",
+      "creator": "Hiroshi Yoshimura; cover designer not verified",
+      "url": "https://www.homcore.com/products/hiroshi-yoshimura-music-for-nine-post-cards-empire-of-signs",
+      "accessed": "2026-10-11",
+      "source_type": "album art",
+      "observation": "Thin parallel wavy lines form flowing ribbons on white; a navy obi and rotated notation create spacious rhythm.",
+      "transformation": "Make flowing lines water strings with upright original type; avoid rotated cover arrangement.",
+      "visual_inspection": {
+        "tool": "mcp__cua_repl.js getScreenshot",
+        "evidence": "CUA getScreenshot; action View completed ambient album reference load",
+        "observation": "Thin parallel wavy lines form flowing ribbons on white; a navy obi and rotated notation create spacious rhythm."
+      }
+    },
+    {
+      "title": "Cymatic Sound Pattern",
+      "creator": "Creator unverified; Pinterest source",
+      "url": "https://www.pinterest.com/pin/cymaticsthe-art-of-sound--440226932300187814/",
+      "accessed": "2026-10-11",
+      "source_type": "adjacent sound visualization",
+      "observation": "Luminous petal-like irregular rings occupy a dark circular field; wave overlap makes intricate internal rhythm.",
+      "transformation": "Use the idea of sound shaping water, with a drawn harp rather than a circular cymatic photograph.",
+      "visual_inspection": {
+        "tool": "mcp__cua_repl.js getScreenshot",
+        "evidence": "CUA getScreenshot; action Inspect adjacent sound vibration visual",
+        "observation": "Luminous petal-like irregular rings occupy a dark circular field; wave overlap makes intricate internal rhythm."
+      }
+    },
+    {
+      "title": "Urban rain ripple reflection",
+      "creator": "nikilitov / 123RF",
+      "url": "https://es.123rf.com/photo_27897211_gotas-de-lluvia-ondulaci%C3%B3n-en-un-charco-con-los-edificios-el-cielo-y-los-%C3%A1rboles-reflexi%C3%B3n.html",
+      "accessed": "2026-10-11",
+      "source_type": "photography",
+      "observation": "Architecture is reflected in a puddle; rings flatten to ellipses with strong quiet foreground and warm reflected buildings.",
+      "transformation": "Compress drawn ripples into perspectival ellipses and introduce a restrained warm glint.",
+      "visual_inspection": {
+        "tool": "mcp__cua_repl.js getScreenshot",
+        "evidence": "CUA getScreenshot; action Inspect urban puddle ripple photography",
+        "observation": "Architecture is reflected in a puddle; rings flatten to ellipses with strong quiet foreground and warm reflected buildings."
+      }
+    },
+    {
+      "title": "Transient vol.1",
+      "creator": "Promoter High Note; designer unverified",
+      "url": "https://fr.ra.co/events/2072499",
+      "accessed": "2026-10-11",
+      "source_type": "event poster",
+      "observation": "A swirling white irregular line field surrounds widely spaced black serif title over pastel atmospheric color.",
+      "transformation": "Keep a serif mood but make literal rain strings and separate essential content from illustration.",
+      "visual_inspection": {
+        "tool": "mcp__cua_repl.js getScreenshot",
+        "evidence": "CUA getScreenshot; action Inspect Transient event poster after delayed navigation",
+        "observation": "A swirling white irregular line field surrounds widely spaced black serif title over pastel atmospheric color."
+      }
+    },
+    {
+      "title": "Raffael Seyfried live concert",
+      "creator": "Don Worri; designer unverified",
+      "url": "https://www.raffaelseyfried.com/live",
+      "accessed": "2026-10-11",
+      "source_type": "artist portfolio",
+      "observation": "Golden backlit pianist silhouette dominates; black date tabs and bold bottom name make several scales legible.",
+      "transformation": "Transfer subject-specific image and strong event footer while replacing performer photography with an original water harp.",
+      "visual_inspection": {
+        "tool": "mcp__cua_repl.js getScreenshot",
+        "evidence": "CUA getScreenshot; action Inspect musician portfolio poster",
+        "observation": "Golden backlit pianist silhouette dominates; black date tabs and bold bottom name make several scales legible."
+      }
+    },
+    {
+      "title": "Soiree Ambient Studio db",
+      "creator": "Promoter Studio db; designer unverified",
+      "url": "https://ra.co/events/de/berlin/ambient",
+      "accessed": "2026-10-11",
+      "source_type": "event poster",
+      "observation": "Acid green spaced sans-serif copy floats over brown-green fluid imagery and muted blue lower field; top cropped in viewport.",
+      "transformation": "Use a controlled liquid palette with warmer ivory type and clearer single title anchor.",
+      "visual_inspection": {
+        "tool": "mcp__cua_repl.js getScreenshot",
+        "evidence": "CUA getScreenshot; action Inspect contrasting ambient event color treatment",
+        "observation": "Acid green spaced sans-serif copy floats over brown-green fluid imagery and muted blue lower field; top cropped in viewport."
+      }
+    }
+  ]
+}

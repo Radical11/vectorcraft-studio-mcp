@@ -1,0 +1,3 @@
+# Behavioral fixtures
+
+These are owned fictional artwork fixtures derived from the original local compatibility studies. Native artwork and PNGs preserve the source bytes; inspection metadata uses relative filenames as an explicitly sanitized derivative. Original locations/hashes remain only in the ignored baseline import manifest. Historical imported evidence is unchanged. The fixtures let enforcement tests run without importing the archival workspace. Tests use fake rendering and inspection assertions: they do not constitute fresh visual research, observed image evidence, or an aesthetic assessment.

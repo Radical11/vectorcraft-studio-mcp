@@ -1,0 +1,11 @@
+VectorCraft Studio is an unofficial community companion maintained by Radical11.
+Owned code and original evaluation artwork: MIT OR Apache-2.0.
+VectorCraft is a separate project by storytold and its contributors. Its executable,
+source, trademarks and branding are not included in this distribution.
+Workflow inspiration: Figma Console MCP, screenshot-inspect-correct-verify pattern.
+No Figma Console source code or server is bundled.
+Calibration consulted attributed upstream vector examples, Joseph Wright of Derby's
+public-domain painting, and US EPA educational material. Those private reference
+images/PDFs and raw research vault contents are not distributed as release assets.
+Original repair artwork uses a host-generated reference; the final is independently
+constructed from editable native paths. Asset-specific provenance is in ASSETS.md.

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="1200" viewBox="0 0 900 1200">
+  <title>Locked evaluation campus-poster</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M0 0 L900 0 L900 1200 L0 1200 Z" fill="#132a36" stroke="#000000" stroke-miterlimit="10"/>
+    <text id="eyebrow" transform="matrix(1 0 0 1 60 68)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="23" fill="#91af9a"><tspan x="0" y="0">NATURE AFTER HOURS</tspan></text>
+    <text id="title" transform="matrix(1 0 0 1 53 181)" x="0" y="0" xml:space="preserve" font-family="Georgia" font-size="101" fill="#f2e9cb"><tspan x="0" y="0">AFTER DARK</tspan></text>
+    <text id="subtitle" transform="matrix(1 0 0 1 60 245)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="32" fill="#f2e9cb"><tspan x="0" y="0">A campus night walk</tspan></text>
+    <text id="invitation" transform="matrix(1 0 0 1 60 302)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="23" fill="#91af9a"><tspan x="0" y="0">Moths. Shadows. A path you know differently.</tspan></text>
+    <text id="date" transform="matrix(1 0 0 1 60 1020)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="34" fill="#f2e9cb"><tspan x="0" y="0">16 NOV 2026</tspan></text>
+    <text id="time" transform="matrix(1 0 0 1 702 1020)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="34" fill="#f2e9cb"><tspan x="0" y="0">7 PM</tspan></text>
+    <text id="meeting" transform="matrix(1 0 0 1 60 1080)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="29" fill="#f2e9cb"><tspan x="0" y="0">Meet at the Library Steps</tspan></text>
+    <text id="entry" transform="matrix(1 0 0 1 60 1127)" x="0" y="0" xml:space="preserve" font-family="&apos;Segoe UI&apos;" font-size="25" fill="#91af9a"><tspan x="0" y="0">Free entry | Bring a torch</tspan></text>
+    <g id="campus-path">
+      <path d="M0 653 C98.667 580.333 194.667 582.667 288 660 C352.667 576 442.333 565 557 627 C687 554.333 801.333 552.333 900 621 L900 935 L0 935 Z" fill="#264b4d"/>
+      <path d="M0 810 C195.333 782.667 329.667 754.333 403 725 C543.667 699.667 709.333 717 900 777 L900 935 L0 935 Z" fill="#345a55"/>
+      <path d="M65 345 C49 465 43 659.667 47 929 L77 929 C73 633 74 438.333 80 345 Z" fill="#193b40"/>
+      <path d="M65 485 C25 454.333 3.333 418.333 0 377 M65 573 C95 523 116.667 481.333 130 448" fill="none" stroke="#193b40" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M833 303 C815.4 435 808.8 643.667 813.2 929 L846.2 929 C841.8 614.333 842.9 405.667 849.5 303 Z" fill="#193b40"/>
+      <path d="M833 457 C789 423.267 759.3 383.667 743.9 338.2 M833 553.8 C866 498.8 888.333 452.967 900 416.3" fill="none" stroke="#193b40" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M170 440 C159.6 518 155.7 681 158.3 929 L177.8 929 C175.2 663.667 175.85 500.667 179.75 440 Z" fill="#193b40"/>
+      <path d="M170 531 C144 511.067 126.45 487.667 117.35 460.8 M170 588.2 C189.5 555.7 203.583 528.617 212.25 506.95" fill="none" stroke="#193b40" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M758 464 C749.2 530 745.9 685 748.1 929 L764.6 929 C762.4 670.333 762.95 515.333 766.25 464 Z" fill="#193b40"/>
+      <path d="M758 541 C736 524.133 721.15 504.333 713.45 481.6 M758 589.4 C774.5 561.9 786.417 538.983 793.75 520.65" fill="none" stroke="#193b40" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M267 935 C291 879 363 836.333 483 807 C576.333 784.333 618.333 744.667 609 688 L627 686 C652.333 760 595.333 818 456 860 C412.667 884 387 909 379 935 Z" fill="#617465"/>
+    </g>
+    <path id="rule" d="M60 969 L840 969" fill="none" stroke="#668574" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="torch-beam">
+      <path d="M414 700 L708 339 C795.333 387.667 851.667 466.667 877 576 Z" fill="#d9bc73"/>
+      <path d="M414 700 L819 505 L877 576 Z" fill="#e8cb85"/>
+    </g>
+    <g id="lit-leaves-and-moth">
+      <g>
+        <path d="M642 654 C591.452 610.366 582.471 526.947 656.833 491.898 C716.368 518.954 702.716 610.973 642 654 Z" fill="#2f5b4f"/>
+        <path d="M643.009 651.069 C646.76 602.088 650.023 552.939 652.796 503.622" fill="none" stroke="#496c5d" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g>
+        <path d="M696 532 C627.312 526.23 569.198 462.015 610.033 387.626 C676.168 374.099 720.598 459.228 696 532 Z" fill="#2f5b4f"/>
+        <path d="M695.064 528.94 C668.478 485.759 641.382 442.735 613.775 399.867" fill="none" stroke="#496c5d" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g>
+        <path d="M789 596 C757.155 547.333 769.662 475.337 840.335 463.845 C883.684 500.79 850.163 574.553 789 596 Z" fill="#2f5b4f"/>
+        <path d="M790.549 593.788 C805.448 553.681 819.978 513.315 834.14 472.691" fill="none" stroke="#496c5d" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g>
+        <path d="M830 504 C799.363 465.065 804.631 403.04 863.752 388.04 C903.281 416.174 880.311 481.259 830 504 Z" fill="#2f5b4f"/>
+        <path d="M831.15 502.008 C840.816 466.866 850.15 431.533 859.152 396.008" fill="none" stroke="#496c5d" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g>
+        <path d="M110 867 C54.322 873.047 -1.984 830.841 19.052 765.179 C69.702 744.137 118.337 805.146 110 867 Z" fill="#91af9a"/>
+        <path d="M108.779 864.704 C80.88 834.387 52.599 804.272 23.935 774.362" fill="none" stroke="#496c5d" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g>
+        <path d="M177 857 C149.969 829.202 148.996 780.496 193.784 763.985 C226.851 782.648 214.298 835.184 177 857 Z" fill="#91af9a"/>
+        <path d="M177.732 855.356 C182.381 827.213 186.755 798.949 190.855 770.562" fill="none" stroke="#496c5d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <path d="M635 728 C675.667 661.333 696.667 581.333 698 488 M732 674 C770 613.333 799 542 819 460" fill="none" stroke="#466a50" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M740 401 C714 383 696.667 381.667 688 397 C690 414.333 706.333 421 737 417 C767.667 432.333 786.333 431.333 793 414 C791 398.667 776.333 396.333 749 407 Z" fill="#f5ebcd"/>
+      <path d="M744 402 L738 422 M745 405 L750 396 M745 405 L741 396" fill="none" stroke="#42634f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="walking-gesture">
+      <path d="M277 694 C301 673.333 323 671.333 343 688 L363 768 L320 790 L274 769 Z" fill="#cf7758"/>
+      <path d="M310 670 L309 653 L330 649 L338 682 Z" fill="#e0b58b"/>
+      <path d="M297 647 C283.667 630.333 283.667 615.667 297 603 C307 595 318 596 330 606 L338 626 L349 635 L336 642 C331.333 657.333 322 663 308 659 Z" fill="#ecc697"/>
+      <path d="M290 635 C282 614.333 287.333 601 306 595 C323.333 593 332.667 599.667 334 615 C323.333 611.667 313.333 615.333 304 626 L303 640 Z" fill="#152e32"/>
+      <path d="M288 725 C295.333 742.333 300.667 761 304 781 L274 859 L278 892 L295 894 L313 867 L339 785 L352 837 L396 858 L406 843 L377 820 L362 766 Z" fill="#b6b89b"/>
+      <path d="M274 887 L294 887 L296 899 L264 905 L256 900 Z" fill="#142f35"/>
+      <path d="M393 842 L414 846 L430 858 C422.667 864 415 865.667 407 863 L391 857 Z" fill="#142f35"/>
+      <path d="M335 705 C344.333 721 353.333 729 362 729 L389 705 L396 714 L370 747 C359.333 748.333 348 744.333 336 735 L325 717 Z" fill="#ecc697"/>
+      <path d="M389 706 L404 694 L412 702 L398 719 Z" fill="#355955"/>
+      <path d="M402 694 L412 690 L417 703 L409 707 Z" fill="#f2e9cb"/>
+      <path d="M293 695 L280 721 L277 756" fill="none" stroke="#e2926c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

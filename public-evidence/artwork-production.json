@@ -1,0 +1,178 @@
+{
+  "sanitized_derivative": true,
+  "scope": "Actual local native reopening and exports; observation is agent-attested, not proven by hashes. Preview paths identify private verification artifact roles; distributed final formats are under examples.",
+  "results": [
+    {
+      "case": "campus-poster",
+      "track": "baseline",
+      "native_reopened": true,
+      "native_kinds": {
+        "Layer": 1,
+        "Group": 3,
+        "Path": 52,
+        "Compound Path": 3,
+        "Type": 8,
+        "Rectangle": 1
+      },
+      "live_text_objects": 8,
+      "svg_text_elements": 8,
+      "svg_raster_elements": 0,
+      "pdf_raster_images": 0,
+      "pdf_pages": 1,
+      "visual_inspection": {
+        "status": "agent-observed",
+        "tool": "tools.view_image",
+        "observation": "Observed native full/use and exported SVG/PDF intended-size renders: title, logistics, figure, beam and foliage preserved without visible overflow or clipping.",
+        "pdf_renderer": "Poppler",
+        "svg_renderer": "VectorCraft native SVG importer",
+        "previews": [
+          "campus-poster/baseline/pdf-use.png",
+          "campus-poster/baseline/svg-use.png"
+        ]
+      }
+    },
+    {
+      "case": "campus-poster",
+      "track": "improved",
+      "native_reopened": true,
+      "native_kinds": {
+        "Layer": 1,
+        "Group": 10,
+        "Path": 47,
+        "Compound Path": 6,
+        "Type": 8,
+        "Rectangle": 1
+      },
+      "live_text_objects": 8,
+      "svg_text_elements": 8,
+      "svg_raster_elements": 0,
+      "pdf_raster_images": 0,
+      "pdf_pages": 1,
+      "visual_inspection": {
+        "status": "agent-observed",
+        "tool": "tools.view_image",
+        "observation": "Observed native full/use and exported SVG/PDF intended-size renders: title, logistics, figure, beam and foliage preserved without visible overflow or clipping.",
+        "pdf_renderer": "Poppler",
+        "svg_renderer": "VectorCraft native SVG importer",
+        "previews": [
+          "campus-poster/improved/pdf-use.png",
+          "campus-poster/improved/svg-use.png"
+        ]
+      }
+    },
+    {
+      "case": "repair-cafe",
+      "track": "baseline",
+      "native_reopened": true,
+      "native_kinds": {
+        "Layer": 1,
+        "Group": 7,
+        "Path": 54,
+        "Compound Path": 7,
+        "Rectangle": 1
+      },
+      "live_text_objects": 0,
+      "svg_text_elements": 0,
+      "svg_raster_elements": 0,
+      "pdf_raster_images": 0,
+      "pdf_pages": 1,
+      "visual_inspection": {
+        "status": "agent-observed",
+        "tool": "tools.view_image",
+        "observation": "Observed native full/use and exported SVG/PDF intended-size renders: attentive faces, supporting fingers, grip, shaft/screw contact, opened radio and tools preserved. Anatomy remains simplified.",
+        "pdf_renderer": "Poppler",
+        "svg_renderer": "VectorCraft native SVG importer",
+        "previews": [
+          "repair-cafe/baseline/pdf-use.png",
+          "repair-cafe/baseline/svg-use.png"
+        ]
+      }
+    },
+    {
+      "case": "repair-cafe",
+      "track": "improved",
+      "native_reopened": true,
+      "native_kinds": {
+        "Layer": 1,
+        "Group": 15,
+        "Path": 406,
+        "Compound Path": 22,
+        "Rectangle": 1
+      },
+      "live_text_objects": 0,
+      "svg_text_elements": 0,
+      "svg_raster_elements": 0,
+      "pdf_raster_images": 0,
+      "pdf_pages": 1,
+      "visual_inspection": {
+        "status": "agent-observed",
+        "tool": "tools.view_image",
+        "observation": "Observed native full/use and exported SVG/PDF intended-size renders: attentive faces, supporting fingers, grip, shaft/screw contact, opened radio and tools preserved. Anatomy remains simplified.",
+        "pdf_renderer": "Poppler",
+        "svg_renderer": "VectorCraft native SVG importer",
+        "previews": [
+          "repair-cafe/improved/pdf-use.png",
+          "repair-cafe/improved/svg-use.png"
+        ]
+      }
+    },
+    {
+      "case": "urban-heat",
+      "track": "baseline",
+      "native_reopened": true,
+      "native_kinds": {
+        "Layer": 1,
+        "Type": 11,
+        "Group": 1,
+        "Path": 34,
+        "Compound Path": 8,
+        "Rectangle": 1
+      },
+      "live_text_objects": 11,
+      "svg_text_elements": 11,
+      "svg_raster_elements": 0,
+      "pdf_raster_images": 0,
+      "pdf_pages": 1,
+      "visual_inspection": {
+        "status": "agent-observed",
+        "tool": "tools.view_image",
+        "observation": "Observed native full/use and exported SVG/PDF intended-size renders: live explanatory copy, sun/ground relationships, roots and canopy arrows remain visible without export clipping.",
+        "pdf_renderer": "Poppler",
+        "svg_renderer": "VectorCraft native SVG importer",
+        "previews": [
+          "urban-heat/baseline/pdf-use.png",
+          "urban-heat/baseline/svg-use.png"
+        ]
+      }
+    },
+    {
+      "case": "urban-heat",
+      "track": "improved",
+      "native_reopened": true,
+      "native_kinds": {
+        "Layer": 1,
+        "Compound Path": 5,
+        "Path": 42,
+        "Group": 2,
+        "Type": 12,
+        "Rectangle": 1
+      },
+      "live_text_objects": 12,
+      "svg_text_elements": 12,
+      "svg_raster_elements": 0,
+      "pdf_raster_images": 0,
+      "pdf_pages": 1,
+      "visual_inspection": {
+        "status": "agent-observed",
+        "tool": "tools.view_image",
+        "observation": "Observed native full/use and exported SVG/PDF intended-size renders: live explanatory copy, sun/ground relationships, roots and canopy arrows remain visible without export clipping.",
+        "pdf_renderer": "Poppler",
+        "svg_renderer": "VectorCraft native SVG importer",
+        "previews": [
+          "urban-heat/improved/pdf-use.png",
+          "urban-heat/improved/svg-use.png"
+        ]
+      }
+    }
+  ]
+}
