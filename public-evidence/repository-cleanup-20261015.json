@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-15T04:37:09.464929+00:00",
+  "scope": "Repository documentation and publication cleanup; no workflow/engine changes",
+  "tests": {
+    "python": "3.13.15",
+    "project_self_contained": 199,
+    "process_analysis_synthetic": 22,
+    "interim_export_synthetic": 9,
+    "stage_publication_synthetic": 15,
+    "total_self_contained": 245,
+    "all_passed": true,
+    "native_integration_repeated": false
+  },
+  "presentation": {
+    "trial_rows": 18,
+    "existing_captures": 56,
+    "roughs": 17,
+    "construction_studies": 4,
+    "production_correction_captures": 35,
+    "unique_site_previews": 90,
+    "generated_content_check": "passed",
+    "browser_observations": {
+      "desktop_width": 1280,
+      "narrow_width": 390,
+      "horizontal_overflow_observed": false,
+      "all_18_trial_selectors_exercised": true,
+      "all_6_brief_repeat_groups_exercised": true,
+      "final_browser_console_errors": [],
+      "limits": "UI/layout inspection and read-only interaction checks only; no new aesthetic review or preference collection."
+    }
+  },
+  "preservation": {
+    "dated_and_historical_files": 342,
+    "changed": [],
+    "frozen_method_verified": true,
+    "accounted_attempts": 10,
+    "pending_attempts": 8,
+    "active_builder": false
+  },
+  "publication_audit": "process-stages-20261015/publication-audit.json",
+  "source_file_hashes": {
+    "scripts/build_stage_evidence.py": "dad426b758d009e52957ee323d5f02e7ae979f95d09fcd3efc4a8faf7031dd36",
+    "scripts/stage_public.py": "9d2a9de9ca32f2c3d3115decc74f00feca8a47719bf2db1d29169ee0fa583189",
+    "scripts/check_public.py": "43a46d266ec70aba9b2469a266b8a431043ea2a51f7d6d5a7ca8bf70355c6b33",
+    "scripts/export_interim_study.py": "c2f67f40adf776d554bdbe3e93ecd4566d62189541489fdad95204db8405e3b0",
+    "tests/test_stage_publication.py": "951c18e4e35cf4abe7f810740486c80b640fd04a0f24a7ce6680760cb0130c12",
+    "tests/test_interim_export.py": "bf5cfc20339b9b10867c3440c026e36be5cd730a93ac243b363a2a672b4fb437",
+    "site/research.js": "c4893251750d2572f1cc3416c95a2dd043bb31400fcd04c1a53bd452c0fb68a4",
+    "site/research.css": "13f971888968f1e63c46101c41279a5f3b30e2e43a30f5d57adcf48d57161465",
+    "public-evidence/process-stages-20261015/index.json": "b4cd0c1c02fc5d671035a8dc137167f4e303d9412eae7f9c950458dc5c96e066"
+  },
+  "local_UI_screenshots_not_distributed": {
+    "outputs/repository-cleanup/desktop.png": "f5428ace5363c36761a93ae5c25527f70ad6510f0118a8b619617dbd5c5d2e41",
+    "outputs/repository-cleanup/narrow.png": "a1f83b92e2787330978e700ed8be98e146e8e6cd8a87f7bbff44ab12882a8563"
+  }
+}

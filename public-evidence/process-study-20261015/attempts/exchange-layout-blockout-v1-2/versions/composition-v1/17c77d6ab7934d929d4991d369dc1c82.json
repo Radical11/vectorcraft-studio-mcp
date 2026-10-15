@@ -1,0 +1,48 @@
+{
+  "phase": "confirm",
+  "observations": "Full/use comparison shows readable selected layout and groups, but left shift leaves 12-point cream strip at formerly entering right sleeve. Neighbors and whole scene inspected.",
+  "target_comparison": {
+    "silhouette": "Diagonal book handoff and broad opposite sleeve silhouettes retained",
+    "proportions": "Book, hands and two-line title scales unchanged",
+    "negative_space": "Image 10 points upward opens slightly more breathing space above tagline",
+    "hierarchy": "Title leads then book and invitation then complete details",
+    "copy": "All required wording visible; title uses newline rough until next typography stage replaces it with exact-string wrapping area type",
+    "detail": "Sparse cover labels/page block and hand creases retained"
+  },
+  "element_map": {
+    "paper": [
+      2
+    ],
+    "title": [
+      3
+    ],
+    "handoff": [
+      25
+    ],
+    "tagline": [
+      19
+    ],
+    "rule": [
+      20
+    ],
+    "date": [
+      21
+    ],
+    "time": [
+      22
+    ],
+    "location": [
+      23
+    ],
+    "entry": [
+      24
+    ]
+  },
+  "departures": [
+    {
+      "element": "handoff",
+      "reason": "Optical shift up 10 points; left shift exposed accidental right edge gap requiring repair"
+    }
+  ],
+  "decision": "Repair right canvas-entry before typography"
+}

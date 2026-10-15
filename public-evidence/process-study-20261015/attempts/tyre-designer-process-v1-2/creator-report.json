@@ -1,0 +1,76 @@
+{
+  "trial": "tyre-designer-process-v1-2",
+  "profile": "designer-process-v1",
+  "mode": "full",
+  "status": "budget_exhausted",
+  "completion": false,
+  "best_version": null,
+  "partial_version": "rough1",
+  "partial_version_confirmed": false,
+  "stopped_run_path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\run.json",
+  "run_json_status_preserved": "active",
+  "run_status_note": "Execution stopped externally for budget; original gateway run bytes preserved active with unconfirmed isolated study. Parent owns shared-ledger stopping/accounting.",
+  "study_run_path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\study-edf1ecc41c13420f-rough1\\run.json",
+  "actual_timings": {
+    "report_utc": "2026-10-13T18:58:09.021771+00:00",
+    "host_budget_start_epoch": 1791880834.8484619,
+    "host_wall_active_seconds_at_report": 37054.17222547531,
+    "host_work_interval_to_last_receipt_seconds": 220.02494359016418,
+    "last_host_receipt_epoch": 1791881054.8734055,
+    "wall_gap_since_last_receipt_seconds": 36834.14728188515,
+    "review_pause_seconds": 0,
+    "shared_ledger_active_minutes_lower_bound_parent_report": 617,
+    "shared_clock_includes_pre_initialization": true
+  },
+  "actual_counts": {
+    "planned_batches_used": 1,
+    "session_calls_attempted": 11,
+    "successful_receipts": 10,
+    "recorded_errors": 1,
+    "study_authoring_batches": 1,
+    "accepted_production_stages": 0,
+    "independent_reviews": 0
+  },
+  "artifacts": {
+    "native": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\study-edf1ecc41c13420f-rough1\\versions\\rough1\\artwork.vectorcraft",
+    "images": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\study-edf1ecc41c13420f-rough1\\versions\\rough1\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\study-edf1ecc41c13420f-rough1\\versions\\rough1\\use.png"
+    ],
+    "inspection": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\study-edf1ecc41c13420f-rough1\\versions\\rough1\\inspection.json"
+  },
+  "artifact_sha256": {
+    "PROJECT_ROOT\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\study-edf1ecc41c13420f-rough1\\versions\\rough1\\artwork.vectorcraft": "d5306096683027c2ae194a96ad92fb19f7c5655aeea6bc839c5a9b32045066df",
+    "PROJECT_ROOT\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\study-edf1ecc41c13420f-rough1\\versions\\rough1\\full.png": "17bb3cfd6b2131e2c5627a971aa78e78a19854da3788f1d2da3897567d36d86f",
+    "PROJECT_ROOT\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\study-edf1ecc41c13420f-rough1\\versions\\rough1\\use.png": "14e5b397b00e2516a456f5e2c430310cde93ad81d77ce89ecbb18a8e6330c34a",
+    "PROJECT_ROOT\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\study-edf1ecc41c13420f-rough1\\versions\\rough1\\inspection.json": "329b6c173480d76d6b4ea4e2e9f57cd953916a0439ec7efc8e750aa25267e4fb"
+  },
+  "image_action_ids": [
+    "pilot01-reference-1-functions-image-batch",
+    "pilot01-reference-2-functions-image-batch",
+    "pilot01-reference-3-functions-image-batch",
+    "pilot01-reference-4-functions-image-batch",
+    "pilot01-reference-5-functions-image-batch",
+    "pilot01-reference-6-functions-image-batch",
+    "pilot01-reference-7-functions-image-batch",
+    "pilot01-stop-inspection-rough1-full",
+    "pilot01-stop-inspection-rough1-use"
+  ],
+  "reviewer_identities": [],
+  "reviewer_returns": [],
+  "limitations": [
+    "Budget exhaustion caused by host usage-limit interruption, not aesthetic rejection.",
+    "Only captured first native rough exists; no independently reviewed best.",
+    "Working hand, tool engagement, supporting hand and simplified anatomy have no semantic acceptance or independent review.",
+    "No post-stop native reopening performed; no final SVG/PDF exports created.",
+    "Three alternative ideas recorded but only one built; remaining process requirements unfulfilled."
+  ],
+  "native_inspection": {
+    "from_existing_capture_only": true,
+    "uncertain": false,
+    "confirmed": false
+  },
+  "lesson_path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\lesson-report.md",
+  "execution_issues_path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\execution-issues.json",
+  "creator_image_actions_path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\creator-image-actions.json"
+}

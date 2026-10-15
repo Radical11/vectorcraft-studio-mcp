@@ -22,6 +22,6 @@ During each edit batch write its intended effect and the preview check that woul
 
 ## Shared brain
 
-Vault: `D:\Design Brain`. Read its `AGENTS.md` before writing. `brain.py search --query ...` finds possible matches; it does not choose taste. Read matches, check applicability and revisit time-sensitive sources. Sources are immutable attributed records; principles/styles/lessons include context and limitations. Project notes link to local evidence. Source notes may be factual/textual and must not be counted as inspected visual references unless images were actually viewed.
+Vault: `[private vault path withheld]`. Read its `AGENTS.md` before writing. `brain.py search --query ...` finds possible matches; it does not choose taste. Read matches, check applicability and revisit time-sensitive sources. Sources are immutable attributed records; principles/styles/lessons include context and limitations. Project notes link to local evidence. Source notes may be factual/textual and must not be counted as inspected visual references unless images were actually viewed.
 
 Write source notes before synthesis notes, then backlink derived decisions. Read the current SHA before updating an existing synthesis note; pass `--expected-sha`. On conflict, re-read and merge instead of overwriting. The writer preserves an append-only log and indexed links under a short-lived lock. Private briefs stay in project files unless the user authorizes their inclusion in shared knowledge; reusable lessons can be abstracted.

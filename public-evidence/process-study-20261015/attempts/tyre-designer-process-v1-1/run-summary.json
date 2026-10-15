@@ -1,0 +1,664 @@
+{
+  "format": "vectorcraft-studio-run",
+  "version": 3,
+  "quality_profile": "designer-process-v1",
+  "status": "review_passed",
+  "revision": 15,
+  "spec_revision": 2,
+  "completed_stages": [
+    "composition",
+    "typography",
+    "imagery",
+    "finishing"
+  ],
+  "working_version": "finishing-correction1-clean",
+  "best_version": "finishing-correction1-clean",
+  "original_version": null,
+  "pending": null,
+  "uncertain": false,
+  "revision_rounds": 1,
+  "no_improvement_streak": 0,
+  "stop_reason": "Best common-brief version passed both independent specialists",
+  "private_run_sha256": "ee6ee361e09d16abb25978391abf28a33aa5e363701b26b8ddb5250b1ce8f17d",
+  "versions": {
+    "composition": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 0,
+      "spec_revision": 2,
+      "fingerprint": "2d7d10da0ab6558fcbade88399d6ec0beef77dae8a8c79ac95a40f6f9e4d9aca",
+      "element_map": {
+        "workshop": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "bench": [
+          8,
+          9,
+          10,
+          11,
+          51,
+          52
+        ],
+        "worker": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          41
+        ],
+        "helper": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          53
+        ],
+        "wheel": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          57,
+          59,
+          60,
+          63,
+          64
+        ],
+        "lever": [
+          58
+        ],
+        "working-hand": [
+          42,
+          44,
+          45,
+          61,
+          62
+        ],
+        "supporting-hand": [
+          54,
+          55,
+          56
+        ]
+      },
+      "native": "attempts/tyre-designer-process-v1-1/versions/composition/artwork.vectorcraft",
+      "inspection": "attempts/tyre-designer-process-v1-1/versions/composition/inspection.json",
+      "check": "attempts/tyre-designer-process-v1-1/versions/composition/c13fdd40b6b84c9b83eb26774abbf1dd.json",
+      "images": [
+        "attempts/tyre-designer-process-v1-1/versions/composition/full.png",
+        "attempts/tyre-designer-process-v1-1/versions/composition/use.png"
+      ],
+      "exports": []
+    },
+    "typography": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 0,
+      "spec_revision": 2,
+      "fingerprint": "2d7d10da0ab6558fcbade88399d6ec0beef77dae8a8c79ac95a40f6f9e4d9aca",
+      "element_map": {
+        "workshop": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "bench": [
+          8,
+          9,
+          10,
+          11,
+          51,
+          52
+        ],
+        "worker": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          41
+        ],
+        "helper": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          53
+        ],
+        "wheel": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          57,
+          59,
+          60,
+          63,
+          64
+        ],
+        "lever": [
+          58
+        ],
+        "working-hand": [
+          42,
+          44,
+          45,
+          61,
+          62
+        ],
+        "supporting-hand": [
+          54,
+          55,
+          56
+        ]
+      },
+      "native": "attempts/tyre-designer-process-v1-1/versions/typography/artwork.vectorcraft",
+      "inspection": "attempts/tyre-designer-process-v1-1/versions/typography/inspection.json",
+      "check": "attempts/tyre-designer-process-v1-1/versions/typography/08fb214a9d01494dae7afdb65267af4e.json",
+      "images": [
+        "attempts/tyre-designer-process-v1-1/versions/typography/full.png",
+        "attempts/tyre-designer-process-v1-1/versions/typography/use.png"
+      ],
+      "exports": []
+    },
+    "imagery": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 1,
+      "spec_revision": 2,
+      "fingerprint": "81a819c40b1beef2d500107b2304a59b75c0bc10c9d55fcd53733bb93191fe37",
+      "element_map": {
+        "workshop": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "bench": [
+          8,
+          9,
+          10,
+          11,
+          51,
+          52
+        ],
+        "worker": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          41
+        ],
+        "helper": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          53
+        ],
+        "wheel": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          57,
+          59,
+          60,
+          63,
+          64
+        ],
+        "lever": [
+          58
+        ],
+        "working-hand": [
+          42,
+          61,
+          62
+        ],
+        "supporting-hand": [
+          54,
+          55,
+          56
+        ]
+      },
+      "native": "attempts/tyre-designer-process-v1-1/versions/imagery/artwork.vectorcraft",
+      "inspection": "attempts/tyre-designer-process-v1-1/versions/imagery/inspection.json",
+      "check": "attempts/tyre-designer-process-v1-1/versions/imagery/985ba86990484d57b13db35389a914f9.json",
+      "images": [
+        "attempts/tyre-designer-process-v1-1/versions/imagery/full.png",
+        "attempts/tyre-designer-process-v1-1/versions/imagery/use.png"
+      ],
+      "exports": []
+    },
+    "finishing": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 1,
+      "spec_revision": 2,
+      "fingerprint": "81a819c40b1beef2d500107b2304a59b75c0bc10c9d55fcd53733bb93191fe37",
+      "element_map": {
+        "workshop": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "bench": [
+          8,
+          9,
+          10,
+          11,
+          51,
+          52
+        ],
+        "worker": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          41
+        ],
+        "helper": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          53
+        ],
+        "wheel": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          57,
+          59,
+          60,
+          63,
+          64
+        ],
+        "lever": [
+          58
+        ],
+        "working-hand": [
+          42,
+          61,
+          62
+        ],
+        "supporting-hand": [
+          54,
+          55,
+          56
+        ]
+      },
+      "native": "attempts/tyre-designer-process-v1-1/versions/finishing/artwork.vectorcraft",
+      "inspection": "attempts/tyre-designer-process-v1-1/versions/finishing/inspection.json",
+      "check": "attempts/tyre-designer-process-v1-1/versions/finishing/f1868afaeda045efa758ffbcce3584e6.json",
+      "images": [
+        "attempts/tyre-designer-process-v1-1/versions/finishing/full.png",
+        "attempts/tyre-designer-process-v1-1/versions/finishing/use.png"
+      ],
+      "exports": [
+        "attempts/tyre-designer-process-v1-1/versions/finishing/exports/00-da8fcaad54a344008d542520d00be796.svg",
+        "attempts/tyre-designer-process-v1-1/versions/finishing/exports/01-b3d32976d1e24e128d71efbd1e4916de.pdf",
+        "attempts/tyre-designer-process-v1-1/versions/finishing/exports/02-dbeea061312a4cd183aa0df5b63c2c47.png",
+        "attempts/tyre-designer-process-v1-1/versions/finishing/exports/03-f5f18381540249e48515b57dd7b5204b.png"
+      ]
+    },
+    "correction1": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 12,
+      "spec_revision": 2,
+      "fingerprint": "8d87e26e79cacddfbd243ff0a2c7ca0210f7edae6f294df7909bd81a39d1df2d",
+      "element_map": {
+        "workshop": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "bench": [
+          8,
+          9,
+          10,
+          11,
+          51,
+          52
+        ],
+        "worker": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          41
+        ],
+        "helper": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          53
+        ],
+        "wheel": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          65,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "lever": [
+          58,
+          66
+        ],
+        "working-hand": [
+          42,
+          61,
+          62
+        ],
+        "supporting-hand": [
+          54,
+          55,
+          56
+        ]
+      },
+      "native": "attempts/tyre-designer-process-v1-1/versions/correction1/artwork.vectorcraft",
+      "inspection": "attempts/tyre-designer-process-v1-1/versions/correction1/inspection.json",
+      "check": "attempts/tyre-designer-process-v1-1/versions/correction1/7719b41daa8441d1a37807357342a4fc.json",
+      "images": [
+        "attempts/tyre-designer-process-v1-1/versions/correction1/full.png",
+        "attempts/tyre-designer-process-v1-1/versions/correction1/use.png"
+      ],
+      "exports": []
+    },
+    "correction1-clean": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 15,
+      "spec_revision": 2,
+      "fingerprint": "6eb66909664cde189dcd93202451e0976a45004b4764c982b6680f21245c6b3e",
+      "element_map": {
+        "workshop": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "bench": [
+          8,
+          9,
+          10,
+          11,
+          51,
+          52
+        ],
+        "worker": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          41
+        ],
+        "helper": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          53
+        ],
+        "wheel": [
+          24,
+          25,
+          26,
+          27,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          65,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76
+        ],
+        "lever": [
+          58,
+          66
+        ],
+        "working-hand": [
+          42,
+          61,
+          62
+        ],
+        "supporting-hand": [
+          54,
+          55,
+          56
+        ]
+      },
+      "native": "attempts/tyre-designer-process-v1-1/versions/correction1-clean/artwork.vectorcraft",
+      "inspection": "attempts/tyre-designer-process-v1-1/versions/correction1-clean/inspection.json",
+      "check": "attempts/tyre-designer-process-v1-1/versions/correction1-clean/e8ee496ee25142a497a2ece0c5a1c1aa.json",
+      "images": [
+        "attempts/tyre-designer-process-v1-1/versions/correction1-clean/full.png",
+        "attempts/tyre-designer-process-v1-1/versions/correction1-clean/use.png"
+      ],
+      "exports": []
+    },
+    "finishing-correction1-clean": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 15,
+      "spec_revision": 2,
+      "fingerprint": "6eb66909664cde189dcd93202451e0976a45004b4764c982b6680f21245c6b3e",
+      "element_map": {
+        "workshop": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "bench": [
+          8,
+          9,
+          10,
+          11,
+          51,
+          52
+        ],
+        "worker": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          41
+        ],
+        "helper": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          53
+        ],
+        "wheel": [
+          24,
+          25,
+          26,
+          27,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          65,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76
+        ],
+        "lever": [
+          58,
+          66
+        ],
+        "working-hand": [
+          42,
+          61,
+          62
+        ],
+        "supporting-hand": [
+          54,
+          55,
+          56
+        ]
+      },
+      "native": "attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/artwork.vectorcraft",
+      "inspection": "attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/inspection.json",
+      "check": "attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/bce1d01e30ee4bd8971e282f9600e69e.json",
+      "images": [
+        "attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/full.png",
+        "attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/use.png"
+      ],
+      "exports": [
+        "attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/exports/00-ee20bd48ec864644b97fe1aab30f08ad.svg",
+        "attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/exports/01-5b62ba76b7e04a8aab9bfa9ce3cf7df3.pdf",
+        "attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/exports/02-c7a488963f1a4762906b26da4b9c7479.png",
+        "attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/exports/03-372a850e4b814110b9f81bdf07850b83.png"
+      ]
+    }
+  }
+}

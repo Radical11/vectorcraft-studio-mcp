@@ -1,0 +1,457 @@
+{
+  "actual_action_count": 41,
+  "actions": [
+    {
+      "ordinal": 1,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\neon-drive.png"
+      ],
+      "kind": "reference",
+      "actually_viewed": true,
+      "observation": "White title above bright warm sun; magenta grid converges below.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 2,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\dusk-poster.png"
+      ],
+      "kind": "reference",
+      "actually_viewed": true,
+      "observation": "Cream title in open purple sky; broad mountain/tree masses remain distinct.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 3,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\wright.jpg"
+      ],
+      "kind": "reference",
+      "actually_viewed": true,
+      "observation": "Faces and hands turn toward the lit glass apparatus; image tool displayed a resized actual source.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 4,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\perspective-city.png"
+      ],
+      "kind": "reference",
+      "actually_viewed": true,
+      "observation": "Two building planes meet at a corner; window rows follow their planes.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 5,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\epa-mechanisms.png"
+      ],
+      "kind": "reference",
+      "actually_viewed": true,
+      "observation": "Two-column page keeps captions near the map and shaded-house image.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 6,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\epa-flow.png"
+      ],
+      "kind": "reference",
+      "actually_viewed": true,
+      "observation": "Leaders meet plant regions; blue arrows show upward moisture movement.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 7,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\feature-sheet.png"
+      ],
+      "kind": "reference",
+      "actually_viewed": true,
+      "observation": "Purple crescent, gold stars and separate lower label have clean separated contours.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 8,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f5d6d64bd0e74068-catalogue-cards\\versions\\cards-study\\full.png"
+      ],
+      "kind": "blockout",
+      "actually_viewed": true,
+      "observation": "One search fan and three equal status/action cards readable at full/use.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 9,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f5d6d64bd0e74068-catalogue-cards\\versions\\cards-study\\use.png"
+      ],
+      "kind": "blockout",
+      "actually_viewed": true,
+      "observation": "One search fan and three equal status/action cards readable at full/use.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 10,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-6a04377406174068-service-rows\\versions\\rows-study\\full.png"
+      ],
+      "kind": "blockout",
+      "actually_viewed": true,
+      "observation": "Left search feeds three separate status/action rows; single-line outcomes readable.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 11,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-6a04377406174068-service-rows\\versions\\rows-study\\use.png"
+      ],
+      "kind": "blockout",
+      "actually_viewed": true,
+      "observation": "Left search feeds three separate status/action rows; single-line outcomes readable.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 12,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f45fc9b3c3024818-reading-compass\\versions\\compass-study\\full.png"
+      ],
+      "kind": "blockout",
+      "actually_viewed": true,
+      "observation": "Diamond connects left/right/down outcomes; lower card touches side-card corners.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 13,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f45fc9b3c3024818-reading-compass\\versions\\compass-study\\use.png"
+      ],
+      "kind": "blockout",
+      "actually_viewed": true,
+      "observation": "Diamond connects left/right/down outcomes; lower card touches side-card corners.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 14,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-9891316f4bad4513-construction-proof\\versions\\native-proof\\full.png"
+      ],
+      "kind": "construction-proof",
+      "actually_viewed": true,
+      "observation": "Representative native book/clock card keeps exact single-line action and downward connector distinct.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 15,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-9891316f4bad4513-construction-proof\\versions\\native-proof\\use.png"
+      ],
+      "kind": "construction-proof",
+      "actually_viewed": true,
+      "observation": "Representative native book/clock card keeps exact single-line action and downward connector distinct.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 16,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\composition-1\\full.png"
+      ],
+      "kind": "production-capture",
+      "actually_viewed": true,
+      "observation": "Junction dot added; all three selected associations retained.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 17,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\composition-1\\use.png"
+      ],
+      "kind": "production-capture",
+      "actually_viewed": true,
+      "observation": "Junction dot added; all three selected associations retained.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 18,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f5d6d64bd0e74068-catalogue-cards\\versions\\cards-study\\full.png"
+      ],
+      "kind": "target-comparison",
+      "actually_viewed": true,
+      "observation": "Current production compared with selected native layout target.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 19,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\typography-1\\full.png"
+      ],
+      "kind": "production-capture",
+      "actually_viewed": true,
+      "observation": "Bold title/statuses and aligned single-line exact actions fit at intended size.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 20,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\typography-1\\use.png"
+      ],
+      "kind": "production-capture",
+      "actually_viewed": true,
+      "observation": "Bold title/statuses and aligned single-line exact actions fit at intended size.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 21,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f5d6d64bd0e74068-catalogue-cards\\versions\\cards-study\\full.png"
+      ],
+      "kind": "target-comparison",
+      "actually_viewed": true,
+      "observation": "Current production compared with selected native layout target.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 22,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\imagery-1\\full.png"
+      ],
+      "kind": "production-capture",
+      "actually_viewed": true,
+      "observation": "Open book sits before librarian on desk; loan-book edge and clock stay separate.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 23,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\imagery-1\\use.png"
+      ],
+      "kind": "production-capture",
+      "actually_viewed": true,
+      "observation": "Open book sits before librarian on desk; loan-book edge and clock stay separate.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 24,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f5d6d64bd0e74068-catalogue-cards\\versions\\cards-study\\full.png"
+      ],
+      "kind": "target-comparison",
+      "actually_viewed": true,
+      "observation": "Current production compared with selected native layout target.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 25,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\full.png"
+      ],
+      "kind": "production-capture",
+      "actually_viewed": true,
+      "observation": "Grouping leaves composition and text unchanged; minor search icon gap remains tight.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 26,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\use.png"
+      ],
+      "kind": "production-capture",
+      "actually_viewed": true,
+      "observation": "Grouping leaves composition and text unchanged; minor search icon gap remains tight.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 27,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f5d6d64bd0e74068-catalogue-cards\\versions\\cards-study\\full.png"
+      ],
+      "kind": "target-comparison",
+      "actually_viewed": true,
+      "observation": "Current production compared with selected native layout target.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 28,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\find-your-next-book-full.png"
+      ],
+      "kind": "export",
+      "actually_viewed": true,
+      "observation": "Exported final-1 PNG has complete wording, readable outcomes and correct arrows.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 29,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\find-your-next-book-use.png"
+      ],
+      "kind": "export",
+      "actually_viewed": true,
+      "observation": "Exported final-1 PNG has complete wording, readable outcomes and correct arrows.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 30,
+      "tool": "functions.exec/tools.mcp__pdfcraft__render_preview",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\find-your-next-book.pdf"
+      ],
+      "kind": "PDF-export",
+      "actually_viewed": true,
+      "observation": "PdfCraft doc1/page1/max_side1200 displayed matching final-1 page.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 31,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final-2\\full.png"
+      ],
+      "kind": "correction-capture",
+      "actually_viewed": true,
+      "observation": "Concave bookplate frames clear symbols and text; search icon has a larger gap.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 32,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final-2\\use.png"
+      ],
+      "kind": "correction-capture",
+      "actually_viewed": true,
+      "observation": "Concave bookplate frames clear symbols and text; search icon has a larger gap.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 33,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f5d6d64bd0e74068-catalogue-cards\\versions\\cards-study\\full.png"
+      ],
+      "kind": "target-comparison",
+      "actually_viewed": true,
+      "observation": "Bookplate correction preserves selected spatial target while intentionally adding frames.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 34,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\candidate-2\\find-your-next-book-full.png"
+      ],
+      "kind": "export",
+      "actually_viewed": true,
+      "observation": "Exported corrected PNGs retain exact copy and clear status/action grouping.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 35,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\candidate-2\\find-your-next-book-use.png"
+      ],
+      "kind": "export",
+      "actually_viewed": true,
+      "observation": "Exported corrected PNGs retain exact copy and clear status/action grouping.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 36,
+      "tool": "functions.exec/tools.mcp__pdfcraft__render_preview",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\candidate-2\\find-your-next-book.pdf"
+      ],
+      "kind": "PDF-export",
+      "actually_viewed": true,
+      "observation": "PdfCraft doc2/page1/max_side1200 displayed matching corrected candidate page.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 37,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\verification\\native-full.png"
+      ],
+      "kind": "readonly-reopen",
+      "actually_viewed": true,
+      "observation": "Actual readonly reopen image matches retained final-1: readable exact wording, three intact associations, clean symbols and margins.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 38,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\verification\\native-use.png"
+      ],
+      "kind": "readonly-reopen",
+      "actually_viewed": true,
+      "observation": "Actual readonly reopen image matches retained final-1: readable exact wording, three intact associations, clean symbols and margins.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 39,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\verification\\svg-full.png"
+      ],
+      "kind": "readonly-reopen",
+      "actually_viewed": true,
+      "observation": "Actual readonly reopen image matches retained final-1: readable exact wording, three intact associations, clean symbols and margins.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 40,
+      "tool": "functions.exec/tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\verification\\svg-use.png"
+      ],
+      "kind": "readonly-reopen",
+      "actually_viewed": true,
+      "observation": "Actual readonly reopen image matches retained final-1: readable exact wording, three intact associations, clean symbols and margins.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    },
+    {
+      "ordinal": 41,
+      "tool": "functions.exec/tools.mcp__pdfcraft__render_preview",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\best\\find-your-next-book.pdf"
+      ],
+      "kind": "readonly-PDF-use",
+      "actually_viewed": true,
+      "observation": "PdfCraft doc3/page1/max_side600 actual intended-size retained PDF view is readable with all three correct associations; document closed without changes.",
+      "time_evidence": "Creator tool transcript; no reconstructed timestamp."
+    }
+  ],
+  "claim_limit": "File hashes and native counts do not establish aesthetic quality; observations are attested to actual image-tool actions."
+}

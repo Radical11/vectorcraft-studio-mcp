@@ -1,0 +1,80 @@
+{
+  "recorded_at": "2026-10-14T11:56:28.276187+00:00",
+  "actual_actions": [
+    {
+      "tool": "functions.view_image",
+      "wrapper": "functions.exec",
+      "action_group": "Single sequential loop actually returned seven displayed images before workflow setup",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\references\\neon-drive.png",
+      "sha256": "f1f1284008ddc2e7423d525f94b6fe643e9fcad2fad93632cb013e38ebf82367",
+      "observed": true,
+      "observation": "Large white title anchors dark-purple sky; warm striped sun and magenta grid hold the focal contrast. Transfer quiet light-dark separation to wheel; no title needed.",
+      "limitations": []
+    },
+    {
+      "tool": "functions.view_image",
+      "wrapper": "functions.exec",
+      "action_group": "Single sequential loop actually returned seven displayed images before workflow setup",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\references\\dusk-poster.png",
+      "sha256": "c459ff8e6b7b745473f287b56d1d05305761bf2dd40ada65dd5904960711d89b",
+      "observed": true,
+      "observation": "Layered broad mountains, sun and sparse foreground trees produce clear depth. Use large clothing/background masses and open focal space.",
+      "limitations": []
+    },
+    {
+      "tool": "functions.view_image",
+      "wrapper": "functions.exec",
+      "action_group": "Single sequential loop actually returned seven displayed images before workflow setup",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\references\\wright.jpg",
+      "sha256": "7cd47076a35df791965ee25b9a62e343c40b5366cdbd545e192b96050b2849cb",
+      "observed": true,
+      "observation": "Faces and articulated hands gather around the central illuminated apparatus. Direct invented collaborators toward shared repair action; no historical composition copied.",
+      "limitations": [
+        "Wright was displayed at 1824 by 1367 from a 5639 by 4226 original."
+      ]
+    },
+    {
+      "tool": "functions.view_image",
+      "wrapper": "functions.exec",
+      "action_group": "Single sequential loop actually returned seven displayed images before workflow setup",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\references\\perspective-city.png",
+      "sha256": "1ebd562bbd1f02926b599f1327568f1134ba91aeb4254ea494571ab4be347c04",
+      "observed": true,
+      "observation": "Two building planes share a corner; windows follow each plane. Keep bench top and side perspective coherent.",
+      "limitations": []
+    },
+    {
+      "tool": "functions.view_image",
+      "wrapper": "functions.exec",
+      "action_group": "Single sequential loop actually returned seven displayed images before workflow setup",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\references\\epa-mechanisms.png",
+      "sha256": "1278410c5a7b26048d983ab8fe32be1592c71e230c3e3615073fa9c1e6c2d140",
+      "observed": true,
+      "observation": "Map and photograph are differentiated within two text columns with captions adjacent. Context is subordinate; this is tangential to the wordless scene.",
+      "limitations": []
+    },
+    {
+      "tool": "functions.view_image",
+      "wrapper": "functions.exec",
+      "action_group": "Single sequential loop actually returned seven displayed images before workflow setup",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\references\\epa-flow.png",
+      "sha256": "cb456b66cf5fd95750a8bc62d73c73d52907e166a44ad46452e5c3a051faae34",
+      "observed": true,
+      "observation": "Leaders connect labels to visible roots, stem and leaf material, with separate moisture arrows. Physical relationships must be depicted, rather than inferred from proximity.",
+      "limitations": []
+    },
+    {
+      "tool": "functions.view_image",
+      "wrapper": "functions.exec",
+      "action_group": "Single sequential loop actually returned seven displayed images before workflow setup",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\references\\feature-sheet.png",
+      "sha256": "c807ad224732492793ad07670115f40d67d653134fe11a252d95bcdde04b487c",
+      "observed": true,
+      "observation": "Clean crescent and separated warm stars with one label, only first artboard shown. Use clean contour occlusion; no other artboards claimed inspected.",
+      "limitations": []
+    }
+  ],
+  "artwork_views": [],
+  "export_views": [],
+  "note": "Only supplied reference images were viewed. No creator artwork, target, native study or export was produced or viewed."
+}

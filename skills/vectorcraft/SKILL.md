@@ -9,7 +9,13 @@ Deliver the requested artwork without requiring the user to learn VectorCraft. U
 
 For substantial new designs use [VectorCraft Studio](../vectorcraft-studio/SKILL.md). For a simple edit or explicitly requested regular VectorCraft, call `workflow_start` with `mode: quick` and the concrete edit scope before authoring. Full mode authoring is gated by research/specification and planned batches; use `workflow_status` for schemas. Document setup/inspection is available without a run, and original artwork is preserved before replacement. Quick mode keeps ordinary save/export/preview operation lightweight.
 
+The experimental `focused-execution-v1` profile is available only for explicitly selected full runs. Read Studio's [focused contract](../vectorcraft-studio/references/focused-execution-v1.md), then use `workflow_status {view:"working"}` for one task and current evidence. It preserves ordinary native operations, project roots and recovery. Scope guidance is not a per-object sandbox; inspect effects on neighbors and the whole artwork. Quick mode and the default full profile are unchanged.
+
 ## Create and revise
+
+The opt-in full profiles `layout-blockout-v1` and `designer-process-v1` add isolated native study contexts. Read [Studio process](../vectorcraft-studio/references/designer-process-v1.md). Study authoring uses a separate connection and an explicit transition into production.
+
+Check the working packet's preview context/current flag before acting. Study packets expose their own goal and checks; the selected blockout is the initial production preview. Neither is an accepted production stage.
 
 - Inspect the active document before editing. For a continuation, reopen the saved `.vectorcraft` original rather than reconstructing it from a flattened export. Preserve supplied originals and unrelated artwork.
 - Use `command_list` / `list_commands` to discover current command IDs, parameters, and enabled state. Prefer engine commands for deterministic edits. Use convenience tools for paths, shapes, paint, text, transforms, graphs, and effects. Coordinates are points, y down; text x/y is the first baseline.

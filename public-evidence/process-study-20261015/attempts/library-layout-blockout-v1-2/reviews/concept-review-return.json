@@ -1,0 +1,56 @@
+{
+  "assessments": [
+    {
+      "id": "catalogue-cards",
+      "composition": "The centered search box feeds a single horizontal connector with three downward arrows. Equal-width cards give the outcomes equal importance, and the three columns remain clearly separated at 600 × 450. The status, icon, and action form a consistent vertical sequence in every card.",
+      "image_treatment": "The shelf/books, book/clock, and person/desk icons visibly support the subject and distinguish the actions. Muted teal, ochre, and coral panels coordinate with matching status headings and arrowheads. The restrained treatment is coherent, though visually conventional.",
+      "copy": "All required wording is visible. Actions remain readable in the intended-size image; Collect from the shelf and Place a reservation wrap cleanly. The one-line librarian action sits slightly lower relative to the other actions.",
+      "brief_fit": "Strongest overall fit. The search connects unambiguously to all three statuses, with each action contained inside its correct status card. Horizontal separation also gives the subsequent branch-position exchange a clear visual basis. This is a common-brief preference, not a fidelity judgment against another target."
+    },
+    {
+      "id": "service-rows",
+      "composition": "A left-hand search box feeds a vertical spine and three rightward arrows into stacked horizontal rows. Status and action are close together, making each row quick to scan. The search box is vertically centered rather than the first item encountered under the heading, so the reading sequence is slightly less immediate than the cards.",
+      "image_treatment": "The same three subject-specific icons are larger relative to row height and sit consistently beside the text. Colored edge bars and pale backgrounds reinforce row grouping without overwhelming the content.",
+      "copy": "All required wording is visible and readable at intended size. Each outcome fits on one line, and its status sits directly above it. The search label wraps over two lines without ambiguity.",
+      "brief_fit": "Strong communication of all required associations and a close second. The stacked branches do not offer the distinct horizontal branch positions requested by the subsequent standardized edit task. No alternative-target fidelity preference was applied."
+    },
+    {
+      "id": "reading-compass",
+      "composition": "The cream search diamond creates a conspicuous central decision point on a dark teal field. Three arrows lead left, right, and downward. However, the lower Not held card touches or overlaps the inner lower corners of the two side cards, weakening their independence. Its shorter shape also gives that outcome a different visual treatment.",
+      "image_treatment": "The dark background gives the cream title and connectors strong contrast. The familiar icons remain legible, but their placement differs from the other alternatives: the side-card icons sit to the right of the action text, while the lower icon occupies the right end of a shallow card.",
+      "copy": "All required wording is visible and readable in the intended-size image. Side actions wrap over two lines, while Ask a librarian remains on one line. No incorrect status/action association is visible.",
+      "brief_fit": "Meets the central communication requirement, but the touching cards and unequal outcome geometry make the three branches less orderly. The diamond is a useful decision cue; it does not compensate fully for the compressed lower arrangement. No alternative-target fidelity preference was applied."
+    }
+  ],
+  "selected": "catalogue-cards",
+  "all_weak": false,
+  "reason": "Catalogue-cards combines the clearest top-to-bottom reading sequence, equally prominent outcomes, intact status/action groupings, readable intended-size copy, and distinct horizontal branch positions. Service-rows is also effective. Reading-compass communicates the rules but has weaker separation between outcome cards. The calibration images informed visual observation only; their styles were not treated as required targets. PNG inspection cannot verify native editability, live text, or the other requested export formats.",
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f5d6d64bd0e74068-catalogue-cards\\versions\\cards-study\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f5d6d64bd0e74068-catalogue-cards\\versions\\cards-study\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-6a04377406174068-service-rows\\versions\\rows-study\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-6a04377406174068-service-rows\\versions\\rows-study\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f45fc9b3c3024818-reading-compass\\versions\\compass-study\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f45fc9b3c3024818-reading-compass\\versions\\compass-study\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\neon-drive.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\epa-mechanisms.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\epa-flow.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\feature-sheet.png"
+    ],
+    "observations": [
+      "Viewed both full and intended-size PNGs for every alternative. All three show the required nine text items and correct visible status/action groupings.",
+      "Catalogue-cards uses three evenly spaced vertical panels; service-rows uses three stacked horizontal panels; reading-compass uses a central diamond and three surrounding panels.",
+      "Neon-drive shows a large glowing title, striped sunset, mountain silhouettes, stars, and a magenta perspective grid.",
+      "Epa-mechanisms shows a two-column editorial page with an aerial map, a house shaded by trees, blue headings and captions, and dense serif body text.",
+      "Epa-flow shows a two-column text page with a labeled evapotranspiration illustration containing a tree, soil, sun, and directional arrows.",
+      "Feature-sheet shows a purple crescent and three gold stars on a peach field, with a Pathfinder caption near the bottom."
+    ]
+  },
+  "image_observation": {
+    "tool": "tools.view_image",
+    "evidence": "Executed ten tools.view_image calls with detail set to original, one for every exact path listed in image_inspection.paths, and displayed every returned image through functions.exec image output. Read only brief.md and concept-packet.json as text. No files were written and no editing tools were operated.",
+    "observation": "The actual intended-size images retain legible outcomes and traceable branches. Catalogue-cards has the most balanced separation; service-rows has the tightest status/action adjacency; reading-compass has the strongest central decision symbol but visibly touching outcome panels. These judgments come from the displayed images, not creator rationale or numerical layout checks."
+  }
+}

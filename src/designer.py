@@ -4,7 +4,7 @@ from workflow import nonempty,digest,read,nodes_from_native,atomic,now
 
 GENRES=('expressive-poster','editorial-illustration','information-graphic')
 COPY_KEYS=('specificity','clarity','tone','illustration_relationship','subject_substitution')
-def enabled(w):return bool(w.state and w.state.get('quality_profile')=='designer-v1' and w.state['mode']=='full')
+def enabled(w):return bool(w.state and w.state.get('quality_profile') in ('designer-v1','focused-execution-v1','layout-blockout-v1','designer-process-v1') and w.state['mode']=='full')
 def inspection(w,data,expected):
     obs=data.get('image_inspection',{})
     if obs.get('performed') is not True:raise ValueError('Actual image inspection required')
@@ -50,7 +50,8 @@ def validate_record(w,kind,data):
         nonempty(data.get('reviewer_id'),'fresh independent reviewer id')
         if any(read(w.run/r['artifact']['path']).get('reviewer_id')==data['reviewer_id'] for r in w.state['records'] if r['kind']=='concept_review'):raise ValueError('Concept reviewer must be fresh')
         expected=[w.run/a['path'] for r in (directions,calibration) for a in r['attachments'] if a['role'] in ('thumbnail','calibration-reference')]
-        inspection(w,data,expected)
+        import design_process
+        inspection(w,data,expected+design_process.concept_images(w))
         ids={d['id'] for d in w.data('directions')['directions']}
         assessments=data.get('assessments',[])
         if {a.get('id') for a in assessments}!=ids or len(assessments)!=3:raise ValueError('Assess all three directions')
@@ -140,4 +141,4 @@ def review(w,data):
     if best['passed']:s.update(status='review_passed',stop_reason='Best common-brief version passed both independent specialists')
     elif s['no_improvement_streak']>=2:s.update(status='stalled',stop_reason='Two non-improving corrections; preserve best')
     elif s['revision_rounds']>=3:s.update(status='budget_exhausted',stop_reason='Three correction rounds used')
-    w.persist();return w.status()
+    w.persist();return w.response()

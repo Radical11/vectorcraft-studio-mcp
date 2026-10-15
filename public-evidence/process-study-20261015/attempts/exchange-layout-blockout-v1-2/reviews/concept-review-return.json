@@ -1,0 +1,56 @@
+{
+  "reviewer_id": "/root/pilot_04/concept_review",
+  "directions_sha256": "da21ec7d7ecee9f259b5a83fce0426d2a4cedf6f101e66ab896b7e373308972f",
+  "calibration_sha256": "15f00193997e487c08fee724a14b674de81a613812c36a6c61c54e7c4cbd89df",
+  "assessments": [
+    {
+      "id": "hands",
+      "composition": "Large title establishes event, diagonal handoff supplies movement, separated lower block scans clearly; cream space gives image room.",
+      "image_treatment": "Opposing sleeves and hands hold the same book stack. Coral cover and cream page edges remain recognizable. Minor right-hand palm/finger separation weakness; refine contact silhouette.",
+      "copy": "All locked copy readable at 450 x 600; italic literary voice, bold date/time.",
+      "brief_fit": "Clearest books-changing-hands depiction; welcoming palette and direct action; no university implication."
+    },
+    {
+      "id": "orbit",
+      "composition": "Different central-title loop experience, but thick arrows dominate and title has less prominence.",
+      "image_treatment": "Identifiable books suggest circulation; generic arrows and no recipients risk recycling interpretation. Add human transfers if pursued.",
+      "copy": "Required cream-on-navy copy readable with effective lower information block.",
+      "brief_fit": "Relevant circulation but people-to-people meaning indirect."
+    },
+    {
+      "id": "bridge",
+      "composition": "Title, symmetrical figures and open book establish clear sequence; strong focal object.",
+      "image_treatment": "Two stationary figures hold an oversized open book. Shared reading is clearer than giving/receiving; revise interaction if pursued.",
+      "copy": "All required copy readable; tagline relates to shared-book metaphor.",
+      "brief_fit": "Welcoming connection through stories, but lacks directional transfer."
+    }
+  ],
+  "selected": "hands",
+  "all_weak": false,
+  "reason": "Direct visible book transfer with prominent title and readable logistics is strongest common-brief fit. Calmer cream preference is secondary to transfer action.",
+  "unresolved_limitations": "PNG-only concept assessment did not verify native editability/live type/exports. Four calibration images are principles, not a required style target.",
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\neon-drive.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\dusk-poster.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\wright.jpg",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\perspective-city.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-eb0f3aebb34a44f2-orbit-study\\versions\\orbit-rough-fixed\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-eb0f3aebb34a44f2-orbit-study\\versions\\orbit-rough-fixed\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-56f15a950c2d432f-bridge-study\\versions\\bridge-rough\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-56f15a950c2d432f-bridge-study\\versions\\bridge-rough\\use.png"
+    ],
+    "observations": [
+      "Neon title/sun/grid depth; dusk layered hills and sky clearance; Wright lit faces and inward gestures; city shared perspective planes.",
+      "Hands depicts transfer; orbit circulation without people; bridge shared open book. All six full/use alternatives actually viewed."
+    ]
+  },
+  "image_observation": {
+    "tool": "functions.exec tools.view_image",
+    "evidence": "Fresh reviewer /root/pilot_04/concept_review opened ten actual image paths in two image tool calls; returned concrete full/use observations for all alternatives.",
+    "observation": "Hands directly depicts transfer; orbit circulation without people; bridge two people sharing an open book."
+  }
+}

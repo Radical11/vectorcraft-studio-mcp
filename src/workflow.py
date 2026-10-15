@@ -35,6 +35,7 @@ SCHEMAS = {
  'concept_review':{'directions_sha256':'latest directions record hash','calibration_sha256':'latest calibration record hash','reviewer_id':'fresh independent identity','assessments':'three {id,composition,image_treatment,copy,brief_fit}','selected':'direction id','all_weak':'boolean','reason':'observed selection basis','unresolved_limitations':'required when weak after second pass','image_inspection':'all alternatives + calibration images','image_observation':'{tool,evidence,observation}'},
  'construction_study':{'spec_sha256':'latest spec record hash','method':'native|trace-rebuild','native':'project native study','images':'full/use previews','element_map':'semantic component -> actual study object ids','checks':'{silhouette,spacing,proportions,gesture,contours,detail}','confirmed':True,'limitations':[],'image_inspection':'both previews','image_observation':'{tool,evidence,observation}'},
  'research': {'required':['subject_summary','audience_and_use','synthesis','facts','assumptions','gaps','references'],
+   'facts':'list of {claim, source_url}; empty when no sourced factual claims',
    'reference_fields':['title','creator','url','accessed','source_type','observation','transformation','visual_inspection'],
    'visual_inspection':{'tool':'actual host image action','evidence':'action or screenshot reference','observation':'visible feature'},
    'notes':'15-25 relevant inspected works / 4 source roles target. Disclose shortfall; one discovery + one gap pass. image_observation is agent-attested.'},
@@ -124,7 +125,8 @@ class Workflow:
 
     def start(self,backend,mode='full',brief_path=None,scope=None,run_id=None,resume=None,use_width=None,reopen_reason=None,feedback_path=None,quality_profile='designer-v1'):
         if mode not in ('full','quick'): raise ValueError('mode must be full or quick')
-        if quality_profile not in ('designer-v1','legacy-v3'):raise ValueError('Unknown quality profile')
+        if quality_profile not in ('designer-v1','legacy-v3','focused-execution-v1','layout-blockout-v1','designer-process-v1'):raise ValueError('Unknown quality profile')
+        if mode=='quick' and quality_profile in ('focused-execution-v1','layout-blockout-v1','designer-process-v1') and not resume:raise ValueError('Focused execution requires full mode')
         if use_width is not None and (type(use_width) not in (int,float) or not math.isfinite(use_width) or use_width<=0):raise ValueError('Invalid original intended viewing width')
         if self.state and self.state['status']=='active': raise ValueError('An active run is already bound; finish it or resume from a fresh session')
         if resume:
@@ -152,7 +154,7 @@ class Workflow:
                 self.state['uncertain']=False
                 self.state['events'].append({'event':'resume','at':now(),'snapshot':str(path),'pending_batch':bool(state.get('pending'))})
                 self.persist()
-            return self.status()
+            return self.response()
         if mode=='quick':nonempty(scope,'quick edit scope')
         if mode=='full' and not brief_path:raise ValueError('full mode requires brief_path')
         if brief_path:self.project_file(brief_path)
@@ -162,28 +164,48 @@ class Workflow:
         self.run=run
         self.state={'format':'vectorcraft-studio-run','version':3,'project_root':str(self.root),'mode':mode,
           'quality_profile':quality_profile,
-          **({'review_contract':'observed-comparison-v1'} if quality_profile=='designer-v1' and mode=='full' else {}),
+          **({'review_contract':'observed-comparison-v1'} if quality_profile in ('designer-v1','focused-execution-v1','layout-blockout-v1','designer-process-v1') and mode=='full' else {}),
           'scope':scope,'status':'active','revision':0,'spec_revision':0,'records':[], 'events':[],
           'pending':None,'completed_stages':[],'versions':{},'working_version':None,'best_version':None,
           'ready_versions':[],'reviews':[],'revision_rounds':0,'max_rounds':3,'no_improvement_streak':0,'uncertain':False}
+        if quality_profile in ('focused-execution-v1','designer-process-v1'):
+            self.state['focused']={'contract':1,'tasks':{},'queue':[],'mapping':{},'acceptances':{},'verified_revision':None}
+        import design_process
+        if design_process.enabled(self):design_process.initialize(self)
         if brief_path:self.state['brief']=self.artifact(brief_path,'brief')
         self.persist()
         inspection=result_payload(backend.checked_call('doc_inspect',{}))
         if inspection and inspection.get('objects',0)>1:
             self.capture(backend,'original',role='original',use_width=use_width)
             self.state['original_version']='original'
-        self.persist();return self.status()
+        self.persist();return self.response()
 
-    def status(self):
+    def status(self,view='full'):
+        import focused
+        if view not in ('full','working'):raise ValueError('Unknown status view')
         self.verify()
         vault=os.environ.get('VECTORCRAFT_BRAIN',str(Path.home()/'Documents/Design Brain'))
         if not self.state:return {'active':False,'knowledge_vault':vault,'next':'workflow_start: full for substantial designs, quick for scoped small edits','schemas':SCHEMAS}
         s=self.state
-        return {'run':str(self.run),'version':3,'knowledge_vault':vault,'mode':s['mode'],'quality_profile':s.get('quality_profile','legacy-v3'),'status':s['status'],'revision':s['revision'],
+        import design_process
+        if design_process.enabled(self) and view=='working':return design_process.packet(self)
+        if focused.enabled(self) and view=='working':return focused.packet(self)
+        result={'run':str(self.run),'version':3,'knowledge_vault':vault,'mode':s['mode'],'quality_profile':s.get('quality_profile','legacy-v3'),'status':s['status'],'revision':s['revision'],
           'records':[r['kind'] for r in s['records']],'pending':s['pending'],'completed_stages':s['completed_stages'],
           'working_version':s['working_version'],'best_version':s['best_version'],'ready_versions':s['ready_versions'],
           'revision_rounds':s['revision_rounds'],'stop_reason':s.get('stop_reason'),'uncertain':s['uncertain'],
           'schemas':SCHEMAS,'inspection_evidence':'Agent-observed; file hashes establish bytes, not perception or taste.'}
+        if focused.enabled(self):result['working_packet']=focused.packet(self)
+        if design_process.enabled(self):
+            result['schemas']={**SCHEMAS,**design_process.SCHEMA}
+            result['working_packet']=design_process.packet(self)
+        return result
+
+    def response(self):
+        """Keep focused mutation responses small; explicit full status owns schemas."""
+        import focused
+        import design_process
+        return self.status(view='working' if focused.enabled(self) or design_process.enabled(self) else 'full')
 
     def require_active(self):
         if not self.state:raise ValueError('Call workflow_start before authoring artwork')
@@ -203,9 +225,13 @@ class Workflow:
         if self.state['pending'].get('captured'):raise ValueError('Inspect and confirm captured previews before more edits; then plan a new batch')
 
     def edited(self,name,args,result,checkpoint=None,error=None):
+        import focused
         s=self.state
         if not s:return
         s['revision']+=1;s['ready_versions']=[]
+        if focused.enabled(self):focused.invalidate(self,s['pending']['stage'] if s['pending'] else None)
+        import design_process
+        if design_process.enabled(self):design_process.invalidate(self,checkpoint)
         s['events'].append({'event':'edit','at':now(),'tool':name,'command':args.get('id',args.get('command')),
                             'revision':s['revision'],'partial_or_error':bool(error or result.get('isError') or (result_payload(result) or {}).get('failed'))})
         if checkpoint and Path(checkpoint).is_file(): s['recovery']=self.artifact(checkpoint,'recovery')
@@ -243,27 +269,36 @@ class Workflow:
         self.persist()
 
     def record(self,backend,kind,data):
-        import designer
+        import designer,focused
         self.require_active()
+        import design_process
+        if kind in design_process.KINDS:return design_process.record(self,backend,kind,data)
         if kind not in KINDS:raise ValueError('Unknown record kind')
         if kind=='packet':return self.packet(data['version'],data.get('other'))
-        if kind=='review':return designer.review(self,data) if designer.enabled(self) else self.review(data)
+        if kind=='review':
+            result=designer.review(self,data) if designer.enabled(self) else self.review(data)
+            if focused.enabled(self):
+                focused.reviewed(self,data);self.persist();return self.response()
+            return result
         if kind=='preflight':return self.preflight(backend,data)
         if kind=='unavailable':
-            nonempty(data.get('reason'),'reason');self.state.update(status='review_unavailable',stop_reason=data['reason']);self.persist();return self.status()
+            nonempty(data.get('reason'),'reason');self.state.update(status='review_unavailable',stop_reason=data['reason']);self.persist();return self.response()
         if self.state['mode']!='full':raise ValueError('Research/spec records belong to full mode')
         attachments=[]
         if kind in ('calibration','concept_review','construction_study'):
-            if not designer.enabled(self):raise ValueError('Designer records require designer-v1 profile')
+            if not designer.enabled(self):raise ValueError('Designer records require a designer-compatible full profile')
             attachments=designer.validate_record(self,kind,data)
         if kind=='research':
             if self.state['revision']:raise ValueError('Research cannot be retrofitted after artwork edits')
+            if not isinstance(data.get('facts'),list) or any(not isinstance(fact,dict) for fact in data['facts']):
+                raise ValueError('Research facts must be a list of {claim, source_url} objects')
             # Same research contract as v2, with an explicit agent-observation disclosure.
             import importlib.util
             spec=importlib.util.spec_from_file_location('v2_pipeline',Path(__file__).parents[1]/'skills/vectorcraft-studio/scripts/pipeline.py')
             pipeline=importlib.util.module_from_spec(spec);spec.loader.exec_module(pipeline)
             pipeline.validate_research(data,True)
         elif kind=='directions':
+            design_process.guard_directions(self,data)
             if designer.enabled(self):designer.validate_directions(self,data)
             if not self.latest('research'):raise ValueError('Research must precede directions')
             if self.state['revision']:raise ValueError('Directions must precede artwork edits')
@@ -303,7 +338,11 @@ class Workflow:
         self.state['records'].append({'kind':kind,'at':now(),'artifact':self.artifact(dest,kind),'attachments':attachments,
                                      'inspection':'agent-observed' if kind in ('research','directions','target','calibration','concept_review','construction_study') else None,
                                      **({'spec_revision':self.state['spec_revision']} if designer.enabled(self) else {})})
-        self.state['ready_versions']=[];self.persist();return self.status()
+        if focused.enabled(self) and kind in ('target','spec'):
+            focused.invalidate(self)
+        if design_process.enabled(self) and kind in ('target','spec'):
+            design_process.invalidate(self)
+        self.state['ready_versions']=[];self.persist();return self.response()
 
     @staticmethod
     def validate_spec(data):
@@ -331,8 +370,10 @@ class Workflow:
         if not data.get('reading_sequence') or any(x not in {e['id'] for e in es} for x in data['reading_sequence']):raise ValueError('Reading sequence must reference known elements')
 
     def begin(self,stage,plan):
-        import designer
+        import designer,focused
         self.require_active();s=self.state
+        import design_process
+        design_process.guard_begin(self)
         if s['pending']:raise ValueError('Finish pending batch before starting another')
         if stage not in STAGES:raise ValueError('Unknown construction stage')
         if s['mode']=='full':
@@ -341,9 +382,11 @@ class Workflow:
             if designer.enabled(self):
                 designer.concepts_ready(self)
                 if stage in ('imagery','finishing'):designer.require_study(self)
-        for k in ('purpose','changes','checks','expected_result'):nonempty(plan.get(k),k)
+        for k in ('purpose','changes','expected_result'):nonempty(plan.get(k),k)
+        if focused.enabled(self):focused.begin(self,stage,plan)
+        else:nonempty(plan.get('checks'),'checks')
         s['pending']={'stage':stage,'plan':plan,'at':now(),'start_revision':s['revision'],'spec_revision':s['spec_revision']}
-        s['ready_versions']=[];s['events'].append({'event':'begin',**s['pending']});self.persist();return self.status()
+        s['ready_versions']=[];s['events'].append({'event':'begin',**s['pending']});self.persist();return self.response()
 
     def capture(self,backend,version,role='working',use_width=None):
         safe_id(version);s=self.state
@@ -368,6 +411,7 @@ class Workflow:
                 'inspection':str(dest/'inspection.json'),'next':'Actually view both images, compare target, then workflow_checkpoint phase confirm'}
 
     def checkpoint(self,backend,version,data):
+        import focused
         self.require_active();s=self.state;pending=s['pending']
         if not pending:raise ValueError('Checkpoint requires a planned batch')
         phase=data.get('phase','capture')
@@ -379,6 +423,7 @@ class Workflow:
         snap=s['versions'][version]
         if snap['revision']!=s['revision'] or snap['spec_revision']!=s['spec_revision']:raise ValueError('Stale preview/spec; capture current artwork')
         self.assert_current(backend,snap)
+        if focused.enabled(self):return focused.confirm(self,version,data)
         nonempty(data.get('observations'),'actual image observations');nonempty(data.get('decision'),'decision')
         if s['mode']=='full':
             for k in ('silhouette','proportions','negative_space','hierarchy','copy','detail'):nonempty(data.get('target_comparison',{}).get(k),'target_comparison.'+k)
@@ -395,17 +440,21 @@ class Workflow:
         dest=self.run/'check-input.json';atomic(dest,data);snap['check']=self.artifact(dest,'agent-observation');snap['confirmed']=True
         s['events'].append({'event':'checkpoint','at':now(),'version':version,'stage':pending['stage'],'revision':s['revision']})
         if pending['stage'] not in s['completed_stages']:s['completed_stages'].append(pending['stage'])
-        s['working_version']=version;s['pending']=None;self.persist();return self.status()
+        s['working_version']=version;s['pending']=None;self.persist();return self.response()
 
     def assert_current(self,backend,snap):
         tmp=self.run/'current-check.vectorcraft';backend.checked_call('export',{'format':'vectorcraft','path':str(tmp)})
         if native_fingerprint(tmp)!=snap['fingerprint']:raise ValueError('Document changed outside this snapshot; reconcile and capture a new batch')
 
     def preflight(self,backend,data):
+        import focused
         s=self.state;v=data['version'];snap=s['versions'].get(v)
         if s['pending'] or not snap or not snap['confirmed'] or v!=s['working_version'] or snap['revision']!=s['revision'] or snap['spec_revision']!=s['spec_revision']:
             raise ValueError('Preflight requires the confirmed current version without pending edits')
         if s['mode']=='full' and set(s['completed_stages'])!=set(STAGES):raise ValueError('Finish all four inspected construction stages')
+        if focused.enabled(self):focused.preflight(self)
+        import design_process
+        design_process.preflight(self)
         self.assert_current(backend,snap);nonempty(data.get('observations'),'export inspection')
         nodes=nodes_from_native(self.run/snap['native']['path']);issues=[];spec=self.data('spec')
         if s['mode']=='full':
@@ -468,7 +517,7 @@ class Workflow:
             artifacts.append(self.artifact(p,'export'))
         snap['exports']=artifacts;s['ready_versions']=[v]
         s['events'].append({'event':'preflight','version':v,'at':now(),'observations':data['observations']})
-        self.persist();return self.status()
+        self.persist();return self.response()
 
     def packet(self,version,other=None):
         s=self.state
@@ -485,7 +534,8 @@ class Workflow:
             atomic(packet/'requirements.json',{k:spec[k] for k in ('canvas','locked_copy','elements','focal_silhouette')})
         paths={}
         comparisons=[('A',version)]+([('B',incumbent)] if incumbent else [])
-        if s.get('quality_profile')=='designer-v1' and s.get('original_version') not in (None,version,incumbent):comparisons.append(('C',s['original_version']))
+        import designer
+        if designer.enabled(self) and s.get('original_version') not in (None,version,incumbent):comparisons.append(('C',s['original_version']))
         for label,v in comparisons:
             if v not in s['versions']:raise ValueError('Unknown comparison version')
             d=packet/label;d.mkdir();paths[label]=[];snap=s['versions'][v]
@@ -564,14 +614,14 @@ class Workflow:
         if best_review['passed']:s.update(status='review_passed',stop_reason='Best version passed applicable independent criteria')
         elif s['no_improvement_streak']>=2:s.update(status='stalled',stop_reason='Two non-improving corrections; preserve best')
         elif s['revision_rounds']>=s['max_rounds']:s.update(status='budget_exhausted',stop_reason='Three correction rounds used; preserve best and disclose weaknesses')
-        self.persist();return self.status()
+        self.persist();return self.response()
 
 def tool_definitions():
-    defs=[('workflow_start','Start or resume design workflow',{'mode':{'enum':['full','quick'],'default':'full'},'quality_profile':{'enum':['designer-v1','legacy-v3'],'default':'designer-v1','description':'Legacy profile for explicit compatibility/evaluation; historical resumes keep their stored contract.'},'brief_path':{'type':'string'},'scope':{'type':'string'},'run_id':{'type':'string'},'resume':{'type':'string'},'use_width':{'type':'number','exclusiveMinimum':0},'reopen_reason':{'type':'string'},'feedback_path':{'type':'string'}},[]),
-      ('workflow_record','Record research, directions, target, spec, preflight, packet or independent review',{'kind':{'enum':list(KINDS)},'data':{'type':'object'}},['kind','data']),
+    defs=[('workflow_start','Start or resume design workflow',{'mode':{'enum':['full','quick'],'default':'full'},'quality_profile':{'enum':['designer-v1','legacy-v3','focused-execution-v1','layout-blockout-v1','designer-process-v1'],'default':'designer-v1','description':'Focused execution is opt-in; legacy is compatibility/evaluation. Historical resumes keep their stored contract.'},'brief_path':{'type':'string'},'scope':{'type':'string'},'run_id':{'type':'string'},'resume':{'type':'string'},'use_width':{'type':'number','exclusiveMinimum':0},'reopen_reason':{'type':'string'},'feedback_path':{'type':'string'}},[]),
+      ('workflow_record','Record research, directions, target, spec, preflight, packet or independent review',{'kind':{'enum':list(KINDS)+list(__import__('design_process').KINDS)},'data':{'type':'object'}},['kind','data']),
       ('workflow_begin','Plan an authoring batch',{'stage':{'enum':list(STAGES)},'plan':{'type':'object'}},['stage','plan']),
       ('workflow_checkpoint','Capture then confirm full/use-size previews against the target',{'version':{'type':'string'},'data':{'type':'object'}},['version','data']),
-      ('workflow_status','Inspect workflow state, integrity and schemas',{},[])]
+      ('workflow_status','Inspect workflow state, integrity and schemas',{'view':{'enum':['full','working'],'default':'full','description':'working returns the compact packet for focused-execution-v1; other profiles retain full status.'}},[])]
     return [{'name':name,'title':title,'description':title+'. See workflow_status schemas. Agent judgments are observed/attested, not proven by file hashes.',
       'inputSchema':{'type':'object','properties':props,'required':required,'additionalProperties':False},
       'annotations':{'readOnlyHint':name=='workflow_status','destructiveHint':False,'idempotentHint':name=='workflow_status','openWorldHint':False}} for name,title,props,required in defs]

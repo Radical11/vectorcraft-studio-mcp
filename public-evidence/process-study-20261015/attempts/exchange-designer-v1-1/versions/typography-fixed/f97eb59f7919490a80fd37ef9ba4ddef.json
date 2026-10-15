@@ -1,0 +1,42 @@
+{
+  "phase": "confirm",
+  "observations": "Full/use/target inspected. EXCHANGE NIGHT is now fully visible in two lines; invitation and footer readable at intended size; image field intentionally open.",
+  "target_comparison": {
+    "silhouette": "Imagery not introduced yet",
+    "proportions": "Title matches target width and two-line reading with 10pt lower area-origin optical placement",
+    "negative_space": "Gap to invitation is clear",
+    "hierarchy": "Large title then invitation then footer, matching target",
+    "copy": "All exact locked strings now visible; title remains one live string and wraps automatically",
+    "detail": "Bold date/time contrast against regular venue/entry"
+  },
+  "element_map": {
+    "ground": [
+      2
+    ],
+    "title": [
+      3
+    ],
+    "invitation": [
+      4
+    ],
+    "date": [
+      5
+    ],
+    "time": [
+      6
+    ],
+    "venue": [
+      7
+    ],
+    "entry": [
+      8
+    ]
+  },
+  "departures": [
+    {
+      "element": "title",
+      "reason": "Single live area type preserves exact wording; rendering sits about 10 points below concept point-type title."
+    }
+  ],
+  "decision": "proceed"
+}

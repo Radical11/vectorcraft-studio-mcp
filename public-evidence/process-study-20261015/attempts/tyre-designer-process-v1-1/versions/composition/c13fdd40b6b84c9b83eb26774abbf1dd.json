@@ -1,0 +1,139 @@
+{
+  "phase": "confirm",
+  "outcome": "pass",
+  "observations": "Two inward profiles frame circular wheel; bench supports bottom edge, gold tool and pale wheel center establish action focal point at full and intended size.",
+  "decision": "proceed",
+  "preservation_observation": "Neighbor inspection: both profiles, opposite hand role, bench and sparse workshop remain unchanged; whole scene retains centered wheel and quiet pale field.",
+  "element_map": {
+    "workshop": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "bench": [
+      8,
+      9,
+      10,
+      11,
+      51,
+      52
+    ],
+    "worker": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      41
+    ],
+    "helper": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      53
+    ],
+    "wheel": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      57,
+      59,
+      60,
+      63,
+      64
+    ],
+    "lever": [
+      58
+    ],
+    "working-hand": [
+      42,
+      44,
+      45,
+      61,
+      62
+    ],
+    "supporting-hand": [
+      54,
+      55,
+      56
+    ]
+  },
+  "stage_complete": true,
+  "stage_checks": {
+    "placement_scale": {
+      "outcome": "pass",
+      "observation": "Two inward profiles frame circular wheel; bench supports bottom edge, gold tool and pale wheel center establish action focal point at full and intended size."
+    },
+    "reading_order": {
+      "outcome": "pass",
+      "observation": "Two inward profiles frame circular wheel; bench supports bottom edge, gold tool and pale wheel center establish action focal point at full and intended size."
+    },
+    "focal_separation": {
+      "outcome": "pass",
+      "observation": "Two inward profiles frame circular wheel; bench supports bottom edge, gold tool and pale wheel center establish action focal point at full and intended size."
+    }
+  },
+  "check_results": [
+    {
+      "id": "framing",
+      "outcome": "pass",
+      "observation": "Two inward profiles frame circular wheel; bench supports bottom edge, gold tool and pale wheel center establish action focal point at full and intended size."
+    },
+    {
+      "id": "focal",
+      "outcome": "pass",
+      "observation": "Two inward profiles frame circular wheel; bench supports bottom edge, gold tool and pale wheel center establish action focal point at full and intended size."
+    }
+  ],
+  "target_comparison": {
+    "silhouette": "Same central circular wheel and inward profiles",
+    "proportions": "Same wheel/person scale; simplified arm lengths preserved",
+    "negative_space": "Same pale wheel interior and top field",
+    "hierarchy": "Gold tool and dark raised edge retain focus",
+    "copy": "Wordless in both",
+    "detail": "Same separated spokes; rubber continuation intentionally joins tyre"
+  },
+  "departures": [
+    {
+      "element": "wheel",
+      "reason": "Tapered raised edge connects to tyre to clarify contact versus target horseshoe impression"
+    }
+  ],
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\composition\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\composition\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\target.png"
+    ],
+    "observations": [
+      "Two inward profiles frame circular wheel; bench supports bottom edge, gold tool and pale wheel center establish action focal point at full and intended size."
+    ]
+  },
+  "image_observation": {
+    "tool": "functions.view_image",
+    "evidence": "Actual builder full/use/target image returns for stage composition",
+    "observation": "Two inward profiles frame circular wheel; bench supports bottom edge, gold tool and pale wheel center establish action focal point at full and intended size."
+  }
+}

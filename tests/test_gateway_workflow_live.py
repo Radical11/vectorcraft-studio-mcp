@@ -36,6 +36,18 @@ class LiveGatewayTests(unittest.TestCase):
   self.c.checked_call('open_file',{'path':str(self.copy_fixture())})
   self.c.checked_call('workflow_start',{'mode':'full','brief_path':str(self.root/'brief.md'),'run_id':'view-size','use_width':450})
   p=self.root/'work/vectorcraft-studio/view-size/versions/original/use.png';self.assertEqual(struct.unpack('>II',p.read_bytes()[16:24]),(450,600))
+ def test_focused_catalog_compact_packet_and_resume(self):
+  catalog=self.c.request('tools/list')['tools'];definitions={t['name']:t for t in catalog}
+  profiles=definitions['workflow_start']['inputSchema']['properties']['quality_profile']
+  self.assertEqual(profiles['default'],'designer-v1');self.assertIn('focused-execution-v1',profiles['enum'])
+  status=payload(self.c.checked_call('workflow_start',{'mode':'full','quality_profile':'focused-execution-v1','brief_path':str(self.root/'brief.md'),'run_id':'focused'}))
+  self.c.checked_call('command_run',{'id':'file.new','params':{'width':640,'height':480}})
+  packet=payload(self.c.checked_call('workflow_status',{'view':'working'}))
+  self.assertEqual(packet['profile'],'focused-execution-v1');self.assertNotIn('schemas',packet)
+  self.assertTrue(self.c.call('draw_shape',{'shape':'rectangle','x':0,'y':0,'width':30,'height':30}).get('isError'))
+  self.c.close();self.c=self.client();self.c.checked_call('workflow_start',{'resume':status['run']})
+  resumed=payload(self.c.checked_call('workflow_status',{'view':'working'}));self.assertEqual(resumed['profile'],'focused-execution-v1')
+  doc=payload(self.c.checked_call('doc_inspect',{}));self.assertEqual(doc['artboards'][0]['width'],640)
  def copy_fixture(self):
   import shutil
   p=self.root/'original.vectorcraft';shutil.copy2(ROOT/'tests/fixtures/legacy-poster/finishing.vectorcraft',p);return p

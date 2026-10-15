@@ -1,0 +1,72 @@
+{
+  "issues": [
+    {
+      "type": "driver_lifecycle",
+      "detail": "First non-TTY stdin driver exited after READY before any Session.call; restarted with persistent TTY. No uncertain artwork operation was replayed."
+    },
+    {
+      "type": "creator_visual_defect",
+      "detail": "First native alternative had propagated default paints because paint.setFill changed prior selection; full/use image inspection caught dark faces and disk wheel. Confirmed with defect, then explicitly recolored existing actual IDs in a new planned batch. Original defective capture retained."
+    },
+    {
+      "type": "script_error",
+      "error": "name 'Art' is not defined",
+      "detail": "fix1 job had already confirmed direction-1 and begun correction batch; next job executed only remaining recolor work with artlib loaded, did not replay completed calls."
+    },
+    {
+      "type": "script_error",
+      "error": "'[' was never closed (<string>, line 8)",
+      "detail": "prepare-study.py failed compilation before any tool call; bracket corrected, py_compile checked, script then executed."
+    },
+    {
+      "type": "budget_rejection",
+      "tool": "workflow_checkpoint",
+      "args": {
+        "version": "final-1",
+        "data": {
+          "phase": "confirm"
+        }
+      },
+      "error": "Build time exhausted; settle in-flight operations, preserve result",
+      "detail": "export1.py failed at its first call. No export or preflight was attempted. Shared-ledger rejection occurs before Session host-errors try block, so host-errors.jsonl is absent; exact error is preserved here and in tool output."
+    },
+    {
+      "type": "invalid_review_pause",
+      "detail": "Pause after expiry had no spawned or waiting reviewers. Accounting-only resume performed at explicit parent request. Full exact interval in accounting-audit.json; parent must reclassify active time.",
+      "pause": {
+        "index": 809,
+        "event": {
+          "trial": "tyre-designer-v1-1",
+          "event": "review_pause",
+          "at": 1792003212.836337,
+          "monotonic": 81241.7241684
+        }
+      },
+      "resume": {
+        "index": 810,
+        "event": {
+          "trial": "tyre-designer-v1-1",
+          "event": "review_resume",
+          "at": 1792028875.808497,
+          "monotonic": 405.4804302
+        }
+      },
+      "seconds": 25662.97215986252
+    },
+    {
+      "type": "incomplete_workflow",
+      "detail": "finishing captured but not confirmed; completed stages remain composition, typography, imagery. Gateway state was intentionally left active with working_version imagery and pending captured final-1. No state fabricated."
+    },
+    {
+      "type": "missing_delivery_evidence",
+      "detail": "No final SVG/PDF/export PNG set, no preflight, no independent final specialist reviews, no read-only new-Gateway reopening, no standardized edit evaluation. Native/full/use checkpoint files exist. No post-expiry authoring/review/export occurred."
+    },
+    {
+      "type": "closure",
+      "detail": "Live driver returned CLOSED after Session.close; planning and representative connections had already been shut down on restore. Scoped process check after interruption found no vectorcraft-cli process whose command line contains this exact trial root."
+    }
+  ],
+  "uncertain_authoring_replayed": false,
+  "in_flight_calls_remaining": false,
+  "unsolicited_cross_trial_exposure": false
+}

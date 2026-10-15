@@ -1,0 +1,115 @@
+{
+  "assessments": [
+    {
+      "id": "inward",
+      "composition": "The current inward2 study offers the strongest production direction. Two facing people frame a large central upright wheel, and the working and supporting gestures remain distinguishable at 768 × 512. The balanced arrangement is readable but static; a slight inward lean or gaze adjustment could strengthen shared attention.",
+      "image_treatment": "Restrained cream, teal and rust shapes provide coherent separation. The yellow lever remains visible against the dark tyre. The current study improves on the earlier inward exploration by giving the supporting hand a visible forearm and sleeve connection and enlarging the lifted tyre edge. That enlarged edge currently resembles a separate horseshoe-shaped piece, so its continuity with the tyre needs refinement.",
+      "copy": "Wordless, consistent with the brief.",
+      "brief_fit": "A removed bicycle wheel, two cooperating people, a working hand gripping a lever and a separate supporting hand touching the wheel are recognizable at intended size. Both current visible hands connect to arms. The lever tip visibly enters beneath the raised dark edge, but the raised edge's exaggerated shape makes the exact tyre relationship somewhat ambiguous. Proceed to production with a focused contact and anatomy refinement."
+    },
+    {
+      "id": "overhead",
+      "composition": "The horizontal elliptical wheel creates a broad work surface, but the scene reads as a frontal view of people behind a flattened wheel rather than a convincing overhead viewpoint. Large empty space above separates attention from the repair.",
+      "image_treatment": "Palette and silhouettes are consistent with the other studies. At intended size, the lever's small dark contact patch merges with the outer tyre and does not clearly communicate insertion underneath an edge. The supporting hand appears isolated against the shirt without a visible connecting forearm.",
+      "copy": "Wordless, consistent with the brief.",
+      "brief_fit": "The wheel and two people are recognizable, and the working hand connects to a short forearm. Supporting-arm continuity and meaningful lever engagement are insufficiently clear at intended size. This needs more than finishing detail before production."
+    },
+    {
+      "id": "diagonal",
+      "composition": "The rising working arm supplies directional energy, but the wheel dominates the right half and obscures the supporting person. The extremely long straight arm feels stretched rather than naturally reaching across the bench.",
+      "image_treatment": "The clean palette remains readable. The red arm or sleeve shape traversing the wheel interior produces a confusing overlap, and the supporting hand lacks a convincing skin-to-forearm connection. The small lever contact treatment largely merges with the tyre at intended size.",
+      "copy": "Wordless, consistent with the brief.",
+      "brief_fit": "The repair participants and wheel are recognizable, but arm proportion, supporting-arm continuity and tyre-edge engagement remain weak. The diagonal concept requires substantial reconstruction before production."
+    }
+  ],
+  "selected": "inward",
+  "all_weak": false,
+  "reason": "The current inward2 study is the only direction with both visibly connected participating hands and a sufficiently enlarged lever-under-edge event to warrant production. Its central wheel, contrasting tool and quiet background maintain the clearest action at 768 × 512. Selection is approval of the direction, not approval of a finished illustration.",
+  "unresolved_limitations": [
+    "Refine the raised tyre edge so it reads as a continuous lifted bead rather than a detached curved piece.",
+    "Clarify the working hand's thumb and finger overlap around the lever without losing intended-size simplicity.",
+    "Refine the working wrist, elbow and sleeve transitions; the existing anatomy is highly simplified.",
+    "Strengthen shared attention through subtle gaze or posture changes.",
+    "Workshop context is sparse and generic; add only details that preserve focal separation.",
+    "Editable native construction, export integrity and the standardized 40-point wheel edit were not assessed in this image-only review."
+  ],
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-84c48de02fc94dd1-inward2\\versions\\inward2-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-84c48de02fc94dd1-inward2\\versions\\inward2-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\wright.jpg",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\dusk-poster.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\perspective-city.png"
+    ],
+    "observations": [
+      "All eight study images and all three reference images were actually returned by image tools and visually inspected.",
+      "The intended-size images were inspected directly rather than inferring legibility from the full-size images.",
+      "The current inward assessment uses inward2; the earlier inward exploration was inspected separately.",
+      "The references support observations about focal grouping, contour economy and perspective consistency; they are not evidence that the studies achieve equivalent quality."
+    ]
+  },
+  "image_observation": [
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "evidence": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\full.png",
+      "observation": "Action 1 returned and displayed the earlier inward full image. Central upright wheel and yellow lever are clear; the supporting hand has no visible extended forearm, and the tyre contact is a small dark patch."
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "evidence": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\use.png",
+      "observation": "Action 2 returned and displayed the earlier inward use image. At 768 × 512, the small contact patch merges with the tyre, while the supporting hand looks insufficiently arm-connected."
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "evidence": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-84c48de02fc94dd1-inward2\\versions\\inward2-blockout\\full.png",
+      "observation": "Action 3 returned and displayed the current inward full image. A visible supporting forearm joins the right person's sleeve. The lever crosses beneath an enlarged raised dark tyre edge, although that edge resembles a separate curved segment."
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "evidence": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-84c48de02fc94dd1-inward2\\versions\\inward2-blockout\\use.png",
+      "observation": "Action 4 returned and displayed the current inward use image. At 768 × 512, both arm-connected hand roles remain distinct; yellow tool insertion under the raised edge is visible. The detached-segment impression persists."
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "evidence": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\full.png",
+      "observation": "Action 5 returned and displayed the overhead full image. A flattened elliptical wheel occupies the tabletop; the working forearm is connected, but the supporting hand lacks a clear forearm connection."
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "evidence": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\use.png",
+      "observation": "Action 6 returned and displayed the overhead use image. The lever contact collapses into the dark tyre edge; the right hand reads as an isolated outlined shape. Broad empty space weakens the repair focus."
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "evidence": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\full.png",
+      "observation": "Action 7 returned and displayed the diagonal full image. The working arm is unusually long and rigid. A red supporting-arm shape crosses the wheel interior, creating inconsistent overlap and unclear anatomy."
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "evidence": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\use.png",
+      "observation": "Action 8 returned and displayed the diagonal use image. The oversized right wheel obscures the helper; the supporting hand's arm continuity and the lever's tyre-edge relationship remain unclear at 768 × 512."
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "evidence": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\wright.jpg",
+      "observation": "Action 9 returned and displayed the Wright reference, resized by the image pipeline from 5639 × 4226 to 1824 × 1367. Faces, hands and gaze gather around a brightly illuminated central experiment while the surrounding room recedes. This provides a visible reference for shared attention and focal hierarchy."
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "evidence": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\dusk-poster.png",
+      "observation": "Action 10 returned and displayed the dusk poster. Layered mountain silhouettes, a bright sun, small stars and sparse birds demonstrate readable contour grouping and restrained detail; its typography does not apply to the wordless brief."
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "evidence": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\perspective-city.png",
+      "observation": "Action 11 returned and displayed the perspective-city image. Two building faces and converging window rows establish consistent depth using simple colored planes. This highlights the need for internally consistent viewpoint and overlap in the wheel studies."
+    }
+  ]
+}

@@ -16,7 +16,7 @@ import uuid
 from workflow import Workflow, INSTRUCTIONS, tool_definitions
 from discovery import executables
 
-VERSION = "3.1.0-alpha.1"
+VERSION = "3.2.0-alpha.1"
 UI_TOOLS = {"ui_inspect", "ui_screenshot", "inspect_ui", "type_text", "open_panel"}
 INIT = {"protocolVersion": "2025-06-18", "capabilities": {}, "clientInfo": {"name": "vectorcraft-codex-gateway", "version": VERSION}}
 
@@ -152,6 +152,8 @@ class Gateway:
         self.current_client_id = None
         self.workflow = Workflow(self.root)
         self.preserved_documents = []
+        from study_session import Studies
+        self.studies=Studies(self)
 
     def start_headless(self):
         self.backend = NativeMcp([str(self.cli), "mcp", "--headless", "--automation-read-root", str(self.root), "--automation-write-root", str(self.root)], self.root, self.notify, self.init_params)
@@ -301,10 +303,18 @@ class Gateway:
         return False
 
     def call(self, name, args):
+        if self.studies.active() and name not in ('workflow_status',):
+            return self.studies.route(name,args)
+        if name == 'workflow_begin' and args.get('plan',{}).get('context')=='study':
+            return text_result(self.studies.begin(**args))
         if name == "workflow_status":
-            return text_result(self.workflow.status())
+            if self.studies.child:self.studies.child.workflow.verify()
+            return text_result(self.workflow.status(**args))
         if name == "workflow_start":
-            return text_result(self.workflow.start(self.backend, **args))
+            result=self.workflow.start(self.backend, **args)
+            import design_process
+            if design_process.enabled(self.workflow):self.studies.restore()
+            return text_result(result)
         if name == "workflow_record":
             return text_result(self.workflow.record(self.backend, **args))
         if name == "workflow_begin":
@@ -394,6 +404,7 @@ class Gateway:
         return "edit"
 
     def shutdown(self):
+        self.studies.shutdown()
         if not self.backend:
             return
         saved = False
@@ -463,8 +474,9 @@ def main():
             if message.get("method") == "ping":
                 emit({"jsonrpc": "2.0", "id": message.get("id"), "result": {}})
             elif message.get("method") == "notifications/cancelled":
-                if message.get("params", {}).get("requestId") == gateway.current_client_id and gateway.backend and gateway.backend.active_id is not None:
-                    gateway.backend.send({"jsonrpc": "2.0", "method": "notifications/cancelled", "params": {"requestId": gateway.backend.active_id, "reason": message.get("params", {}).get("reason", "Cancelled by client")}})
+                current=gateway.studies.child.backend if gateway.studies.child else gateway.backend
+                if message.get("params", {}).get("requestId") == gateway.current_client_id and current and current.active_id is not None:
+                    current.send({"jsonrpc": "2.0", "method": "notifications/cancelled", "params": {"requestId": current.active_id, "reason": message.get("params", {}).get("reason", "Cancelled by client")}})
             else:
                 inbox.put(message)
         inbox.put(None)
@@ -495,7 +507,8 @@ def main():
                         gateway.last_error = str(error)
                         result = text_result({"error": str(error), "operation_replayed": False, **gateway.status()}, True)
                 else:
-                    result = gateway.backend.request(method, message.get("params"))
+                    current=gateway.studies.child.backend if gateway.studies.child else gateway.backend
+                    result = current.request(method, message.get("params"))
                 emit({"jsonrpc": "2.0", "id": message["id"], "result": result})
             except Exception as error:
                 emit({"jsonrpc": "2.0", "id": message["id"], "error": {"code": -32000, "message": str(error)}})

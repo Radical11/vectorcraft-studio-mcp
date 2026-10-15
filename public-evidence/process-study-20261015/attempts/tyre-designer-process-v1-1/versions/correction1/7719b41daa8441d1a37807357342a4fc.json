@@ -1,0 +1,126 @@
+{
+  "phase": "confirm",
+  "outcome": "revise",
+  "observations": "Open lifted lip replaces closed loop and bench visible through lower opening, but duplicate redrawn spokes cross hub and need cleanup.",
+  "reason": "Local spoke duplication and hub overlap introduced by bench opening correction",
+  "decision": "revise",
+  "preservation_observation": "People and separate arm ownership untouched; support contact preserved. Whole scene same except local lip/bench opening.",
+  "element_map": {
+    "workshop": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "bench": [
+      8,
+      9,
+      10,
+      11,
+      51,
+      52
+    ],
+    "worker": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      41
+    ],
+    "helper": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      53
+    ],
+    "wheel": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      65,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ],
+    "lever": [
+      58,
+      66
+    ],
+    "working-hand": [
+      42,
+      61,
+      62
+    ],
+    "supporting-hand": [
+      54,
+      55,
+      56
+    ]
+  },
+  "stage_complete": false,
+  "check_results": [
+    {
+      "id": "lip",
+      "outcome": "pass",
+      "observation": "Open lip continuous at upper return and visible shaft underneath."
+    },
+    {
+      "id": "neighbor",
+      "outcome": "pass",
+      "observation": "Working grip and supporting arm/hand remain same."
+    },
+    {
+      "id": "bench",
+      "outcome": "fail",
+      "observation": "Bench reveal visible but lower spokes duplicated and redrawn strokes cross hub."
+    }
+  ],
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\correction1\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\correction1\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\target.png"
+    ],
+    "observations": [
+      "Visible doubled lower spokes and hub crossed by added lines"
+    ]
+  },
+  "image_observation": {
+    "tool": "functions.view_image",
+    "evidence": "Actual correction1 full/use/target image returns",
+    "observation": "Lower wheel line artifacts visible; no inferred quality claim"
+  },
+  "departures": [
+    {
+      "element": "wheel",
+      "reason": "Opening now shows lower bench; contact intentionally open lip"
+    }
+  ]
+}

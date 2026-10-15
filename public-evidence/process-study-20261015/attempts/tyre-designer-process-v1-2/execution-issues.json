@@ -1,0 +1,28 @@
+{
+  "profile": "designer-process-v1",
+  "status": "budget_exhausted",
+  "issues": [
+    {
+      "kind": "operational_disruption",
+      "severity": "fatal_to_completion",
+      "description": "Host usage-limit interruption spanned 13 to 14 October. No authorized review pause had been entered. Parent reports shared ledger exceeds 617 active wall minutes, exhausting the frozen 60-minute budget. This is not evidence about design quality.",
+      "source": "Parent task dispatch on resumed turn"
+    },
+    {
+      "kind": "schema_discovery_error",
+      "severity": "minor",
+      "description": "{\"code\": -32602, \"message\": \"unknown argument `query` for `command_list`\"}",
+      "replayed": false,
+      "resolution": "Read-only command_list without query obtained schema; no artwork operation uncertain."
+    },
+    {
+      "kind": "incomplete_workflow",
+      "severity": "major",
+      "description": "Only first of three native rough studies exists. It is captured but unconfirmed. No registered blockouts, concept review, target/spec, representative construction study, assembly, graph, accepted production stages, final exports or final reviewers."
+    }
+  ],
+  "uncertain_operations": false,
+  "authoring_after_exhaustion": false,
+  "gateway_contexts_closed": true,
+  "closure_evidence": "build.py initial used with Session(ROOT); successful process exit after capture ran Session.__exit__/close/shutdown. No connection opened on resumed turn."
+}

@@ -1,0 +1,70 @@
+{
+  "trial": "library-designer-process-v1-1",
+  "profile": "designer-process-v1",
+  "status": "budget_exhausted",
+  "audit_at_utc": "2026-10-14T17:33:48.168944+00:00",
+  "method_commit_supplied_by_dispatch": "9d47373",
+  "method_commit_verified": false,
+  "phase_reached": "Preparation: supplied input/contract reading and seven fresh reference image actions.",
+  "gateway_initialized": false,
+  "session_initialized": false,
+  "run": null,
+  "stopped_run": null,
+  "best": null,
+  "best_version": null,
+  "actual_counts": {
+    "instrumented_calls": 0,
+    "planned_batches": 0,
+    "native_authoring_operations": 0,
+    "reference_image_actions": 7,
+    "distinct_reference_works": 6,
+    "native_studies": 0,
+    "direction_alternatives": 0,
+    "completed_production_stages": 0,
+    "concept_reviewers": 0,
+    "final_reviewers": 0,
+    "correction_rounds": 0,
+    "exports": 0,
+    "native_reopening_actions": 0
+  },
+  "timing": {
+    "frozen_wall_active_allowance_minutes": 60,
+    "frozen_planned_batch_allowance": 24,
+    "parent_reported_wall_active_minutes_approx": 299,
+    "exact_wall_active_seconds": null,
+    "local_host_budget_file_present": false,
+    "review_pause_recorded": false,
+    "explanation": "Shared time includes preparation and interruption; parent report establishes expiry. No local Session timing exists because Session was never initialized. Parent alone completes the shared ledger."
+  },
+  "reviewer_returns": [],
+  "reviewer_image_actions": [],
+  "artifacts": {
+    "completion_report": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\completion-report.json",
+    "creator_image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\creator-image-actions.json",
+    "execution_issues": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\execution-issues.json",
+    "local_lessons": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\local-lessons.md",
+    "audit_script": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\account-interruption.py",
+    "native": null,
+    "svg": null,
+    "pdf": null,
+    "full_png": null,
+    "use_png": null,
+    "retained_best": null,
+    "original": null,
+    "reopening_evidence": null
+  },
+  "artifact_absence_evidence": "Audit enumerated assigned root before writing reports: only four input metadata/text files and seven reference assets existed. No run, host receipts/budget, native artwork or exports existed.",
+  "owned_connection_cleanup": {
+    "identifiable_owned_connections": 0,
+    "identifiable_owned_processes": 0,
+    "action": "None; no Gateway/Session or long-running command was started. No unrelated process was touched."
+  },
+  "limitations": [
+    "No artwork was authored; this is preserved interrupted-attempt accounting, not a completed design.",
+    "No native blockouts, independent concept selection, target/spec, entity graph, construction study, production acceptance, final specialist reviews or delivery verification occurred.",
+    "The standardized branch-position edit task has no construction artifact to operate on.",
+    "Seven reference images were actually viewed; other required evidence is absent, rather than evidence of visual failure.",
+    "Unauthorized .local search exposure is retained as a protocol deviation. The attempt was neither excluded nor rebuilt.",
+    "No aesthetic quality or audience comprehension result is claimed."
+  ]
+}

@@ -1,0 +1,618 @@
+{
+  "format": "vectorcraft-publication-redaction-audit",
+  "date": "2026-10-15",
+  "reason": "The initial public staging normalized JSON line endings and redacted paths after the inner manifest was created. The original snapshot is retained unchanged. These are byte-provenance corrections, not changed study outcomes.",
+  "authoritative_public_files": "PUBLIC-PROVENANCE.json and the public hashes below",
+  "files": [
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-2/creator-report.json",
+      "original_inner_manifest_sha256": "6f37c8e888f8efc82ff5573e29df626f4deec794996782d6da6bcd93bb20d8d1",
+      "published_sha256": "2e297dbd5984bf879e97fdadc7b4971370e68be7a09094bf82e3df13af369c8a"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-2/creator-image-actions.json",
+      "original_inner_manifest_sha256": "8ef30402faa5e40da0dfd8868eeef5484d7b4497c8f8ac6e9c3d629a51f35445",
+      "published_sha256": "1316b39160e1ce9f142d8f7173bb3efdd7e476d3f31830f6f0aeae6c8eb71c5c"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-2/execution-issues.json",
+      "original_inner_manifest_sha256": "9e82b10d70737cbde41bd9f48b4b7d282328ac3acaeb9574399c10e6370f6881",
+      "published_sha256": "94d1d7eb82fc0c05e4e120fd8a94a3f8ee58d206155d2d3c0d7199bfebd7df84"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/creator-report.json",
+      "original_inner_manifest_sha256": "004e79af5f027b6d6d1f62999afc4c5f63a4875bbb340652969ac5d4d605bb05",
+      "published_sha256": "748a69656f5618877c97156a664ac6df93a7d3d8f16aeafa954d8f4564ba37e6"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/creator-image-actions.json",
+      "original_inner_manifest_sha256": "950af6c9e1120b63ea611636b657d5c5681438bb6e819a4707775ccdbfb2770b",
+      "published_sha256": "b26be45d1ee4526f0e4b3a3c8fa9cc2ac32b2373aa82d00aeb05a4c56fad29e1"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/execution-issues.json",
+      "original_inner_manifest_sha256": "60620d9c3198a96b3af11c5e2bcfa06ffdd461dcf93ddad67b3e9810d7cc3106",
+      "published_sha256": "f1f2f7058fb31376e50b56ff1c3d1ad34b600a0b6a95e9bf757ebc6bf3a0d439"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/composition/inspection.json",
+      "original_inner_manifest_sha256": "d09f3bf05c1661bd45ad56139ec26289d34f5821481de4125fb84e770aed7f1f",
+      "published_sha256": "01f8b8a5e60b28f7f96f2b1b7cabef6a75ed704a4a57bd04cb1a1c91d119f1af"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/composition/47cf774c9c1c489e8cce2e1a9d08fd41.json",
+      "original_inner_manifest_sha256": "733175fe67182a030b089eff157ecf1f88b3567eff5572ec831c876215fbb319",
+      "published_sha256": "72578ec829952375d621dd15fd87c01dbf05c642072380c9faf198558cedf2ab"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography/inspection.json",
+      "original_inner_manifest_sha256": "b9fbbaa725cc570653e6fab72df416c34eb04e857ad3d6350d3da756c1d34463",
+      "published_sha256": "ba2102f4f89817ffd13de89f6058aa5c49c488573cf4ea4819837b9d90e0240d"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography/3bec09e82741458c99894645a1aa2c4e.json",
+      "original_inner_manifest_sha256": "3dba799989da44984d3207a60682ad52db46bdf74e55d06ebdc4d0bb2e5e03bf",
+      "published_sha256": "fef4383118a9d745c100b69fac4ca820c802c3248ba0792443dd389b56aa1b14"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography-fixed/inspection.json",
+      "original_inner_manifest_sha256": "a8e06c214d11e1893d623739c95d49694fcbd3ea4636081f70e978f68bc94d45",
+      "published_sha256": "b2745dece75a9c6ee5c953de3722e506929fbfcf592f431c378adcf85fbac054"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography-fixed/f97eb59f7919490a80fd37ef9ba4ddef.json",
+      "original_inner_manifest_sha256": "c98e6715676a12c3c7ad4bd742718df840fe97c58d34a95d315e6d52f5291368",
+      "published_sha256": "699dee08c9dfb484a58f15dfcabdcb3e9782ff743e7d95a8b975c0e89f7e5952"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/imagery/inspection.json",
+      "original_inner_manifest_sha256": "13a6380d77d8bbcad995ab95a59f7659a00c3748e85dd74d61c7bf1a42739e82",
+      "published_sha256": "1b762ae201a0662db8276cdb369364d01ec387a19fa5225ecbeb96d01e4ab738"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/imagery/bc7cd7e1db734b38aa364efe53dc93d5.json",
+      "original_inner_manifest_sha256": "c0d425cee6bd61e7d2cd5a16acb39f4211970ba9c1e51f8774d3f70c99101371",
+      "published_sha256": "1f03d08eb987eface7ef24f5e40bbb3e68945030896efec39a6208b053bef49d"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/final-1/inspection.json",
+      "original_inner_manifest_sha256": "2f35c860119c5efe925d5193444d5a62eed886c2c08c5f4d680f5cd73a7c2096",
+      "published_sha256": "327c185f317806eca6147bd7c76f2a25c357186ab92b83be5bf96004eedc0aa6"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/final-1/f796ec81a8d84b7fbf61c593cc14fd9e.json",
+      "original_inner_manifest_sha256": "b1c7f41da41ea5a9637c94575d18d492aeb0ec27745c933e6a1b1b690c174e90",
+      "published_sha256": "34f33d8885afe2017502367b04fe06bc22fd0d4f39a1e7f6c4e71b5c07ec614a"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/reviews/concept-review-return.json",
+      "original_inner_manifest_sha256": "ee5dadf75ac9af0f31740d1ff477e096a5c102a61bd68542482e1e92d961f3c0",
+      "published_sha256": "ba40c921714d3920f4b595999299872c5707f37e33bfa33e4efa7defb7ce2c16"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-1/creator-report.json",
+      "original_inner_manifest_sha256": "dce6d87d0f05a022f6219c73993ee1954a24e0925d7d4a8ff3e432ce14cfa750",
+      "published_sha256": "e7bb1d5f37f2a5545b30228fcf50a6ab4966e605bed95fdc53d41a7fcce13873"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-1/creator-image-actions.json",
+      "original_inner_manifest_sha256": "da5b8f9ea928676bd1f73e502caf20bf0b8c724a5eb6108776998081a9c3ceae",
+      "published_sha256": "30c069ea6c3edf17657e60f7968f88a7a6eb8ad128897f8a363e1ef72e83eeff"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-1/execution-issues.json",
+      "original_inner_manifest_sha256": "c195aacf01a05178d1060e5be5f0ce1b9016b62da7c0e8e18efe5fde0928eea8",
+      "published_sha256": "8640a34da10c2780c021b3cfb359ad70cbf7c25f22294e9427aa9262338d09f1"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/creator-report.json",
+      "original_inner_manifest_sha256": "3b17258af3e81d7244cce0a351cd4bf4cb9200bd0d4297877450c197e9c2df30",
+      "published_sha256": "bf9496a9a04f2f5594e79453fb22cedb96e3ed257a3e74b37e65f6479c630247"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/creator-image-actions.json",
+      "original_inner_manifest_sha256": "b21bae770da845f9ea8e6099bad2bfc3cce36d1a28ac532c3affcae83f4857ea",
+      "published_sha256": "6d34c2e3cc63188709adaf0bce69da137f80cc1c36a3d226a18f7d53e2284b20"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/execution-issues.json",
+      "original_inner_manifest_sha256": "9256dd91c5e784b44c15878d2bd7c6e9e09bb5985fe0e238c9c3e1d5748ab9b0",
+      "published_sha256": "fd16717775e6f1eaacaa2af1b39a8656c2f7cce67adfd21ef3f0b14b9986e904"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v1/inspection.json",
+      "original_inner_manifest_sha256": "f528845b2827c4c16160c798a7a2b474418990849b1473ff6a41265462b9f27a",
+      "published_sha256": "9428eeb618dc67145e736a086707c03ee8d3005bf238ba187622deef00459cd3"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v1/17c77d6ab7934d929d4991d369dc1c82.json",
+      "original_inner_manifest_sha256": "8be9e3fbd4941140132f356f842c0aa0629055458b5164c6504b118c11bc63e3",
+      "published_sha256": "c803c98cc183216240f62c3c8a02d7a110192e841bc97b5dba347decb681f338"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v2/inspection.json",
+      "original_inner_manifest_sha256": "fad469b013998ff716585fe1292975f3d10d92c3b7c2795159eff776d8eb71f8",
+      "published_sha256": "c9ed64ecad6827b0baf166db2ae16ab600dcb4952d745b4b1a725b6d2957746f"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v2/ca3560312bc24e1692765933fb9c6568.json",
+      "original_inner_manifest_sha256": "5a45036354e562ca64ee8a9e4e4da34f4c422276546f19eaa743410f9da25440",
+      "published_sha256": "d5588f9f64e77c5802c66652718b1ee41dff68dc48fb753fd462d757cb939694"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v1/inspection.json",
+      "original_inner_manifest_sha256": "18317360b32b0daa866e64e0d0f27f5b832a27be959bcb0f351023330ecd3be6",
+      "published_sha256": "6ab1e564766d3a40445b75fd4a073b947f8df5c3324c549f81ca2fe467820770"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v1/2e0e910bc14642238785bbee2bd64ac8.json",
+      "original_inner_manifest_sha256": "2fd0b181054f16c0099dcc044162523777203a4c19d9e1c56612aee3b3b57e83",
+      "published_sha256": "8120c699c7bad356ad6cfe79fb53e7fab4222f7017fbafd22a2aa93c9d1c3416"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v2/inspection.json",
+      "original_inner_manifest_sha256": "152e1b2aeff27b2b38c233b2a408ed6318311d0bf1b3425c487f5226fcd46205",
+      "published_sha256": "ea3654641376cd641bdedd861c212f2d7a0dda2ed4b119c490f197da894dc7c0"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v2/a762647436c84d5f9eb2bf62a736c6c5.json",
+      "original_inner_manifest_sha256": "f4b34d89fb57cdc703bef2cd46a0f5bae0498fc00b6bfac2c674fadd15cd0d63",
+      "published_sha256": "3885a0cecfec86a26704c3a7db25c78d1c7b2ae8d57e823f539f86bf24f299ba"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/imagery-v1/inspection.json",
+      "original_inner_manifest_sha256": "24e8eb12766007ae261631fc0e56020adc261917dbf4854fcdd71324427fb8de",
+      "published_sha256": "9a7dbf292473e22c16d8b0e2d04da79534583b8be2f53ec656904116dd693e45"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/imagery-v1/99fb5e4c3a784dcfb1535ae4a6376ac1.json",
+      "original_inner_manifest_sha256": "206259c102edab0e715b903f2193773d291b74eca7e79f480ca93f6d26d0b581",
+      "published_sha256": "9234535373d055e11afa4f73cd113ce356a2a9551ffaa60361129d8776908494"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v1/inspection.json",
+      "original_inner_manifest_sha256": "24e8eb12766007ae261631fc0e56020adc261917dbf4854fcdd71324427fb8de",
+      "published_sha256": "9a7dbf292473e22c16d8b0e2d04da79534583b8be2f53ec656904116dd693e45"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v1/c42ddcfadf584313ac62844ae02af18d.json",
+      "original_inner_manifest_sha256": "28b17d9ab39090788399e2ab9c79b05ff53e09eade6a8bcdda780944fa63be61",
+      "published_sha256": "bdb6e867ac28ca1408ff4fed76d51dcc888e519dba1d2aeecd5e3d77db3abab9"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v2/inspection.json",
+      "original_inner_manifest_sha256": "24e8eb12766007ae261631fc0e56020adc261917dbf4854fcdd71324427fb8de",
+      "published_sha256": "9a7dbf292473e22c16d8b0e2d04da79534583b8be2f53ec656904116dd693e45"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v2/6d0df6cdd65c4c6cb5a819c24bf05a2e.json",
+      "original_inner_manifest_sha256": "fbd5c66abaede9b9b36cf6dae85bf702e243e3aedda0c51d97b298a5b8ce2a8c",
+      "published_sha256": "79921762973b57eb8456212cf5a32e20dffedf0e0deb0289a5c4101942b1d936"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/reviews/concept-review-return.json",
+      "original_inner_manifest_sha256": "59efb13dc9c289688e1dfa130c03bafb3ad0ef04b1d2583fbe6624da5c28deb7",
+      "published_sha256": "d45bfe27bc8597288f924c05cdd5af6ffe38944cd2291efccda1951e2fb76849"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/creator-report.json",
+      "original_inner_manifest_sha256": "fff10a48a082d7d5f4b60097872dba96fc99e1e23f36d3ab13669dcdbbf29d0a",
+      "published_sha256": "688f2397eea7e025d60e268ee9c315b7020fbf9b0c4acb0a5bacaaeb5ce01646"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/creator-image-actions.json",
+      "original_inner_manifest_sha256": "25a0d4f603ba594a84c39faac8ef35bde387040a14d77b9f29ab6bb350b236bd",
+      "published_sha256": "a9c48a0869b7cd4f7f60ed7bbba1635e00f744fe499ec53841b9d5cf523be1ae"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/execution-issues.json",
+      "original_inner_manifest_sha256": "bee15528d376674e470be143f00c7380f15176d8b0e31c872a6eaadd635ef75a",
+      "published_sha256": "379fadd32519043681c0416ab553c5c369288155d2c1343a75ee27edf2345c1f"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/composition/inspection.json",
+      "original_inner_manifest_sha256": "4dff43d86673d973420a81d57eea2b29f7cb23581eb893ecd1ac33f6daa7a399",
+      "published_sha256": "b19b156fa23134b2526a3280249fdb0095226065100381b6810aa6c0d35dbe41"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/composition/60b1005936a84ca59ca7b51e64b06f28.json",
+      "original_inner_manifest_sha256": "a1f0042c5f2c0c39836705b50cfb3ef7dfc64e5de5b6043b9feb1eaad72e8600",
+      "published_sha256": "da568bd7167e6cdd91de6e4fe1b9ea7e9dd7f66a1107922263c90007977798dd"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/typography/inspection.json",
+      "original_inner_manifest_sha256": "d0a6a3315f332e5b5f33c19d0048ad08ddaede14cef4020ea5671c1c77be2832",
+      "published_sha256": "07877cc08b35044ac15eb4dae901d3c94637358cdffa79add0a517612e6ec391"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/typography/f5f9733790dd48bd838453be59a80bf7.json",
+      "original_inner_manifest_sha256": "ae42bb9c7c2a70e474090ff3b4077486bd38d12227e440410a56465dc8fa91d5",
+      "published_sha256": "bf66719cef8c129aa2ef96a1cb0f5d17e2ca575ab206b1acbe4d829cee184dfd"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery/inspection.json",
+      "original_inner_manifest_sha256": "a7cc52c29238513677ddab89a431513674b1a52563200b9da3d47d0a8889cb1c",
+      "published_sha256": "0975c072ac54305c7b49da9d4f108d869566a0d0f9d0a32876f55b65244ef404"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery/8469ede46c3045ab922ca6791e1c03d9.json",
+      "original_inner_manifest_sha256": "0d7af027818f71a603727de2a9ce27ed889cdce230a883fdc945f39a5d8d26ab",
+      "published_sha256": "92061aa8debeee925ef26ac18840b2f9d9bf9b961c2a3560bb53f2f8b97a7aeb"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/finishing/inspection.json",
+      "original_inner_manifest_sha256": "fb8599e40ce737865c1f78fc12288f0b38f11bdbd0fcc1f7da3da59450d7e305",
+      "published_sha256": "c20c7fc4b5ffbff02e5f7a114d8586069c70deb4d242157e176f09aa0b85b0cc"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/finishing/cc5a75f6270745ce8d80ce531ff1f6cd.json",
+      "original_inner_manifest_sha256": "224ed155e8eeabbb83f8b2302c35eb57e88d8237e6f9fbece45938bba0ee5d93",
+      "published_sha256": "ccc4a44b04ae44448fbcfb032d97f79435749f5ac3c1c068c04b5eba58101cf9"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/title-flow/inspection.json",
+      "original_inner_manifest_sha256": "25ef5b9b514be0a039892b069f6f10f7457a6025524b98cf85ee2a6e29b0d6b5",
+      "published_sha256": "62b3e1b59c4d45894935ba1c0939c4502e484f3bd92d3696775470df5556e623"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/title-flow/f808d26f1eaf4c04a212084791f1738d.json",
+      "original_inner_manifest_sha256": "1dce0863c83e6859084cf4b540a4417d495aa21712bef9621b694f17d41ffbec",
+      "published_sha256": "4cf0b44bf955f512767c5f23f7e6cf2a1261089e1e158c1133886feaca2f023c"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery-recheck/inspection.json",
+      "original_inner_manifest_sha256": "25ef5b9b514be0a039892b069f6f10f7457a6025524b98cf85ee2a6e29b0d6b5",
+      "published_sha256": "62b3e1b59c4d45894935ba1c0939c4502e484f3bd92d3696775470df5556e623"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery-recheck/720d3c969035472280822c550a1019f8.json",
+      "original_inner_manifest_sha256": "8d6dbd9a6cd1dd3007f634c1aa6f589996a74fe304ab07340ea31ef90bf5cffb",
+      "published_sha256": "2375713d9d6117d0697e9df33b4f8c5ef842933840672cbe01fad29c24fa1ab4"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/final/inspection.json",
+      "original_inner_manifest_sha256": "25ef5b9b514be0a039892b069f6f10f7457a6025524b98cf85ee2a6e29b0d6b5",
+      "published_sha256": "62b3e1b59c4d45894935ba1c0939c4502e484f3bd92d3696775470df5556e623"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/final/e4dc98f1c56c4edd845e125d17fc03cb.json",
+      "original_inner_manifest_sha256": "5ff082dd4e86ff64aac47e2fc2d705a000da227d40d78046a6583af21729d21f",
+      "published_sha256": "647422841e66261cdfdd488e442eae0123a4eb0a3cee0bb3610ca416d38de516"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/reviews/concept-review-return.json",
+      "original_inner_manifest_sha256": "d6ab852b1e63debae258997d4c715bf99421885c986e2eceba8af385ae74ab73",
+      "published_sha256": "093045f46002b74d7d26b60face7ddadc7411e2c08b8bd11759e5c8426ee5835"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-layout-blockout-v1-2/creator-report.json",
+      "original_inner_manifest_sha256": "8c15f71597836fd100253588c1e9bde1f4fece123a5c386a911f97c529bb760f",
+      "published_sha256": "fe5d48c23453b2dcce5fb6fc2fcf8889f2edc32cc3b13b758deeaf3f3299ce29"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-layout-blockout-v1-2/creator-image-actions.json",
+      "original_inner_manifest_sha256": "e7140a1a45660dd5864628c4f42fa7d4c9168a58dc6741c56325884ef64bdcdf",
+      "published_sha256": "37ba2ae82ec9a68323d8eb4091e2316b22364f375fac8d96ec39b3fcc55f2c5d"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-layout-blockout-v1-2/execution-issues.json",
+      "original_inner_manifest_sha256": "9b4c7ac718b4ce0cad348aa730e67aa190da7f905f059d4a02d61b567c1b6af6",
+      "published_sha256": "0d157d04fff7e9e911869cb15b58c7d371446b6c54909fb6cffb91979b4c11ad"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/creator-report.json",
+      "original_inner_manifest_sha256": "d274763d6ccd59369af0bae9d0ea79caf4a4852839930c0d79311aa7dd76aa0a",
+      "published_sha256": "56c72ae9b3c4e5544df1770c6d36838d855797b6f7dfb477deaabb91fc39e42c"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/creator-image-actions.json",
+      "original_inner_manifest_sha256": "a964eb315c774160c08be0f458535dcbc6f7020ce6765c55a36d5626872841e0",
+      "published_sha256": "032419566f83a42b97db28108966470d37e50da7d87b27ea14f2d297864f0a59"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/execution-issues.json",
+      "original_inner_manifest_sha256": "61694960b78c9071781d8c36df421837372a010763dff4e184a8ba6bc5d40ff7",
+      "published_sha256": "4dd99b5c6ee26a525e631c134bb05fb9bdf4a7e3cca77b3a2ba36d3bda7c28ef"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/composition/inspection.json",
+      "original_inner_manifest_sha256": "a5832ac3f51a093fd68e14e6ab0b9e2e1c6a91995ca4d5dfb9c1f348c2ae5042",
+      "published_sha256": "d6aafb0b1b1d4e2f8e65e69ef657b2a7d75a3c69f9716d7263f03b27922b596c"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/composition/c13fdd40b6b84c9b83eb26774abbf1dd.json",
+      "original_inner_manifest_sha256": "2006c4c4bf920f3e65b9eda9fb2c7a9faa361be8bb009ead6b804e6be9972752",
+      "published_sha256": "9228d3e9535a68b1783c0c9eaf997772221fd3cebf1ba2ca04691e8361905fe5"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/typography/inspection.json",
+      "original_inner_manifest_sha256": "a5832ac3f51a093fd68e14e6ab0b9e2e1c6a91995ca4d5dfb9c1f348c2ae5042",
+      "published_sha256": "d6aafb0b1b1d4e2f8e65e69ef657b2a7d75a3c69f9716d7263f03b27922b596c"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/typography/08fb214a9d01494dae7afdb65267af4e.json",
+      "original_inner_manifest_sha256": "8b86c14e3c3449e1154558d1f77c24f8c2942d7207632e9021c9bdf2c46fe18a",
+      "published_sha256": "de45e620c49704d2a431f27cd7942e3a4b84840c749a400edc83921adbca410a"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/imagery/inspection.json",
+      "original_inner_manifest_sha256": "8a6bebf851b13558bb4616d7e1b1b1f0dc6778cbe6f24339d08d60fc8381cc3f",
+      "published_sha256": "81b91b5c600e0a181e37b73b42e0ad4b7c3ef2d93a486d503b74fd6205c6fcee"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/imagery/985ba86990484d57b13db35389a914f9.json",
+      "original_inner_manifest_sha256": "1154bbaf9f496d968cfc723e2a75c637b44fffe9259ebee38b4ce77467850149",
+      "published_sha256": "3b23241ec071a0a6195f819513f453495929006583c510f3fd34aedff6bf535f"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing/inspection.json",
+      "original_inner_manifest_sha256": "8a6bebf851b13558bb4616d7e1b1b1f0dc6778cbe6f24339d08d60fc8381cc3f",
+      "published_sha256": "81b91b5c600e0a181e37b73b42e0ad4b7c3ef2d93a486d503b74fd6205c6fcee"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing/f1868afaeda045efa758ffbcce3584e6.json",
+      "original_inner_manifest_sha256": "6e81d0a6616e9cf952612a758e1094fe337b0d8648f94ae44b97877b492ffda3",
+      "published_sha256": "3df41876dfbd0e025003bc75075e158a091061be16cdc2365a2533ee51e7b6c5"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1/inspection.json",
+      "original_inner_manifest_sha256": "0ca7a6e49b5b87339af0983c47e60bc236b29697d8e5e17a393e7815c2ee1bc4",
+      "published_sha256": "e4fc35007a8a90bbbb9cd7ad25cbc315eaa55fbe5349f38709f61b074a9a83be"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1/7719b41daa8441d1a37807357342a4fc.json",
+      "original_inner_manifest_sha256": "37faebfa95585f33afa263e1bb4cb161e350d96b36eb25efcd6a469e76e252ae",
+      "published_sha256": "e8fd0809a80ace1f4a5f388a46fbce7b894729b4dca6c01726231210d985f88b"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1-clean/inspection.json",
+      "original_inner_manifest_sha256": "9479f12196f6d921b5ba19c7de5074c4677ffd46edee4eea4dd1c8a0d7efb899",
+      "published_sha256": "c8631593ddf8a73a6b9d6c66625aaafda19cc4bfc3e647eed72735c5952e3b88"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1-clean/e8ee496ee25142a497a2ece0c5a1c1aa.json",
+      "original_inner_manifest_sha256": "0ecdd841573b63ddfa91a0be60956fd1cba09c02b8f0a2443249ea94d06ce45c",
+      "published_sha256": "3fa85704d473bc54483d0fa0a65e4f6f55ae4dd1332c36436fe775b1792999c2"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/inspection.json",
+      "original_inner_manifest_sha256": "9479f12196f6d921b5ba19c7de5074c4677ffd46edee4eea4dd1c8a0d7efb899",
+      "published_sha256": "c8631593ddf8a73a6b9d6c66625aaafda19cc4bfc3e647eed72735c5952e3b88"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/bce1d01e30ee4bd8971e282f9600e69e.json",
+      "original_inner_manifest_sha256": "863270827e00f80f49f7f222752c75b2bf23ce21af75b73b7166c5bac32d196b",
+      "published_sha256": "5bbb9e1c96a0b90769197452f00761e197ea8a681869e30e7d6e563f7fe32a2d"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-1-image-actions-raw.json",
+      "original_inner_manifest_sha256": "9bbbe42379abe88d4786307b54cf13bcd85649591980e0a5cfa00a366fc7c15a",
+      "published_sha256": "2913b73d9441ef90b7af6a20e45949c53617dd759f96700fbf7beddac4b6030c"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-1-raw.json",
+      "original_inner_manifest_sha256": "778fd527a5a6e79f6e6cb0e06da0d84f2cc582fe367da7fb31ad982df14c4247",
+      "published_sha256": "9f2380fc094cda4167bb1ddd3c9b42bfd155e906f480ba3a0c4963f59af65b73"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-1.json",
+      "original_inner_manifest_sha256": "83eff61c35182ef7f5851068c946a32e25f05ffd7fda7a70fecb0732b2e801ae",
+      "published_sha256": "371642c6d6b1cc25cef6b1146108b03eafc605f7eea153a8c8c9faf171fe2661"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-2-actions.json",
+      "original_inner_manifest_sha256": "21b4b8c65f213840ba3e3d85e18ade17b38da532c45f755ff074b58c9a382f03",
+      "published_sha256": "2896a836ef7736593216f433ccf762562ce6a8637d174e9c5204cd7c627bc878"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-2-image-actions-raw.json",
+      "original_inner_manifest_sha256": "991b8e02de2378569ef82f65658ecbbcd58d253f6e50b003e3d4b72fe5ca55a2",
+      "published_sha256": "3bbb59d426d5a91e78b3218a0d8ad8e011543205a0ee60422618751db2ab4249"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-2-raw.json",
+      "original_inner_manifest_sha256": "c8a666dbe05949708264d89619cee88599a77e51ce661bead2232e38c63efe60",
+      "published_sha256": "b883209b5a1e761d793c66000020986276dbd395af25a3f7c5a643b6d2fd48c3"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-2.json",
+      "original_inner_manifest_sha256": "5853f217e3ba8fe046dec7fa36f95f41d511a6c48203c2b018e0012125a6272b",
+      "published_sha256": "570f1581f7b6d1077eca7acf312a16e4f096b2eddeb1b4f6fdb079e52e8f69f7"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/review-1-communication.json",
+      "original_inner_manifest_sha256": "d4c625f85431d44a5b323683c33dc5a94351b929a3abaa25f1dc250ee2bb1600",
+      "published_sha256": "e63e700a8fe0726700988aab32ff28a7978ed27b37ba78ff8461cc833e9d6870"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/review-1-craft.json",
+      "original_inner_manifest_sha256": "7e1a67e28a1d66516df9d1c5da5ed095f71f87751157f35381738c68e5ac4bac",
+      "published_sha256": "5e6b003bfeb0063b24eb9e8f42d327b9f36a02df5b8035a2f7f2978523b32b8e"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/aea1acf57cb1/communication-image-actions.json",
+      "original_inner_manifest_sha256": "7f9004a616700333edfccf8d63339dff6222f14666331ebf278ac197d19ae2da",
+      "published_sha256": "cb174394f7f28ea1c1faac51fa63e24a65ebe8f7d7baad45f5a4791b59772013"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/aea1acf57cb1/communication-return.json",
+      "original_inner_manifest_sha256": "d1e0383de8132df928ad6df612a0b1cba0760870a69973cf58d35d40910b9781",
+      "published_sha256": "34c94f803ff7c4de0f32d15b93886b5d958f2381fa8409c5c3270bfd3569784c"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/aea1acf57cb1/craft-image-actions.json",
+      "original_inner_manifest_sha256": "94d62cb797534d1c238105d70bc9ac8e233b88eb36921f5c44e833aa6a4cc91f",
+      "published_sha256": "9987e0f572e99f32988b1f0aa5788eb57160c3fdaa9d4ef8462b5923ca2546a8"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/aea1acf57cb1/craft-return.json",
+      "original_inner_manifest_sha256": "c4c34d91bf652976cab8623b5afacb2419261a6339855c8ff2491dd25610a884",
+      "published_sha256": "d71fe909ac0f9861d64ea971c49b02965b678ae58b000926e44c4e3c42718fca"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/d72f3b8f5dbd/communication-image-actions.json",
+      "original_inner_manifest_sha256": "5e7d88168fba5f5e064f9d572645a9ff9c0140ca9121b6fae26f619ca7e140c7",
+      "published_sha256": "e82c9cef9ddbec80985e27423522f80bc547d25ff355a617c6d745018cc46375"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/d72f3b8f5dbd/communication-return.json",
+      "original_inner_manifest_sha256": "f2e9ef10a7dd64569b03d716722cfbd80f09d4ecb2cbed31dec37ea4c7fe849c",
+      "published_sha256": "3f3eaca935fb55e30ab9dded0d9c5e02bdb736abc8d70e1ee6d88248269d381d"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/d72f3b8f5dbd/craft-image-actions.json",
+      "original_inner_manifest_sha256": "7dce56ec25ac1e64cdb6945f46585df3f0f997bbd9e2214be3989004cd9a68a8",
+      "published_sha256": "02e6ed20c294bbda65fa4eb19f6fa1cdc2396354e34db7f69feaa7b6861a5a22"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/d72f3b8f5dbd/craft-return.json",
+      "original_inner_manifest_sha256": "23ffebb6a326d4bf9a41aff8d6020f0ebf08d86f9958625ef362b00606ae438a",
+      "published_sha256": "bb9943525ba1237084b2bf73f53f32df279372ed328e7dd304802495e0400c95"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-designer-process-v1-1/creator-report.json",
+      "original_inner_manifest_sha256": "aa07784e6ebb2c2281793db399f77b37cde7225abcf75d174a4a2cc831827c60",
+      "published_sha256": "5f692d0f53dc4d6ed60b1334410e9c05f8b1e750f0574ab85d2fe16ee3be8b26"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-designer-process-v1-1/creator-image-actions.json",
+      "original_inner_manifest_sha256": "7df83b0eb681990c30c602cf42925c3b0357ef19365734bbebc88f8f1999046c",
+      "published_sha256": "937e0d3f4decca5112506a2b052172a21a10e6482761e6a4f7c7dbcb1137e912"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-designer-process-v1-1/execution-issues.json",
+      "original_inner_manifest_sha256": "ee5be870777a37eecadb9a2b9b217717e3109f6c56ea79800f2f8d87c6425b47",
+      "published_sha256": "b3cfbcaf654636121b71b915094d83f5bb702ee49e52b9c80cd424683ea98900"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/creator-report.json",
+      "original_inner_manifest_sha256": "5469f1abcabf33795262d1d8baf2db7dd0d22d74299f5ee9637ea26e923ced1f",
+      "published_sha256": "eb7891f08d4f910ecaf8d2ee74f54ebe7ec3b402948b7c1ece73091d0b2f3015"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/creator-image-actions.json",
+      "original_inner_manifest_sha256": "a65c8d8473d8f92d12cb33e92c25b6829533d295f8cc9e807861e292ec3f2ebf",
+      "published_sha256": "b04a48e93400e06b7ae19e860e7e5c0148c7be9ef8aed690dc547c8e0b9e4cdd"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/execution-issues.json",
+      "original_inner_manifest_sha256": "48b3c05e242ed39215b1c6193959e0c2495379478f479b1406f4929a8f95f773",
+      "published_sha256": "a327bffd03909310c7024fec05e5111ede3fe6ae840705f3daaf17314e6a98f2"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/accounting-audit.json",
+      "original_inner_manifest_sha256": "6d8977e829b3d87e0cbe54aaf40e996853f810aa8654776833ea37d8d42138ab",
+      "published_sha256": "ab4b16ac66bb086eb81143b8690eeb2fbcd72b9f7c5d9ed33e8c55768739e928"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/composition/inspection.json",
+      "original_inner_manifest_sha256": "c20e734a42f68e495fa3fb87d241ffc7d1c34cbf8ced5217db5175f63ff5b0b2",
+      "published_sha256": "abfbc09b866d22e05f1f2cf154334fba9a026e65efd6e83a53f6d3ac612819cc"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/composition/ff878ab71bfb497999cf24063528fb41.json",
+      "original_inner_manifest_sha256": "f5b8db1b27bb285c7ffcd677289b9a2ec784b312b543975ce76a775427b00cac",
+      "published_sha256": "06c48bee94bd04f7c0200bb4319798fb17d758443c000eaaf52227cb9793d43b"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/typography/inspection.json",
+      "original_inner_manifest_sha256": "c20e734a42f68e495fa3fb87d241ffc7d1c34cbf8ced5217db5175f63ff5b0b2",
+      "published_sha256": "abfbc09b866d22e05f1f2cf154334fba9a026e65efd6e83a53f6d3ac612819cc"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/typography/a24ba88bc5054dd99f84ca2d4a328878.json",
+      "original_inner_manifest_sha256": "b6dd84945802bce82177a7b3fe6914a30e2df6c49afc1babcb1e5004daee78c3",
+      "published_sha256": "fd02c90ce223ab743ce59fc9681bbc266586381ad935f9c1bf54bccf041ef14f"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/imagery/inspection.json",
+      "original_inner_manifest_sha256": "3d4572abecefb9462d94ae0d96419da05c2e7bee63e561a99c76e8944906488c",
+      "published_sha256": "1d62dc397f497c6f4fe83900d568b0e85c51e6366cc9353478a981684d16657e"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/imagery/c47e1581eb2546dcad5ab4996a20cc1f.json",
+      "original_inner_manifest_sha256": "2fb32aa8304dd1d62fe8451f519c3ba5906bf6a40d2f86e66e136c446d9c6458",
+      "published_sha256": "cf79d7223ff56e64f03614daafe47363aff77a6c289b42d27f649578c30a77b4"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/final-1/inspection.json",
+      "original_inner_manifest_sha256": "c57c4e8c76d9209843bc6416c1e4dfc8ad4425d5518d33090b68f19c8742e432",
+      "published_sha256": "ab29cf7c7dbd9ce3898a30a223ca15c47cd496d0a1d07a3f76893879a61b2db5"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/reviews/concept-review-return.json",
+      "original_inner_manifest_sha256": "a40fcb9e80bea5652a4232a9d664128afbbfd62ca73f123c1f6ebf12f276b957",
+      "published_sha256": "1e645482435af45fd67a7b06e13b76b574b541ef5086018dc6563b8ddbc04118"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/creator-report.json",
+      "original_inner_manifest_sha256": "39f369b02d2a40ba28bcce699f840c8f13c75eb3f5e07d5bfe6cae113d2ea7d6",
+      "published_sha256": "8d48d2ad31c70a8366cb55e0d3661508acab4a318176e566e64b475e3ce0444b"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/creator-image-actions.json",
+      "original_inner_manifest_sha256": "d75b0aa1798fcf2b1ae2562e908eaa2b9d556b018f130484f7a52b4c5b077bb7",
+      "published_sha256": "d7aa06280c8d6683f8d8fb83547cb36bfbc35ae67c93e67efcffa497826eb447"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/execution-issues.json",
+      "original_inner_manifest_sha256": "6525161e084a955f075a07236bcd89a560dec79274ec06b9dea6bd75bd2ffb1c",
+      "published_sha256": "45aa1c1c2f7c8aed0bf4e5f568ad074f29b92212e492ab0c1c6d084cb08abbee"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/composition-1/inspection.json",
+      "original_inner_manifest_sha256": "9ef22e031480ab85d2f56829ec7218da72f0a090271bb10dfd25f871f04771bc",
+      "published_sha256": "7871dbf1c0d6d9c410585c5d66de0c5cc4f82ae227b7694b6ff5b2e4f7b02df4"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/composition-1/6a6308dea8124665b2efb74846b18660.json",
+      "original_inner_manifest_sha256": "188cc9cb6e6346a2040b5f278a2b3fbe0e6ccc54b867e903dd42aa41e0f6deed",
+      "published_sha256": "338c76c4ecac706f51cc22f85ddf553279934aefb8ff11b2fe52d7e768cbf814"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/typography-1/inspection.json",
+      "original_inner_manifest_sha256": "3febf9772d20020de633b8f03af83343d1b10be1a659982ef0e728fbe41b0ce8",
+      "published_sha256": "2fde78ecdb0ca267cce662c7ae308041b5948987b5c6b1f28f5b7ba8d8c16ef9"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/typography-1/01a0c5df05c24520bc56072981755f25.json",
+      "original_inner_manifest_sha256": "926e05ac5e34120fffb526891a6b31434310d3a21fccc48d71fc1b5cbd8c675f",
+      "published_sha256": "04b52e1499a8849d87c5b6b9384dba8e4b254c8e5aa0c94e437ad30f1b719fd3"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/imagery-1/inspection.json",
+      "original_inner_manifest_sha256": "519c110513099797d8f7c4b91e8e6dd343d9cc494b5b529ad32ef1b3349dccc3",
+      "published_sha256": "c722c7198b37dde602b55eb1bd7a4b9fedae6f6ddb45bfc610b16f063cae5fd4"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/imagery-1/fb616f6fe31340e9ad30792b39fdefaa.json",
+      "original_inner_manifest_sha256": "1682cf695076d1d3f602935dc14aa937c9d0030356d32e21e7c280e931d119d4",
+      "published_sha256": "06774ea3c1f0a3ad6d99324c9af131da29e9b05a32a72b3d86e7e2bb41cbd400"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-1/inspection.json",
+      "original_inner_manifest_sha256": "6a682156321a18e9120b69389a258c529fb2aefef2b77429fa450a58fd3063d8",
+      "published_sha256": "4e974c62fa48543bfb8d600017edd2f05d088fd0db31a64ad2a48431e29a2d0c"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-1/61e8b6da9c0742b7a37b46d9b1121787.json",
+      "original_inner_manifest_sha256": "346febfa48d3f450dd24f4c6abd77d58f51cbd990c1791dad973c82afd5d3cb7",
+      "published_sha256": "1920d4602be2d6e19b1e7ede1eca61d122b470b8aa2e619ead33a6c3cba32c38"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-2/inspection.json",
+      "original_inner_manifest_sha256": "d5f32f04938d72ecb61261f4f334793c52fa1788cd2e3bb3a18c1631ff2af627",
+      "published_sha256": "08b7c102c94ec4449b06ed82c4c5f4e22d41e8d470defc6a393d2317b60cef4a"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-2/ee43b62d6e9a4c298816660e63cb308c.json",
+      "original_inner_manifest_sha256": "42a648074119150ba8b01bdbb4418885de33bf71bcf32514d5f870a143bfa0e8",
+      "published_sha256": "8cdb9a1e1a76a7ce8bf0f1547b3350a434dd0cfbc194a19c540ca27c1dfc7c37"
+    },
+    {
+      "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/reviews/concept-review-return.json",
+      "original_inner_manifest_sha256": "08855da6082dd3a241ef261293352b96e5a3834d325d4f41ef78719f69db6581",
+      "published_sha256": "699692b41dc796c5efd5aa66e6ae9dfee99508124612d049cc96dea1ea953206"
+    }
+  ]
+}

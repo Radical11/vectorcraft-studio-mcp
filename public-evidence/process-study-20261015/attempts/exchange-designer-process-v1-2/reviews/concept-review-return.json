@@ -1,0 +1,98 @@
+{
+  "reviewer_id": "/root/pilot_05/concept",
+  "assessments": [
+    {
+      "id": "handoff",
+      "composition": {
+        "score": 4,
+        "assessment": "The large two-line title, central book and lower invitation create a clear reading sequence. Open space around the illustration makes the exchange easy to isolate. All event details remain legible at 450 × 600."
+      },
+      "image_treatment": {
+        "score": 4,
+        "assessment": "The shared green book, cream page block, yellow open-book emblem and tan grasping hand make the subject immediately recognizable. The opposed arms communicate a transfer between people. Minor refinement: the orange left hand merges into the arm and is largely hidden beneath the book; clarify its supporting fingers slightly so both participants read equally clearly."
+      },
+      "copy": {
+        "score": 4,
+        "assessment": "The locked wording is present and readable. 'Swap a book. Find a story.' directly explains the depicted action. The bold date and time, followed by venue and entry instruction, support a quick attendance decision."
+      },
+      "brief_fit": {
+        "score": 4,
+        "assessment": "The strongest fit: books visibly change hands, the warm palette is welcoming, and the illustration communicates the event without relying entirely on the subtitle. The idea is familiar rather than unusually original, but purposeful and resolved."
+      }
+    },
+    {
+      "id": "flight",
+      "composition": {
+        "score": 4,
+        "assessment": "The cream title on dark green is prominent, and the arch gives the central image a coherent frame. The ascending books introduce movement. The lower information remains clear at intended size."
+      },
+      "image_treatment": {
+        "score": 3,
+        "assessment": "The colored rectangles and cream page strips read as simplified books, while the cream appendages suggest wings or loose pages. The arch creates a place-like setting but dominates the image. Major communication issue: no visible people, hands or reciprocal movement establishes an exchange. Add a meaningful receiving/giving relationship if this direction is developed."
+      },
+      "copy": {
+        "score": 4,
+        "assessment": "All required wording is readable. The subtitle supplies the exchange meaning that the illustration does not independently establish. The locked copy itself is appropriate and is not penalized."
+      },
+      "brief_fit": {
+        "score": 2,
+        "assessment": "The imagery conveys books travelling or imagination taking flight, but it does not sufficiently communicate books moving between people or stories changing hands. Its whimsical tone fits curiosity, while the essential exchange relationship remains absent."
+      }
+    },
+    {
+      "id": "loop",
+      "composition": {
+        "score": 3,
+        "assessment": "The circular arrows establish a dynamic central route, but the lower green arc sits close to the subtitle and makes that transition feel compressed. The two books, arms and arrowheads require more visual parsing than the handoff concept. Move or reduce the central illustration to restore a clearer gap above the subtitle."
+      },
+      "image_treatment": {
+        "score": 3,
+        "assessment": "Opposite arrows clearly suggest reciprocity, and the page blocks identify the objects as books. The angular arm endings do not clearly articulate fingers, so their connection to the books is less convincing. Refine the grips and simplify the arrow/arm intersections to make the human exchange read before the circulation symbol."
+      },
+      "copy": {
+        "score": 4,
+        "assessment": "The required wording and logistics remain legible at 450 × 600. The subtitle connects the circular diagram to a book swap, though its proximity to the lower arc weakens its separation from the image."
+      },
+      "brief_fit": {
+        "score": 3,
+        "assessment": "Reciprocal book exchange is conceptually relevant, but the visual experience is closer to an instructional circulation symbol than a welcoming encounter. The concept is viable; the current execution is less resolved than handoff."
+      }
+    }
+  ],
+  "selected": "handoff",
+  "all_weak": false,
+  "reason": "Handoff communicates the required human transfer most directly and offers the clearest quick reading experience. Its recognizable shared book and grasping hand explain the event before the subtitle is read. Loop makes reciprocity more explicit but introduces competing arrows and ambiguous grips. Flight has appealing movement and contrast, but its central metaphor misses the required exchange between people.",
+  "unresolved_limitations": "This is a visual concept assessment of the supplied raster previews. Native vector editability, live text, export completeness and the subsequent standardized edit were not inspected. Calibration images informed observation of hierarchy, atmosphere and spatial relationships; they were not treated as mandatory stylistic targets. The Wright calibration image was displayed by view_image at a resized resolution.",
+  "image_observation": {
+    "tool": "tools.view_image",
+    "evidence": "Executed 10 successful view_image actions: full and intended-size images for handoff, flight and loop, followed by neon-drive.png, dusk-poster.png, wright.jpg and perspective-city.png. Every returned image was displayed and visually inspected.",
+    "observation": "The supplied images visibly distinguish direct human transfer, imaginative flight and reciprocal circulation. Direct human transfer best satisfies the locked brief while preserving a clear, welcoming reading hierarchy."
+  },
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff-fixed\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff-fixed\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-6dfc395134af43be-flight\\versions\\flight\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-6dfc395134af43be-flight\\versions\\flight\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-9ed05e34e3e2467f-loop\\versions\\loop\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-9ed05e34e3e2467f-loop\\versions\\loop\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\references\\neon-drive.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\references\\dusk-poster.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\references\\wright.jpg",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\references\\perspective-city.png"
+    ],
+    "observations": [
+      "Handoff full: a green book with yellow open-book emblem bridges an orange arm from the left and tan hand from the upper right.",
+      "Handoff intended size: title, subtitle, bold date/time, venue and entry instruction remain readable; the central transfer remains recognizable.",
+      "Flight full: two wing-like books rise within a broad ochre arch against dark green; no human exchange is depicted.",
+      "Flight intended size: strong cream typography remains readable, while the wing shapes could also read as loose pages.",
+      "Loop full: orange and green reciprocal arrows surround two books held by angular arm shapes; the lower arc approaches the subtitle.",
+      "Loop intended size: arrows dominate the exchange cue, and the arm endings are less immediately recognizable as grips.",
+      "Neon Drive calibration: glowing white title, large striped warm sun and converging magenta grid establish a strong central axis and pronounced depth.",
+      "Dusk calibration: spaced cream title sits above layered purple hills, a warm sunset and small reflection marks; depth comes from overlapping silhouettes.",
+      "Wright calibration: faces and gestures gather around the illuminated central apparatus, with dark surroundings concentrating attention and creating narrative relationships.",
+      "Perspective City calibration: a sharp central building corner and receding rows of yellow windows establish spatial direction against a sunset horizon."
+    ]
+  }
+}

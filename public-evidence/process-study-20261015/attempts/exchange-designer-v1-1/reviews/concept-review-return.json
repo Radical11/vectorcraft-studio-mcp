@@ -1,0 +1,49 @@
+{
+  "assessments": [
+    {
+      "id": "a",
+      "composition": "Strongest hierarchy: oversized two-line title, clear invitation, one substantial central exchange, then practical details. The opposing cropped sleeves create a purposeful diagonal across the warm negative space. At 450 × 600, title, image and attendance information remain easy to scan.",
+      "image_treatment": "The open book is immediately identifiable through its curved pages, spine, page marks, layered cover and bookmark. Hands on opposite sides communicate shared possession or a handoff. Flat coral, teal and blue shapes form a coherent, welcoming illustration. This is literal rather than an unusual metaphor, but its close framing gives the action specificity and presence.",
+      "copy": "All six locked phrases are visibly present with exact wording. The title wraps deliberately. Date, time, location and entry condition are legible at intended size. No additional slogan competes with the supplied invitation.",
+      "brief_fit": "Best overall fit for students deciding quickly: it explains both the subject and the exchange without requiring interpretation. The artwork feels welcoming and the information is accessible. The rendered evidence supports a resolved concept, although originality is moderate rather than exceptional."
+    },
+    {
+      "id": "b",
+      "composition": "The diagonal relay creates momentum, and the dark field supplies clear contrast. However, three separate rectangular objects split the focal point. The lower hand and book sit close to the details, making the bottom portion comparatively crowded.",
+      "image_treatment": "The objects have colored borders, pale faces and a single dark line; they read almost as cards or envelopes rather than convincingly as books. The middle object floats between the hands without a visible receiver, weakening the exchange narrative. Major finding: central relay objects lack book-specific structure; this slows recognition of a book-exchange event. Add visible spines, page edges or cover details and clarify the passing sequence.",
+      "copy": "All locked wording is present and readable at intended size. White copy against navy is visually clear. The invitation and title retain the same conventional arrangement as a, so most of the conceptual difference comes from the illustration.",
+      "brief_fit": "Energetic and suitable for an evening event, but less immediate and less welcoming than a. Its promise of books moving between people is plausible only after the text supplies context. It needs a stronger visual explanation before it is the preferred direction."
+    },
+    {
+      "id": "c",
+      "composition": "A compact one-line title leaves a large central field for a symmetrical book-and-people emblem. The balanced composition and separated details are clear at intended size. The image has less directional movement than a, and the large gap above it makes the poster feel more static.",
+      "image_treatment": "Two people stand inside a large open-book outline and meet at a small object, creating a useful community-through-books metaphor. The coral and blue clothing distinguish the participants. Minor finding: the small exchanged object is an almost blank quadrilateral, which can read as a card; add restrained page or spine cues. Preference-level observation: the stiff, faceless figures make the tone more institutional and less lively.",
+      "copy": "All locked wording is visibly present and exact, with good intended-size legibility. The title is less dominant than in a and b but still unmistakable. The supplied invitation connects well with the book containing the people.",
+      "brief_fit": "The most explicit community metaphor and a credible alternative. It communicates people connected through stories, but its generic human silhouettes and static symmetry reduce memorability. A has the stronger combination of immediate action, inviting tone and illustrative specificity."
+    }
+  ],
+  "selected": "a",
+  "all_weak": false,
+  "reason": "Concept a most clearly communicates a recognizable book changing hands while preserving a fast reading sequence and welcoming atmosphere. Its curved pages, cover layers, bookmark and opposing sleeves provide meaningful detail beyond tidy typography. Concept c has a promising metaphor but weaker expressive execution; b has movement but ambiguous book forms.",
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-a\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-a\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-b\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-b\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-c\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-c\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\references\\neon-drive.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\references\\dusk-poster.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\references\\wright.jpg",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\references\\perspective-city.png"
+    ],
+    "observations": [
+      "A has cream field, navy two-line heading, open coral-covered book between blue and teal sleeves, teal bookmark and clear lower details.",
+      "B has navy field and three ascending pale rectangles between hands.",
+      "C has large teal open-book outline containing two faceless coral/blue figures.",
+      "Four calibration images inspected: Neon Drive glowing title/grid; Dusk layered silhouettes; Wright gestures toward lit vessel; city coherent corner perspective."
+    ]
+  }
+}

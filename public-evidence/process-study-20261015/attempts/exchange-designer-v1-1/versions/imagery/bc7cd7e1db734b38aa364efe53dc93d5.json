@@ -1,0 +1,67 @@
+{
+  "phase": "confirm",
+  "observations": "Full/use and target viewed. Recognizable cream curved pages, coral cover, navy depth and teal bookmark; two hands contact book at opposite corners. Native contours preserve target geometry; all text remains clear and untouched.",
+  "target_comparison": {
+    "silhouette": "Matches chosen close exchange with two sleeves and open book",
+    "proportions": "Book and hand widths equal to target, no translation loss",
+    "negative_space": "Broad cream field separates headline, handoff and footer",
+    "hierarchy": "Title first, invitation second, exchange focal, logistics lower",
+    "copy": "All required strings visible and readable at half size",
+    "detail": "Separated page bands, bookmark and cuff contrast survive use render"
+  },
+  "element_map": {
+    "ground": [
+      2
+    ],
+    "title": [
+      3
+    ],
+    "invitation": [
+      4
+    ],
+    "date": [
+      5
+    ],
+    "time": [
+      6
+    ],
+    "venue": [
+      7
+    ],
+    "entry": [
+      8
+    ],
+    "book": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "left-hand": [
+      22,
+      23,
+      24
+    ],
+    "right-hand": [
+      25,
+      26,
+      27
+    ]
+  },
+  "departures": [
+    {
+      "element": "title",
+      "reason": "Single live area type about 10pt below separate point-type target; required phrase stored intact."
+    }
+  ],
+  "decision": "proceed"
+}

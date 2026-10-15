@@ -1,0 +1,48 @@
+{
+  "phase": "confirm",
+  "observations": "Actual full/use and target comparison confirms right sleeve flush to canvas, book silhouette unchanged, more open gap before tagline. Both image neighbors and whole scene remain coherent.",
+  "target_comparison": {
+    "silhouette": "Opposed arms and central diagonal books retained",
+    "proportions": "Same book/hand scales as target",
+    "negative_space": "Image 10 points up; cream gap around title/invitation retained",
+    "hierarchy": "Title then image then invitation and logistics",
+    "copy": "All locked copy visible; exact title will use natural area wrapping",
+    "detail": "Native broad forms and sparse creases preserved"
+  },
+  "element_map": {
+    "paper": [
+      2
+    ],
+    "title": [
+      3
+    ],
+    "handoff": [
+      25
+    ],
+    "tagline": [
+      19
+    ],
+    "rule": [
+      20
+    ],
+    "date": [
+      21
+    ],
+    "time": [
+      22
+    ],
+    "location": [
+      23
+    ],
+    "entry": [
+      24
+    ]
+  },
+  "departures": [
+    {
+      "element": "handoff",
+      "reason": "10-point upward optical placement"
+    }
+  ],
+  "decision": "Composition accepted; proceed to live typography"
+}

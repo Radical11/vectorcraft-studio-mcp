@@ -1,0 +1,400 @@
+{
+  "artboards": [
+    {
+      "height": 1024.0,
+      "name": "Artboard 1",
+      "width": 1536.0,
+      "x": 0.0,
+      "y": 0.0
+    }
+  ],
+  "layers": [
+    {
+      "bounds": {
+        "height": 1024.0,
+        "width": 1536.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "children": [
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 102.0,
+            "width": 38.0,
+            "x": 1285.0,
+            "y": 922.0
+          },
+          "closed": true,
+          "fill": "#223b3b",
+          "id": 12,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 102.0,
+            "width": 38.0,
+            "x": 329.0,
+            "y": 922.0
+          },
+          "closed": true,
+          "fill": "#223b3b",
+          "id": 11,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 78.0,
+            "width": 1100.0,
+            "x": 300.0,
+            "y": 844.0
+          },
+          "closed": true,
+          "fill": "#bb8645",
+          "id": 10,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 66.0,
+            "width": 1234.0,
+            "x": 166.0,
+            "y": 778.0
+          },
+          "closed": true,
+          "fill": "#e5b85c",
+          "id": 9,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 169.0,
+            "width": 1360.0,
+            "x": 93.0,
+            "y": 772.0
+          },
+          "closed": true,
+          "fill": "#d8c9ae",
+          "id": 8,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 13.0,
+            "width": 337.0,
+            "x": 118.0,
+            "y": 284.0
+          },
+          "closed": true,
+          "fill": "#d5dfd2",
+          "id": 7,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 300.0,
+            "width": 14.0,
+            "x": 277.0,
+            "y": 140.0
+          },
+          "closed": true,
+          "fill": "#d5dfd2",
+          "id": 6,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 300.0,
+            "width": 337.0,
+            "x": 118.0,
+            "y": 140.0
+          },
+          "closed": true,
+          "fill": "#f8f1d9",
+          "id": 5,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 340.0,
+            "width": 378.0,
+            "x": 98.0,
+            "y": 119.0
+          },
+          "closed": true,
+          "fill": "#d5dfd2",
+          "id": 4,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 784.0,
+            "width": 1392.0,
+            "x": 72.0,
+            "y": 92.0
+          },
+          "closed": true,
+          "fill": "#e4dac6",
+          "id": 3,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 1024.0,
+            "width": 1536.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "closed": true,
+          "fill": "#f3e8d4",
+          "id": 2,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        }
+      ],
+      "clip": false,
+      "color": "#4f80ff",
+      "dimImages": null,
+      "id": 1,
+      "kind": "Layer",
+      "locked": false,
+      "name": "Layer 1",
+      "preview": true,
+      "printable": true,
+      "template": false,
+      "visible": true
+    }
+  ],
+  "objects": 12,
+  "colorMode": "Rgb",
+  "units": "Pixels"
+}

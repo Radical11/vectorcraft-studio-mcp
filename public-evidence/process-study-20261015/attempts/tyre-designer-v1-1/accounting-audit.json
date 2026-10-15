@@ -1,0 +1,925 @@
+{
+  "trial": "tyre-designer-v1-1",
+  "accounting_only": true,
+  "gateway_initialized": false,
+  "authoring_calls": 0,
+  "genuine_reviewer_waiting_after_expiry": false,
+  "pause_invalid": true,
+  "reason": "Pause was started after shared build-time rejection while considering further review; no reviewer was spawned or waiting. Parent explicitly prohibited further reviews and requested accounting resume.",
+  "pause": {
+    "index": 809,
+    "event": {
+      "trial": "tyre-designer-v1-1",
+      "event": "review_pause",
+      "at": 1792003212.836337,
+      "monotonic": 81241.7241684
+    }
+  },
+  "resume": {
+    "index": 810,
+    "event": {
+      "trial": "tyre-designer-v1-1",
+      "event": "review_resume",
+      "at": 1792028875.808497,
+      "monotonic": 405.4804302
+    }
+  },
+  "interval_seconds": 25662.97215986252,
+  "local_budget_after": {
+    "started": 1792000197.0953162,
+    "started_monotonic": 78225.9831452,
+    "batches": 9,
+    "calls": 84,
+    "paused_seconds": 25824.339472055435,
+    "review_start": null,
+    "clock_policy": "wall elapsed less explicit independent-review pauses; monotonic diagnostics only"
+  },
+  "trial_events": [
+    {
+      "index": 722,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "start",
+        "at": 1791999314.297233,
+        "monotonic": 77343.1850648
+      }
+    },
+    {
+      "index": 723,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000286.136049,
+        "monotonic": 78315.0238797,
+        "tool": "command_list"
+      }
+    },
+    {
+      "index": 724,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000287.612002,
+        "monotonic": 78316.4998327,
+        "tool": "workflow_record"
+      }
+    },
+    {
+      "index": 725,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000287.649174,
+        "monotonic": 78316.537004,
+        "tool": "workflow_record"
+      }
+    },
+    {
+      "index": 726,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000287.729254,
+        "monotonic": 78316.6170837,
+        "tool": "workflow_start"
+      }
+    },
+    {
+      "index": 727,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000432.670478,
+        "monotonic": 78461.5583078,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 728,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000432.711942,
+        "monotonic": 78461.5997722,
+        "tool": "workflow_status"
+      }
+    },
+    {
+      "index": 729,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000432.738173,
+        "monotonic": 78461.626003,
+        "tool": "workflow_begin"
+      }
+    },
+    {
+      "index": 730,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000432.764287,
+        "monotonic": 78461.6521167,
+        "tool": "command_batch"
+      }
+    },
+    {
+      "index": 731,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000432.812311,
+        "monotonic": 78461.7001451,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 732,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000852.517265,
+        "monotonic": 78881.4050949,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 733,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000852.552187,
+        "monotonic": 78881.4400176,
+        "tool": "workflow_status"
+      }
+    },
+    {
+      "index": 734,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792000852.577196,
+        "monotonic": 78881.4650259,
+        "tool": "workflow_begin"
+      }
+    },
+    {
+      "index": 735,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792001035.789912,
+        "monotonic": 79064.6777427,
+        "tool": "command_batch"
+      }
+    },
+    {
+      "index": 736,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792001035.828733,
+        "monotonic": 79064.7165632,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 737,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002302.458337,
+        "monotonic": 80331.3461705,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 738,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002302.692932,
+        "monotonic": 80331.5807626,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 739,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002302.81791,
+        "monotonic": 80331.7057407,
+        "tool": "workflow_status"
+      }
+    },
+    {
+      "index": 740,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002302.891414,
+        "monotonic": 80331.7792449,
+        "tool": "workflow_begin"
+      }
+    },
+    {
+      "index": 741,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002302.955244,
+        "monotonic": 80331.8430744,
+        "tool": "command_batch"
+      }
+    },
+    {
+      "index": 742,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002303.045748,
+        "monotonic": 80331.933579,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 743,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002484.353238,
+        "monotonic": 80513.2410676,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 744,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002484.397906,
+        "monotonic": 80513.2857358,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 745,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002484.436945,
+        "monotonic": 80513.3247745,
+        "tool": "workflow_status"
+      }
+    },
+    {
+      "index": 746,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002484.475516,
+        "monotonic": 80513.3633454,
+        "tool": "workflow_begin"
+      }
+    },
+    {
+      "index": 747,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002484.516388,
+        "monotonic": 80513.4042175,
+        "tool": "command_batch"
+      }
+    },
+    {
+      "index": 748,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002484.554194,
+        "monotonic": 80513.4420244,
+        "tool": "transform"
+      }
+    },
+    {
+      "index": 749,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002484.592685,
+        "monotonic": 80513.4805147,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 750,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002516.006372,
+        "monotonic": 80544.8942022,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 751,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002517.42005,
+        "monotonic": 80546.3078798,
+        "tool": "workflow_record"
+      }
+    },
+    {
+      "index": 752,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002517.470194,
+        "monotonic": 80546.3580237,
+        "tool": "workflow_status"
+      }
+    },
+    {
+      "index": 753,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "review_pause",
+        "at": 1792002517.4781,
+        "monotonic": 80546.3659297
+      }
+    },
+    {
+      "index": 754,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "review_resume",
+        "at": 1792002678.856874,
+        "monotonic": 80707.744705
+      }
+    },
+    {
+      "index": 755,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002781.018891,
+        "monotonic": 80809.9067216,
+        "tool": "workflow_record"
+      }
+    },
+    {
+      "index": 756,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002781.096393,
+        "monotonic": 80809.9842229,
+        "tool": "workflow_record"
+      }
+    },
+    {
+      "index": 757,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002781.134288,
+        "monotonic": 80810.0221179,
+        "tool": "workflow_record"
+      }
+    },
+    {
+      "index": 758,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002781.195784,
+        "monotonic": 80810.0836139,
+        "tool": "workflow_start"
+      }
+    },
+    {
+      "index": 759,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002781.222573,
+        "monotonic": 80810.1104024,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 760,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002781.250818,
+        "monotonic": 80810.1386477,
+        "tool": "workflow_status"
+      }
+    },
+    {
+      "index": 761,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002781.274907,
+        "monotonic": 80810.1627371,
+        "tool": "workflow_begin"
+      }
+    },
+    {
+      "index": 762,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002781.299865,
+        "monotonic": 80810.1876947,
+        "tool": "command_batch"
+      }
+    },
+    {
+      "index": 763,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002781.334118,
+        "monotonic": 80810.2219472,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 764,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002817.076324,
+        "monotonic": 80845.9641535,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 765,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002818.467129,
+        "monotonic": 80847.3549586,
+        "tool": "workflow_record"
+      }
+    },
+    {
+      "index": 766,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002818.513396,
+        "monotonic": 80847.4012259,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 767,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002818.544058,
+        "monotonic": 80847.4318881,
+        "tool": "workflow_status"
+      }
+    },
+    {
+      "index": 768,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002818.574671,
+        "monotonic": 80847.4625007,
+        "tool": "workflow_begin"
+      }
+    },
+    {
+      "index": 769,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002818.61227,
+        "monotonic": 80847.5000995,
+        "tool": "command_batch"
+      }
+    },
+    {
+      "index": 770,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002818.648575,
+        "monotonic": 80847.5364044,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 771,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002855.362463,
+        "monotonic": 80884.2502934,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 772,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002855.408861,
+        "monotonic": 80884.2966906,
+        "tool": "workflow_status"
+      }
+    },
+    {
+      "index": 773,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002855.439965,
+        "monotonic": 80884.327795,
+        "tool": "workflow_begin"
+      }
+    },
+    {
+      "index": 774,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002855.481445,
+        "monotonic": 80884.369275,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 775,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002913.658159,
+        "monotonic": 80942.5459887,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 776,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002913.706351,
+        "monotonic": 80942.5941806,
+        "tool": "workflow_status"
+      }
+    },
+    {
+      "index": 777,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002913.73925,
+        "monotonic": 80942.6270804,
+        "tool": "workflow_begin"
+      }
+    },
+    {
+      "index": 778,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002913.781209,
+        "monotonic": 80942.6690392,
+        "tool": "command_batch"
+      }
+    },
+    {
+      "index": 779,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002913.831848,
+        "monotonic": 80942.7196774,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 780,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002940.949337,
+        "monotonic": 80969.8371678,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 781,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002941.068869,
+        "monotonic": 80969.9566999,
+        "tool": "workflow_status"
+      }
+    },
+    {
+      "index": 782,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002941.158737,
+        "monotonic": 80970.0465672,
+        "tool": "workflow_begin"
+      }
+    },
+    {
+      "index": 783,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002941.282458,
+        "monotonic": 80970.1702888,
+        "tool": "command_batch"
+      }
+    },
+    {
+      "index": 784,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002941.448772,
+        "monotonic": 80970.3366027,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 785,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002941.502072,
+        "monotonic": 80970.3899027,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 786,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002941.602567,
+        "monotonic": 80970.4903983,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 787,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002941.660183,
+        "monotonic": 80970.5480136,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 788,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002941.753532,
+        "monotonic": 80970.6413624,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 789,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002941.804527,
+        "monotonic": 80970.6923577,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 790,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002941.927883,
+        "monotonic": 80970.8157134,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 791,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002941.979345,
+        "monotonic": 80970.8671757,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 792,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.085478,
+        "monotonic": 80970.9733088,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 793,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.145619,
+        "monotonic": 80971.0334499,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 794,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.242364,
+        "monotonic": 80971.1301947,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 795,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.298981,
+        "monotonic": 80971.186812,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 796,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.407147,
+        "monotonic": 80971.2949776,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 797,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.458432,
+        "monotonic": 80971.3462623,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 798,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.576259,
+        "monotonic": 80971.4640902,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 799,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.633284,
+        "monotonic": 80971.5211144,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 800,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.748241,
+        "monotonic": 80971.6360721,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 801,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.802545,
+        "monotonic": 80971.6903761,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 802,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.890519,
+        "monotonic": 80971.7783505,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 803,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002942.952308,
+        "monotonic": 80971.8401386,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 804,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002943.068751,
+        "monotonic": 80971.9565817,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 805,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002943.121131,
+        "monotonic": 80972.0089616,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 806,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002943.212341,
+        "monotonic": 80972.1001722,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 807,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002943.266078,
+        "monotonic": 80972.1539091,
+        "tool": "command_run"
+      }
+    },
+    {
+      "index": 808,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002943.346938,
+        "monotonic": 80972.2347684,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    {
+      "index": 809,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "review_pause",
+        "at": 1792003212.836337,
+        "monotonic": 81241.7241684
+      }
+    },
+    {
+      "index": 810,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "review_resume",
+        "at": 1792028875.808497,
+        "monotonic": 405.4804302
+      }
+    }
+  ],
+  "parent_alone_reclassifies_and_finishes": true
+}

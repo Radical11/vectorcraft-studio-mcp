@@ -1,0 +1,389 @@
+{
+  "actions": [
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\neon-drive.png",
+      "purpose": "frozen reference research",
+      "observation": "Actually viewed titles/masses/gesture/perspective and publication geometry; no audience interview evidence.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\dusk-poster.png",
+      "purpose": "frozen reference research",
+      "observation": "Actually viewed titles/masses/gesture/perspective and publication geometry; no audience interview evidence.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\wright.jpg",
+      "purpose": "frozen reference research",
+      "observation": "Actually viewed titles/masses/gesture/perspective and publication geometry; no audience interview evidence.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\perspective-city.png",
+      "purpose": "frozen reference research",
+      "observation": "Actually viewed titles/masses/gesture/perspective and publication geometry; no audience interview evidence.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\epa-mechanisms.png",
+      "purpose": "frozen reference research",
+      "observation": "Actually viewed titles/masses/gesture/perspective and publication geometry; no audience interview evidence.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\epa-flow.png",
+      "purpose": "frozen reference research",
+      "observation": "Actually viewed titles/masses/gesture/perspective and publication geometry; no audience interview evidence.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\feature-sheet.png",
+      "purpose": "frozen reference research",
+      "observation": "Actually viewed titles/masses/gesture/perspective and publication geometry; no audience interview evidence.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough\\full.png",
+      "purpose": "native isolated study",
+      "observation": "Opposing book grip visible but wrong selected-fill colors.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough\\use.png",
+      "purpose": "native isolated study",
+      "observation": "Opposing book grip visible but wrong selected-fill colors.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\full.png",
+      "purpose": "native isolated study",
+      "observation": "Restored skin palms, navy/blue sleeves and coral book; exact copy readable.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\use.png",
+      "purpose": "native isolated study",
+      "observation": "Restored skin palms, navy/blue sleeves and coral book; exact copy readable.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-eb0f3aebb34a44f2-orbit-study\\versions\\orbit-rough\\full.png",
+      "purpose": "native isolated study",
+      "observation": "Books/cycle visible; title collides with right cream book.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-eb0f3aebb34a44f2-orbit-study\\versions\\orbit-rough\\use.png",
+      "purpose": "native isolated study",
+      "observation": "Books/cycle visible; title collides with right cream book.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-eb0f3aebb34a44f2-orbit-study\\versions\\orbit-rough-fixed\\full.png",
+      "purpose": "native isolated study",
+      "observation": "Title clear of right book; generic circulation remains concept limitation.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-eb0f3aebb34a44f2-orbit-study\\versions\\orbit-rough-fixed\\use.png",
+      "purpose": "native isolated study",
+      "observation": "Title clear of right book; generic circulation remains concept limitation.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-56f15a950c2d432f-bridge-study\\versions\\bridge-rough\\full.png",
+      "purpose": "native isolated study",
+      "observation": "Two people connect through giant open book, shared-reading ambiguity.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-56f15a950c2d432f-bridge-study\\versions\\bridge-rough\\use.png",
+      "purpose": "native isolated study",
+      "observation": "Two people connect through giant open book, shared-reading ambiguity.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-8d26b42ef1aa4942-grip-proof\\versions\\grip-proof-v1\\full.png",
+      "purpose": "native isolated study",
+      "observation": "Representative right fingers separated beside held book; broad stylization remains.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-8d26b42ef1aa4942-grip-proof\\versions\\grip-proof-v1\\use.png",
+      "purpose": "native isolated study",
+      "observation": "Representative right fingers separated beside held book; broad stylization remains.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\composition-v1\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "12-point right-edge gap observed after optical shift.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\composition-v1\\use.png",
+      "purpose": "production full/use/target check",
+      "observation": "12-point right-edge gap observed after optical shift.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "12-point right-edge gap observed after optical shift.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\composition-v2\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Right sleeve entry repaired; image neighbors and whole composition retained.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\composition-v2\\use.png",
+      "purpose": "production full/use/target check",
+      "observation": "Right sleeve entry repaired; image neighbors and whole composition retained.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Right sleeve entry repaired; image neighbors and whole composition retained.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\typography-v1\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Exact-string title wraps but y frame-top shifts it downward.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\typography-v1\\use.png",
+      "purpose": "production full/use/target check",
+      "observation": "Exact-string title wraps but y frame-top shifts it downward.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Exact-string title wraps but y frame-top shifts it downward.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\typography-v2\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Title optical top restored; exact wording and hierarchy retained.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\typography-v2\\use.png",
+      "purpose": "production full/use/target check",
+      "observation": "Title optical top restored; exact wording and hierarchy retained.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Title optical top restored; exact wording and hierarchy retained.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\imagery-v1\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Palm refinement transferred; fingers separate and book contact remains.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\imagery-v1\\use.png",
+      "purpose": "production full/use/target check",
+      "observation": "Palm refinement transferred; fingers separate and book contact remains.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Palm refinement transferred; fingers separate and book contact remains.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final-v1\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Native edit selection organization; whole poster unchanged.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final-v1\\use.png",
+      "purpose": "production full/use/target check",
+      "observation": "Native edit selection organization; whole poster unchanged.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Native edit selection organization; whole poster unchanged.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final-v2\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Explicit leading and correct recovery; full/use native final inspected.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final-v2\\use.png",
+      "purpose": "production full/use/target check",
+      "observation": "Explicit leading and correct recovery; full/use native final inspected.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\full.png",
+      "purpose": "production full/use/target check",
+      "observation": "Explicit leading and correct recovery; full/use native final inspected.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\deliverables\\exchange-night-full.png",
+      "purpose": "actual export inspection",
+      "observation": "PNG/native, Poppler PDF and Sharp SVG retain copy, positions, colors and vector silhouette; no observed export loss.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\deliverables\\exchange-night-use.png",
+      "purpose": "actual export inspection",
+      "observation": "PNG/native, Poppler PDF and Sharp SVG retain copy, positions, colors and vector silhouette; no observed export loss.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\deliverables\\pdf-full-render.png",
+      "purpose": "actual export inspection",
+      "observation": "PNG/native, Poppler PDF and Sharp SVG retain copy, positions, colors and vector silhouette; no observed export loss.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\deliverables\\pdf-use-render.png",
+      "purpose": "actual export inspection",
+      "observation": "PNG/native, Poppler PDF and Sharp SVG retain copy, positions, colors and vector silhouette; no observed export loss.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\deliverables\\svg-full-render.png",
+      "purpose": "actual export inspection",
+      "observation": "PNG/native, Poppler PDF and Sharp SVG retain copy, positions, colors and vector silhouette; no observed export loss.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\deliverables\\svg-use-render.png",
+      "purpose": "actual export inspection",
+      "observation": "PNG/native, Poppler PDF and Sharp SVG retain copy, positions, colors and vector silhouette; no observed export loss.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\verification\\reopened-full.png",
+      "purpose": "stopped fresh native reopening",
+      "observation": "Fresh read-only reopened native visually matches retained final, native fingerprint preserved.",
+      "actual_view": true
+    },
+    {
+      "tool": "functions.exec tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\verification\\reopened-use.png",
+      "purpose": "stopped fresh native reopening",
+      "observation": "Fresh read-only reopened native visually matches retained final, native fingerprint preserved.",
+      "actual_view": true
+    }
+  ],
+  "successful_image_actions": 48,
+  "failed_image_actions": [
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough\\use-size.png",
+      "error": "File not found; no observation claimed; actual returned use.png viewed next"
+    }
+  ],
+  "reviewer_actions": [
+    {
+      "reviewer_id": "/root/pilot_04/concept_review",
+      "tool": "functions.exec tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\neon-drive.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\dusk-poster.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\wright.jpg",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\perspective-city.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\full.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\use.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-eb0f3aebb34a44f2-orbit-study\\versions\\orbit-rough-fixed\\full.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-eb0f3aebb34a44f2-orbit-study\\versions\\orbit-rough-fixed\\use.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-56f15a950c2d432f-bridge-study\\versions\\bridge-rough\\full.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-56f15a950c2d432f-bridge-study\\versions\\bridge-rough\\use.png"
+      ],
+      "evidence": "Fresh reviewer explicitly returned actual tool actions and concrete observations for all required paths; no editing tools or extra agents.",
+      "raw_return": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\concept-review-return.json"
+    },
+    {
+      "reviewer_id": "/root/pilot_04/final_communication",
+      "tool": "functions.exec tools.view_image",
+      "paths": [
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/A/full.png",
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/A/use.png",
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/target.png"
+      ],
+      "evidence": "Fresh reviewer explicitly returned actual tool actions and concrete observations for all required paths; no editing tools or extra agents.",
+      "raw_return": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\final_communication-raw-return.json"
+    },
+    {
+      "reviewer_id": "/root/pilot_04/final_craft",
+      "tool": "functions.exec tools.view_image",
+      "paths": [
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/A/full.png",
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/A/use.png",
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/target.png"
+      ],
+      "evidence": "Fresh reviewer explicitly returned actual tool actions and concrete observations for all required paths; no editing tools or extra agents.",
+      "raw_return": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\final_craft-raw-return.json"
+    }
+  ]
+}

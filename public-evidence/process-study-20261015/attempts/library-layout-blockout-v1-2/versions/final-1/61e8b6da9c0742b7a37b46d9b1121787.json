@@ -1,0 +1,86 @@
+{
+  "phase": "confirm",
+  "observations": "Actual full/use and target views show unchanged final composition after grouping. All nine required strings remain readable; all connectors land above the matching card. Bold headings and single-baseline actions are intentional target departures.",
+  "decision": "Proceed; required grouping retained.",
+  "target_comparison": {
+    "silhouette": "Three equal service cards under a centered catalogue search match selected target.",
+    "proportions": "Original card dimensions and broad spacing retained.",
+    "negative_space": "Title field and connector corridor remain open.",
+    "hierarchy": "Title, search, status and action read in order at use size.",
+    "copy": "Actual full/use and target views show unchanged final composition after grouping. All nine required strings remain readable; all connectors land above the matching card. Bold headings and single-baseline actions are intentional target departures.",
+    "detail": "Subject symbols and branch endpoints remain distinct."
+  },
+  "element_map": {
+    "background": [
+      2
+    ],
+    "routes": [
+      9,
+      12,
+      23,
+      33,
+      42
+    ],
+    "cards": [
+      10,
+      11,
+      21,
+      22,
+      31,
+      32
+    ],
+    "title": [
+      3
+    ],
+    "guide": [
+      4
+    ],
+    "search": [
+      6
+    ],
+    "available": [
+      13
+    ],
+    "collect": [
+      43
+    ],
+    "loan": [
+      24
+    ],
+    "reserve": [
+      44
+    ],
+    "notheld": [
+      34
+    ],
+    "librarian": [
+      45
+    ],
+    "symbols": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      25,
+      26,
+      27,
+      28,
+      35,
+      36,
+      37,
+      38,
+      39,
+      46,
+      47,
+      48
+    ],
+    "furniture": [
+      5,
+      7,
+      8,
+      41
+    ]
+  },
+  "departures": []
+}

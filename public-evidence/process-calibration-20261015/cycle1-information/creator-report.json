@@ -1,0 +1,240 @@
+{
+  "phase": "calibration",
+  "cycle": 1,
+  "genre": "information-graphic",
+  "new_from_blank": true,
+  "held_out_evidence": false,
+  "profile": "designer-process-v1",
+  "status": "review_passed",
+  "best_version": "finishing-v1",
+  "selected_direction": "paired-process",
+  "completed_stages": [
+    "composition",
+    "typography",
+    "imagery",
+    "finishing"
+  ],
+  "independent_reviews": {
+    "concept": "/root/calibration_information_cycle1/information_concept_review",
+    "communication": "/root/calibration_information_cycle1/information_final_communication",
+    "craft": "/root/calibration_information_cycle1/information_final_craft",
+    "rounds": 1,
+    "correction_rounds": 0,
+    "all_applicable_final_scores": 4,
+    "image_views": {
+      "concept": 10,
+      "communication": 3,
+      "craft": 3
+    },
+    "human_approval_claimed": false
+  },
+  "weaknesses": [
+    "Minor uptake arrowhead meets green canopy branch fork; both independent specialists observed the same local ambiguity.",
+    "Small source and uptake labels need closer attention at use size.",
+    "Research inspected four cached references rather than the15-25 target.",
+    "Directions actual_copy is not a verbatim transcript of all rough supporting copy; source images and actual-copy-transcripts.json preserve it."
+  ],
+  "timing": {
+    "started_wall": 1791875444.2738485,
+    "ended_wall": 1791876999.7534966,
+    "wall_elapsed_seconds": 1555.4796481132507,
+    "independent_review_pause_seconds": 528.8988862037659,
+    "active_elapsed_seconds": 1026.580762386322,
+    "max_diagnostic_wall_monotonic_divergence_seconds": 7.14324414730072e-07,
+    "anomaly_refund_or_reset": false,
+    "planned_batches": 9,
+    "batch_limit": 24,
+    "active_limit_seconds": 3600,
+    "host_tool_calls": 244,
+    "tool_counts": {
+      "workflow_status": 10,
+      "command_list": 8,
+      "command_run": 62,
+      "workflow_record": 21,
+      "workflow_begin": 9,
+      "draw_shape": 24,
+      "draw_path": 83,
+      "workflow_checkpoint": 18,
+      "set_paint": 1,
+      "transform": 2,
+      "export": 6
+    },
+    "read_only_verification_calls": 12
+  },
+  "native": "<project>\\work\\research32\\calibration\\cycle1-information\\work\\vectorcraft-studio\\artwork\\versions\\finishing-v1\\artwork.vectorcraft",
+  "exports": [
+    {
+      "path": "<project>\\work\\research32\\calibration\\cycle1-information\\exports\\how-trees-cool-a-street.vectorcraft",
+      "sha256": "946f47fab3642576f2136e85b170699d484e329e53838d9c0d9e314570379644",
+      "bytes": 159537
+    },
+    {
+      "path": "<project>\\work\\research32\\calibration\\cycle1-information\\exports\\how-trees-cool-a-street.svg",
+      "sha256": "eddfc371e9b92efc46220bff977aa36eb97d0bdba3f59f72213891b799e4845c",
+      "bytes": 318004
+    },
+    {
+      "path": "<project>\\work\\research32\\calibration\\cycle1-information\\exports\\how-trees-cool-a-street-live.svg",
+      "sha256": "25dabdc3c541ffb598e95213d6b8adbd327b8ea1ef15ec471de019d0d39edef8",
+      "bytes": 9076
+    },
+    {
+      "path": "<project>\\work\\research32\\calibration\\cycle1-information\\exports\\how-trees-cool-a-street.pdf",
+      "sha256": "fe91a6df8b476b7f0b2fe142202619408edf7991239c22aedf65d64ba21e3402",
+      "bytes": 53903
+    },
+    {
+      "path": "<project>\\work\\research32\\calibration\\cycle1-information\\exports\\full.png",
+      "sha256": "ee04bb90259631b66b03fa886c8568bed053c4b5789dec2efcdf2bf4be7ac678",
+      "bytes": 78151,
+      "dimensions": [
+        1200,
+        900
+      ]
+    },
+    {
+      "path": "<project>\\work\\research32\\calibration\\cycle1-information\\exports\\use.png",
+      "sha256": "ec4175bed9e3c973048220df407a4f8ef62baa4ce3c16411183eebe80caa4123",
+      "bytes": 35380,
+      "dimensions": [
+        600,
+        450
+      ]
+    }
+  ],
+  "full_preview": "<project>\\work\\research32\\calibration\\cycle1-information\\exports\\full.png",
+  "use_preview": "<project>\\work\\research32\\calibration\\cycle1-information\\exports\\use.png",
+  "sources": "<project>\\work\\research32\\calibration\\cycle1-information\\sources.json",
+  "verification": {
+    "native_opened_before_workflow": true,
+    "opened_native": "<project>\\work\\research32\\calibration\\cycle1-information\\work\\vectorcraft-studio\\artwork\\versions\\finishing-v1\\artwork.vectorcraft",
+    "workflow_run": null,
+    "connection": {
+      "mode": "headless",
+      "project_root": "<project>\\work\\research32\\calibration\\cycle1-information",
+      "desktop_pid": null,
+      "port": null,
+      "recovery_checkpoint": "<project>\\work\\research32\\calibration\\cycle1-information\\work\\vectorcraft\\031f441af3334842aa1049ba36cb40a5\\checkpoint-0.vectorcraft",
+      "last_error": null,
+      "transfer_notes": [],
+      "workflow_run": null,
+      "gateway_version": "3.2.0-alpha.1",
+      "preserved_documents": []
+    },
+    "native_kind_counts": {
+      "layer": 1,
+      "path": 52,
+      "text": 17
+    },
+    "live_text_objects": 17,
+    "native_paths": 52,
+    "raster_nodes": 0,
+    "font_status": [
+      {
+        "family": "Arial",
+        "missing": false,
+        "missingGlyphs": 0,
+        "objects": 5,
+        "resolved": {
+          "family": "Arial",
+          "style": "Bold"
+        },
+        "runs": 5,
+        "status": "exact",
+        "style": "Bold"
+      },
+      {
+        "family": "Arial",
+        "missing": false,
+        "missingGlyphs": 0,
+        "objects": 12,
+        "resolved": {
+          "family": "Arial",
+          "style": "Regular"
+        },
+        "runs": 12,
+        "status": "exact",
+        "style": "Regular"
+      }
+    ],
+    "svg_primary_text_nodes": 0,
+    "svg_primary_image_nodes": 0,
+    "observations": "Actually viewed reopened retained native full/use, primary outlined SVG full/use, and independent Poppler PDF full/use. Required title, mechanisms, root connection and qualification preserved; no observed export loss. Optional live SVG depends on Arial availability.",
+    "receipt_path": "<project>\\work\\research32\\calibration\\cycle1-information\\verification\\read-only-receipts.json"
+  },
+  "context_ids": {
+    "production_run": "artwork",
+    "studies": {
+      "shared-street": "<project>\\work\\research32\\calibration\\cycle1-information\\work\\vectorcraft-studio\\study-3c50d3243da441e3-shared-street",
+      "paired-process": "<project>\\work\\research32\\calibration\\cycle1-information\\work\\vectorcraft-studio\\study-37c1da50c0594778-paired-process",
+      "tree-section": "<project>\\work\\research32\\calibration\\cycle1-information\\work\\vectorcraft-studio\\study-ddf158226b3140d9-tree-section",
+      "native-construction": "<project>\\work\\research32\\calibration\\cycle1-information\\work\\vectorcraft-studio\\study-dd479d46d5014744-native-construction"
+    },
+    "read_only_connection": "031f441af3334842aa1049ba36cb40a5"
+  },
+  "batches": [
+    {
+      "receipt_line": 13,
+      "stage": "composition",
+      "plan_id": "shared-street",
+      "context": "study"
+    },
+    {
+      "receipt_line": 56,
+      "stage": "composition",
+      "plan_id": "shared-street",
+      "context": "study"
+    },
+    {
+      "receipt_line": 64,
+      "stage": "composition",
+      "plan_id": "paired-process",
+      "context": "study"
+    },
+    {
+      "receipt_line": 107,
+      "stage": "composition",
+      "plan_id": "tree-section",
+      "context": "study"
+    },
+    {
+      "receipt_line": 152,
+      "stage": "composition",
+      "plan_id": "native-construction",
+      "context": "study"
+    },
+    {
+      "receipt_line": 180,
+      "stage": "composition",
+      "plan_id": "composition-build",
+      "context": "production"
+    },
+    {
+      "receipt_line": 192,
+      "stage": "typography",
+      "plan_id": "typography-build",
+      "context": "production"
+    },
+    {
+      "receipt_line": 203,
+      "stage": "imagery",
+      "plan_id": "imagery-build",
+      "context": "production"
+    },
+    {
+      "receipt_line": 227,
+      "stage": "finishing",
+      "plan_id": "finishing-build",
+      "context": "production"
+    }
+  ],
+  "image_action_report": "<project>\\work\\research32\\calibration\\cycle1-information\\creator-image-actions.json",
+  "execution_issues": "<project>\\work\\research32\\calibration\\cycle1-information\\execution-issues.json",
+  "gateway_state": {
+    "uncertain": false,
+    "pending": null,
+    "stop_reason": "Best common-brief version passed both independent specialists",
+    "relationships": 7
+  },
+  "claims": "Independent agent image judgments support acceptance for this brief; no general aesthetic improvement or human-expert validation is claimed."
+}

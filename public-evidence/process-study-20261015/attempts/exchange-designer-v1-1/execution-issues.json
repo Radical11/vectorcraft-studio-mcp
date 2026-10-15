@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "type": "read-tool-schema",
+      "operation": "command_list category=text",
+      "result": "unknown argument category; no authoring",
+      "resolution": "Read authoritative command_list schema and used filter/no args",
+      "replayed_uncertain": false
+    },
+    {
+      "type": "typography-correction",
+      "operation": "Live title area construction",
+      "result": "Second line NIGHT clipped in first typography render",
+      "resolution": "Viewed full/use, preserved failed snapshot, confirmed correction need, planned separate typography correction batch; leading118/frameheight290 restored full visible title",
+      "replayed_uncertain": false
+    },
+    {
+      "type": "preflight-selection",
+      "operation": "Preflight area-type check",
+      "result": "text.areaOptions disabled because nothing selected, despite ids argument",
+      "resolution": "Selected title id3 using read-only select.set then preflight succeeded; no authoring replay",
+      "replayed_uncertain": false
+    },
+    {
+      "type": "local-renderer",
+      "operation": "Python fitz/cairosvg availability check",
+      "result": "fitz unavailable in configured Python3.13",
+      "resolution": "Bundled Poppler pdftoppm rendered PDF; SVG reread via separately instrumented ordinary quick inspection connection",
+      "replayed_uncertain": false
+    },
+    {
+      "type": "console-encoding",
+      "operation": "Printing command schema via Python",
+      "result": "cp1252 UnicodeEncodeError for arrow symbol",
+      "resolution": "Used JSON with ASCII escaping in later inspection; no native changes",
+      "replayed_uncertain": false
+    }
+  ],
+  "uncertain_authoring_operations": [],
+  "connections_closed": true,
+  "post_stop_authoring": false,
+  "protocol_note": "Parent authorized temporary Session.g routing into new same-root ordinary quick planning Gateways, every planning operation via Session.call. Main full run preserved untouched in its own connection. No source/config edits, no experimental blockout requirements."
+}

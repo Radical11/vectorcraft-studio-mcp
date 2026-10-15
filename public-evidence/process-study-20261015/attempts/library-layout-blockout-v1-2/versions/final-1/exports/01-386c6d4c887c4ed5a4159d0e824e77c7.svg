@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900">
+  <title>Find your next book</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M0 0 L1200 0 L1200 900 L0 900 Z" fill="#f4efdf"/>
+    <text id="title" transform="matrix(1 0 0 1 60 112)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="56" font-weight="bold" fill="#183b3b"><tspan x="0" y="0">FIND YOUR NEXT BOOK</tspan></text>
+    <text id="guide" transform="matrix(1 0 0 1 62 161)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="26" fill="#183b3b"><tspan x="0" y="0">Choose the path that matches the catalogue result.</tspan></text>
+    <path d="M389 226 L811 226 C819.284 226 826 232.716 826 241 L826 303 C826 311.284 819.284 318 811 318 L389 318 C380.716 318 374 311.284 374 303 L374 241 C374 232.716 380.716 226 389 226 Z" fill="#183b3b"/>
+    <text id="search" transform="matrix(1 0 0 1 430 283)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="32" fill="#f4efdf"><tspan x="0" y="0">Search the catalogue</tspan></text>
+    <path d="M397 264 C397 257.925 401.925 253 408 253 C414.075 253 419 257.925 419 264 C419 270.075 414.075 275 408 275 C401.925 275 397 270.075 397 264 Z" fill="none" stroke="#f4efdf" stroke-width="3" stroke-miterlimit="10"/>
+    <path d="M415 272 L427 284" fill="none" stroke="#f4efdf" stroke-width="3" stroke-miterlimit="10"/>
+    <path d="M600 318 L600 377 M235 377 L965 377 M235 377 L235 426 M600 377 L600 426 M965 377 L965 426" fill="none" stroke="#183b3b" stroke-width="4" stroke-miterlimit="10"/>
+    <path d="M60 831 L1140 831" fill="none" stroke="#183b3b" stroke-width="2" stroke-miterlimit="10"/>
+    <path d="M594 377 C594 373.686 596.686 371 600 371 C603.314 371 606 373.686 606 377 C606 380.314 603.314 383 600 383 C596.686 383 594 380.314 594 377 Z" fill="#183b3b"/>
+    <g id="Available_-_Collect_from_the_shelf" data-name="Available - Collect from the shelf">
+      <path d="M70 443 L400 443 C405.523 443 410 447.477 410 453 L410 777 C410 782.523 405.523 787 400 787 L70 787 C64.477 787 60 782.523 60 777 L60 453 C60 447.477 64.477 443 70 443 Z" fill="#dceee6"/>
+      <path d="M60 443 L410 443 L410 455 L60 455 Z" fill="#227d76"/>
+      <path d="M228 421 L235 431 L242 421" fill="none" stroke="#227d76" stroke-width="4" stroke-miterlimit="10"/>
+      <text id="available" transform="matrix(1 0 0 1 87 501)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="35" font-weight="bold" fill="#227d76"><tspan x="0" y="0">Available</tspan></text>
+      <path d="M186 554 L205 554 L205 625 L186 625 Z" fill="#227d76"/>
+      <path d="M211 545 L236 545 L236 625 L211 625 Z" fill="#227d76"/>
+      <path d="M243 561 L262 561 L262 625 L243 625 Z" fill="#227d76"/>
+      <path d="M177 627 L279 627 L279 635 L177 635 Z" fill="#227d76"/>
+      <path d="M193 569 L198 569 M220 561 L227 561 M250 576 L256 576" fill="none" stroke="#f4efdf" stroke-width="3" stroke-miterlimit="10"/>
+      <text id="collect" transform="matrix(1 0 0 1 87 724)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="27" fill="#183b3b"><tspan x="0" y="0">Collect from the shelf</tspan></text>
+    </g>
+    <g id="Not_held_-_Ask_a_librarian" data-name="Not held - Ask a librarian">
+      <path d="M800 443 L1130 443 C1135.523 443 1140 447.477 1140 453 L1140 777 C1140 782.523 1135.523 787 1130 787 L800 787 C794.477 787 790 782.523 790 777 L790 453 C790 447.477 794.477 443 800 443 Z" fill="#f6dfd5"/>
+      <path d="M790 443 L1140 443 L1140 455 L790 455 Z" fill="#b95440"/>
+      <path d="M958 421 L965 431 L972 421" fill="none" stroke="#b95440" stroke-width="4" stroke-miterlimit="10"/>
+      <text id="notheld" transform="matrix(1 0 0 1 817 501)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="35" font-weight="bold" fill="#b95440"><tspan x="0" y="0">Not held</tspan></text>
+      <path d="M947 554.5 C947 546.492 953.492 540 961.5 540 C969.508 540 976 546.492 976 554.5 C976 562.508 969.508 569 961.5 569 C953.492 569 947 562.508 947 554.5 Z" fill="#b95440"/>
+      <path d="M933 604 C933 584.667 942.667 575 962 575 C981.333 575 991 584.667 991 604" fill="#b95440"/>
+      <path d="M910 608 L1014 608 L1014 621 L910 621 Z" fill="#b95440"/>
+      <path d="M918 621 L927 621 L927 636 L918 636 Z" fill="#b95440"/>
+      <path d="M998 621 L1007 621 L1007 636 L998 636 Z" fill="#b95440"/>
+      <text id="librarian" transform="matrix(1 0 0 1 817 724)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="27" fill="#183b3b"><tspan x="0" y="0">Ask a librarian</tspan></text>
+      <path d="M937 593 C945 589.667 953 591 961 597 C969.667 591 978 589.667 986 593 L986 608 C978 605.333 969.667 606.667 961 612 C953 606.667 945 605.333 937 608 Z" fill="#f4efdf" stroke="#b95440" stroke-width="3" stroke-miterlimit="10"/>
+      <path d="M961 597 L961 612" fill="none" stroke="#b95440" stroke-width="3" stroke-miterlimit="10"/>
+    </g>
+    <g id="On_loan_-_Place_a_reservation" data-name="On loan - Place a reservation">
+      <path d="M435 443 L765 443 C770.523 443 775 447.477 775 453 L775 777 C775 782.523 770.523 787 765 787 L435 787 C429.477 787 425 782.523 425 777 L425 453 C425 447.477 429.477 443 435 443 Z" fill="#f3e6c9"/>
+      <path d="M425 443 L775 443 L775 455 L425 455 Z" fill="#a96b21"/>
+      <path d="M593 421 L600 431 L607 421" fill="none" stroke="#a96b21" stroke-width="4" stroke-miterlimit="10"/>
+      <text id="loan" transform="matrix(1 0 0 1 452 501)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="35" font-weight="bold" fill="#a96b21"><tspan x="0" y="0">On loan</tspan></text>
+      <path d="M564 552 L612 552 C615.314 552 618 554.686 618 558 L618 624 C618 627.314 615.314 630 612 630 L564 630 C560.686 630 558 627.314 558 624 L558 558 C558 554.686 560.686 552 564 552 Z" fill="#a96b21"/>
+      <path d="M569 552 L575 552 L575 630 L569 630 Z" fill="#f4efdf"/>
+      <path d="M598 557 C598 545.954 606.954 537 618 537 C629.046 537 638 545.954 638 557 C638 568.046 629.046 577 618 577 C606.954 577 598 568.046 598 557 Z" fill="#f4efdf" stroke="#a96b21" stroke-width="4" stroke-miterlimit="10"/>
+      <path d="M618 546 L618 557 L627 557" fill="none" stroke="#a96b21" stroke-width="3" stroke-miterlimit="10"/>
+      <text id="reserve" transform="matrix(1 0 0 1 452 724)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="27" fill="#183b3b"><tspan x="0" y="0">Place a reservation</tspan></text>
+      <path d="M610 582 L610 620 L579 620" fill="none" stroke="#f4efdf" stroke-width="3" stroke-miterlimit="10"/>
+    </g>
+  </g>
+</svg>

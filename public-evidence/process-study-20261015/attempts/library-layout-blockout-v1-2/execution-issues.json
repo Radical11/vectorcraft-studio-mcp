@@ -1,0 +1,45 @@
+{
+  "issues": [
+    {
+      "id": "research-shortfall",
+      "type": "evidence-gap",
+      "detail": "Seven supplied cached reference image assets represent six works, below 15-25 target; no additional discovery was allowed by frozen pack. All seven were actually viewed. No human comprehension answers collected."
+    },
+    {
+      "id": "retained-quality-unresolved",
+      "type": "quality-outcome",
+      "detail": "Initial communication specialist scored distinctiveness3; craft scores4. First correction scored4 in both fresh specialists, but both voted equal to retained final-1; genuine equal judgments do not establish improvement. Retained best final-1 has not passed the initial all-criteria threshold."
+    },
+    {
+      "id": "missing-voluntary-stop",
+      "type": "gateway-implementation-limitation",
+      "detail": "No honest voluntary-stop route exists before thresholds. No remaining consequential correction was identified; external authoring end recorded per parent. Gateway run remains active, best final-1, one non-improvement. No false review-unavailable status, invented second correction, source change or budget exhaustion claim."
+    },
+    {
+      "id": "verifier-module-shadow",
+      "type": "resolved-operational-error",
+      "detail": "First standalone readonly verifier failed before Gateway initialization because trial script select.py shadowed Python stdlib select. Renamed trial script to concept-selection.py, then verification succeeded. No native tool was executed in the failed invocation; no uncertain operation was replayed.",
+      "first_error": "NameError: name json is not defined while importing local select.py from selectors/socket",
+      "affected_artwork": false
+    },
+    {
+      "id": "source-discovery-reads",
+      "type": "resolved-read-only-error",
+      "detail": "Initial rg used Windows wildcard filenames and queried absent workflow_v3.py/designer_workflow.py. Pivoted to actual src/workflow.py, src/designer.py, src/design_process.py and src/study_session.py. No mutation or uncertain native call occurred."
+    },
+    {
+      "id": "remaining-minor-spacing",
+      "type": "retained-weakness",
+      "detail": "Retained final-1 keeps the initial specialist minor finding: search magnifier handle 3px before label. Candidate final-2 fixes this but was judged equal, so retained best remains final-1."
+    },
+    {
+      "id": "standardized-edit-pending",
+      "type": "scope-boundary",
+      "detail": "Subsequent standardized branch-position exchange belongs to separate evaluation outside construction; not performed by this builder. Native named groups and shared rail retained for that evaluator."
+    }
+  ],
+  "native_authoring_errors": 0,
+  "uncertain_operations_replayed": 0,
+  "cross_trial_exposure": [],
+  "source_skill_config_budget_clock_changes": false
+}

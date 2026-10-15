@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="1200" viewBox="0 0 900 1200">
+  <title>Exchange Night</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M0 0 L900 0 L900 1200 L0 1200 Z" fill="#f3e9d2"/>
+    <text transform="matrix(1 0 0 1 70 55)" x="0" y="117.02" xml:space="preserve" font-family="Impact" font-size="116" fill="#172c38"><tspan x="0" y="117.02">EXCHANGE</tspan><tspan x="0" y="235.02">NIGHT</tspan></text>
+    <text transform="matrix(1 0 0 1 74 346)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="36" fill="#172c38"><tspan x="0" y="0">Swap a book. Find a story.</tspan></text>
+    <g>
+      <text transform="matrix(1 0 0 1 72 985)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="39" font-weight="bold" fill="#172c38"><tspan x="0" y="0">9 NOV 2026</tspan></text>
+      <text transform="matrix(1 0 0 1 663 985)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="39" font-weight="bold" fill="#172c38"><tspan x="0" y="0">6 PM</tspan></text>
+      <text transform="matrix(1 0 0 1 72 1046)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="36" fill="#172c38"><tspan x="0" y="0">Library Courtyard</tspan></text>
+      <text transform="matrix(1 0 0 1 72 1109)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="30" fill="#172c38"><tspan x="0" y="0">Bring one book | Free entry</tspan></text>
+    </g>
+    <g>
+      <path d="M270 568 L444 607 L627 550 L648 730 L459 796 L281 756 Z" fill="#172c38"/>
+      <path d="M267 559 L442 603 L620 541 L636 708 L452 773 L277 729 Z" fill="#e96747"/>
+      <path d="M281 555 C337.667 541.667 392.333 550.667 445 582 C490.333 541.333 545.333 525 610 533 L622 697 C558 693 502 710.667 454 750 C403.333 720 350 709.333 294 718 Z" fill="#fffae9"/>
+      <path d="M445 582 C453 628 456 684 454 750 L440 744 C442.667 684.667 440 631.333 432 584 Z" fill="#f3e9d2"/>
+      <path d="M310 589 L401 615 L400 620 L309 594 Z" fill="#172c38"/>
+      <path d="M317 612 L416 638 L415 643 L316 617 Z" fill="#172c38"/>
+      <path d="M321 637 L413 663 L412 668 L320 642 Z" fill="#172c38"/>
+      <path d="M328 662 L410 688 L409 693 L327 667 Z" fill="#172c38"/>
+      <path d="M482 586 L577 562 L578 567 L483 591 Z" fill="#217b73"/>
+      <path d="M481 613 L583 589 L584 594 L482 618 Z" fill="#217b73"/>
+      <path d="M482 642 L586 618 L587 623 L483 647 Z" fill="#217b73"/>
+      <path d="M481 671 L590 647 L591 652 L482 676 Z" fill="#217b73"/>
+      <path d="M541 708 L549 776 L565 763 L579 771 L571 697 Z" fill="#217b73"/>
+    </g>
+    <g>
+      <path d="M0 735 L118 661 L245 760 L106 859 L0 865 Z" fill="#376a91"/>
+      <path d="M102 684 L141 665 L215 733 L186 759 Z" fill="#172c38"/>
+      <path d="M168 693 C183.333 682.333 197.333 681.333 210 690 L275 724 L342 707 C353.333 705 360.667 709 364 719 C366.667 728.333 361 736.667 347 744 L311 757 L349 769 C357 773 358.667 779.333 354 788 C351.333 795.333 343.667 797.333 331 794 L276 780 L241 794 C227 799.333 214.667 796.667 204 786 L156 743 Z" fill="#dca17b"/>
+    </g>
+    <g>
+      <path d="M900 441 L796 437 L661 548 L716 618 L900 509 Z" fill="#217b73"/>
+      <path d="M718 514 L692 536 L730 588 L759 568 Z" fill="#172c38"/>
+      <path d="M707 537 C694.333 525.667 681.667 524 669 532 L620 560 L579 550 C567.667 548 560.667 551.333 558 560 C554.667 569.333 560 576.667 574 582 L597 590 L562 602 C552 606 548.667 612 552 620 C555.333 628 562.333 629.667 573 625 L617 610 L656 612 C668 612 679 607 689 597 L727 568 Z" fill="#dca17b"/>
+    </g>
+  </g>
+</svg>

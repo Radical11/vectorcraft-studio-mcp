@@ -1,0 +1,168 @@
+{
+  "trial": "tyre-designer-process-v1-1",
+  "profile": "designer-process-v1",
+  "frozen_method": "9d47373",
+  "status": "review_passed",
+  "best_version": "finishing-correction1-clean",
+  "stopped_run": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\run.json",
+  "stop_reason": "Best common-brief version passed both independent specialists",
+  "construction_stopped": true,
+  "correction_rounds": 1,
+  "no_improvement_streak": 0,
+  "timings": {
+    "host_started_utc": "2026-10-14T11:58:21.799167+00:00",
+    "host_elapsed_seconds_at_report": 1972.3841760158539,
+    "independent_review_paused_seconds": 820.4346528053284,
+    "host_active_seconds_at_report": 1151.9495244026184,
+    "policy": "Parent shared ledger authoritative; local host wall-active is diagnostic. No clock/budget edits."
+  },
+  "planned_begin_batches": 12,
+  "settled_host_calls": 325,
+  "host_receipts": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\host-receipts.jsonl",
+  "clock_diagnostics": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\clock-diagnostics.jsonl",
+  "actual_reviewer_returns_actions": [
+    {
+      "role": "communication",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\aea1acf57cb1\\communication-return.json",
+      "exact_public_return": true,
+      "image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\aea1acf57cb1\\communication-image-actions.json"
+    },
+    {
+      "role": "craft",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\aea1acf57cb1\\craft-return.json",
+      "exact_public_return": true,
+      "image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\aea1acf57cb1\\craft-image-actions.json"
+    },
+    {
+      "role": "communication",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\d72f3b8f5dbd\\communication-return.json",
+      "exact_public_return": true,
+      "image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\d72f3b8f5dbd\\communication-image-actions.json"
+    },
+    {
+      "role": "craft",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\d72f3b8f5dbd\\craft-return.json",
+      "exact_public_return": true,
+      "image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\d72f3b8f5dbd\\craft-image-actions.json"
+    },
+    {
+      "role": "concept",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\concept-review-1-raw.json",
+      "exact_public_return": true,
+      "image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\concept-review-1-image-actions-raw.json"
+    },
+    {
+      "role": "concept",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\concept-review-2-raw.json",
+      "exact_public_return": true,
+      "image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\concept-review-2-image-actions-raw.json"
+    }
+  ],
+  "earlier_transcriptions": {
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\concept-review-1.json",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\concept-review-2.json",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\review-1-communication.json",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\review-1-craft.json"
+    ],
+    "label": "Faithful concise transcriptions, not exact raw return text; exact earlier public returns separately archived when available."
+  },
+  "construction_observed_before_after": [
+    {
+      "before": "Initial supporting hand lacked visible forearm; tool contact compact grey cap/yellow patch",
+      "after": "Second native exploration connected sleeve/elbow/forearm/wrist; enlarged tool-under-edge event selected by fresh concept review"
+    },
+    {
+      "before": "First final tyre contact was near-closed ring and wheel opening opaque across bench",
+      "after": "One correction round open lip+visible gold shaft underneath, lower bench visible through wheel; both fresh final reviewers preferred corrected candidate with regression=false"
+    },
+    {
+      "before": "First correction capture duplicated lower spokes and crossed hub",
+      "after": "Recorded revise, separate planned cleanup removed duplicate originals and restored hub; full/use and neighbors inspected"
+    }
+  ],
+  "final_review_outcome": {
+    "communication": "All applicable4, no findings, candidate winner/no observed regression",
+    "craft": "All applicable4, candidate winner/no observed regression; minor blunt lower-left lip return near626,444"
+  },
+  "unresolved_weaknesses": [
+    "Minor blunt lower-left tyre-lip termination retained after reviewed pass",
+    "Simplified anatomy and static profiles",
+    "Sparse generic workshop context",
+    "Not a mechanical repair instruction or recorded event",
+    "Protocol status-summary exposure disclosed and retained; parent sensitivity discussion required, no exclusion/rebuild."
+  ],
+  "artifacts": [
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\exports-r1\\artwork.pdf",
+      "bytes": 10149,
+      "sha256": "6ac49f1d9b416bdc15fa19330cdd6856071bcefc5524afdabb13dab92f781b09"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\exports-r1\\artwork.svg",
+      "bytes": 8074,
+      "sha256": "ab5f45f1db2ea5d4335fcf84194a4375b4c9a3afeab354f3e30109c3347f34ac"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\exports-r1\\artwork.vectorcraft",
+      "bytes": 160051,
+      "sha256": "571d7f35d8a241e52efe73fa2d0ba096de182154fcadf6c1d03a639fafb56e17"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\exports-r1\\full.png",
+      "bytes": 74305,
+      "sha256": "d2e5ba2d4088876b44257dc456332dd5712ab9f16224d3b8111a3b9b8999b260"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\exports-r1\\pdf-full.png",
+      "bytes": 80362,
+      "sha256": "97e54bd9bae58a86102640c39177aabc66c5b966e50eca568640a9e11490cab0"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\exports-r1\\pdf-use.png",
+      "bytes": 36111,
+      "sha256": "80e3f728a5410b18eaaa60e66d061588ac04938f745fbfe38e5eff6af50df6ec"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\exports-r1\\reopened-full.png",
+      "bytes": 134310,
+      "sha256": "291f265d53bea3929b2a58fa8e808d3d436f4783354c7bd8831673c7b095c7e2"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\exports-r1\\reopened-use.png",
+      "bytes": 56654,
+      "sha256": "32d7cf65527411001dd00edc9db382751bc033030e312693633f16bc450dc396"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\exports-r1\\svg-full.png",
+      "bytes": 134336,
+      "sha256": "312e9c47829f6231dac39dfe9f61b4b21b10d4556b48c74d383353588cc910bb"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\exports-r1\\svg-use.png",
+      "bytes": 56654,
+      "sha256": "101423132a2ffb1e193d46adaf42a75c119e758e4224240352566858dc58701b"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\exports-r1\\use.png",
+      "bytes": 33789,
+      "sha256": "0dd4527db822ce9bba05df70a85eb679acc7b8ed7e139031e81397757fa025ea"
+    }
+  ],
+  "native_reopen_verification": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\native-reopen-verification.json",
+  "native_fingerprint_matches_reviewed": true,
+  "editable_native_paths": 57,
+  "embedded_raster_count": 0,
+  "live_fonts": "Not applicable; wordless zero text",
+  "creator_image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\creator-image-actions.json",
+  "execution_issues": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\execution-issues.json",
+  "standardized_edit": "Pending separate parent evaluation; builder did not edit after stop",
+  "ledger_finished_by_builder": false,
+  "vault_writes": false,
+  "memory_reads": false,
+  "source_skill_config_changes": false,
+  "protocol_limitation": "Unsolicited cross-trial completion-status summary was exposed by global agent inventory; no cross-trial artwork or judgment inspection claimed. Trial retained in primary accounting with labeled deviation and parent sensitivity discussion.",
+  "raw_return_limitation": "All six complete public reviewer returns and their actual image-action records archived. Earlier immutable workflow records remain labeled concise transcriptions; no private reasoning exported.",
+  "ownership_check": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\owned-connections-check.json",
+  "relationship_attestation_limitation": "The declared wheel-bench relation is typed contact, while the corrected image and final reviewer observations support an upright wheel held in front of the bench with the bench visible through spokes, not an unambiguous mechanical tabletop support point. This extra relation is not a locked-brief requirement; its pass is an agent attestation and should not be treated as physical contact proof. Stopped gateway records remain unchanged."
+}

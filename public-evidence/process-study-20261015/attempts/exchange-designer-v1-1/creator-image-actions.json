@@ -1,0 +1,175 @@
+{
+  "actions": [
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\references\\neon-drive.png",
+      "context": "fresh frozen reference observation"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\references\\dusk-poster.png",
+      "context": "fresh frozen reference observation"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\references\\wright.jpg",
+      "context": "fresh frozen reference observation"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\references\\perspective-city.png",
+      "context": "fresh frozen reference observation"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\references\\epa-mechanisms.png",
+      "context": "fresh frozen reference observation"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\references\\epa-flow.png",
+      "context": "fresh frozen reference observation"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\references\\feature-sheet.png",
+      "context": "fresh frozen reference observation"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-a\\full.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-a\\use.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-b\\full.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-b\\use.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-c\\full.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-c\\use.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\construction-study\\versions\\study\\full.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\construction-study\\versions\\study\\use.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\composition\\full.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\composition\\use.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\typography\\full.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\typography\\use.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\typography-fixed\\full.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\typography-fixed\\use.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\imagery\\full.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\imagery\\use.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\full.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\use.png",
+      "context": "actual full/use inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-a\\full.png",
+      "context": "target comparison at composition"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\concept-planning\\versions\\concept-a\\full.png",
+      "context": "target comparison at imagery"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\exchange-night.png",
+      "context": "actual exported/reopened image inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\exchange-night-use.png",
+      "context": "actual exported/reopened image inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\svg-render-full.png",
+      "context": "actual exported/reopened image inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\svg-render-use.png",
+      "context": "actual exported/reopened image inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\pdf-render-full.png",
+      "context": "actual exported/reopened image inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\pdf-render-use.png",
+      "context": "actual exported/reopened image inspection"
+    },
+    {
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\reopened-use.png",
+      "context": "actual exported/reopened image inspection"
+    }
+  ],
+  "observations": "Read images in native image tool results, not inferred from metadata or synthetic counts. Cached Wright image was downscaled by view_image. No imagegen used."
+}
