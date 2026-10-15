@@ -16,7 +16,7 @@ def export(folder, roots_path, out):
  if any(t['status']=='building' for t in ledger.data['trials']):raise ValueError('Settle the active builder before publication')
  roots=read(roots_path)['roots'];out.mkdir(parents=True);manifest=[];omissions=[];rows=[]
  def clean(value):
-  if isinstance(value,dict):return {k:clean(v) for k,v in value.items()}
+  if isinstance(value,dict):return {clean(k):clean(v) for k,v in value.items()}
   if isinstance(value,list):return [clean(v) for v in value]
   if not isinstance(value,str):return value
   value=re.sub(re.escape(str(ROOT)), '<project>', value,flags=re.I)

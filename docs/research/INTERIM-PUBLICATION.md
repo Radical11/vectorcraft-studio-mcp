@@ -4,6 +4,7 @@
 
 - [Paper PDF](editions/2026-10-15-interim/paper.pdf) and [editable Word paper](editions/2026-10-15-interim/paper.docx).
 - [Study checkpoint and all eighteen outcome rows](../../public-evidence/process-study-20261015/README.md).
+- [Plain-language progress and stage comparisons](PROGRESS.md), with an additive supplement of existing roughs and stage captures. The dated checkpoint and paper editions remain unchanged.
 - [Machine-readable checkpoint](../../public-evidence/process-study-20261015/checkpoint.json), [artifact manifest](../../public-evidence/process-study-20261015/artifact-manifest.json), and [method input hashes](../../public-evidence/process-study-20261015/method-input-hashes.json).
 - [Implemented focused contracts](../FOCUSED-EXECUTION.md), [designer-process contracts](../DESIGNER-PROCESS.md), [remaining roadmap](../COARSE-TO-FINE-ROADMAP.md), [claim ledger](CLAIMS.md), [calibration record](CALIBRATION.md), and [execution limitations](EXECUTION-NOTES.md).
 

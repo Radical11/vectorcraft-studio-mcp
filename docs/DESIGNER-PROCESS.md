@@ -1,6 +1,6 @@
 # Experimental native designer process
 
-Status: implemented policy under calibration, 13 October 2026. No comparative aesthetic improvement is established. See [research programme](research/README.md) and [calibration record](research/CALIBRATION.md). The historical dated paper remains unchanged.
+Status: implemented experimental policy; 15 October 2026 checkpoint accounts for ten of eighteen attempts, with eight deferred. No comparative aesthetic improvement is established. See [research programme](research/README.md) and [calibration record](research/CALIBRATION.md). The historical dated paper remains unchanged.
 
 ## Profiles and sequence
 

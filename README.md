@@ -1,66 +1,44 @@
-# VectorCraft Studio 3.1
+# VectorCraft Studio
 
-An **unofficial community companion** for Codex on Windows and the local VectorCraft MCP. It connects research, concept selection, native vector construction and independent critique through revision-bound evidence. It is experimental software, not an endorsed integration or a guarantee of professional design quality.
+An experimental, unofficial design companion for Codex and local VectorCraft on Windows. It helps an AI designer research an idea, build editable vectors in small steps, inspect the result, and correct visible problems.
 
-Codex supplies research, built-in image generation and visual judgment. VectorCraft supplies editable paths, live typography, rendering and exports. This Python gateway preserves native MCP instructions, commands, resources and prompts while adding five workflow tools. No paid service or separate model API is required.
+**Current progress:** 10 of 18 study attempts accounted for; 8 deferred. Four passed final construction review, one delivered artwork with unresolved acceptance, one retained partial artwork, and four were disrupted without final artwork. Comparative improvement is still unestablished. The default remains `designer-v1`.
 
-Experimental designer-process development adds isolated native studies and relationship checks. See [contracts](docs/DESIGNER-PROCESS.md) and the [research programme](docs/research/README.md). The method is frozen for the 18-output pilot; no comparative quality result is claimed.
+## Start here
 
-The [15 October interim paper and study evidence](docs/research/INTERIM-PUBLICATION.md) record ten attempts with eight deferred. Four final-review passes, incomplete work and unresolved acceptance are reported separately. Comparative improvement and human preference remain unestablished; this research branch does not promote a new default or replace the current release.
+| Question | Read |
+| --- | --- |
+| How does the design process work? | [Plain-language process guide](docs/PROCESS.md) |
+| What have we built and learned? | [Progress and stage comparisons](docs/research/PROGRESS.md) |
+| Where is the paper and evidence? | [Interim publication](docs/research/INTERIM-PUBLICATION.md) |
+| How do I run it? | [Installation and rollback](docs/INSTALLATION.md) |
+| Where does everything belong? | [Repository map](docs/README.md) |
 
-## Install locally
+The [research webpage](site/research.html) provides an interactive stage explorer when served from `site/`. The [public showcase](https://radical11.github.io/vectorcraft-studio-mcp/) reflects the deployed main branch; research-branch pages are available locally until separately deployed.
 
-Requirements: Windows, Python **3.13**, local Codex with MCP/skills support, and compatible VectorCraft **CLI and desktop executables** installed separately. The locally verified engine is VectorCraft 0.9. Other versions and operating systems are unverified. Ordinary web ChatGPT is not a supported installation host.
+## How it works
 
-Clone or extract this project into a permanent folder, then use PowerShell from that folder:
+Codex plans and inspects the images. The Python gateway keeps the workflow, revisions, task checks, and evidence in order. VectorCraft creates the native paths, live text, previews, and exports. Fresh reviewer contexts assess communication and craft using actual images.
 
-```powershell
-py -3.13 scripts/test_suite.py --unit-only
-py -3.13 scripts/install.py --cli 'C:\Apps\VectorCraft\vectorcraft-cli.exe' --desktop 'C:\Apps\VectorCraft\vectorcraft.exe' --vault 'C:\Design Brain' --dry-run
-py -3.13 scripts/install.py --cli 'C:\Apps\VectorCraft\vectorcraft-cli.exe' --desktop 'C:\Apps\VectorCraft\vectorcraft.exe' --vault 'C:\Design Brain'
-```
+Research → concepts → native roughs where enabled → selection → composition → typography → imagery → finishing → review and correction → verified delivery.
 
-Use your actual executable/vault paths. `--codex-home` overrides `CODEX_HOME`, then the current user's `.codex` folder. Executables resolve from arguments, `VECTORCRAFT_CLI`/`VECTORCRAFT_DESKTOP`, a configured `CRAFTING_APPS_MANIFEST`, adjacent executable discovery, PATH or the supported Program Files location. Discovery does not scan drives. Existing Crafting Apps manifests remain supported; portable applications stay installed where they are. The gateway itself uses only Python's standard library.
+The gateway adds five workflow tools while preserving native MCP tools. It checks recorded state and file integrity; visual judgment still comes from the host and reviewers. Passing software tests does not establish design quality.
 
-Installation snapshots the owned configuration and both owned skill directories under ignored `.local/install-snapshots/`. It changes only the VectorCraft MCP table and managed skill files, preserving other MCP servers and unrelated settings. Existing extra files inside owned skills are preserved and snapshotted. Restart the MCP connection or begin a new Codex chat after installation; an already loaded connection retains its prior tool catalog. Keep the checkout in place because configuration points to its launcher.
+## Profiles
 
-```powershell
-py -3.13 scripts/install.py --rollback --snapshot SNAPSHOT_ID --dry-run
-py -3.13 scripts/install.py --rollback --snapshot SNAPSHOT_ID
-```
+| Profile | What it adds |
+| --- | --- |
+| `designer-v1` | Default research, concept selection, four production stages, and independent final reviews |
+| `focused-execution-v1` | One manageable construction task at a time, compact working packets, explicit task and stage acceptance |
+| `layout-blockout-v1` | Three isolated native roughs before concept selection |
+| `designer-process-v1` | Native roughs, focused execution, semantic entities, and relationship checks |
 
-Omitting `--snapshot` selects the latest installation in this checkout. Rollback detects subsequent owned-file/configuration changes and aborts before writing. It restores the snapshot while retaining unrelated later settings. Resolve a conflict explicitly after preserving your edits; there is no force-overwrite flag.
+Experimental profiles are full-mode opt-ins. See the [process guide](docs/PROCESS.md#choosing-a-profile) for selection and the [technical contracts](docs/DESIGNER-PROCESS.md) for exact behavior.
 
-## Design workflow
+## Development and evidence
 
-Substantial requests activate Studio implicitly. Small scoped edits and an explicit regular-VectorCraft request use quick mode with a recorded scope. The tools are `workflow_start`, `workflow_record`, `workflow_begin`, `workflow_checkpoint` and `workflow_status`; status exposes authoritative schemas.
+Requires Windows, Python 3.13, local Codex, and separately installed VectorCraft CLI/desktop binaries. Self-contained checks run with `py -3.13 scripts/test_suite.py --unit-only`; native integration requires the compatible local engine. See [contributing](CONTRIBUTING.md) and the [test index](tests/README.md).
 
-New full runs default to `designer-v1`:
+The existing release is [v3.1.0-alpha.1](https://github.com/Radical11/vectorcraft-studio-mcp/releases/tag/v3.1.0-alpha.1). Its [historical paper](docs/peer-review/README.md) is preserved separately from the [current interim study](docs/research/README.md). Neither the cleanup nor the interim upload promotes a new default or completes the pending study.
 
-1. Establish purpose, audience, medium, viewing size and exact required copy. Research actual references, then calibrate against three to five inspected works. Choose the expressive-poster, editorial-illustration or information-graphic profile appropriate to the brief. Profiles describe priorities and common weaknesses, not a universal visual style.
-2. Develop three alternatives with actual copy and different ideas/reading experiences. A fresh concept reviewer compares them before autonomous selection. If all are weak, allow one further exploration pass and disclose remaining weaknesses. Evaluate editable copy for specificity, clarity, tone, image relationship and subject substitution.
-3. Establish a visual target and concrete specification. Generate illustration separately from typography when useful. Confirm a representative native construction or trace-rebuild pilot; textured imagery calls for meaningful shape reconstruction rather than automatic whole-image tracing.
-4. Build composition, fit typography, construct imagery and finish. Each planned batch maps important elements to native objects, then requires actual full/use-size inspection against the target. Check silhouette/spacing/proportions/gesture early, contours/type/detail later. Record deliberate departures and repair accidental losses.
-5. Two fresh specialists independently assess communication/art direction and drawing/production craft. Neutral packets include candidate, retained best and untouched original when different. Common-brief suitability is separate from target fidelity; the original can win. Revise consequential findings, allow three rounds and stop after two non-improving rounds. Deliver the strongest reviewed version with limitations disclosed.
-
-The gateway checks ordering, document revisions, actual fonts/copy, overflow, mappings, raster content and current export provenance. It cannot prove that an agent looked at an image or that artwork is good. Fixture assertions, object counts and scores are not aesthetic evidence. Research shortfalls, unavailable sources and visual losses remain explicit.
-
-An opt-in experimental `quality_profile: focused-execution-v1` gives construction batches one component or connected group, two or three observable checks, and a compact `workflow_status {view:"working"}` packet. Capture, task success and explicit stage acceptance are separate; failed tasks queue a correction and cannot silently advance a stage. All designer research, studies, independent reviews and production checks remain. The default stays designer-v1. See [focused execution](docs/FOCUSED-EXECUTION.md) for contracts and limitations.
-
-Select full-mode `layout-blockout-v1` to add three isolated native roughs before concept selection, or `designer-process-v1` for the full experimental bundle: those roughs, focused acceptance and revision-bound entity/relationship checks. Working packets show the active study or production task, current full/use evidence, relevant mappings, findings and next permitted action. Geometry supplies diagnostics; actual image observations determine whether a grip, contact or information association works. Native study capture and assembly never accept a production stage automatically. See [designer-process contracts](docs/DESIGNER-PROCESS.md) and the maintained [coarse-to-fine roadmap](docs/COARSE-TO-FINE-ROADMAP.md). These opt-ins are evaluated against the unchanged default.
-
-The [focused verification report](docs/FOCUSED-EXECUTION-VERIFICATION.md) records 151 passing fixture/native checks and one independently reviewed maintenance case. Its first local correction was rejected for a relationship regression; the retained-best safeguard preserved the original until later improvements passed. This is limited feasibility evidence, not the deferred matched study or a default promotion.
-
-Project roots stay scoped to the current working directory. Copy authorized external inputs into the project instead of widening filesystem access. Sessions own separate desktop windows/recovery files. Interrupted or uncertain edits are inspected and resumed without replay. Historical v1/v2 helpers and v3 runs without the new profile retain their contracts; they are not rewritten.
-
-## Verification and release status
-
-The [20-page academic paper](docs/peer-review/README.md) documents development decisions, architecture, mixed visual outcomes, limitations, and an unimplemented coarse-to-fine proposal. Public PDF, editable DOCX, source, bibliography, eight original SVG diagrams, comparisons and a peer review questionnaire are available through the [paper showcase](https://radical11.github.io/vectorcraft-studio-mcp/peer-review.html). The proposed 54-output study is unrun; this documentation update preserves the alpha release.
-
-`py -3.13 scripts/test_suite.py --unit-only` runs self-contained policy, installer and legacy-helper checks. Full `scripts/test_suite.py` additionally requires installed Windows binaries and exercises native passthrough, live gateway, desktop handoff and isolated recovery. Hosted CI does not claim to reproduce those local integration results. Optional official skill validation uses `scripts/validate_skills.py --validator PATH` and requires PyYAML.
-
-The experimental release is [`v3.1.0-alpha.1`](https://github.com/Radical11/vectorcraft-studio-mcp/releases/tag/v3.1.0-alpha.1). The Windows suite passed 124 checks; the sanitized checkout passed 113 self-contained checks plus native fresh installation and rollback. Two fresh blind reviewers agreed on clear common-brief improvements in all three locked briefs without consequential regression. The owner also selected the retained Studio version in all three anonymous pairs. These case studies do not prove general professional superiority; repair target fidelity and anatomical detail remain limited. Public evidence is a sanitized derivative with relative paths; private baselines, raw vault contents, configuration and run histories are excluded.
-
-See [supported versions](docs/SUPPORTED.md), [evaluation protocol](docs/EVALUATION.md), [contribution instructions](CONTRIBUTING.md), [asset provenance](ASSETS.md) and [the unsent maintainer proposal](docs/MAINTAINER-PROPOSAL.md). The [public repository](https://github.com/Radical11/vectorcraft-studio-mcp) contains maintained source, tests and editable examples. The [GitHub Pages showcase](https://radical11.github.io/vectorcraft-studio-mcp/) hosts documentation and comparisons only. MCP and VectorCraft run locally.
-
-Owned contributions are licensed **MIT OR Apache-2.0**. VectorCraft and its branding are separate upstream works; no upstream branding assets or font binaries are distributed. [Upstream asset/contribution guidance](https://github.com/storytold/vectorcraft/blob/main/AGENTS.md). The inspection loop draws on [Figma Console MCP](https://github.com/southleft/figma-console-mcp); no additional server was installed. [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) serves the static showcase.
+Owned contributions: **MIT OR Apache-2.0**. No engine binaries, font binaries, private configuration, or cached third-party reference images are distributed. See [asset provenance](ASSETS.md), [supported versions](docs/SUPPORTED.md), and [evidence limitations](docs/research/CLAIMS.md).

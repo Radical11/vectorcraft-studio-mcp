@@ -1,0 +1,219 @@
+{
+  "source_run_sha256": "ee6ee361e09d16abb25978391abf28a33aa5e363701b26b8ddb5250b1ce8f17d",
+  "events": [
+    {
+      "event": "begin",
+      "at": "2026-10-14T12:11:48.690883+00:00",
+      "stage": "composition"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:12:41.368885+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T12:12:41.557337+00:00",
+      "version": "composition",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T12:12:41.914557+00:00",
+      "stage": "typography"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:12:56.123709+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T12:12:56.376689+00:00",
+      "version": "typography",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T12:12:56.711817+00:00",
+      "stage": "imagery"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:12:56.928431+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:13:16.035635+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T12:13:16.250440+00:00",
+      "version": "imagery",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T12:13:16.573430+00:00",
+      "stage": "finishing"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:13:33.050995+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T12:13:33.327385+00:00",
+      "version": "finishing",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:14:02.293134+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:15:08.419226+00:00"
+    },
+    {
+      "event": "preflight",
+      "at": "2026-10-14T12:15:08.683582+00:00",
+      "version": "finishing"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:19:13.246363+00:00"
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T12:19:14.000242+00:00",
+      "stage": "imagery"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:19:14.236527+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:19:14.399305+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:19:14.547127+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:19:14.688151+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:19:14.810690+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:19:14.947516+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:19:15.093032+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:19:15.244311+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:19:15.412303+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:19:15.575514+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:19:15.746046+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:19:52.335618+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:20:30.838758+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T12:20:30.935754+00:00",
+      "version": "correction1",
+      "outcome": "revise",
+      "stage_complete": false
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T12:20:31.092119+00:00",
+      "stage": "imagery"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:20:31.210180+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:20:31.286479+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T12:20:31.357869+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:21:00.336700+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T12:21:00.574967+00:00",
+      "version": "correction1-clean",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T12:21:00.950944+00:00",
+      "stage": "finishing"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:21:05.293676+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T12:21:05.511898+00:00",
+      "version": "finishing-correction1-clean",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:21:38.100621+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:22:42.148392+00:00"
+    },
+    {
+      "event": "preflight",
+      "at": "2026-10-14T12:22:42.522795+00:00",
+      "version": "finishing-correction1-clean"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:26:29.607036+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T12:27:39.904467+00:00"
+    }
+  ]
+}

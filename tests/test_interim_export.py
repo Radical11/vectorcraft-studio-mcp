@@ -48,6 +48,10 @@ class InterimExportTests(unittest.TestCase):
   atomic(self.native,{'path':'[private user path withheld]/private/file'});self.run['versions']['imagery']['native']['sha256']=digest(self.native);atomic(self.runpath,self.run)
   self.export();self.assertFalse(read(self.out/'checkpoint.json')['results'][0]['production_capture'])
   self.assertEqual(len(read(self.out/'artifact-manifest.json')['omissions']),1)
+ def test_private_paths_in_json_keys_are_redacted(self):
+  atomic(self.trialroot/'completion-report.json',{'artifacts':{str(self.trialroot/'owned.png'):'SYNTHETIC HASH'}})
+  self.export();report=read(self.out/'attempts/t0/creator-report.json')
+  self.assertTrue(next(iter(report['artifacts'])).startswith('<project>'))
  def test_changed_capture_reported_missing_not_replaced(self):
   atomic(self.native,{'changed':'fixture'});self.export()
   self.assertFalse((self.out/'attempts/t0/versions/imagery/artwork.vectorcraft').exists())

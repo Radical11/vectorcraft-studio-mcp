@@ -1,0 +1,92 @@
+{
+  "source_run_sha256": "808e48b9dfd818fd0f0d4aca379983686a2cf01b3f1ec6954c946f2f26516c9e",
+  "events": [
+    {
+      "event": "document_setup"
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-13T19:08:35.936591+00:00",
+      "stage": "composition"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-13T19:08:36.038845+00:00"
+    },
+    {
+      "event": "checkpoint",
+      "at": "2026-10-13T19:08:57.019036+00:00",
+      "stage": "composition",
+      "version": "composition"
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-13T19:08:57.277912+00:00",
+      "stage": "typography"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-13T19:08:57.401588+00:00"
+    },
+    {
+      "event": "checkpoint",
+      "at": "2026-10-13T19:09:24.886322+00:00",
+      "stage": "typography",
+      "version": "typography"
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-13T19:09:25.232634+00:00",
+      "stage": "typography"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-13T19:09:25.389735+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-13T19:09:25.504655+00:00"
+    },
+    {
+      "event": "checkpoint",
+      "at": "2026-10-13T19:09:47.526203+00:00",
+      "stage": "typography",
+      "version": "typography-fixed"
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-13T19:09:47.831664+00:00",
+      "stage": "imagery"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-13T19:09:47.980090+00:00"
+    },
+    {
+      "event": "checkpoint",
+      "at": "2026-10-13T19:10:20.744523+00:00",
+      "stage": "imagery",
+      "version": "imagery"
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-13T19:10:21.112124+00:00",
+      "stage": "finishing"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-13T19:10:21.252462+00:00"
+    },
+    {
+      "event": "checkpoint",
+      "at": "2026-10-13T19:10:44.241850+00:00",
+      "stage": "finishing",
+      "version": "final-1"
+    },
+    {
+      "event": "preflight",
+      "at": "2026-10-13T19:11:48.657824+00:00",
+      "version": "final-1"
+    }
+  ]
+}

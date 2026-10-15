@@ -1,0 +1,174 @@
+{
+  "source_run_sha256": "c4ff9f37f7140d88ae00afe097cebef2f5aa0a3c9163653e7f442072d743d0fc",
+  "events": [
+    {
+      "event": "begin",
+      "at": "2026-10-14T04:50:01.321502+00:00",
+      "stage": "composition"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T04:50:01.450553+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T04:50:11.862232+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T04:50:11.994252+00:00",
+      "version": "composition",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T04:50:12.315019+00:00",
+      "stage": "typography"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T04:50:12.466904+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T04:50:20.629690+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T04:50:20.747786+00:00",
+      "version": "typography",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T04:50:20.932553+00:00",
+      "stage": "imagery"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T04:50:21.072083+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T04:50:21.175900+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T04:50:30.815641+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T04:50:30.954857+00:00",
+      "version": "imagery",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T04:50:31.290934+00:00",
+      "stage": "finishing"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T04:50:31.421368+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T04:50:31.527076+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T04:50:42.694558+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T04:50:42.842201+00:00",
+      "version": "finishing",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T04:51:31.708345+00:00"
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T04:51:31.932892+00:00",
+      "stage": "typography"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T04:51:32.101114+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T04:51:32.208255+00:00"
+    },
+    {
+      "event": "edit",
+      "at": "2026-10-14T04:51:32.305414+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T04:52:09.036085+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T04:52:09.175027+00:00",
+      "version": "title-flow",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T04:52:09.373612+00:00",
+      "stage": "imagery"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T04:52:19.280410+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T04:52:19.463321+00:00",
+      "version": "imagery-recheck",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "begin",
+      "at": "2026-10-14T04:52:19.707863+00:00",
+      "stage": "finishing"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T04:52:28.720089+00:00"
+    },
+    {
+      "event": "focused_checkpoint",
+      "at": "2026-10-14T04:52:28.890843+00:00",
+      "version": "final",
+      "outcome": "pass",
+      "stage_complete": true
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T04:53:18.791672+00:00"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T04:53:33.701512+00:00"
+    },
+    {
+      "event": "preflight",
+      "at": "2026-10-14T04:53:33.935191+00:00",
+      "version": "final"
+    },
+    {
+      "event": "resume",
+      "at": "2026-10-14T04:56:34.046024+00:00"
+    }
+  ]
+}

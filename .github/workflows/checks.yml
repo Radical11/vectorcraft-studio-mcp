@@ -13,6 +13,7 @@ jobs:
       - run: python scripts/test_suite.py --unit-only
       - run: python -m unittest discover -s tests -p test_process_analysis.py -q
       - run: python -m unittest discover -s tests -p test_interim_export.py -q
+      - run: python -m unittest discover -s tests -p test_stage_publication.py -q
       - run: python scripts/check_public.py
       - run: python docs/peer-review/check.py
       - run: python scripts/prepare_release.py --check
