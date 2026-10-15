@@ -31,6 +31,10 @@ Every available step has a short name, a **change / check**, the stage's **purpo
 
 Progress therefore includes learning, correction and verification. These examples do not establish that a newer profile produces better designs overall. See [how the implementation developed](../PROCESS.md#how-the-implementation-has-developed) for the separate history of workflow changes.
 
+The [visual comparison section](https://radical11.github.io/vectorcraft-studio-mcp/research.html#observed-fixes) shows the actual earlier/later captures for book contact, tyre cleanup, title clipping and the unchanged retained library result. Each example explains the relevant workflow mechanism and its evidence limit. Selection is illustrative, not exhaustive: the complete attempt outcomes remain visible below.
+
+The [process diagrams](../PROCESS.md#how-the-implementation-has-developed) distinguish workflow changes from model training. The website's [status chart](https://radical11.github.io/vectorcraft-studio-mcp/research.html#study-accounting) counts all six planned attempts per study profile, including absent and interrupted work. Bar lengths count attempts rather than aesthetic quality, and no success-rate comparison is inferred. The maintained case list is [COMPARISONS.json](COMPARISONS.json); rendering resolves its versions to exact indexed images, confirmation states, observations and hashes.
+
 Follow an attempt from its available roughs through composition, typography, imagery, finishing, and corrections. Captures preserve the original order and confirmation status. A later version is not automatically better; the retained best can be an earlier version. Some stages have multiple captures and some have none.
 
 Cross-profile views group the same brief **and repeat**. Missing slots remain visible. Different repeats are separate attempts and are not substituted to create complete pairs. These are descriptive side-by-side displays, not newly collected preference results.

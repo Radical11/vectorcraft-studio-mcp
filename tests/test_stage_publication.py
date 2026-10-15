@@ -93,6 +93,45 @@ class StagePublicationTests(unittest.TestCase):
             result = stages.presentation(self.data, self.guide)
             self.assertEqual(result['trials'][0]['captures'][0]['progress_label'], expected)
 
+    def test_comparison_accounting_includes_pending_and_partial_work(self):
+        display = stages.presentation(self.data, self.guide)
+        result = stages.comparison_story(display, {'cases': []})
+        standard = result['accounting'][0]
+        self.assertEqual(standard['total'], 2)
+        self.assertEqual(standard['counts'], {'passed': 0, 'unresolved': 0, 'partial': 1, 'disrupted': 0, 'pending': 1})
+        for status, run_status, expected in (('completed', 'review_passed', 'passed'),
+                                              ('failed', 'active', 'unresolved')):
+            display['trials'][0].update(status=status, run_status=run_status)
+            self.assertEqual(stages.comparison_story(display, {'cases': []})['accounting'][0]['counts'][expected], 1)
+
+    def comparison_fixture(self):
+        display = stages.presentation(self.data, self.guide)
+        first = display['trials'][0]['captures'][0]
+        display['trials'][0]['captures'].append(dict(first, id='c2', version='second', order=2))
+        config = {'cases': [{'id': 'synthetic', 'trial_id': 'a', 'steps': [
+            {'version': first['version'], 'caption': 'Synthetic before'},
+            {'version': 'second', 'caption': 'Synthetic after'}]}]}
+        return display, config
+
+    def test_comparisons_resolve_to_exact_capture_observations(self):
+        display, config = self.comparison_fixture()
+        result = stages.comparison_story(display, config)
+        self.assertEqual(result['cases'][0]['captures'][1]['id'], 'c2')
+        self.assertEqual(result['cases'][0]['captures'][1]['images'], display['trials'][0]['captures'][1]['images'])
+
+    def test_comparisons_reject_unknown_unconfirmed_reversed_or_duplicate_steps(self):
+        for mode in ('unknown', 'trial', 'unconfirmed', 'reverse', 'duplicate', 'duplicate-case'):
+            display, config = self.comparison_fixture()
+            case = config['cases'][0]
+            if mode == 'unknown': case['steps'][1]['version'] = 'missing'
+            elif mode == 'trial': case['trial_id'] = 'missing'
+            elif mode == 'unconfirmed': display['trials'][0]['captures'][1]['confirmed'] = False
+            elif mode == 'reverse': case['steps'].reverse()
+            elif mode == 'duplicate': case['steps'] *= 2
+            else: config['cases'] *= 2
+            with self.subTest(mode=mode), self.assertRaises(ValueError):
+                stages.comparison_story(display, config)
+
     def test_unconfirmed_capture_binds_to_begin_timestamp(self):
         stage, begin, confirm, _ = stages.stage_binding(self.events, 'not-confirmed', {'at': '02'})
         self.assertEqual((stage, begin[0], confirm), ('imagery', 0, None))
@@ -183,6 +222,7 @@ class StagePublicationTests(unittest.TestCase):
         guide = self.root / 'docs/research/PROGRESS.md'
         guide.parent.mkdir(parents=True)
         (self.root / stages.STEP_GUIDE).write_text(json.dumps(self.guide), encoding='utf-8')
+        (self.root / stages.COMPARISONS).write_text(json.dumps({'cases': []}), encoding='utf-8')
         guide.write_text('Author-owned prose without generation markers.', encoding='utf-8')
         with self.assertRaisesRegex(ValueError, 'markers'):
             stages.render(self.root, supplement, check=True)

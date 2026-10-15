@@ -30,6 +30,9 @@ STAGE_NAMES = {'roughs': 'Try layouts', 'construction-study': 'Test a detail',
                'composition': 'Arrange the scene', 'typography': 'Set the text',
                'imagery': 'Build the drawing', 'finishing': 'Polish and check'}
 STEP_GUIDE = Path('docs/research/STEP-GUIDE.json')
+COMPARISONS = Path('docs/research/COMPARISONS.json')
+OUTCOMES = [('passed', 'Final review passed'), ('unresolved', 'Acceptance unresolved'),
+            ('partial', 'Partial work'), ('disrupted', 'Interrupted'), ('pending', 'Deferred')]
 
 
 def read(path):
@@ -356,6 +359,48 @@ def markdown(data):
     return '\n'.join(lines).rstrip() + '\n'
 
 
+def comparison_story(data, config):
+    """Describe recorded fixes and accounting; never manufacture preference scores."""
+    cases, seen = [], set()
+    trials = {t['id']: t for t in data['trials']}
+    for entry in config['cases']:
+        if entry['id'] in seen:
+            raise ValueError('Duplicate comparison case')
+        seen.add(entry['id'])
+        if entry['trial_id'] not in trials:
+            raise ValueError('Unknown comparison attempt')
+        trial = trials[entry['trial_id']]
+        captures = {c['version']: c for c in trial['captures']}
+        case = dict(entry, trial_name=trial['display_name'], trial_ref=trial['short_id'],
+                    report=trial.get('report'), captures=[])
+        for step in entry['steps']:
+            if step['version'] not in captures:
+                raise ValueError('Unknown comparison capture within attempt')
+            capture = captures[step['version']]
+            if not capture['confirmed']:
+                raise ValueError('Comparison cannot present an unconfirmed image as an observed fix')
+            case['captures'].append(dict(capture, comparison_caption=step['caption']))
+        orders = [c['order'] for c in case['captures']]
+        if len(orders) < 2 or orders != sorted(set(orders)):
+            raise ValueError('Comparison steps must follow distinct recorded captures')
+        cases.append(case)
+    accounting = []
+    for profile in PROFILES:
+        counts = {key: 0 for key, _ in OUTCOMES}
+        for trial in data['trials']:
+            if trial['condition'] != profile:
+                continue
+            outcome = ('pending' if trial['status'] == 'pending' else
+                       'passed' if trial.get('run_status') == 'review_passed' else
+                       'unresolved' if trial['status'] == 'failed' else
+                       'partial' if any(c['kind'] == 'production' for c in trial['captures']) else 'disrupted')
+            counts[outcome] += 1
+        accounting.append({'profile': profile, 'name': PROFILE_NAMES[profile], 'counts': counts,
+                           'total': sum(counts.values())})
+    return {'cases': cases, 'accounting': accounting,
+            'outcomes': [{'id': key, 'label': value} for key, value in OUTCOMES]}
+
+
 def render(root, supplement, check=False):
     data = read(supplement / 'index.json')
     validate(root, data)
@@ -368,6 +413,7 @@ def render(root, supplement, check=False):
                 target = 'assets/stages/' + image['sha256'] + '.png'
                 assets[root / 'site' / target] = source.read_bytes()
                 image['site_path'] = target
+    page_data['story'] = comparison_story(page_data, read(root / COMPARISONS))
     payload = encode(page_data)
     assets[root / 'site/assets/stages/index.json'] = payload.encode('utf-8')
     # Embedded JSON also supports file:// inspection without a local data fetch.

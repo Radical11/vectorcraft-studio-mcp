@@ -54,4 +54,16 @@ $('outcomes').addEventListener('click', e => {if (e.target.dataset.trial) {$('tr
 for (const id of ['trial', 'stage', 'size', 'brief', 'repeat']) $(id).addEventListener('change', draw);
 $('within').addEventListener('click', () => setMode('within'));
 $('across').addEventListener('click', () => setMode('across'));
+for (const example of data.story.cases) $('case-select').add(new Option(example.title, example.id));
+function drawCase() {
+  const example = data.story.cases.find(c => c.id === $('case-select').value);
+  const box = $('case-size').value === 'detail' ? example.detail : [0, 0, ...example.canvas];
+  const views = example.captures.map(c => `<figure><svg viewBox="${box.join(' ')}" role="img" aria-label="${esc(example.trial_name + ': ' + c.comparison_caption)}"><image href="${esc(c.images.use.site_path)}" width="${example.canvas[0]}" height="${example.canvas[1]}"></image></svg><figcaption><b>${esc(c.comparison_caption)}</b><br>${esc(c.step)} · ${esc(c.title)}</figcaption></figure>`).join('');
+  $('case-results').innerHTML = `<p><b>${esc(example.trial_ref)} · ${esc(example.trial_name)}</b></p><div class="case-images">${views}</div><p><b>Recorded result:</b> ${esc(example.conclusion)}</p><p><b>What the process does:</b> ${esc(example.mechanism)}</p><p><b>Evidence limit:</b> ${esc(example.limit)}</p><details><summary>Source observations and image bindings</summary>${example.captures.map(c=>`<p><b>${esc(c.step)}:</b> ${esc(text(c.observations.observations || c.observations.decision))}</p><p><code>${esc(c.version)}</code> · <a href="${repo + esc(c.images.use.path.replaceAll('\\', '/'))}">Original intended-size image</a> · SHA-256 <code>${esc(c.images.use.sha256)}</code></p>`).join('')}${example.report ? `<a href="${repo + esc(example.report.path)}">Creator report and review outcome</a>` : ''}</details>`;
+}
+$('case-select').addEventListener('change', drawCase);
+$('case-size').addEventListener('change', drawCase);
+drawCase();
+$('outcome-chart').innerHTML = data.story.accounting.map(row => `<div class="outcome-row"><b>${esc(row.name)}</b><div class="outcome-bar" role="img" aria-label="${esc(row.name + ': ' + data.story.outcomes.map(o=>row.counts[o.id]+' '+o.label).join(', '))}">${data.story.outcomes.filter(o=>row.counts[o.id]).map(o=>`<span class="status-${o.id}" style="flex:${row.counts[o.id]}" title="${esc(o.label)}">${row.counts[o.id]}<span class="sr-only"> ${esc(o.label)}</span></span>`).join('')}</div><span>${row.total} attempts</span></div>`).join('');
+$('outcome-legend').innerHTML = data.story.outcomes.map(o=>`<span><i class="status-${o.id}" aria-hidden="true"></i>${esc(o.label)}</span>`).join('');
 draw();

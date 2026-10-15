@@ -1,15 +1,20 @@
 <!doctype html>
 <html lang="en">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VectorCraft — process and study progress</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="research.css?v=3cf1bcd66793"></head>
+<title>VectorCraft — process and study progress</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="research.css?v=dd3bac52ebcc"></head>
 <body><main>
 <div class="masthead"><a class="wordmark" href="index.html">VectorCraft Studio</a><span class="tag">Research checkpoint · 15 October 2026</span></div>
-<nav><a href="index.html">Home</a><a href="peer-review.html">Historical paper</a><a href="limitations.html">Limitations</a><a href="https://github.com/Radical11/vectorcraft-studio-mcp/pull/1">Research change history</a></nav>
+<nav><a href="index.html">Home</a><a href="#process-changes">Process diagram</a><a href="#observed-fixes">Observed changes</a><a href="#study-accounting">Study progress</a><a href="peer-review.html">Historical paper</a><a href="limitations.html">Limitations</a><a href="https://github.com/Radical11/vectorcraft-studio-mcp/pull/1">Research change history</a></nav>
 <header><span class="tag">Existing evidence / editable native artwork</span><h1>Watch the design<br>take shape.</h1><p class="intro">Follow the roughs, stage captures, corrections, and retained result. Read what was recorded at each step and see where the evidence is incomplete.</p>
 <div class="stats"><div><strong>10 / 18</strong><span>attempts accounted for</span></div><div><strong>4</strong><span>final construction reviews passed</span></div><div><strong>8</strong><span>remaining attempts deferred</span></div></div>
 <p>One delivered library graphic has unresolved acceptance; one illustration retained partial work. Four attempts were disrupted without final production artwork. Comparative improvement remains unestablished.</p>
 <div class="links"><a href="assets/research32/paper.pdf">Interim paper PDF</a><a href="assets/research32/paper.docx">Editable paper</a><a href="https://github.com/Radical11/vectorcraft-studio-mcp/blob/main/docs/PROCESS.md">Simple process guide</a></div></header>
 <section class="explanation"><h2>What happens behind each image?</h2><p><b>Codex plans and inspects.</b> The gateway checks task state and revisions. VectorCraft edits native objects and renders previews. Fresh reviewer contexts assess communication and craft at the required gates.</p><p class="steps">Brief → research → concepts → native roughs where enabled → composition → typography → imagery → finishing → review and correction → verified delivery</p><p>Saving a capture, passing a task, accepting a stage, passing final review, and verifying exports are separate decisions. The same image may appear across stages when a stage accepts existing work.</p></section>
+<section id="process-changes" class="explanation"><span class="tag">Workflow development</span><h2>Give the same model a clearer job.</h2><p>We have changed the workflow around the model: what it receives, how much it edits at once, and what must be checked. We have not trained new model weights. These controls are implemented; their overall quality benefit is still being evaluated.</p>
+<div class="process-evolution"><div><h3>Standard</h3><p>Research, concepts and construction studies → stage batches → independent final review.</p><small>The baseline already inspects images and supports corrections.</small></div><div><h3>Focused build adds</h3><p>Current packet → one small task → capture → task decision.</p><small>Passing a task does not automatically accept its stage.</small></div><div><h3>Layout first adds</h3><p>Three isolated native roughs → image comparison → concept selection.</p><small>Expose placement and interaction problems before detailed construction.</small></div><div><h3>Full process combines</h3><p>Native roughs + focused tasks + named parts and their connections.</p><small>Check relationships such as hand → handle → tool tip → tyre.</small></div></div>
+<h3>One focused construction loop</h3><ol class="workflow-loop" aria-label="Focused construction sequence"><li><b>1. Receive</b><span>Codex reads current task, objects, image and findings.</span></li><li><b>2. Plan</b><span>Gateway checks task state and document revision.</span></li><li><b>3. Edit</b><span>VectorCraft changes native objects.</span></li><li><b>4. Capture</b><span>Save full and intended-size evidence.</span></li><li><b>5. Inspect</b><span>Codex observes the task, neighbors and whole scene.</span></li><li><b>6. Decide</b><span>Pass the task, revise it, or report a block.</span></li></ol><p><b>Revise →</b> preserve this evidence and plan a correction. <b>Task pass →</b> continue until explicit stage acceptance. <b>Final gate →</b> fresh independent reviewers, retained-best comparison, then native/export verification.</p></section>
+<section id="observed-fixes"><span class="tag">Existing image evidence</span><h2>See exactly what changed.</h2><p>These are selected earlier/later versions within the same attempt. They illustrate local fixes and safeguards; they are not a new cross-profile ranking. The Standard example shows that inspection already helped before the new profiles.</p><div class="controls"><label>Example<select id="case-select"></select></label><label>View<select id="case-size"><option value="detail">Relevant detail</option><option value="whole">Whole artwork</option></select></label></div><div id="case-results" aria-live="polite"></div></section>
+<section id="study-accounting"><h2>What the eighteen attempts currently show.</h2><p>Six planned attempts per profile. Counts describe recorded status, not quality points or success-rate estimates. Missing and interrupted work prevents a fair overall winner claim.</p><div id="outcome-chart" role="group" aria-label="Recorded outcomes for six planned attempts per profile"></div><div id="outcome-legend" class="outcome-legend"></div><p>Formal cross-profile preferences, owner feedback and standardized editing evaluation remain uncollected. Eight attempts stay deferred. The chart is generated from the same evidence index as the explorer below.</p></section>
 <section aria-labelledby="explorer-title"><div class="section-top"><div><span class="tag">Evidence explorer</span><h2 id="explorer-title">Two ways to follow the work.</h2></div><div class="view-buttons" role="group" aria-label="Comparison view"><button id="within" aria-pressed="true">Within an attempt</button><button id="across" aria-pressed="false">Across profiles</button></div></div>
 <p><b>Standard:</b> the existing workflow. <b>Layout first:</b> compare three native roughs before production. <b>Full process:</b> layout trials plus small tasks and explicit part relationships. <b>Run 1 / 2:</b> separate attempts on the same brief. Focused build is available separately but is not a study arm.</p>
 <div class="controls"><label id="trial-control">Attempt<select id="trial"></select></label><label id="brief-control" hidden>Brief<select id="brief"><option value="tyre">Repair</option><option value="exchange">Book exchange</option><option value="library">Library guide</option></select></label><label id="repeat-control" hidden>Run<select id="repeat"><option value="1">Run 1</option><option value="2">Run 2</option></select></label><label>Stage<select id="stage"><option value="all">All stages</option><option value="roughs">Try layouts</option><option value="construction-study">Test a detail</option><option value="composition">Arrange the scene</option><option value="typography">Set the text</option><option value="imagery">Build the drawing</option><option value="finishing">Polish and check</option><option value="retained">Kept result / work at stop</option></select></label><label>Preview<select id="size"><option value="use">Intended size</option><option value="full">Full capture</option></select></label></div>
@@ -4579,6 +4584,871 @@
     "focused-execution-v1": "Focused build",
     "layout-blockout-v1": "Layout first",
     "designer-process-v1": "Full process"
+  },
+  "story": {
+    "cases": [
+      {
+        "id": "book-contact",
+        "title": "A detached hand becomes a book grip",
+        "trial_id": "exchange-designer-process-v1-2",
+        "mechanism": "Test the difficult relationship in an isolated rough before carrying it into production.",
+        "conclusion": "The recorded receiving hand changes from detached to contacting the same book. The rest of the wording stays clear.",
+        "limit": "An observed local fix in Full process; it does not prove that this profile outperforms Standard.",
+        "detail": [
+          130,
+          200,
+          300,
+          190
+        ],
+        "canvas": [
+          450,
+          600
+        ],
+        "steps": [
+          {
+            "version": "handoff",
+            "caption": "Before: receiving hand is detached"
+          },
+          {
+            "version": "handoff-fixed",
+            "caption": "After: thumb and fingers contact the book"
+          }
+        ],
+        "trial_name": "Book exchange · Full process · Run 2",
+        "trial_ref": "T05",
+        "report": {
+          "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/creator-report.json",
+          "sha256": "688f2397eea7e025d60e268ee9c315b7020fbf9b0c4acb0a5bacaaeb5ce01646",
+          "source_sha256": "fff10a48a082d7d5f4b60097872dba96fc99e1e23f36d3ab13669dcdbbf29d0a"
+        },
+        "captures": [
+          {
+            "id": "study-handoff-handoff",
+            "version": "handoff",
+            "kind": "study",
+            "stage": "roughs",
+            "study_id": "handoff",
+            "study_closed": true,
+            "source_run_sha256": "60360d828dbb6433ac1587c79cc91936c8f3e87567928690dd8adcca59b8a8f7",
+            "confirmed": true,
+            "retained_best": false,
+            "working": false,
+            "selected_for_display": false,
+            "task_outcome": null,
+            "plan": {
+              "purpose": "Receiving hand grips book edge",
+              "changes": "Move right hand into book and add visible thumb",
+              "expected_result": "Receiving hand grips book edge",
+              "checks": [
+                {
+                  "id": "hierarchy",
+                  "description": "Preserve header/logistics"
+                },
+                {
+                  "id": "metaphor",
+                  "description": "Hands touch same book"
+                },
+                {
+                  "id": "copy",
+                  "description": "Exact copy remains visible"
+                }
+              ]
+            },
+            "order": 1,
+            "at": "2026-10-14T04:43:34.473144+00:00",
+            "revision": 16,
+            "spec_revision": 0,
+            "images": {
+              "full": {
+                "path": "public-evidence/process-stages-20261015/attempts/exchange-designer-process-v1-2/study-handoff-handoff/full.png",
+                "sha256": "d20bfaa9feeb2b45b52195f28f170e4759e0173d6cb09bbcc1b241d24c5e61a3",
+                "site_path": "assets/stages/d20bfaa9feeb2b45b52195f28f170e4759e0173d6cb09bbcc1b241d24c5e61a3.png"
+              },
+              "use": {
+                "path": "public-evidence/process-stages-20261015/attempts/exchange-designer-process-v1-2/study-handoff-handoff/use.png",
+                "sha256": "6ac10678c22d4cb3fbc37511609d707687be073dcf6135312825fcf83053e4b3",
+                "site_path": "assets/stages/6ac10678c22d4cb3fbc37511609d707687be073dcf6135312825fcf83053e4b3.png"
+              }
+            },
+            "native": {
+              "path": "public-evidence/process-stages-20261015/attempts/exchange-designer-process-v1-2/study-handoff-handoff/artwork.vectorcraft",
+              "sha256": "f5f70cede165ad8b332b2064af133f2c8b365ff099d0543a025382ce882bed83"
+            },
+            "observations": {
+              "attribution": "Existing creator checkpoint; not a new independent review.",
+              "observations": "Title, invitation and logistics read cleanly at half size, but right hand remains separated from book; the exchange interaction needs actual contact.",
+              "decision": "revise",
+              "reason": "Repair observed hand-book contact before registering this alternative",
+              "check_results": [
+                {
+                  "id": "hierarchy",
+                  "outcome": "pass",
+                  "observation": "Open header, focal image and separated logistics are readable."
+                },
+                {
+                  "id": "metaphor",
+                  "outcome": "fail",
+                  "observation": "Right fingertips end to the right and below the book, leaving a visible gap."
+                },
+                {
+                  "id": "copy",
+                  "outcome": "pass",
+                  "observation": "All supplied wording is visible at 450x600."
+                }
+              ]
+            },
+            "source_check_sha256": "f4e62c5395e32e173c3ccc02f22374d3f7f30430602e50f4e5d70223c4161b27",
+            "step": "T05.01",
+            "title": "Try a shared-book layout",
+            "change": "Explore two hands meeting at one book with the event wording.",
+            "reading": "The recorded receiving hand is still detached from the book, so the interaction needs correction.",
+            "progress_label": "Recorded step",
+            "comparison_caption": "Before: receiving hand is detached"
+          },
+          {
+            "id": "study-handoff-handoff-fixed",
+            "version": "handoff-fixed",
+            "kind": "study",
+            "stage": "roughs",
+            "study_id": "handoff",
+            "study_closed": true,
+            "source_run_sha256": "60360d828dbb6433ac1587c79cc91936c8f3e87567928690dd8adcca59b8a8f7",
+            "confirmed": true,
+            "retained_best": false,
+            "working": false,
+            "selected_for_display": false,
+            "task_outcome": null,
+            "plan": {
+              "purpose": "Receiving hand grips book edge",
+              "changes": "Move right hand into book and add visible thumb",
+              "expected_result": "Receiving hand grips book edge",
+              "checks": [
+                {
+                  "id": "hierarchy",
+                  "description": "Preserve header/logistics"
+                },
+                {
+                  "id": "metaphor",
+                  "description": "Hands touch same book"
+                },
+                {
+                  "id": "copy",
+                  "description": "Exact copy remains visible"
+                }
+              ]
+            },
+            "order": 2,
+            "at": "2026-10-14T04:44:15.050211+00:00",
+            "revision": 18,
+            "spec_revision": 0,
+            "images": {
+              "full": {
+                "path": "public-evidence/process-stages-20261015/attempts/exchange-designer-process-v1-2/study-handoff-handoff-fixed/full.png",
+                "sha256": "e6bbe16b41d7d079882c4b62354312a12ce8b9cd682f9a1ab9aa3920ab1060c5",
+                "site_path": "assets/stages/e6bbe16b41d7d079882c4b62354312a12ce8b9cd682f9a1ab9aa3920ab1060c5.png"
+              },
+              "use": {
+                "path": "public-evidence/process-stages-20261015/attempts/exchange-designer-process-v1-2/study-handoff-handoff-fixed/use.png",
+                "sha256": "17f0e73e0ced5d79e233e5351d523e7521c1ebe30973faee1359aa956bd7f8c5",
+                "site_path": "assets/stages/17f0e73e0ced5d79e233e5351d523e7521c1ebe30973faee1359aa956bd7f8c5.png"
+              }
+            },
+            "native": {
+              "path": "public-evidence/process-stages-20261015/attempts/exchange-designer-process-v1-2/study-handoff-handoff-fixed/artwork.vectorcraft",
+              "sha256": "745eb30e84d2718954abbcd4ec342fff76823925ecb1e15cf8bd4fba8ec35e16"
+            },
+            "observations": {
+              "attribution": "Existing creator checkpoint; not a new independent review.",
+              "observations": "Both hands now contact the same book. Right thumb crosses cover edge and lower fingers touch the cream page block. Title and all logistics stay clear at half size.",
+              "decision": "pass",
+              "check_results": [
+                {
+                  "id": "hierarchy",
+                  "outcome": "pass",
+                  "observation": "Header image and logistics remain separated."
+                },
+                {
+                  "id": "metaphor",
+                  "outcome": "pass",
+                  "observation": "Opposed hands visibly share the same book."
+                },
+                {
+                  "id": "copy",
+                  "outcome": "pass",
+                  "observation": "All exact copy remains live and readable."
+                }
+              ]
+            },
+            "source_check_sha256": "e04bc53ac12f96be728efdd291abc9b01240d755fa334ebf8d9b45178f52c56c",
+            "step": "T05.02",
+            "title": "Connect the receiving hand",
+            "change": "Move the hand into the book and add a visible thumb.",
+            "reading": "The observation now records both hands contacting the same book, with the title and details preserved.",
+            "progress_label": "Recorded step",
+            "comparison_caption": "After: thumb and fingers contact the book"
+          }
+        ]
+      },
+      {
+        "id": "tyre-correction",
+        "title": "A local fix needs its own cleanup",
+        "trial_id": "tyre-designer-process-v1-1",
+        "mechanism": "Inspect the changed part, its neighbors and the whole scene; preserve a failed capture and plan one more correction.",
+        "conclusion": "Opening the tyre edge exposes the tool but introduces duplicate spokes. Cleanup restores single spokes and the hub; final review then accepts the corrected candidate.",
+        "limit": "The first correction fails. Simplified anatomy and a minor blunt tyre lip remain disclosed in the accepted result.",
+        "detail": [
+          250,
+          145,
+          300,
+          280
+        ],
+        "canvas": [
+          768,
+          512
+        ],
+        "steps": [
+          {
+            "version": "finishing",
+            "caption": "Before: loop-like tyre contact"
+          },
+          {
+            "version": "correction1",
+            "caption": "Revise: open edge, duplicate spokes"
+          },
+          {
+            "version": "finishing-correction1-clean",
+            "caption": "After cleanup: single spokes and clean hub"
+          }
+        ],
+        "trial_name": "Repair · Full process · Run 1",
+        "trial_ref": "T07",
+        "report": {
+          "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/creator-report.json",
+          "sha256": "56c72ae9b3c4e5544df1770c6d36838d855797b6f7dfb477deaabb91fc39e42c",
+          "source_sha256": "d274763d6ccd59369af0bae9d0ea79caf4a4852839930c0d79311aa7dd76aa0a"
+        },
+        "captures": [
+          {
+            "id": "production-finishing",
+            "version": "finishing",
+            "kind": "production",
+            "stage": "finishing",
+            "confirmed": true,
+            "retained_best": false,
+            "working": false,
+            "selected_for_display": false,
+            "task_outcome": "pass",
+            "stage_complete": true,
+            "source_run_sha256": "ee6ee361e09d16abb25978391abf28a33aa5e363701b26b8ddb5250b1ce8f17d",
+            "source_begin_event": 10,
+            "source_confirm_event": 12,
+            "plan": {
+              "task_id": "finishing-accept",
+              "goal": "Inspect scene cohesion and native production readiness",
+              "purpose": "Focused finishing acceptance",
+              "changes": "No text for wordless typography; remove duplicate grip contour for imagery; finishing inspection",
+              "expected_result": "Coherent native illustration at intended size",
+              "preserve": "Preserve unrelated people, supporting hand and background; inspect affected wheel and whole scene",
+              "checks": [
+                {
+                  "id": "required",
+                  "description": "Brief-specific stage requirements visible"
+                },
+                {
+                  "id": "preserved",
+                  "description": "Related and unrelated neighbors preserved"
+                }
+              ]
+            },
+            "order": 9,
+            "at": "2026-10-14T12:13:16.785118+00:00",
+            "revision": 1,
+            "spec_revision": 2,
+            "images": {
+              "full": {
+                "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing/full.png",
+                "sha256": "56ab30f294b800dd8d256d78c4f62b3f9b616d9a9acd2bd3ffacc323117fd529",
+                "site_path": "assets/stages/56ab30f294b800dd8d256d78c4f62b3f9b616d9a9acd2bd3ffacc323117fd529.png"
+              },
+              "use": {
+                "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing/use.png",
+                "sha256": "35de93e0c96866dd127b4f4ef84d4508524e87238595cee7c149cf440cb811c9",
+                "site_path": "assets/stages/35de93e0c96866dd127b4f4ef84d4508524e87238595cee7c149cf440cb811c9.png"
+              }
+            },
+            "native": {
+              "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing/artwork.vectorcraft",
+              "sha256": "9a15c30943c710151555f77c901fd71860397901ef04b88829905fe993080e85"
+            },
+            "observations": {
+              "attribution": "Existing creator checkpoint; not a new independent review.",
+              "observations": "Whole illustration retains warm editorial palette, separated spokes and two people around a removed wheel. Connected arms and gold lever remain legible at768. No clipping except intentional table legs at canvas bottom. Anatomy and lifted bead are deliberately simplified, not mechanically instructional.",
+              "decision": "proceed",
+              "preservation_observation": "Neighbor inspection: both profiles, opposite hand role, bench and sparse workshop remain unchanged; whole scene retains centered wheel and quiet pale field.",
+              "check_results": [
+                {
+                  "id": "required",
+                  "outcome": "pass",
+                  "observation": "Whole illustration retains warm editorial palette, separated spokes and two people around a removed wheel. Connected arms and gold lever remain legible at768. No clipping except intentional table legs at canvas bottom. Anatomy and lifted bead are deliberately simplified, not mechanically instructional."
+                },
+                {
+                  "id": "preserved",
+                  "outcome": "pass",
+                  "observation": "Whole illustration retains warm editorial palette, separated spokes and two people around a removed wheel. Connected arms and gold lever remain legible at768. No clipping except intentional table legs at canvas bottom. Anatomy and lifted bead are deliberately simplified, not mechanically instructional."
+                }
+              ],
+              "stage_checks": {
+                "scene_cohesion": {
+                  "outcome": "pass",
+                  "observation": "Whole illustration retains warm editorial palette, separated spokes and two people around a removed wheel. Connected arms and gold lever remain legible at768. No clipping except intentional table legs at canvas bottom. Anatomy and lifted bead are deliberately simplified, not mechanically instructional."
+                },
+                "visible_defects": {
+                  "outcome": "pass",
+                  "observation": "Whole illustration retains warm editorial palette, separated spokes and two people around a removed wheel. Connected arms and gold lever remain legible at768. No clipping except intentional table legs at canvas bottom. Anatomy and lifted bead are deliberately simplified, not mechanically instructional."
+                },
+                "production_readiness": {
+                  "outcome": "pass",
+                  "observation": "Whole illustration retains warm editorial palette, separated spokes and two people around a removed wheel. Connected arms and gold lever remain legible at768. No clipping except intentional table legs at canvas bottom. Anatomy and lifted bead are deliberately simplified, not mechanically instructional."
+                }
+              }
+            },
+            "source_check_sha256": "a573049e23b3714023cad063a88be05758a3363b1ff85fee3fafb6a73bc2653e",
+            "step": "T07.09",
+            "title": "Inspect the workshop scene",
+            "change": "Check the palette, spokes, people, clipping and readiness for final review.",
+            "reading": "The scene is recorded as coherent, with deliberately simplified anatomy and tyre mechanics. Final review can still request a consequential correction.",
+            "progress_label": "Recorded step",
+            "comparison_caption": "Before: loop-like tyre contact"
+          },
+          {
+            "id": "production-correction1",
+            "version": "correction1",
+            "kind": "production",
+            "stage": "imagery",
+            "confirmed": true,
+            "retained_best": false,
+            "working": false,
+            "selected_for_display": false,
+            "task_outcome": "revise",
+            "stage_complete": false,
+            "source_run_sha256": "ee6ee361e09d16abb25978391abf28a33aa5e363701b26b8ddb5250b1ce8f17d",
+            "source_begin_event": 17,
+            "source_confirm_event": 31,
+            "plan": {
+              "task_id": "contact-correction-1",
+              "goal": "Replace loop-like raised tyre with short open lifted lip continuous to tyre",
+              "purpose": "Resolve first major communication finding",
+              "changes": "Remove old loop/pale cutout and redraw low raised lip, preserve shaft; open lower spoke interior over bench",
+              "expected_result": "Tyre above, visible gold shaft underneath, supporting contact intact",
+              "preserve": "Keep people, both arm ownership paths, working grip and opposite hand intact; inspect neighboring rim and whole scene",
+              "checks": [
+                {
+                  "id": "lip",
+                  "description": "Short raised edge continuous to tyre, with clear under-edge gold shaft"
+                },
+                {
+                  "id": "neighbor",
+                  "description": "Grip and support hand ownership/contact preserved"
+                },
+                {
+                  "id": "bench",
+                  "description": "Wheel opening reveals lower bench plane"
+                }
+              ]
+            },
+            "order": 10,
+            "at": "2026-10-14T12:19:15.986562+00:00",
+            "revision": 12,
+            "spec_revision": 2,
+            "images": {
+              "full": {
+                "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1/full.png",
+                "sha256": "71dbe94787d7427e45a7992c7f8c091cf33e6ff8ed5b3aa4e04ef606f78bb310",
+                "site_path": "assets/stages/71dbe94787d7427e45a7992c7f8c091cf33e6ff8ed5b3aa4e04ef606f78bb310.png"
+              },
+              "use": {
+                "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1/use.png",
+                "sha256": "0b29c6079dc1d4fd0be5104da0f205830554fb0f8c3992970fc22e30f2dfdd23",
+                "site_path": "assets/stages/0b29c6079dc1d4fd0be5104da0f205830554fb0f8c3992970fc22e30f2dfdd23.png"
+              }
+            },
+            "native": {
+              "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1/artwork.vectorcraft",
+              "sha256": "076982918b55cbfbdf7b51c186a7646d07353fc7c548018132d9aacbf24323a9"
+            },
+            "observations": {
+              "attribution": "Existing creator checkpoint; not a new independent review.",
+              "observations": "Open lifted lip replaces closed loop and bench visible through lower opening, but duplicate redrawn spokes cross hub and need cleanup.",
+              "decision": "revise",
+              "reason": "Local spoke duplication and hub overlap introduced by bench opening correction",
+              "preservation_observation": "People and separate arm ownership untouched; support contact preserved. Whole scene same except local lip/bench opening.",
+              "check_results": [
+                {
+                  "id": "lip",
+                  "outcome": "pass",
+                  "observation": "Open lip continuous at upper return and visible shaft underneath."
+                },
+                {
+                  "id": "neighbor",
+                  "outcome": "pass",
+                  "observation": "Working grip and supporting arm/hand remain same."
+                },
+                {
+                  "id": "bench",
+                  "outcome": "fail",
+                  "observation": "Bench reveal visible but lower spokes duplicated and redrawn strokes cross hub."
+                }
+              ]
+            },
+            "source_check_sha256": "e6af7023120bfa3d3b60c2dac45e957581b488b7e4fd62482d274a89ee5e36be",
+            "step": "T07.10",
+            "title": "Open the tyre edge",
+            "change": "Replace the loop-like lip with an open raised edge and reveal the bench through the wheel.",
+            "reading": "The intended contact becomes more open, but duplicate spokes cross the hub. The task receives revise; this is a failed correction requiring cleanup.",
+            "progress_label": "Needs correction",
+            "comparison_caption": "Revise: open edge, duplicate spokes"
+          },
+          {
+            "id": "production-finishing-correction1-clean",
+            "version": "finishing-correction1-clean",
+            "kind": "production",
+            "stage": "finishing",
+            "confirmed": true,
+            "retained_best": true,
+            "working": true,
+            "selected_for_display": true,
+            "task_outcome": "pass",
+            "stage_complete": true,
+            "source_run_sha256": "ee6ee361e09d16abb25978391abf28a33aa5e363701b26b8ddb5250b1ce8f17d",
+            "source_begin_event": 38,
+            "source_confirm_event": 40,
+            "plan": {
+              "task_id": "finishing-accept-correction1-clean",
+              "goal": "Inspect scene cohesion and native production readiness",
+              "purpose": "Focused finishing acceptance",
+              "changes": "No text for wordless typography; remove duplicate grip contour for imagery; finishing inspection",
+              "expected_result": "Coherent native illustration at intended size",
+              "preserve": "Preserve unrelated people, supporting hand and background; inspect affected wheel and whole scene",
+              "checks": [
+                {
+                  "id": "required",
+                  "description": "Brief-specific stage requirements visible"
+                },
+                {
+                  "id": "preserved",
+                  "description": "Related and unrelated neighbors preserved"
+                }
+              ]
+            },
+            "order": 12,
+            "at": "2026-10-14T12:21:01.269329+00:00",
+            "revision": 15,
+            "spec_revision": 2,
+            "images": {
+              "full": {
+                "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/full.png",
+                "sha256": "291f265d53bea3929b2a58fa8e808d3d436f4783354c7bd8831673c7b095c7e2",
+                "site_path": "assets/stages/291f265d53bea3929b2a58fa8e808d3d436f4783354c7bd8831673c7b095c7e2.png"
+              },
+              "use": {
+                "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/use.png",
+                "sha256": "32d7cf65527411001dd00edc9db382751bc033030e312693633f16bc450dc396",
+                "site_path": "assets/stages/32d7cf65527411001dd00edc9db382751bc033030e312693633f16bc450dc396.png"
+              }
+            },
+            "native": {
+              "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/artwork.vectorcraft",
+              "sha256": "571d7f35d8a241e52efe73fa2d0ba096de182154fcadf6c1d03a639fafb56e17"
+            },
+            "observations": {
+              "attribution": "Existing creator checkpoint; not a new independent review.",
+              "observations": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained.",
+              "decision": "proceed",
+              "preservation_observation": "Neighbor inspection: both profiles, opposite hand role, bench and sparse workshop remain unchanged; whole scene retains centered wheel and quiet pale field.",
+              "check_results": [
+                {
+                  "id": "required",
+                  "outcome": "pass",
+                  "observation": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+                },
+                {
+                  "id": "preserved",
+                  "outcome": "pass",
+                  "observation": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+                }
+              ],
+              "stage_checks": {
+                "scene_cohesion": {
+                  "outcome": "pass",
+                  "observation": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+                },
+                "visible_defects": {
+                  "outcome": "pass",
+                  "observation": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+                },
+                "production_readiness": {
+                  "outcome": "pass",
+                  "observation": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+                }
+              }
+            },
+            "source_check_sha256": "3bf8e52153bd179cac113d82a4ab4344085d20e763781b91df048d53efa4dd17",
+            "step": "T07.12",
+            "title": "Verify the corrected whole scene",
+            "change": "Inspect the complete scene after the local spoke cleanup.",
+            "reading": "The record reports preserved people and contacts without new line artifacts. Final reviewers accepted this candidate; simplified anatomy and a minor blunt lip remain disclosed.",
+            "progress_label": "Recorded step",
+            "comparison_caption": "After cleanup: single spokes and clean hub"
+          }
+        ]
+      },
+      {
+        "id": "title-clipping",
+        "title": "The clipped title becomes readable",
+        "trial_id": "exchange-designer-v1-1",
+        "mechanism": "Inspect exact wording at intended size, then change the text frame and line spacing.",
+        "conclusion": "NIGHT is clipped in the first capture and fully visible after the correction; the invitation remains separate.",
+        "limit": "This fix already works in Standard. It illustrates the value of inspection, not a gain unique to the new profiles.",
+        "detail": [
+          0,
+          20,
+          450,
+          215
+        ],
+        "canvas": [
+          450,
+          600
+        ],
+        "steps": [
+          {
+            "version": "typography",
+            "caption": "Before: NIGHT is clipped"
+          },
+          {
+            "version": "typography-fixed",
+            "caption": "After: complete two-line title"
+          }
+        ],
+        "trial_name": "Book exchange · Standard · Run 1",
+        "trial_ref": "T02",
+        "report": {
+          "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/creator-report.json",
+          "sha256": "748a69656f5618877c97156a664ac6df93a7d3d8f16aeafa954d8f4564ba37e6",
+          "source_sha256": "004e79af5f027b6d6d1f62999afc4c5f63a4875bbb340652969ac5d4d605bb05"
+        },
+        "captures": [
+          {
+            "id": "production-typography",
+            "version": "typography",
+            "kind": "production",
+            "stage": "typography",
+            "confirmed": true,
+            "retained_best": false,
+            "working": false,
+            "selected_for_display": false,
+            "task_outcome": null,
+            "stage_complete": null,
+            "source_run_sha256": "808e48b9dfd818fd0f0d4aca379983686a2cf01b3f1ec6954c946f2f26516c9e",
+            "source_begin_event": 4,
+            "source_confirm_event": 6,
+            "plan": {
+              "purpose": "Build live exact copy and establish fast hierarchy",
+              "changes": "Wrapped Impact title, Arial invitation and grouped details",
+              "expected_result": "Prominent title and accessible attendance information",
+              "checks": "Full and half-size readability; exact wording and no frame overflow; compare spacing to target"
+            },
+            "order": 2,
+            "at": "2026-10-13T19:08:57.517168+00:00",
+            "revision": 2,
+            "spec_revision": 2,
+            "images": {
+              "full": {
+                "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography/full.png",
+                "sha256": "f8928c0ede76f53cbe60607f393f9a3b562147c3f78e699e61a689a456b78453",
+                "site_path": "assets/stages/f8928c0ede76f53cbe60607f393f9a3b562147c3f78e699e61a689a456b78453.png"
+              },
+              "use": {
+                "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography/use.png",
+                "sha256": "a9fe187b5bea4b6ebeb431970231cf6ad4af8a083ea9be53ed07a4beeb6f35a6",
+                "site_path": "assets/stages/a9fe187b5bea4b6ebeb431970231cf6ad4af8a083ea9be53ed07a4beeb6f35a6.png"
+              }
+            },
+            "native": {
+              "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography/artwork.vectorcraft",
+              "sha256": "d0b2165dfb5722ebdd78bd5e983de23ed49e7a4c11b055f0bd3a3f58f88dcb30"
+            },
+            "observations": {
+              "attribution": "Existing creator checkpoint; not a new independent review.",
+              "observations": "Full/use/target viewed. Date, time, venue and entry read clearly. Title area clips second line NIGHT, so this is a correction finding rather than accepted typography.",
+              "decision": "Correct title area height and leading before imagery"
+            },
+            "source_check_sha256": "934b11737335ea0447d0e7f217519ab166a64fd548a70dd97e1e8fc009093351",
+            "step": "T02.02",
+            "title": "Add the event wording",
+            "change": "Set a large title, invitation and event details as live text.",
+            "reading": "The captured title clips NIGHT. A saved capture does not mean the text stage succeeded.",
+            "progress_label": "Recorded step",
+            "comparison_caption": "Before: NIGHT is clipped"
+          },
+          {
+            "id": "production-typography-fixed",
+            "version": "typography-fixed",
+            "kind": "production",
+            "stage": "typography",
+            "confirmed": true,
+            "retained_best": false,
+            "working": false,
+            "selected_for_display": false,
+            "task_outcome": null,
+            "stage_complete": null,
+            "source_run_sha256": "808e48b9dfd818fd0f0d4aca379983686a2cf01b3f1ec6954c946f2f26516c9e",
+            "source_begin_event": 7,
+            "source_confirm_event": 10,
+            "plan": {
+              "purpose": "Restore complete two-line title",
+              "changes": "Set title leading to 118 and increase text-frame height",
+              "expected_result": "Exact title visible in two clear lines",
+              "checks": "NIGHT visible; no title overflow; invitation separated"
+            },
+            "order": 3,
+            "at": "2026-10-13T19:09:25.630175+00:00",
+            "revision": 4,
+            "spec_revision": 2,
+            "images": {
+              "full": {
+                "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography-fixed/full.png",
+                "sha256": "9107e488995180df0c7b1c81b208fcd23eb1fc846978b5a1882e8195be650d7b",
+                "site_path": "assets/stages/9107e488995180df0c7b1c81b208fcd23eb1fc846978b5a1882e8195be650d7b.png"
+              },
+              "use": {
+                "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography-fixed/use.png",
+                "sha256": "df1fed6d5a5636b404645a7d10d37c787ef07c992dbc0b2f73cc6280738ee4c5",
+                "site_path": "assets/stages/df1fed6d5a5636b404645a7d10d37c787ef07c992dbc0b2f73cc6280738ee4c5.png"
+              }
+            },
+            "native": {
+              "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography-fixed/artwork.vectorcraft",
+              "sha256": "bd699e069723ec5254b812d72af9e1709bf0c1dcd6ec21067977847780881300"
+            },
+            "observations": {
+              "attribution": "Existing creator checkpoint; not a new independent review.",
+              "observations": "Full/use/target inspected. EXCHANGE NIGHT is now fully visible in two lines; invitation and footer readable at intended size; image field intentionally open.",
+              "decision": "proceed"
+            },
+            "source_check_sha256": "df66bf09a241b32a3c9a2bc9c3ae2208e99dee1cc8d81aea5deebc417b53d589",
+            "step": "T02.03",
+            "title": "Reveal the complete title",
+            "change": "Increase the title frame and adjust line spacing.",
+            "reading": "The recorded observation says NIGHT is now fully visible and the invitation remains separate. This fixes the previous clipping.",
+            "progress_label": "Recorded step",
+            "comparison_caption": "After: complete two-line title"
+          }
+        ]
+      },
+      {
+        "id": "library-retention",
+        "title": "More polish does not automatically win",
+        "trial_id": "library-layout-blockout-v1-2",
+        "mechanism": "Compare a later candidate with the retained version; keep the earlier result when independent reviews find no improvement.",
+        "conclusion": "Matching frames and search spacing change, but both final specialists judge the later candidate equal overall. The earlier candidate stays retained.",
+        "limit": "Quality acceptance remains unresolved. Verified native files and exports do not make this a final-review pass.",
+        "detail": [
+          0,
+          0,
+          600,
+          450
+        ],
+        "canvas": [
+          600,
+          450
+        ],
+        "steps": [
+          {
+            "version": "final-1",
+            "caption": "Earlier: retained, acceptance unresolved"
+          },
+          {
+            "version": "final-2",
+            "caption": "Later: judged equal, not retained"
+          }
+        ],
+        "trial_name": "Library guide · Layout first · Run 2",
+        "trial_ref": "T10",
+        "report": {
+          "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/creator-report.json",
+          "sha256": "8d48d2ad31c70a8366cb55e0d3661508acab4a318176e566e64b475e3ce0444b",
+          "source_sha256": "39f369b02d2a40ba28bcce699f840c8f13c75eb3f5e07d5bfe6cae113d2ea7d6"
+        },
+        "captures": [
+          {
+            "id": "production-final-1",
+            "version": "final-1",
+            "kind": "production",
+            "stage": "finishing",
+            "confirmed": true,
+            "retained_best": true,
+            "working": false,
+            "selected_for_display": true,
+            "task_outcome": null,
+            "stage_complete": null,
+            "source_run_sha256": "74fc46c4f22eb1aa73833e073ceef98599f064e425abe9360a66ddd1ad33f248",
+            "source_begin_event": 15,
+            "source_confirm_event": 31,
+            "plan": {
+              "purpose": "Make each service branch a coherent editable unit.",
+              "changes": "Group complete branch cards with status, symbol, action and arrowhead; name the groups and component text.",
+              "expected_result": "Maintain correct three-way catalogue associations at full and reading size.",
+              "checks": "Inspect unchanged full scene, exact copy, page bounds and branch endpoints after grouping."
+            },
+            "order": 8,
+            "at": "2026-10-15T01:57:04.724883+00:00",
+            "revision": 24,
+            "spec_revision": 2,
+            "images": {
+              "full": {
+                "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-1/full.png",
+                "sha256": "12009ea57293b1148d8842444891aca90590ab4322fd21d7a2bdebf9471c5182",
+                "site_path": "assets/stages/12009ea57293b1148d8842444891aca90590ab4322fd21d7a2bdebf9471c5182.png"
+              },
+              "use": {
+                "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-1/use.png",
+                "sha256": "65dfe3b065814603f4f780a4d1f9caec866ad72b8613162aafd19978748e7b79",
+                "site_path": "assets/stages/65dfe3b065814603f4f780a4d1f9caec866ad72b8613162aafd19978748e7b79.png"
+              }
+            },
+            "native": {
+              "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-1/artwork.vectorcraft",
+              "sha256": "1239711dfcc0090388cfd503679d32043a4d54777e6ee202e935c1853cf2d0bf"
+            },
+            "observations": {
+              "attribution": "Existing creator checkpoint; not a new independent review.",
+              "observations": "Actual full/use and target views show unchanged final composition after grouping. All nine required strings remain readable; all connectors land above the matching card. Bold headings and single-baseline actions are intentional target departures.",
+              "decision": "Proceed; required grouping retained."
+            },
+            "source_check_sha256": "1c0383d01cf6239f07fed4c6b5b46f4bf7ed125958bcea9037749fe639e8450a",
+            "step": "T10.08",
+            "title": "Group each editable branch",
+            "change": "Group each card with its status, symbol, action and arrowhead.",
+            "reading": "The record reports unchanged composition and readable exact wording. This becomes the retained version, with quality acceptance unresolved.",
+            "progress_label": "Recorded step",
+            "comparison_caption": "Earlier: retained, acceptance unresolved"
+          },
+          {
+            "id": "production-final-2",
+            "version": "final-2",
+            "kind": "production",
+            "stage": "finishing",
+            "confirmed": true,
+            "retained_best": false,
+            "working": true,
+            "selected_for_display": false,
+            "task_outcome": null,
+            "stage_complete": null,
+            "source_run_sha256": "74fc46c4f22eb1aa73833e073ceef98599f064e425abe9360a66ddd1ad33f248",
+            "source_begin_event": 33,
+            "source_confirm_event": 44,
+            "plan": {
+              "purpose": "Give the three service illustrations a shared library-bookplate identity and relax search spacing.",
+              "changes": "Add matched concave-corner bookplate contours around the symbols; shift magnifier 9px left; preserve every text object and route.",
+              "expected_result": "Maintain correct three-way catalogue associations at full and reading size.",
+              "checks": "Inspect contours clear symbols/labels; search icon no longer crowds word; full scene and use-size associations unchanged."
+            },
+            "order": 9,
+            "at": "2026-10-15T02:00:54.293599+00:00",
+            "revision": 34,
+            "spec_revision": 2,
+            "images": {
+              "full": {
+                "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-2/full.png",
+                "sha256": "14010f81d7aa132d92beda4c15b490cccd13e2c1b03a86b6102bacb04c795ad1",
+                "site_path": "assets/stages/14010f81d7aa132d92beda4c15b490cccd13e2c1b03a86b6102bacb04c795ad1.png"
+              },
+              "use": {
+                "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-2/use.png",
+                "sha256": "4b22961d4b6c74ccf6cc5531c374f0861794cff803a5d01624a34b8e5d7eef1e",
+                "site_path": "assets/stages/4b22961d4b6c74ccf6cc5531c374f0861794cff803a5d01624a34b8e5d7eef1e.png"
+              }
+            },
+            "native": {
+              "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-2/artwork.vectorcraft",
+              "sha256": "61c221615056bfd972ef978e1e09999b3ec9da5d288e017f545417853faad1cb"
+            },
+            "observations": {
+              "attribution": "Existing creator checkpoint; not a new independent review.",
+              "observations": "Actual full/use/target views show repeated concave-corner bookplate frames around distinct service icons. Frames clear the bold status headings and exact actions; the search icon now has a relaxed gap before its text. Three routes, cards and neighboring content remain intact.",
+              "decision": "Proceed; required grouping retained."
+            },
+            "source_check_sha256": "d83aa06f3afef272b92cb28d2c45aa980db3dcf5571004da31a0fec70cbcc978",
+            "step": "T10.09",
+            "title": "Try matching symbol frames",
+            "change": "Add bookplate contours and move the search icon away from its label.",
+            "reading": "The record describes clearer search spacing and preserved routes, but both final reviewers judged the candidate equal overall. The earlier version stays retained; this does not turn unresolved acceptance into a pass.",
+            "progress_label": "Recorded step",
+            "comparison_caption": "Later: judged equal, not retained"
+          }
+        ]
+      }
+    ],
+    "accounting": [
+      {
+        "profile": "designer-v1",
+        "name": "Standard",
+        "counts": {
+          "passed": 1,
+          "unresolved": 0,
+          "partial": 1,
+          "disrupted": 0,
+          "pending": 4
+        },
+        "total": 6
+      },
+      {
+        "profile": "layout-blockout-v1",
+        "name": "Layout first",
+        "counts": {
+          "passed": 1,
+          "unresolved": 1,
+          "partial": 0,
+          "disrupted": 1,
+          "pending": 3
+        },
+        "total": 6
+      },
+      {
+        "profile": "designer-process-v1",
+        "name": "Full process",
+        "counts": {
+          "passed": 2,
+          "unresolved": 0,
+          "partial": 0,
+          "disrupted": 3,
+          "pending": 1
+        },
+        "total": 6
+      }
+    ],
+    "outcomes": [
+      {
+        "id": "passed",
+        "label": "Final review passed"
+      },
+      {
+        "id": "unresolved",
+        "label": "Acceptance unresolved"
+      },
+      {
+        "id": "partial",
+        "label": "Partial work"
+      },
+      {
+        "id": "disrupted",
+        "label": "Interrupted"
+      },
+      {
+        "id": "pending",
+        "label": "Deferred"
+      }
+    ]
   }
 }
-</script><script src="research.js?v=64d827220e37"></script></body></html>
+</script><script src="research.js?v=d84a4045c5de"></script></body></html>

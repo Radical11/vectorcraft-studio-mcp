@@ -70,6 +70,17 @@ These short names are reading labels. The exact IDs above still select the same 
 
 These are development changes, not four consecutive versions of the same artwork. Layout first and Focused build address different problems; Full process combines their mechanisms. Broader quality improvement is the hypothesis still awaiting evaluation.
 
+```mermaid
+flowchart TD
+  S[Standard: research, concepts, construction, review] --> F[Focused build: one small task at a time]
+  S --> L[Layout first: three native roughs]
+  F --> P[Full process]
+  L --> P
+  P --> R[Add named parts and check their connections]
+```
+
+We are improving the **orchestration around the model**: its current context, task size, native construction sequence, checks and correction decisions. This work does not train or fine-tune model weights. Whether these workflow controls produce better outputs overall remains a study question.
+
 ## One manageable construction task
 
 The builder reads the current **working packet** rather than repeatedly reconsidering the whole project. The packet identifies the task, relevant object IDs, current full/use previews, available details, applicable checks, unresolved findings, and next permitted action. Larger research/history records remain available by reference.
@@ -85,6 +96,20 @@ For a hand holding a tool, a task might say: make the fingers enclose the fixed 
 | Exports verified | Current exported bytes and production checks match the relevant version |
 
 A component can pass while its stage remains unfinished. A revise preserves the evidence and queues a correction. Later stages wait for the required task to pass. Edits stale affected acceptance, relationships, and export readiness. Uncertain interrupted edits are inspected on resume and never replayed blindly.
+
+```mermaid
+flowchart LR
+  P[Current working packet] --> T[Plan one task]
+  T --> E[Edit native parts]
+  E --> C[Capture full and intended size]
+  C --> I[Inspect task, neighbors and scene]
+  I --> D{Task outcome}
+  D -->|Revise: retain failed evidence| T
+  D -->|Pass| S{Stage complete?}
+  S -->|No| P
+  S -->|Explicit acceptance| N[Next stage or independent final review]
+  D -->|Blocked| B[Record the block and preserve state]
+```
 
 ## What each production stage asks
 

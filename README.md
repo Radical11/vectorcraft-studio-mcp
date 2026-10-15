@@ -16,6 +16,8 @@ An experimental, unofficial design companion for Codex and local VectorCraft on 
 
 The [public research explorer](https://radical11.github.io/vectorcraft-studio-mcp/research.html) shows the recorded stages and corrections. Its [source page](site/research.html) also works locally. The [public showcase](https://radical11.github.io/vectorcraft-studio-mcp/) serves the documentation from main.
 
+Start with the [observed before/after fixes](https://radical11.github.io/vectorcraft-studio-mcp/research.html#observed-fixes), [process diagram](https://radical11.github.io/vectorcraft-studio-mcp/research.html#process-changes), or [complete study status chart](https://radical11.github.io/vectorcraft-studio-mcp/research.html#study-accounting). These show local progress and remaining gaps; the project changes the workflow around an existing model and does not train new model weights.
+
 ## How it works
 
 Codex plans and inspects the images. The Python gateway keeps the workflow, revisions, task checks, and evidence in order. VectorCraft creates the native paths, live text, previews, and exports. Fresh reviewer contexts assess communication and craft using actual images.

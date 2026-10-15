@@ -1,0 +1,63 @@
+{
+  "format": "vectorcraft-observed-comparisons-v1",
+  "scope": "Selected within-attempt examples from existing checkpoints and creator reports. These are not matched cross-profile preference results or new artwork reviews.",
+  "cases": [
+    {
+      "id": "book-contact",
+      "title": "A detached hand becomes a book grip",
+      "trial_id": "exchange-designer-process-v1-2",
+      "mechanism": "Test the difficult relationship in an isolated rough before carrying it into production.",
+      "conclusion": "The recorded receiving hand changes from detached to contacting the same book. The rest of the wording stays clear.",
+      "limit": "An observed local fix in Full process; it does not prove that this profile outperforms Standard.",
+      "detail": [130, 200, 300, 190],
+      "canvas": [450, 600],
+      "steps": [
+        {"version": "handoff", "caption": "Before: receiving hand is detached"},
+        {"version": "handoff-fixed", "caption": "After: thumb and fingers contact the book"}
+      ]
+    },
+    {
+      "id": "tyre-correction",
+      "title": "A local fix needs its own cleanup",
+      "trial_id": "tyre-designer-process-v1-1",
+      "mechanism": "Inspect the changed part, its neighbors and the whole scene; preserve a failed capture and plan one more correction.",
+      "conclusion": "Opening the tyre edge exposes the tool but introduces duplicate spokes. Cleanup restores single spokes and the hub; final review then accepts the corrected candidate.",
+      "limit": "The first correction fails. Simplified anatomy and a minor blunt tyre lip remain disclosed in the accepted result.",
+      "detail": [250, 145, 300, 280],
+      "canvas": [768, 512],
+      "steps": [
+        {"version": "finishing", "caption": "Before: loop-like tyre contact"},
+        {"version": "correction1", "caption": "Revise: open edge, duplicate spokes"},
+        {"version": "finishing-correction1-clean", "caption": "After cleanup: single spokes and clean hub"}
+      ]
+    },
+    {
+      "id": "title-clipping",
+      "title": "The clipped title becomes readable",
+      "trial_id": "exchange-designer-v1-1",
+      "mechanism": "Inspect exact wording at intended size, then change the text frame and line spacing.",
+      "conclusion": "NIGHT is clipped in the first capture and fully visible after the correction; the invitation remains separate.",
+      "limit": "This fix already works in Standard. It illustrates the value of inspection, not a gain unique to the new profiles.",
+      "detail": [0, 20, 450, 215],
+      "canvas": [450, 600],
+      "steps": [
+        {"version": "typography", "caption": "Before: NIGHT is clipped"},
+        {"version": "typography-fixed", "caption": "After: complete two-line title"}
+      ]
+    },
+    {
+      "id": "library-retention",
+      "title": "More polish does not automatically win",
+      "trial_id": "library-layout-blockout-v1-2",
+      "mechanism": "Compare a later candidate with the retained version; keep the earlier result when independent reviews find no improvement.",
+      "conclusion": "Matching frames and search spacing change, but both final specialists judge the later candidate equal overall. The earlier candidate stays retained.",
+      "limit": "Quality acceptance remains unresolved. Verified native files and exports do not make this a final-review pass.",
+      "detail": [0, 0, 600, 450],
+      "canvas": [600, 450],
+      "steps": [
+        {"version": "final-1", "caption": "Earlier: retained, acceptance unresolved"},
+        {"version": "final-2", "caption": "Later: judged equal, not retained"}
+      ]
+    }
+  ]
+}

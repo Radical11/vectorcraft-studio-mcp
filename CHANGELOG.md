@@ -2,6 +2,7 @@
 
 ## Unreleased — designer-process experiments
 
+- Add source-bound before/after examples, diagrams of profile development and the focused construction loop, and a complete per-profile status chart. Separate observed local fixes, retained-best decisions and workflow development from unmeasured comparative benefit or model training.
 - Add simple profile and stage labels, stable attempt/step references, and image-bound explanations for all 56 recorded captures. Describe observed fixes, failed corrections, verification-only steps and retained earlier results without claiming comparative improvement.
 - Add a plain-language process guide, repository indexes, and stage-by-stage progress explorer using 56 existing captures. Keep all eighteen attempts, including eight deferred, visible without introducing preference scores.
 - Maintain explicit public staging and derivative-byte provenance checks; preserve original dated papers, checkpoint snapshots, and the frozen authoring method.
