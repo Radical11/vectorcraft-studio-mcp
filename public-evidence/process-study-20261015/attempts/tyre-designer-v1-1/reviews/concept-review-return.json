@@ -1,0 +1,65 @@
+{
+  "assessments": [
+    {
+      "id": "eye-level",
+      "composition": "Strongest overall scene. The upright wheel anchors the center, two facing people frame the repair, and the horizontal workbench establishes the setting. Pale wall and restrained workshop details preserve clear focal separation at 768x512.",
+      "image_treatment": "Coherent flat geometric illustration with a warm palette, contrasting clothing and clean silhouettes. Anatomy is highly simplified. The turquoise lever and pale exposed tyre-edge strip remain visible at use size, although the gripping fingers and insertion point need clearer overlap.",
+      "copy": "Wordless, as required.",
+      "brief_fit": "Best developed starting direction. Removed bicycle wheel, two cooperating people, workbench, lever hand and separate support hand are recognizable. Both working hands have plausible arm connections. Mechanical engagement is suggested by the bent lever tip overlapping the lifted tyre edge, but the precise beneath-edge contact remains somewhat schematic."
+    },
+    {
+      "id": "overhead",
+      "composition": "The diagonal tabletop and opposing figures give an economical overhead arrangement. The wheel reads clearly against the mustard surface, but generous empty tabletop weakens the action's prominence.",
+      "image_treatment": "Consistent palette and crisp shapes, but the oval wheel and faceless heads are more diagrammatic. The hand shapes appear reused without adequate adaptation to this viewpoint.",
+      "copy": "Wordless, as required.",
+      "brief_fit": "Weakest fit. The lever-gripping hand visibly floats above the left forearm, which ends nearer the wheel. The support hand floats inside the wheel while the right forearm enters below it. These disconnected hands violate the explicit arm-connection requirement and undermine cooperation."
+    },
+    {
+      "id": "closeup",
+      "composition": "The enlarged wheel and hand action are immediately prominent. Tight cropping adds intimacy, but the wheel is crowded against the bench and right figure. Hanging tools overlap the right person's head and compete with the face.",
+      "image_treatment": "Bold warm figures against a dark teal field provide strong contrast. The dark wheel and hair lose some separation from the background. Simplified angular hands retain the same uncertain finger-wrap and insertion detail as eye-level.",
+      "copy": "Wordless, as required.",
+      "brief_fit": "The repair and cooperation are readable, with plausible arm connections and a prominent lever. Less successful than eye-level at establishing a comfortable workbench scene and preserving separation around background tools."
+    }
+  ],
+  "selected": "eye-level",
+  "all_weak": false,
+  "reason": "Eye-level most clearly combines the shared repair, recognizable removed wheel, connected working hands and workshop setting at use size. Its background supports the action without the closeup's head/tool interference. It warrants refinement of the hand grip and tyre-lever contact before final acceptance.",
+  "unresolved_limitations": [
+    "Eye-level and closeup use simplified finger marks rather than fully convincing finger wrap around the lever.",
+    "The bent turquoise tip overlaps a pale opening beneath a lifted dark tyre segment, but the exact insertion and bead displacement remain schematic.",
+    "The support hand is recognizable as contact with the wheel edge, but its simplified fingers leave the precise stabilizing grip uncertain.",
+    "Rendered previews establish visible appearance; they do not independently prove editable vector construction, absence of embedded raster assets, or originality."
+  ],
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-1-corrected\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-1-corrected\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-2\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-2\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-3\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-3\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\references\\dusk-poster.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\references\\wright.jpg",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\references\\epa-flow.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\references\\feature-sheet.png"
+    ],
+    "observations": [
+      "Eye-level: two profile faces flank a dark circular tyre; pale rim, radial spokes and yellow hub make the bicycle wheel immediately identifiable.",
+      "Eye-level: the raised left forearm reaches the lever-gripping hand continuously; a separate brown hand at the wheel's right edge connects through a short visible forearm to the right sleeve.",
+      "Eye-level: a turquoise angled lever extends from the raised fist to a pale exposed strip beneath a lifted dark tyre section near ten o'clock.",
+      "Overhead: the left forearm ends below the lever fist with a visible mustard-colored gap; the support hand is similarly separated from the right forearm by wheel interior.",
+      "Closeup: the enlarged lever, wheel and support hand remain readable at use size; hanging workshop tools cross the right person's hair and forehead region.",
+      "Dusk reference: layered purple hill silhouettes surround a bright yellow-orange sun, with a cream title above; strong value grouping keeps the central motif legible.",
+      "Wright reference: illuminated faces and hands gather around a central glass apparatus against a dark room; coordinated gazes and overlapping gestures organize a shared action.",
+      "EPA reference: two text columns surround a small boxed tree-and-sun diagram, where contrasting arrows communicate transpiration and evaporation.",
+      "Feature-sheet reference: a large purple crescent and three orange stars use simple silhouettes and broad negative space on a pale warm field."
+    ]
+  },
+  "image_observation": {
+    "tool": "tools.view_image through functions.exec",
+    "evidence": "All six alternative previews and all four calibration images were opened and displayed for direct visual inspection.",
+    "observation": "Eye-level is the strongest common-brief direction. Overhead visibly fails hand-to-arm continuity. Closeup strengthens action scale but introduces background interference. Eye-level's lever contact and hand grips still need visual refinement; this judgment is based on observed images, not numerical or layout checks."
+  }
+}

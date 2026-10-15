@@ -1,0 +1,487 @@
+{
+  "format": "vectorcraft-studio-run",
+  "version": 3,
+  "quality_profile": "layout-blockout-v1",
+  "status": "active",
+  "revision": 34,
+  "spec_revision": 2,
+  "completed_stages": [
+    "composition",
+    "typography",
+    "imagery",
+    "finishing"
+  ],
+  "working_version": "final-2",
+  "best_version": "final-1",
+  "original_version": null,
+  "pending": null,
+  "uncertain": false,
+  "revision_rounds": 1,
+  "no_improvement_streak": 1,
+  "stop_reason": null,
+  "private_run_sha256": "74fc46c4f22eb1aa73833e073ceef98599f064e425abe9360a66ddd1ad33f248",
+  "versions": {
+    "composition-1": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 1,
+      "spec_revision": 2,
+      "fingerprint": "db10a018d40e0330bf8c421babae43c2414d3a00638e593edfb5b069e8beb4d9",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "routes": [
+          9,
+          12,
+          23,
+          33,
+          42
+        ],
+        "cards": [
+          10,
+          11,
+          21,
+          22,
+          31,
+          32
+        ],
+        "title": [
+          3
+        ],
+        "guide": [
+          4
+        ],
+        "search": [
+          6
+        ],
+        "available": [
+          13
+        ],
+        "collect": [
+          43
+        ],
+        "loan": [
+          24
+        ],
+        "reserve": [
+          44
+        ],
+        "notheld": [
+          34
+        ],
+        "librarian": [
+          45
+        ],
+        "symbols": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          25,
+          26,
+          27,
+          28,
+          35,
+          36,
+          37,
+          38,
+          39,
+          46,
+          47,
+          48
+        ],
+        "furniture": [
+          5,
+          7,
+          8,
+          41,
+          52,
+          53,
+          54
+        ]
+      },
+      "native": "attempts/library-layout-blockout-v1-2/versions/composition-1/artwork.vectorcraft",
+      "inspection": "attempts/library-layout-blockout-v1-2/versions/composition-1/inspection.json",
+      "check": "attempts/library-layout-blockout-v1-2/versions/composition-1/6a6308dea8124665b2efb74846b18660.json",
+      "images": [
+        "attempts/library-layout-blockout-v1-2/versions/composition-1/full.png",
+        "attempts/library-layout-blockout-v1-2/versions/composition-1/use.png"
+      ],
+      "exports": []
+    },
+    "typography-1": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 6,
+      "spec_revision": 2,
+      "fingerprint": "bd3694d9e76f5486612f237c448c2d67481f6dfa9e55c5aa674a9f17fe88bbc9",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "routes": [
+          9,
+          12,
+          23,
+          33,
+          42
+        ],
+        "cards": [
+          10,
+          11,
+          21,
+          22,
+          31,
+          32
+        ],
+        "title": [
+          3
+        ],
+        "guide": [
+          4
+        ],
+        "search": [
+          6
+        ],
+        "available": [
+          13
+        ],
+        "collect": [
+          43
+        ],
+        "loan": [
+          24
+        ],
+        "reserve": [
+          44
+        ],
+        "notheld": [
+          34
+        ],
+        "librarian": [
+          45
+        ],
+        "symbols": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          25,
+          26,
+          27,
+          28,
+          35,
+          36,
+          37,
+          38,
+          39,
+          46,
+          47,
+          48
+        ],
+        "furniture": [
+          5,
+          7,
+          8,
+          41,
+          52,
+          53,
+          54
+        ]
+      },
+      "native": "attempts/library-layout-blockout-v1-2/versions/typography-1/artwork.vectorcraft",
+      "inspection": "attempts/library-layout-blockout-v1-2/versions/typography-1/inspection.json",
+      "check": "attempts/library-layout-blockout-v1-2/versions/typography-1/01a0c5df05c24520bc56072981755f25.json",
+      "images": [
+        "attempts/library-layout-blockout-v1-2/versions/typography-1/full.png",
+        "attempts/library-layout-blockout-v1-2/versions/typography-1/use.png"
+      ],
+      "exports": []
+    },
+    "imagery-1": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 9,
+      "spec_revision": 2,
+      "fingerprint": "ca2332445adac2c3e15d79f97594c47af4e61819c0f0d7e9a2c3a5eefeffe3db",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "routes": [
+          9,
+          12,
+          23,
+          33,
+          42
+        ],
+        "cards": [
+          10,
+          11,
+          21,
+          22,
+          31,
+          32
+        ],
+        "title": [
+          3
+        ],
+        "guide": [
+          4
+        ],
+        "search": [
+          6
+        ],
+        "available": [
+          13
+        ],
+        "collect": [
+          43
+        ],
+        "loan": [
+          24
+        ],
+        "reserve": [
+          44
+        ],
+        "notheld": [
+          34
+        ],
+        "librarian": [
+          45
+        ],
+        "symbols": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          25,
+          26,
+          27,
+          28,
+          35,
+          36,
+          37,
+          38,
+          39,
+          46,
+          47,
+          48
+        ],
+        "furniture": [
+          5,
+          7,
+          8,
+          41,
+          52,
+          53,
+          54
+        ]
+      },
+      "native": "attempts/library-layout-blockout-v1-2/versions/imagery-1/artwork.vectorcraft",
+      "inspection": "attempts/library-layout-blockout-v1-2/versions/imagery-1/inspection.json",
+      "check": "attempts/library-layout-blockout-v1-2/versions/imagery-1/fb616f6fe31340e9ad30792b39fdefaa.json",
+      "images": [
+        "attempts/library-layout-blockout-v1-2/versions/imagery-1/full.png",
+        "attempts/library-layout-blockout-v1-2/versions/imagery-1/use.png"
+      ],
+      "exports": []
+    },
+    "final-1": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 24,
+      "spec_revision": 2,
+      "fingerprint": "ef243919cccbf93158d92772d746fa4f0ae4544e83772138b050798e51307573",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "routes": [
+          9,
+          12,
+          23,
+          33,
+          42
+        ],
+        "cards": [
+          10,
+          11,
+          21,
+          22,
+          31,
+          32
+        ],
+        "title": [
+          3
+        ],
+        "guide": [
+          4
+        ],
+        "search": [
+          6
+        ],
+        "available": [
+          13
+        ],
+        "collect": [
+          43
+        ],
+        "loan": [
+          24
+        ],
+        "reserve": [
+          44
+        ],
+        "notheld": [
+          34
+        ],
+        "librarian": [
+          45
+        ],
+        "symbols": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          25,
+          26,
+          27,
+          28,
+          35,
+          36,
+          37,
+          38,
+          39,
+          46,
+          47,
+          48
+        ],
+        "furniture": [
+          5,
+          7,
+          8,
+          41,
+          52,
+          53,
+          54
+        ]
+      },
+      "native": "attempts/library-layout-blockout-v1-2/versions/final-1/artwork.vectorcraft",
+      "inspection": "attempts/library-layout-blockout-v1-2/versions/final-1/inspection.json",
+      "check": "attempts/library-layout-blockout-v1-2/versions/final-1/61e8b6da9c0742b7a37b46d9b1121787.json",
+      "images": [
+        "attempts/library-layout-blockout-v1-2/versions/final-1/full.png",
+        "attempts/library-layout-blockout-v1-2/versions/final-1/use.png"
+      ],
+      "exports": [
+        "attempts/library-layout-blockout-v1-2/versions/final-1/exports/00-81892095fe124f29bc54cddd0b9c94d9.vectorcraft",
+        "attempts/library-layout-blockout-v1-2/versions/final-1/exports/01-386c6d4c887c4ed5a4159d0e824e77c7.svg",
+        "attempts/library-layout-blockout-v1-2/versions/final-1/exports/02-fe070a3e09ab487ba9004ee63b56f3b7.pdf",
+        "attempts/library-layout-blockout-v1-2/versions/final-1/exports/03-99db1bfdeccd49dd99ffad504b51cad6.png",
+        "attempts/library-layout-blockout-v1-2/versions/final-1/exports/04-a130ac90c1ad4b2f8b7aae6f5eba56a0.png"
+      ]
+    },
+    "final-2": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 34,
+      "spec_revision": 2,
+      "fingerprint": "8e29bbd08a88548b7ab4ca8929a67fd00da64fd65426e535d52886ab4de1eeec",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "routes": [
+          9,
+          12,
+          23,
+          33,
+          42
+        ],
+        "cards": [
+          10,
+          11,
+          21,
+          22,
+          31,
+          32
+        ],
+        "title": [
+          3
+        ],
+        "guide": [
+          4
+        ],
+        "search": [
+          6
+        ],
+        "available": [
+          13
+        ],
+        "collect": [
+          43
+        ],
+        "loan": [
+          24
+        ],
+        "reserve": [
+          44
+        ],
+        "notheld": [
+          34
+        ],
+        "librarian": [
+          45
+        ],
+        "symbols": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          25,
+          26,
+          27,
+          28,
+          35,
+          36,
+          37,
+          38,
+          39,
+          46,
+          47,
+          48
+        ],
+        "furniture": [
+          5,
+          7,
+          8,
+          41,
+          52,
+          53,
+          54
+        ]
+      },
+      "native": "attempts/library-layout-blockout-v1-2/versions/final-2/artwork.vectorcraft",
+      "inspection": "attempts/library-layout-blockout-v1-2/versions/final-2/inspection.json",
+      "check": "attempts/library-layout-blockout-v1-2/versions/final-2/ee43b62d6e9a4c298816660e63cb308c.json",
+      "images": [
+        "attempts/library-layout-blockout-v1-2/versions/final-2/full.png",
+        "attempts/library-layout-blockout-v1-2/versions/final-2/use.png"
+      ],
+      "exports": [
+        "attempts/library-layout-blockout-v1-2/versions/final-2/exports/00-f5f61ad06b8f49a5b744ee12bfdf2ca2.vectorcraft",
+        "attempts/library-layout-blockout-v1-2/versions/final-2/exports/01-fa29c8c2fbae48c0945e76728e98f9a6.svg",
+        "attempts/library-layout-blockout-v1-2/versions/final-2/exports/02-2668482d099240f58382a8d71ad3957c.pdf",
+        "attempts/library-layout-blockout-v1-2/versions/final-2/exports/03-7475274f797a4e00a970e6dca9a4c819.png",
+        "attempts/library-layout-blockout-v1-2/versions/final-2/exports/04-feb35500dfcc4b19bec03c57317094c5.png"
+      ]
+    }
+  }
+}

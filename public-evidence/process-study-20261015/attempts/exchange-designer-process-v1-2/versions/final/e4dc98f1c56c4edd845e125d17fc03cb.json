@@ -1,0 +1,96 @@
+{
+  "phase": "confirm",
+  "outcome": "pass",
+  "observations": "Live wrapped title and warm shared-book image form clear hierarchy; all logistics readable. No clipped text or detached hand observed.",
+  "preservation_observation": "Inspected neighbors and whole scene: header and logistics remain separated from shared book; no unintended text overlap or arm detachment.",
+  "element_map": {
+    "background": [
+      2
+    ],
+    "title": [
+      22
+    ],
+    "left-hand": [
+      5,
+      18,
+      19
+    ],
+    "right-hand": [
+      6,
+      17
+    ],
+    "book": [
+      7,
+      8,
+      9,
+      20,
+      21
+    ],
+    "cover-mark": [
+      10,
+      11
+    ],
+    "tagline": [
+      12
+    ],
+    "details": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "check_results": [
+    {
+      "id": "scene",
+      "outcome": "pass",
+      "observation": "All four regions have clear separation"
+    },
+    {
+      "id": "ready",
+      "outcome": "pass",
+      "observation": "Native editable forms and exact live text retained"
+    }
+  ],
+  "stage_complete": true,
+  "stage_checks": {
+    "scene_cohesion": {
+      "outcome": "pass",
+      "observation": "Consistent warm flat shapes and teal type"
+    },
+    "visible_defects": {
+      "outcome": "pass",
+      "observation": "No unintended clipping or disconnected forms observed full/use"
+    },
+    "production_readiness": {
+      "outcome": "pass",
+      "observation": "All required content and editable vectors ready for SVG PDF PNG native exports"
+    }
+  },
+  "target_comparison": {
+    "silhouette": "Opposed hands bridge same book; focal silhouette preserved",
+    "proportions": "Relative book and hand mass preserved",
+    "negative_space": "Clear open header and footer separation",
+    "hierarchy": "Title first then focal exchange then invitation and logistics",
+    "copy": "Required words retained live with exact wrapping",
+    "detail": "Native book planes and emblem remain clear; meaningful hand refinement only"
+  },
+  "departures": [],
+  "decision": "proceed",
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\evidence\\c51fe8d5f93b4ec5bfdea6cb85c4dda9.png"
+    ],
+    "observations": [
+      "Live wrapped title and warm shared-book image form clear hierarchy; all logistics readable. No clipped text or detached hand observed."
+    ]
+  },
+  "image_observation": {
+    "tool": "functions.view_image",
+    "evidence": "Actual images displayed in this builder tool transcript",
+    "observation": "Live wrapped title and warm shared-book image form clear hierarchy; all logistics readable. No clipped text or detached hand observed."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "directions_sha256": "83e8322871502a80aca247c421863681a789c7d78754ed4a6c2e32aa5b781350",
+  "calibration_sha256": "770e2017ac41bb77e4ea60ee0f176b7fe269e62e89a1bfb65402bb3aefe33e3e",
+  "reviewer_id": "concept_07",
+  "assessments": [
+    {
+      "id": "inward",
+      "composition": "Strongest upright centered wheel and bracketing figures",
+      "image_treatment": "Warm restrained broad silhouettes; hand-arm joins unresolved",
+      "copy": "Wordless as required",
+      "brief_fit": "Wheel and cooperative roles visible, but lever under-edge engagement and supporting forearm unresolved"
+    },
+    {
+      "id": "overhead",
+      "composition": "Compressed ellipse weakens immediate bicycle recognition",
+      "image_treatment": "Warm restrained broad silhouettes; hand-arm joins unresolved",
+      "copy": "Wordless as required",
+      "brief_fit": "Wheel and cooperative roles visible, but lever under-edge engagement and supporting forearm unresolved"
+    },
+    {
+      "id": "diagonal",
+      "composition": "Long reach and sleeve inside wheel confuse anatomy and layering",
+      "image_treatment": "Warm restrained broad silhouettes; hand-arm joins unresolved",
+      "copy": "Wordless as required",
+      "brief_fit": "Wheel and cooperative roles visible, but lever under-edge engagement and supporting forearm unresolved"
+    }
+  ],
+  "selected": "inward",
+  "all_weak": true,
+  "reason": "All three weak against visible meaningful lever insertion and supporting anatomy; inward warrants further exploration",
+  "unresolved_limitations": [
+    "Clarify supporting forearm",
+    "Show lifted tyre edge and under-edge tip",
+    "Clarify thumb/finger wrap"
+  ],
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\wright.jpg",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\dusk-poster.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\perspective-city.png"
+    ],
+    "observations": [
+      "All six alternative images and three calibration images actually inspected; inward is strongest but contact and anatomy unresolved."
+    ]
+  },
+  "image_observation": {
+    "tool": "functions.exec/tools.view_image",
+    "evidence": "Fresh concept_07 returned nine separate actual image actions, one per path; full original returned message retained in concept-review-1.json",
+    "observation": "Central wheel readable; supporting wrist appears pasted to shirt, grey cap and yellow wedge do not prove insertion"
+  }
+}

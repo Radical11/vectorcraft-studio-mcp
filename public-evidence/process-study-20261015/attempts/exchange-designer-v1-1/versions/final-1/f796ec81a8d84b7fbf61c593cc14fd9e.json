@@ -1,0 +1,67 @@
+{
+  "phase": "confirm",
+  "observations": "Full/use and target inspected. Grouping changed no visible geometry or text. Two-line title is complete, central hand/book contact clear, entry condition and location readable; no accidental clipping beyond intentional cropped sleeve edge.",
+  "target_comparison": {
+    "silhouette": "Preserved open book handoff",
+    "proportions": "Same book, palms and sleeves as target",
+    "negative_space": "Clear top and footer separation",
+    "hierarchy": "Headline, invitation, book, details; target maintained",
+    "copy": "All locked wording visible with intended wrap",
+    "detail": "Page bands and bookmark maintained"
+  },
+  "element_map": {
+    "ground": [
+      2
+    ],
+    "title": [
+      3
+    ],
+    "invitation": [
+      4
+    ],
+    "date": [
+      5
+    ],
+    "time": [
+      6
+    ],
+    "venue": [
+      7
+    ],
+    "entry": [
+      8
+    ],
+    "book": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "left-hand": [
+      22,
+      23,
+      24
+    ],
+    "right-hand": [
+      25,
+      26,
+      27
+    ]
+  },
+  "departures": [
+    {
+      "element": "title",
+      "reason": "Intact phrase uses one live area object with an optical 10pt lower placement versus target."
+    }
+  ],
+  "decision": "proceed to export and independent review"
+}

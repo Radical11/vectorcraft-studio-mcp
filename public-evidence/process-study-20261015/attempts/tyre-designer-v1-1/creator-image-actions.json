@@ -1,0 +1,237 @@
+{
+  "basis": "Actual builder image tool calls, not fixture observations; every listed file was displayed.",
+  "actions": [
+    {
+      "sequence": 1,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\references\\neon-drive.png",
+      "performed": true,
+      "observation": "Bright sun and white title dominate dark neon perspective grid.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 2,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\references\\dusk-poster.png",
+      "performed": true,
+      "observation": "Broad mountain masses overlap around sun with restrained trees.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 3,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\references\\wright.jpg",
+      "performed": true,
+      "observation": "Lit faces and hands aim inward around a central glass apparatus; tool display resized this reference.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 4,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\references\\perspective-city.png",
+      "performed": true,
+      "observation": "Two building planes meet coherently with angled window rows.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 5,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\references\\epa-mechanisms.png",
+      "performed": true,
+      "observation": "Photo/map and captions are separated within two columns.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 6,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\references\\epa-flow.png",
+      "performed": true,
+      "observation": "Leaders and arrows connect to specific tree/ground regions in boxed diagram.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 7,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\references\\feature-sheet.png",
+      "performed": true,
+      "observation": "Crescent and star tips have clean separated contours.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 8,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-1\\full.png",
+      "performed": true,
+      "observation": "Wrong paint propagation made faces dark and wheel disk-like; only one spoke visible. Corrective batch required.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 9,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-1\\use.png",
+      "performed": true,
+      "observation": "Wrong paint propagation made faces dark and wheel disk-like; only one spoke visible. Corrective batch required.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 10,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-1-corrected\\full.png",
+      "performed": true,
+      "observation": "Warm skin and teal/coral clothing restored; upright wheel has twelve spokes. Lever overlaps raised bead, simplified fingers.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 11,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-1-corrected\\use.png",
+      "performed": true,
+      "observation": "Warm skin and teal/coral clothing restored; upright wheel has twelve spokes. Lever overlaps raised bead, simplified fingers.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 12,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-2\\full.png",
+      "performed": true,
+      "observation": "Overhead table, oval wheel and diagonally opposing heads; visible gaps disconnect hands from forearms.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 13,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-2\\use.png",
+      "performed": true,
+      "observation": "Overhead table, oval wheel and diagonally opposing heads; visible gaps disconnect hands from forearms.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 14,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-3\\full.png",
+      "performed": true,
+      "observation": "Enlarged wheel and dark wall; right background tool overlaps head; cropped figures and crowded scene.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 15,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-3\\use.png",
+      "performed": true,
+      "observation": "Enlarged wheel and dark wall; right background tool overlaps head; cropped figures and crowded scene.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 16,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\representative\\versions\\study\\full.png",
+      "performed": true,
+      "observation": "Connected wrist masses, bright gripped lever and separate support hand; bead cap partly occludes hook; simplified anatomy.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 17,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\representative\\versions\\study\\use.png",
+      "performed": true,
+      "observation": "Connected wrist masses, bright gripped lever and separate support hand; bead cap partly occludes hook; simplified anatomy.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 18,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\composition\\full.png",
+      "performed": true,
+      "observation": "Pale window/wall and shared bench-plane corners preserve focal space; bench legs intentionally bleed.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 19,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\composition\\use.png",
+      "performed": true,
+      "observation": "Pale window/wall and shared bench-plane corners preserve focal space; bench legs intentionally bleed.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 20,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\typography\\full.png",
+      "performed": true,
+      "observation": "No text by wordless brief; scaffold unchanged.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 21,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\typography\\use.png",
+      "performed": true,
+      "observation": "No text by wordless brief; scaffold unchanged.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 22,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-1-corrected\\full.png",
+      "performed": true,
+      "observation": "Target re-viewed alongside stage full/use for broad silhouette, proportions and contact comparison.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 23,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\imagery\\full.png",
+      "performed": true,
+      "observation": "Two inward profiles surround wheel; thumb pad and bead cap clarify engagement; support forearm visible over apron.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 24,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\imagery\\use.png",
+      "performed": true,
+      "observation": "Two inward profiles surround wheel; thumb pad and bead cap clarify engagement; support forearm visible over apron.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 25,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-1-corrected\\full.png",
+      "performed": true,
+      "observation": "Target re-viewed alongside stage full/use for broad silhouette, proportions and contact comparison.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 26,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\full.png",
+      "performed": true,
+      "observation": "Sparse tools separated from faces; wheel central; finger and mechanical details remain schematic; native paths grouped.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 27,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\use.png",
+      "performed": true,
+      "observation": "Sparse tools separated from faces; wheel central; finger and mechanical details remain schematic; native paths grouped.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    },
+    {
+      "sequence": 28,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\planning\\versions\\direction-1-corrected\\full.png",
+      "performed": true,
+      "observation": "Target re-viewed alongside stage full/use for broad silhouette, proportions and contact comparison.",
+      "timestamp": "Not separately captured by host image tool; ordered action record reconstructed from actual tool outputs."
+    }
+  ],
+  "count": 28,
+  "independent_concept_actions": {
+    "reviewer_id": "/root/pilot_09/concept_reviewer",
+    "count": 10,
+    "return": "concept-review-return.json",
+    "actual_actions_verified": true
+  },
+  "final_specialist_actions": []
+}

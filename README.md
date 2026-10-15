@@ -4,6 +4,10 @@ An **unofficial community companion** for Codex on Windows and the local VectorC
 
 Codex supplies research, built-in image generation and visual judgment. VectorCraft supplies editable paths, live typography, rendering and exports. This Python gateway preserves native MCP instructions, commands, resources and prompts while adding five workflow tools. No paid service or separate model API is required.
 
+Experimental designer-process development adds isolated native studies and relationship checks. See [contracts](docs/DESIGNER-PROCESS.md) and the [research programme](docs/research/README.md). The method is frozen for the 18-output pilot; no comparative quality result is claimed.
+
+The [15 October interim paper and study evidence](docs/research/INTERIM-PUBLICATION.md) record ten attempts with eight deferred. Four final-review passes, incomplete work and unresolved acceptance are reported separately. Comparative improvement and human preference remain unestablished; this research branch does not promote a new default or replace the current release.
+
 ## Install locally
 
 Requirements: Windows, Python **3.13**, local Codex with MCP/skills support, and compatible VectorCraft **CLI and desktop executables** installed separately. The locally verified engine is VectorCraft 0.9. Other versions and operating systems are unverified. Ordinary web ChatGPT is not a supported installation host.
@@ -40,6 +44,12 @@ New full runs default to `designer-v1`:
 5. Two fresh specialists independently assess communication/art direction and drawing/production craft. Neutral packets include candidate, retained best and untouched original when different. Common-brief suitability is separate from target fidelity; the original can win. Revise consequential findings, allow three rounds and stop after two non-improving rounds. Deliver the strongest reviewed version with limitations disclosed.
 
 The gateway checks ordering, document revisions, actual fonts/copy, overflow, mappings, raster content and current export provenance. It cannot prove that an agent looked at an image or that artwork is good. Fixture assertions, object counts and scores are not aesthetic evidence. Research shortfalls, unavailable sources and visual losses remain explicit.
+
+An opt-in experimental `quality_profile: focused-execution-v1` gives construction batches one component or connected group, two or three observable checks, and a compact `workflow_status {view:"working"}` packet. Capture, task success and explicit stage acceptance are separate; failed tasks queue a correction and cannot silently advance a stage. All designer research, studies, independent reviews and production checks remain. The default stays designer-v1. See [focused execution](docs/FOCUSED-EXECUTION.md) for contracts and limitations.
+
+Select full-mode `layout-blockout-v1` to add three isolated native roughs before concept selection, or `designer-process-v1` for the full experimental bundle: those roughs, focused acceptance and revision-bound entity/relationship checks. Working packets show the active study or production task, current full/use evidence, relevant mappings, findings and next permitted action. Geometry supplies diagnostics; actual image observations determine whether a grip, contact or information association works. Native study capture and assembly never accept a production stage automatically. See [designer-process contracts](docs/DESIGNER-PROCESS.md) and the maintained [coarse-to-fine roadmap](docs/COARSE-TO-FINE-ROADMAP.md). These opt-ins are evaluated against the unchanged default.
+
+The [focused verification report](docs/FOCUSED-EXECUTION-VERIFICATION.md) records 151 passing fixture/native checks and one independently reviewed maintenance case. Its first local correction was rejected for a relationship regression; the retained-best safeguard preserved the original until later improvements passed. This is limited feasibility evidence, not the deferred matched study or a default promotion.
 
 Project roots stay scoped to the current working directory. Copy authorized external inputs into the project instead of widening filesystem access. Sessions own separate desktop windows/recovery files. Interrupted or uncertain edits are inspected and resumed without replay. Historical v1/v2 helpers and v3 runs without the new profile retain their contracts; they are not rewritten.
 

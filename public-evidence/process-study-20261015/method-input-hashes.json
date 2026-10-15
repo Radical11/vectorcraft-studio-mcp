@@ -1,0 +1,316 @@
+{
+  "protocol_sha256": "b64b23914dda630c392b57287f7f6e6df5fe198b52bb144dcbcd0eedbc24f6de",
+  "model_recorded": "gpt-6.1-sol",
+  "limits": {
+    "active_seconds": 3600,
+    "batches": 24,
+    "correction_rounds": 3
+  },
+  "files": [
+    {
+      "path": "benchmarks/artwork.py",
+      "sha256": "a38a85dc960d4099e0def55dac7b777e58cac5c4e9ff80ee888e059d04e6aedf"
+    },
+    {
+      "path": "benchmarks/baseline_corrections31.py",
+      "sha256": "665cb7776ef26a6b8435b9042be40900a4d8e3defc3f68648e539b7b0a83b586"
+    },
+    {
+      "path": "benchmarks/baselines31.py",
+      "sha256": "5454cb5e24ec5f1e7de934e9305fa0b7a14c5aca75d274c7a6819e5988e454cf"
+    },
+    {
+      "path": "benchmarks/bind_components.py",
+      "sha256": "758940f835ececa0e71e802bb50f941a4ffd6c11d800eb13367d95e85b975dc3"
+    },
+    {
+      "path": "benchmarks/blind31.py",
+      "sha256": "1eb66acd4c507820de91815ebef2909366581eff2f9892b6b0bf68c83b6c0c48"
+    },
+    {
+      "path": "benchmarks/briefs31/campus-poster.md",
+      "sha256": "32320138f8539655a038719cd769ef108458da07863836b208b4025a53a3dc1b"
+    },
+    {
+      "path": "benchmarks/briefs31/repair-cafe.md",
+      "sha256": "c45d0f8126b928d588b37bacdce59228169b33817bd6b2871a515f6c21389b9d"
+    },
+    {
+      "path": "benchmarks/briefs31/urban-heat.md",
+      "sha256": "4e63879deb39ef0cbf09f8f8819128acc2f67961d57e65c019a7ebdedcbe0d3b"
+    },
+    {
+      "path": "benchmarks/briefs32/book-exchange.md",
+      "sha256": "0741a761493a0b624ad17f8183b8930a2052128e423b84f7339d0dc06da9cb88"
+    },
+    {
+      "path": "benchmarks/briefs32/library-paths.md",
+      "sha256": "ae5411bb077aed99b6d4b25374f83def6b14c62033091b1a20e3e4287f73c1d7"
+    },
+    {
+      "path": "benchmarks/briefs32/tyre-repair.md",
+      "sha256": "bb38cbfa5c55332377bd3c1a51a6ecab6e4ee7b6fb850d22f2dc5805aede3616"
+    },
+    {
+      "path": "benchmarks/collect_process_results.py",
+      "sha256": "02668aa120767180aa01ebaca67273d3077d50f0b695c1e6ee33ed4919a49d5c"
+    },
+    {
+      "path": "benchmarks/confirm.py",
+      "sha256": "3f5f7b30b62564d38543305d0204601c4859867550ddda456d93921a2997f433"
+    },
+    {
+      "path": "benchmarks/confirm_studies31.py",
+      "sha256": "89bbda944970eef18ec275e981965cbf46e934e87f789307603aff46fe2f9ade"
+    },
+    {
+      "path": "benchmarks/confirm_volume31.py",
+      "sha256": "0023309bf39b35a9bec2fd6952f49558aae625025af169c4d7241f236da4eded"
+    },
+    {
+      "path": "benchmarks/edit_host.py",
+      "sha256": "71d541d9b1c6b7256946924576e323afbc07ef005cba6da877310bee97646941"
+    },
+    {
+      "path": "benchmarks/editorial_details.py",
+      "sha256": "518eb8f2bd59578d930ece9b2995f0cf59fb947d1c69045440f2610fa438ad7e"
+    },
+    {
+      "path": "benchmarks/fit_copy.py",
+      "sha256": "39956b19b3c0c37b8e459c51b5b1199b87e205cea73e62116bb52ba570695f83"
+    },
+    {
+      "path": "benchmarks/focused_forward.py",
+      "sha256": "cfba1dc70455d679c4d003c4f6d33ef1515428954a55c597512a0c80847fc073"
+    },
+    {
+      "path": "benchmarks/heat_control31.py",
+      "sha256": "1c04e858ae731cb8728729f6f475b26c11aafc439ec294bfd9c634da48d57935"
+    },
+    {
+      "path": "benchmarks/heat_spacing31.py",
+      "sha256": "ef92b5024e63794cec03bfdca5634b667afe8f67953a11fcc88cdb92dc582f0a"
+    },
+    {
+      "path": "benchmarks/improved31.py",
+      "sha256": "c2fc5dbebe4d69171282ac9780f4bedc0e76909d52eeeaf35795a0360df4b979"
+    },
+    {
+      "path": "benchmarks/infographic_composition.py",
+      "sha256": "b34140ba289dea794d44bd7f66e19092ddbb0abc890e1caa26baff39a3b8a3d1"
+    },
+    {
+      "path": "benchmarks/infographic_followup.py",
+      "sha256": "23502922b190d617aecd67d78a104afee6617932687d985b5cf4f571ca3fbf74"
+    },
+    {
+      "path": "benchmarks/observations.py",
+      "sha256": "07001457a9fca07a2a325fdd8feedd0dc9638f3f1b50765a1e8659e47ffc9a92"
+    },
+    {
+      "path": "benchmarks/planning31.py",
+      "sha256": "b2ab973fd3d89003bf39302ceb5fa4f7fe50998483d53c3fd706bc6f6e0ee3db"
+    },
+    {
+      "path": "benchmarks/prepare31.py",
+      "sha256": "455da444d1d3d9984cb2a9f976b42f9bcf36bc212a250d9c85aa38155f98b96c"
+    },
+    {
+      "path": "benchmarks/prepare_blind_comparisons.py",
+      "sha256": "f8ac30ddeefef6daafe8d7a59c4009757ed59984a5bedf27bb4e877857b17508"
+    },
+    {
+      "path": "benchmarks/prepare_edit_tasks.py",
+      "sha256": "9765278ca592ec04d7aa8f57edbe40931dec4fcf31490ffff637f0878db397b4"
+    },
+    {
+      "path": "benchmarks/prepare_process_pilot.py",
+      "sha256": "73393fb341925b599b540d4c1d7ed3b01143ec70c9f16038665e08309321c159"
+    },
+    {
+      "path": "benchmarks/process_host.py",
+      "sha256": "1787cedae94c529eeeff64c60b29979bed24276c7ba648914e81e122a6364c3a"
+    },
+    {
+      "path": "benchmarks/record_reviews31.py",
+      "sha256": "f9cef4e82918c974cc18ebe2acfd37ad756d6828e749c4dc1373f1cf63441c04"
+    },
+    {
+      "path": "benchmarks/references31.py",
+      "sha256": "db7c00f2394ff612c3def68984c8b1da1b4a3c69391dc5d0517e32d4fc1ca5dd"
+    },
+    {
+      "path": "benchmarks/render_exports.py",
+      "sha256": "0e8eecc3ea15afe8d031c6689a5f0ebfc8879f6ab9dd8a353656db3c910ce2c3"
+    },
+    {
+      "path": "benchmarks/repair_control_order.py",
+      "sha256": "6ab4b58b7774a178a82698b709fdd4fa90ef10289357d2529750ac7640eb775a"
+    },
+    {
+      "path": "benchmarks/repair_mapping31.py",
+      "sha256": "990e7277b2e42da09e720e5904c91a100e8c36a0aa18149f8a1dc310c09c0212"
+    },
+    {
+      "path": "benchmarks/repair_volume31.py",
+      "sha256": "022c164a98a84265579423ee23b30f890a8eecd172538ea297b10d22694fa06b"
+    },
+    {
+      "path": "benchmarks/research31.py",
+      "sha256": "704056fa502be0265f46665933ef70b6d515b1bf5d923aa937b755d732892e36"
+    },
+    {
+      "path": "benchmarks/revise31.py",
+      "sha256": "6ca007aeb59c2f669ae15a10329389310b466de496896a02dcf39dcc7b6a77ac"
+    },
+    {
+      "path": "benchmarks/revisit31.py",
+      "sha256": "b5d242646b6bf58f3a1648b643d395a782a059e4c7afb84184bb344d7c74ef39"
+    },
+    {
+      "path": "benchmarks/run.py",
+      "sha256": "8bb06538e103ecc4defa64996b7e77dd8283378495fb5335774ee36ea1eed502"
+    },
+    {
+      "path": "benchmarks/run31.py",
+      "sha256": "6d2d3b235769560cb7f32acc7766fed5e401fa9dcb64670ba21b4fed74fd457d"
+    },
+    {
+      "path": "benchmarks/studies31.py",
+      "sha256": "4d993c4366c028411144fd52f2221e7de92db990d9c2cb6c9bbff8b833b8ecad"
+    },
+    {
+      "path": "skills/vectorcraft-studio/SKILL.md",
+      "sha256": "a4400235b3188c15d9b24b1c724797a9fe6455879d9921cf9148eb562c6e3685"
+    },
+    {
+      "path": "skills/vectorcraft-studio/agents/openai.yaml",
+      "sha256": "3d2d327e50678105496dd0cc88253029e81bd2d93d1cf160abfdb4625f53f24a"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/designer-process-v1.md",
+      "sha256": "789bf2286247ddc0c2000007a44d5566cbd0e708b957413f75663b255886c338"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/designer-v1.md",
+      "sha256": "21ad6b0168628b9d65e2aefd53d5e0842445adfda75ae19c5c91ff97061018e5"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/focused-execution-v1.md",
+      "sha256": "e5bf510bfe023046309c9227c70890622d57e4df9c45a28113f84d0e1a4ff06c"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/legacy-workflow.md",
+      "sha256": "c1e19e19b388ab775a9eac9b5ebad6fd963791e6eab917f33923f4df1edeb871"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/local-connection.md",
+      "sha256": "5cebc2e23bbb3cf7ff480c1433a6e4580ab26d24e94eb79c2861d35c8e6bce7f"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/research-and-design.md",
+      "sha256": "c203f6807f759950b9246f3bc2e27f0225bb2ed0495eb582e509ca4319366981"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/reviewer.md",
+      "sha256": "1ad84a226b8f39aca771f345ccc65db572997b7e24e35f10a05f2f6d397457bf"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/rollback.md",
+      "sha256": "851d05d7a0dec18f1a9d6307c5f7aa2653b3af5609e29e9f539fffaf91efcef7"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/rubric.md",
+      "sha256": "21f543d59de397bcf0e2a94d3c8082439e67fdf0390639fe317ba991298b95bf"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/visual-translation.md",
+      "sha256": "d5fec08597ff26a6640ee4cd49c2fb1f7704008adebb064d6fc9ff2a0b30cff9"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/workflow-records.md",
+      "sha256": "020fdb16d12ca48d0ed275d8d9b1e017ca5f862e93c9d508b038c84d8b412dd6"
+    },
+    {
+      "path": "skills/vectorcraft-studio/references/workflow-v3.md",
+      "sha256": "98ba944b0225d0caea829c6c26580ecc3bbdec14539d04eef5cc738c3ba9c31c"
+    },
+    {
+      "path": "skills/vectorcraft-studio/scripts/brain.py",
+      "sha256": "ed28806c0317b8f8e7793b532f1bad600eaec30b7d8765100a18ec40fb6f7d14"
+    },
+    {
+      "path": "skills/vectorcraft-studio/scripts/brain31.py",
+      "sha256": "a5d82d071b28ca86805f537db92e03e22955c19df95841bca0a4ade0509a15d2"
+    },
+    {
+      "path": "skills/vectorcraft-studio/scripts/pipeline.py",
+      "sha256": "273f91fbbb6e35c90c431e282e2e77dbcb2b35f718663c95690a2a03b92efff4"
+    },
+    {
+      "path": "skills/vectorcraft-studio/scripts/studio_run.py",
+      "sha256": "76caf9b6ebda1fa687ddf91e0f227c00cb0c92984f8d48c170addeb405b3c046"
+    },
+    {
+      "path": "skills/vectorcraft/SKILL.md",
+      "sha256": "f1d1495c1caf0e9e59521327a010098ce87b480902a579b771f5cf2ac08adbf2"
+    },
+    {
+      "path": "skills/vectorcraft/agents/openai.yaml",
+      "sha256": "349bcaed19bef4a734d8f0e39879530db29637796b200b26f325d0f1437e7e92"
+    },
+    {
+      "path": "src/design_process.py",
+      "sha256": "90841b397add8996f5c3bc4f1d88747752c9328f0c0e9f7591009d582403e55f"
+    },
+    {
+      "path": "src/designer.py",
+      "sha256": "087f9acaf7d1916aa5602d60b3c52c5ebb083253513c8362361c966520313df7"
+    },
+    {
+      "path": "src/discovery.py",
+      "sha256": "4d5742e5d58cb422c12cfb577805a77540c837ccf67900cb4fdc041c37015544"
+    },
+    {
+      "path": "src/experiment.py",
+      "sha256": "b89ba95790f8e25faec1946ef564e8d1fd4478157e2948289b694fe924a60f08"
+    },
+    {
+      "path": "src/focused.py",
+      "sha256": "eeac3a6445bcf15de83b032c1d26f6c7a700abdd6043728725c18f167f82259d"
+    },
+    {
+      "path": "src/launch_mcp.py",
+      "sha256": "102bde02d14d08ae0a055ba209342f8249dbba4955de62992cdcb06015050826"
+    },
+    {
+      "path": "src/study_session.py",
+      "sha256": "d21595d85c40535adae45c78e2008042a654865c307f9e0cd4e0988cfa698a38"
+    },
+    {
+      "path": "src/vectorcraft_gateway.py",
+      "sha256": "2058228b3fe7880563146a2ea3b09686302a0699722d653574e69d4bf7474164"
+    },
+    {
+      "path": "src/workflow.py",
+      "sha256": "f04eeee159613f3ad4e16843f2e4344d0dad9ec7ecd863cb5a135e8afc05f2cb"
+    },
+    {
+      "path": "work/research32/pilot/process-pilot-20261013/environment.json",
+      "sha256": "8d25c0b2a35042edbe7ab53dcfa5e5164a3a2a5333f477da63960e9c9fa8b42e"
+    },
+    {
+      "path": "docs/research/PROTOCOL.md",
+      "sha256": "f569eeaa42b5f413e6ed75e54c03334fef3c74680c6ed816e6fe454e06d245e7"
+    },
+    {
+      "path": "work/research32/inputs/common-context.md",
+      "sha256": "12b094d41f4f391a1458c6a9f79471ba82c6fb82c7c187f8fdd8f2f7a1fa6cb9"
+    },
+    {
+      "path": "work/research32/inputs/context-provenance.json",
+      "sha256": "396376bb5845329d6952c9ada1d2f34a49c40794ff5a27893dfaf26ea421195a"
+    }
+  ],
+  "reference_images": "Seven cached assets from six works; image bytes withheld from public distribution"
+}

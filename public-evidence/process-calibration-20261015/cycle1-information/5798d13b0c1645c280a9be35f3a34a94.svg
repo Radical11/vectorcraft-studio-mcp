@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="900" viewBox="0 0 1200 900">
+  <title>paired-process</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M0 0 L1200 0 L1200 900 L0 900 Z" fill="#f7f4e8"/>
+    <text transform="matrix(1 0 0 1 58 106)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="62" font-weight="bold" fill="#183c38"><tspan x="0" y="0">How trees cool a street</tspan></text>
+    <text transform="matrix(1 0 0 1 60 155)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="25" fill="#183c38"><tspan x="0" y="0">Two ways: shade surfaces and cool nearby air.</tspan></text>
+    <text transform="matrix(1 0 0 1 60 240)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="31" font-weight="bold" fill="#183c38"><tspan x="0" y="0">1  Shade: less surface heating</tspan></text>
+    <text transform="matrix(1 0 0 1 660 240)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="31" font-weight="bold" fill="#183c38"><tspan x="0" y="0">2  Evapotranspiration</tspan></text>
+    <text transform="matrix(1 0 0 1 60 280)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="25" fill="#183c38"><tspan x="0" y="0">Leaves intercept sunlight.</tspan></text>
+    <text transform="matrix(1 0 0 1 60 315)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="25" fill="#183c38"><tspan x="0" y="0">Less solar energy reaches pavement.</tspan></text>
+    <text transform="matrix(1 0 0 1 660 280)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="25" fill="#183c38"><tspan x="0" y="0">Soil water travels from roots to leaves.</tspan></text>
+    <text transform="matrix(1 0 0 1 660 315)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="25" fill="#183c38"><tspan x="0" y="0">Evaporation uses heat; air can cool.</tspan></text>
+    <path d="M60 652 L560 652 L560 747 L60 747 Z" fill="#d9a56d"/>
+    <path d="M278 652 L558 652 L558 747 L278 747 Z" fill="#a6b5a7"/>
+    <path d="M660 652 L1140 652 L1140 747 L660 747 Z" fill="#e8d9ba"/>
+    <path d="M378.12 518.4 L374.82 640.5 L405.84 640.5 L400.56 518.4 Z" fill="#76533d"/>
+    <path d="M304.2 538.2 C251.4 508.5 277.8 445.8 326.64 453.72 C327.96 393 436.2 384.42 452.7 443.16 C512.1 428.64 533.22 497.28 490.98 537.54 C433.56 571.86 359.64 568.56 304.2 538.2 Z" fill="#398359"/>
+    <path d="M902.12 518.4 L898.82 640.5 L929.84 640.5 L924.56 518.4 Z" fill="#76533d"/>
+    <path d="M828.2 538.2 C775.4 508.5 801.8 445.8 850.64 453.72 C851.96 393 960.2 384.42 976.7 443.16 C1036.1 428.64 1057.22 497.28 1014.98 537.54 C957.56 571.86 883.64 568.56 828.2 538.2 Z" fill="#398359"/>
+    <path d="M89 407 C89 386.013 106.013 369 127 369 C147.987 369 165 386.013 165 407 C165 427.987 147.987 445 127 445 C106.013 445 89 427.987 89 407 Z" fill="#e7ad3e"/>
+    <path d="M194 407 L209 407" fill="none" stroke="#e7ad3e" stroke-width="5" stroke-miterlimit="10"/>
+    <path d="M65 407 L80 407" fill="none" stroke="#e7ad3e" stroke-width="5" stroke-miterlimit="10"/>
+    <path d="M127 474 L127 489" fill="none" stroke="#e7ad3e" stroke-width="5" stroke-miterlimit="10"/>
+    <path d="M146 451 L206 626" fill="none" stroke="#d78439" stroke-width="5" stroke-miterlimit="10"/>
+    <path d="M206 626 L192.986 615.063 L209.565 609.378 Z" fill="#d78439"/>
+    <path d="M190 405 L306 449" fill="none" stroke="#d78439" stroke-width="5" stroke-miterlimit="10"/>
+    <path d="M306 449 L289.272 452.028 L295.488 435.64 Z" fill="#d78439"/>
+    <path d="M855 477 L855 354" fill="none" stroke="#207b99" stroke-width="5" stroke-miterlimit="10"/>
+    <path d="M855 354 L863.764 368.567 L846.236 368.567 Z" fill="#207b99"/>
+    <path d="M978 477 L978 354" fill="none" stroke="#207b99" stroke-width="5" stroke-miterlimit="10"/>
+    <path d="M978 354 L986.764 368.567 L969.236 368.567 Z" fill="#207b99"/>
+    <path d="M914 637 L914 540" fill="none" stroke="#207b99" stroke-width="5" stroke-miterlimit="10"/>
+    <path d="M914 540 L922.764 554.567 L905.236 554.567 Z" fill="#207b99"/>
+    <text transform="matrix(1 0 0 1 75 706)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="21" fill="#183c38"><tspan x="0" y="0">SUNLIT</tspan></text>
+    <text transform="matrix(1 0 0 1 304 706)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="21" fill="#183c38"><tspan x="0" y="0">SHADED</tspan></text>
+    <text transform="matrix(1 0 0 1 672 681)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="21" fill="#183c38"><tspan x="0" y="0">WATER IN SOIL</tspan></text>
+    <text transform="matrix(1 0 0 1 60 806)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="25" fill="#183c38"><tspan x="0" y="0">Cooling depends on tree cover, water availability and local conditions.</tspan></text>
+    <text transform="matrix(1 0 0 1 60 844)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="20" fill="#183c38"><tspan x="0" y="0">Concept diagram / not a planting specification.</tspan></text>
+    <text transform="matrix(1 0 0 1 60 875)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="19" fill="#183c38"><tspan x="0" y="0">Sources: US EPA; US Forest Service (2024).</tspan></text>
+    <path d="M60 647 L560 647 L560 652 L60 652 Z" fill="#758f83"/>
+    <path d="M660 647 L1140 647 L1140 652 L660 652 Z" fill="#a89472"/>
+    <path d="M80 729 L145 729 L145 734 L80 734 Z" fill="#f7f4e8"/>
+    <path d="M190 729 L255 729 L255 734 L190 734 Z" fill="#f7f4e8"/>
+    <path d="M300 729 L365 729 L365 734 L300 734 Z" fill="#f7f4e8"/>
+    <path d="M410 729 L475 729 L475 734 L410 734 Z" fill="#f7f4e8"/>
+    <path d="M660 760 L1140 760" fill="none" stroke="#a89472" stroke-width="2" stroke-miterlimit="10"/>
+    <text transform="matrix(1 0 0 1 80 350)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="21" font-weight="bold" fill="#d78439"><tspan x="0" y="0">SUNLIGHT</tspan></text>
+    <text transform="matrix(1 0 0 1 828 342)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="21" font-weight="bold" fill="#207b99"><tspan x="0" y="0">WATER VAPOUR</tspan></text>
+    <text transform="matrix(1 0 0 1 1005 742)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="21" fill="#207b99"><tspan x="0" y="0">Water uptake</tspan></text>
+    <path d="M378 638 L378 653 L402 653 L402 638 Z" fill="#76533d"/>
+    <path d="M901 636 L901 656 L927 656 L927 636 Z" fill="#76533d"/>
+    <path d="M914 649 C874 672 870 706 837 736 M914 650 C948 678 964 711 990 728 M914 653 L916 742 M880 690 L850 682 M953 695 L982 678" fill="none" stroke="#76533d" stroke-width="7" stroke-miterlimit="10"/>
+    <path d="M914 729 L914 636" fill="none" stroke="#207b99" stroke-width="5" stroke-miterlimit="10"/>
+    <path d="M914 557 C889 535 878 523 853 511 M914 557 C938 532 953 519 976 510 M390 557 C364 534 353 520 333 510 M390 557 C417 533 435 520 454 510" fill="none" stroke="#2b6146" stroke-width="4" stroke-miterlimit="10"/>
+    <path d="M336 478 C322 458 343 449 361 454 C360 470 347 481 336 478 Z" fill="#74a978"/>
+    <path d="M338 477 L357 458" fill="none" stroke="#2b6146" stroke-width="2" stroke-miterlimit="10"/>
+    <path d="M418 448 C404 428 425 419 443 424 C442 440 429 451 418 448 Z" fill="#74a978"/>
+    <path d="M420 447 L439 428" fill="none" stroke="#2b6146" stroke-width="2" stroke-miterlimit="10"/>
+    <path d="M460 480 C446 460 467 451 485 456 C484 472 471 483 460 480 Z" fill="#74a978"/>
+    <path d="M462 479 L481 460" fill="none" stroke="#2b6146" stroke-width="2" stroke-miterlimit="10"/>
+    <path d="M855 477 C841 457 862 448 880 453 C879 469 866 480 855 477 Z" fill="#74a978"/>
+    <path d="M857 476 L876 457" fill="none" stroke="#2b6146" stroke-width="2" stroke-miterlimit="10"/>
+    <path d="M945 450 C931 430 952 421 970 426 C969 442 956 453 945 450 Z" fill="#74a978"/>
+    <path d="M947 449 L966 430" fill="none" stroke="#2b6146" stroke-width="2" stroke-miterlimit="10"/>
+    <path d="M990 479 C976 459 997 450 1015 455 C1014 471 1001 482 990 479 Z" fill="#74a978"/>
+    <path d="M992 478 L1011 459" fill="none" stroke="#2b6146" stroke-width="2" stroke-miterlimit="10"/>
+    <path d="M858 729.5 C858 728.119 859.119 727 860.5 727 C861.881 727 863 728.119 863 729.5 C863 730.881 861.881 732 860.5 732 C859.119 732 858 730.881 858 729.5 Z" fill="#4b9cb5"/>
+    <path d="M866 712.5 C866 711.119 867.119 710 868.5 710 C869.881 710 871 711.119 871 712.5 C871 713.881 869.881 715 868.5 715 C867.119 715 866 713.881 866 712.5 Z" fill="#4b9cb5"/>
+    <path d="M978 699.5 C978 698.119 979.119 697 980.5 697 C981.881 697 983 698.119 983 699.5 C983 700.881 981.881 702 980.5 702 C979.119 702 978 700.881 978 699.5 Z" fill="#4b9cb5"/>
+    <path d="M127 358 L127 369" fill="none" stroke="#e7ad3e" stroke-width="5" stroke-miterlimit="10"/>
+    <path d="M74 782 L1126 782" fill="none" stroke="#bdd0bc" stroke-width="2" stroke-miterlimit="10"/>
+    <path d="M390 584 L390 621 M914 584 L914 620" fill="none" stroke="#956c4e" stroke-width="3" stroke-miterlimit="10"/>
+  </g>
+</svg>

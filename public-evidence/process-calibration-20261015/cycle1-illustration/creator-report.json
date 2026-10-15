@@ -1,0 +1,109 @@
+{
+  "status": "budget_exhausted",
+  "phase": "calibration",
+  "held_out_trial": false,
+  "accounted_active_seconds": 34922.4222574234,
+  "review_wait_seconds": 0,
+  "wall_seconds": 34922.4222574234,
+  "started_utc": "2026-10-12T21:24:31.117450+00:00",
+  "observed_utc": "2026-10-13T07:06:33.539707+00:00",
+  "last_settled_gateway_receipt_utc": "2026-10-12T21:29:16.773335+00:00",
+  "settled_receipt_window_seconds": 285.6558849811554,
+  "unrecorded_gap_after_capture_seconds": 34636.766372442245,
+  "calls": 13,
+  "planned_batches": 1,
+  "completed_engine_steps": 220,
+  "failure": "ValueError: Active build time exhausted at process_host.py:37 before first study confirmation. No further workflow calls made.",
+  "cause_limits": "Session uses time.time; no monotonic or suspension ledger. Evidence cannot distinguish a wall-clock jump from actual suspension. Initial workspace was clean and budget was created by this builder, with no prior budget contamination.",
+  "study_capture": {
+    "version": "shared-bench",
+    "native": "<project>\\work\\research32\\calibration\\cycle1-illustration\\work\\vectorcraft-studio\\study-56ed9eaf955e4b14-shared-bench\\versions\\shared-bench\\artwork.vectorcraft",
+    "images": [
+      "<project>\\work\\research32\\calibration\\cycle1-illustration\\work\\vectorcraft-studio\\study-56ed9eaf955e4b14-shared-bench\\versions\\shared-bench\\full.png",
+      "<project>\\work\\research32\\calibration\\cycle1-illustration\\work\\vectorcraft-studio\\study-56ed9eaf955e4b14-shared-bench\\versions\\shared-bench\\use.png"
+    ],
+    "inspection": "<project>\\work\\research32\\calibration\\cycle1-illustration\\work\\vectorcraft-studio\\study-56ed9eaf955e4b14-shared-bench\\versions\\shared-bench\\inspection.json",
+    "next": "Actually view both images, compare target, then workflow_checkpoint phase confirm"
+  },
+  "image_actions": [
+    {
+      "tool": "functions.view_image",
+      "paths": [
+        "<project>\\work\\research32\\calibration\\cycle1-illustration\\work\\vectorcraft-studio\\study-56ed9eaf955e4b14-shared-bench\\versions\\shared-bench\\full.png",
+        "<project>\\work\\research32\\calibration\\cycle1-illustration\\work\\vectorcraft-studio\\study-56ed9eaf955e4b14-shared-bench\\versions\\shared-bench\\use.png"
+      ],
+      "observation": "Two distinct inward-facing students; continuous bent working arm encloses screwdriver handle, shaft touches slotted screw, other hand overlaps radio side. Broad clear bench. Stiff faces and simplified fingers require refinement."
+    },
+    {
+      "tool": "functions.view_image",
+      "paths": [
+        "<project>\\work\\research32\\calibration\\cycle1-illustration\\references\\dusk-poster.png",
+        "<project>\\work\\research32\\calibration\\cycle1-illustration\\references\\epa-flow.png",
+        "<project>\\work\\research32\\calibration\\cycle1-illustration\\references\\epa-mechanisms.png",
+        "<project>\\work\\research32\\calibration\\cycle1-illustration\\references\\feature-sheet.png",
+        "<project>\\work\\research32\\calibration\\cycle1-illustration\\references\\neon-drive.png",
+        "<project>\\work\\research32\\calibration\\cycle1-illustration\\references\\perspective-city.png",
+        "<project>\\work\\research32\\calibration\\cycle1-illustration\\references\\wright.jpg"
+      ],
+      "observation": "All seven cached reference images actually viewed. Wright attention/gesture, Perspective City plane coherence and Dusk broad mass separation selected for calibration."
+    }
+  ],
+  "independent_reviewers": [],
+  "no_independent_review_reason": "Budget exhausted before three blockouts and concept review; no reviewer spawned",
+  "structural_diagnostics": {
+    "format": "vectorcraft",
+    "native_nodes": 49,
+    "native_sha256": "031fa67acb2428c6ccf8196d1fbd1c436e0d53333fbcdd72e8de6d58de0abf3d",
+    "document_fingerprint": "fdbf67024ffa9d07870eda5f7278a9a67958047521798f6e98a16f2b865cf16f",
+    "assertion": "JSON structural evidence only, no aesthetic score, no native reopening performed"
+  },
+  "completed_records": [
+    "design_brief",
+    "research",
+    "calibration",
+    "layout"
+  ],
+  "uncompleted": [
+    "first study confirmation and blockout",
+    "second and third native studies",
+    "directions",
+    "independent concept review",
+    "target/spec",
+    "production assembly/entity graph",
+    "construction study",
+    "four production stages",
+    "relation checks",
+    "preflight exports",
+    "independent final reviewers",
+    "three correction rounds",
+    "retained-best selection",
+    "final native reopening"
+  ],
+  "research_shortfall": "Seven cached sources versus target 15-25; three relevant inspected calibration references; no new audience interviews.",
+  "implementation_defects": [
+    {
+      "call": "workflow_record kind research",
+      "payload": "facts list of strings",
+      "failure": "AttributeError: str object has no attribute get in pipeline.validate_research",
+      "disposition": "Payload corrected, no native mutation; parent reports v3 discoverability/validation fix separately"
+    },
+    {
+      "call": "workflow_record kind research",
+      "payload": "fact source instead of source_url",
+      "failure": "ValueError: fact source_url must be nonempty text",
+      "disposition": "Facts removed; brief requirements remain recorded as assumptions/subject, no outside factual claim made"
+    },
+    {
+      "call": "host result parsing after successful command_batch",
+      "failure": "KeyError id because engine results wrap created id inside result",
+      "disposition": "Read saved successful receipt, corrected parsing; did not replay any native operations"
+    }
+  ],
+  "honest_weaknesses": [
+    "Only first concept exists natively; three meaningful layout descriptions are recorded",
+    "Student faces are stiff and hands simplified",
+    "Radio cavity has sparse circuit detail",
+    "Generic scene context does not yet establish campus/cafe identity",
+    "First study has no recorded pass and must not be treated as final artwork"
+  ]
+}

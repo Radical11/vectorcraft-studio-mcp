@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-15T02:20:42.627223+00:00",
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "scope": "self-contained fixtures",
+  "suites": [
+    {
+      "suite": "designer-process",
+      "passed": true,
+      "count": 41,
+      "log": "designer-process.log"
+    },
+    {
+      "suite": "process-reporting",
+      "passed": true,
+      "count": 4,
+      "log": "process-reporting.log"
+    },
+    {
+      "suite": "edit-budget",
+      "passed": true,
+      "count": 2,
+      "log": "edit-budget.log"
+    },
+    {
+      "suite": "experiment-ledger",
+      "passed": true,
+      "count": 13,
+      "log": "experiment-ledger.log"
+    },
+    {
+      "suite": "workflow-v3",
+      "passed": true,
+      "count": 37,
+      "log": "workflow-v3.log"
+    },
+    {
+      "suite": "designer-v1",
+      "passed": true,
+      "count": 23,
+      "log": "designer-v1.log"
+    },
+    {
+      "suite": "focused-execution",
+      "passed": true,
+      "count": 26,
+      "log": "focused-execution.log"
+    },
+    {
+      "suite": "portable-install",
+      "passed": true,
+      "count": 14,
+      "log": "portable-install.log"
+    },
+    {
+      "suite": "legacy-v1",
+      "passed": true,
+      "count": 15,
+      "log": "legacy-v1.log"
+    },
+    {
+      "suite": "legacy-v2-vault",
+      "passed": true,
+      "count": 24,
+      "log": "legacy-v2-vault.log"
+    }
+  ],
+  "total": 199,
+  "all_passed": true
+}

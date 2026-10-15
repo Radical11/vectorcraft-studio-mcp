@@ -1,0 +1,39 @@
+{
+  "trial": "exchange-designer-process-v1-1",
+  "profile": "designer-process-v1",
+  "status": "budget_exhausted",
+  "report_author": "Parent mechanical audit; original builder unavailable after interruption",
+  "completion": false,
+  "best_version": null,
+  "run_path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\run.json",
+  "run_json_status_preserved": "active",
+  "run_sha256": "b70baf663f1201f293f46c7735a20313ba48eecc7d5f339c06e2000cf87c5dbc",
+  "run_status_note": "Shared ledger stops the attempt; original unedited active gateway bytes remain preserved.",
+  "timing": {
+    "reported_at": "2026-10-14T04:06:06.411372+00:00",
+    "shared_elapsed_active_seconds": 31738.684861898422,
+    "last_settled_receipt_epoch": 1791919144.3209374,
+    "last_settled_elapsed_from_dispatch": 116.5944173336029,
+    "wall_gap_after_last_receipt": 31622.09032678604,
+    "review_paused_seconds": 0
+  },
+  "counts": {
+    "batches": 0,
+    "host_calls": 5,
+    "settled_receipts": 5,
+    "native_revision": 0
+  },
+  "artifact_paths": [
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\run.json",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-1\\host-budget.json",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-1\\host-receipts.jsonl",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-1\\clock-diagnostics.jsonl"
+  ],
+  "limitations": [
+    "Host/turn interruption exhausted wall allowance; no cause or aesthetic judgment inferred.",
+    "No recorded production edit, capture, research acceptance, independent review or final export.",
+    "Original builder context is unavailable; reference image viewing is not established by preserved host receipts.",
+    "No restart, post-expiry authoring or budget refund. No owned native process remained at this trial root."
+  ],
+  "operational_disruption": true
+}

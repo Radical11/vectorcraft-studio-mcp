@@ -1,0 +1,17 @@
+[
+  {
+    "tool": "view_image",
+    "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\aea1acf57cb1\\A\\full.png",
+    "return": "Successfully returned and displayed the full artwork image."
+  },
+  {
+    "tool": "view_image",
+    "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\aea1acf57cb1\\A\\use.png",
+    "return": "Successfully returned and displayed the intended-size artwork image."
+  },
+  {
+    "tool": "view_image",
+    "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\aea1acf57cb1\\target.png",
+    "return": "Successfully returned and displayed the target image."
+  }
+]

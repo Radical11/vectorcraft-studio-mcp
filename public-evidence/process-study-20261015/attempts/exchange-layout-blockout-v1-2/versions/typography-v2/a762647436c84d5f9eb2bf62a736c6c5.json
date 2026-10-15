@@ -1,0 +1,52 @@
+{
+  "phase": "confirm",
+  "observations": "Full/use/target now align optically: cap top near target70, NIGHT clear of book, and exact phrase naturally wraps. All event details remain legible; fonts exact Arial Bold/Regular and Georgia Italic with no missing glyphs or overflow.",
+  "target_comparison": {
+    "silhouette": "Image unchanged and title two-line shape retained",
+    "proportions": "112-point title retained",
+    "negative_space": "Original title/image clearance restored",
+    "hierarchy": "Large title leads and invitation/details remain separate",
+    "copy": "All exact required live strings present; title is EXCHANGE NIGHT with natural wrap",
+    "detail": "Book labels, page strip, hand contours unchanged"
+  },
+  "element_map": {
+    "paper": [
+      2
+    ],
+    "title": [
+      27
+    ],
+    "handoff": [
+      25
+    ],
+    "tagline": [
+      19
+    ],
+    "rule": [
+      20
+    ],
+    "date": [
+      21
+    ],
+    "time": [
+      22
+    ],
+    "location": [
+      23
+    ],
+    "entry": [
+      24
+    ]
+  },
+  "departures": [
+    {
+      "element": "title",
+      "reason": "Natural area wrapping preserves exact source string; optical cap position within about2 points of target"
+    },
+    {
+      "element": "handoff",
+      "reason": "10-point upward optical placement"
+    }
+  ],
+  "decision": "Typography accepted; proceed with observed representative palm refinement"
+}

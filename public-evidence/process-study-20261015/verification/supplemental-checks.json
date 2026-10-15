@@ -1,0 +1,13 @@
+{
+  "kind": "Synthetic fixtures only",
+  "analysis_checks": 22,
+  "interim_export_checks": 8,
+  "all_passed": true,
+  "native_or_human_evidence": false,
+  "source_files": {
+    "benchmarks/assess_process_pilot.py": "13f0aa0f9ad7282d0a506b8590ee8f8964cfb42c761ae270a11d0c7786691aec",
+    "tests/test_process_analysis.py": "c328d8c68b5de731f4ed9b9344f8d03b106c7ebccf95e06752808f690f9ce495",
+    "scripts/export_interim_study.py": "f5edbbd5fcb8615041ee4984c04c829255eaf35aa5085e5576a3cf23e067fb12",
+    "tests/test_interim_export.py": "4965717cdb05598358c2169869f685c9c78550d249d14217f9500bead26ece69"
+  }
+}

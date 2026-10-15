@@ -1,0 +1,389 @@
+{
+  "format": "vectorcraft-studio-run",
+  "version": 3,
+  "quality_profile": "designer-process-v1",
+  "status": "review_passed",
+  "revision": 9,
+  "spec_revision": 2,
+  "completed_stages": [
+    "composition",
+    "typography",
+    "imagery",
+    "finishing"
+  ],
+  "working_version": "final",
+  "best_version": "final",
+  "original_version": null,
+  "pending": null,
+  "uncertain": false,
+  "revision_rounds": 0,
+  "no_improvement_streak": 0,
+  "stop_reason": "Best common-brief version passed both independent specialists",
+  "private_run_sha256": "c4ff9f37f7140d88ae00afe097cebef2f5aa0a3c9163653e7f442072d743d0fc",
+  "versions": {
+    "composition": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 1,
+      "spec_revision": 2,
+      "fingerprint": "49eaddda545b473de3011116ef1f8da9056a7b8cd02e067606ce59c85b579796",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "title": [
+          3,
+          4
+        ],
+        "left-hand": [
+          5
+        ],
+        "right-hand": [
+          6,
+          17
+        ],
+        "book": [
+          7,
+          8,
+          9
+        ],
+        "cover-mark": [
+          10,
+          11
+        ],
+        "tagline": [
+          12
+        ],
+        "details": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "native": "attempts/exchange-designer-process-v1-2/versions/composition/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-process-v1-2/versions/composition/inspection.json",
+      "check": "attempts/exchange-designer-process-v1-2/versions/composition/60b1005936a84ca59ca7b51e64b06f28.json",
+      "images": [
+        "attempts/exchange-designer-process-v1-2/versions/composition/full.png",
+        "attempts/exchange-designer-process-v1-2/versions/composition/use.png"
+      ],
+      "exports": []
+    },
+    "typography": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 2,
+      "spec_revision": 2,
+      "fingerprint": "628e37aa34ea082e461d5448d3ba056da4827667ed433720aebb72b222abe73c",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "title": [
+          3,
+          4
+        ],
+        "left-hand": [
+          5
+        ],
+        "right-hand": [
+          6,
+          17
+        ],
+        "book": [
+          7,
+          8,
+          9
+        ],
+        "cover-mark": [
+          10,
+          11
+        ],
+        "tagline": [
+          12
+        ],
+        "details": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "native": "attempts/exchange-designer-process-v1-2/versions/typography/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-process-v1-2/versions/typography/inspection.json",
+      "check": "attempts/exchange-designer-process-v1-2/versions/typography/f5f9733790dd48bd838453be59a80bf7.json",
+      "images": [
+        "attempts/exchange-designer-process-v1-2/versions/typography/full.png",
+        "attempts/exchange-designer-process-v1-2/versions/typography/use.png"
+      ],
+      "exports": []
+    },
+    "imagery": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 4,
+      "spec_revision": 2,
+      "fingerprint": "8267d0f3fec10eb25cb5de2664a1f53289e9c46c125b5ec256dd18e2ca7be34e",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "title": [
+          3,
+          4
+        ],
+        "left-hand": [
+          5,
+          18,
+          19
+        ],
+        "right-hand": [
+          6,
+          17
+        ],
+        "book": [
+          7,
+          8,
+          9
+        ],
+        "cover-mark": [
+          10,
+          11
+        ],
+        "tagline": [
+          12
+        ],
+        "details": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "native": "attempts/exchange-designer-process-v1-2/versions/imagery/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-process-v1-2/versions/imagery/inspection.json",
+      "check": "attempts/exchange-designer-process-v1-2/versions/imagery/8469ede46c3045ab922ca6791e1c03d9.json",
+      "images": [
+        "attempts/exchange-designer-process-v1-2/versions/imagery/full.png",
+        "attempts/exchange-designer-process-v1-2/versions/imagery/use.png"
+      ],
+      "exports": []
+    },
+    "finishing": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 6,
+      "spec_revision": 2,
+      "fingerprint": "8f5a282c028f66bed1a30c52e6c4517f1817e2022814a3371ab92d7c46becefc",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "title": [
+          3,
+          4
+        ],
+        "left-hand": [
+          5,
+          18,
+          19
+        ],
+        "right-hand": [
+          6,
+          17
+        ],
+        "book": [
+          7,
+          8,
+          9,
+          20,
+          21
+        ],
+        "cover-mark": [
+          10,
+          11
+        ],
+        "tagline": [
+          12
+        ],
+        "details": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "native": "attempts/exchange-designer-process-v1-2/versions/finishing/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-process-v1-2/versions/finishing/inspection.json",
+      "check": "attempts/exchange-designer-process-v1-2/versions/finishing/cc5a75f6270745ce8d80ce531ff1f6cd.json",
+      "images": [
+        "attempts/exchange-designer-process-v1-2/versions/finishing/full.png",
+        "attempts/exchange-designer-process-v1-2/versions/finishing/use.png"
+      ],
+      "exports": []
+    },
+    "title-flow": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 9,
+      "spec_revision": 2,
+      "fingerprint": "1c48ce1a80caf42f477eb662c383f4d789066a3e9dc5e2bea821b0738e2791e1",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "title": [
+          22
+        ],
+        "left-hand": [
+          5,
+          18,
+          19
+        ],
+        "right-hand": [
+          6,
+          17
+        ],
+        "book": [
+          7,
+          8,
+          9,
+          20,
+          21
+        ],
+        "cover-mark": [
+          10,
+          11
+        ],
+        "tagline": [
+          12
+        ],
+        "details": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "native": "attempts/exchange-designer-process-v1-2/versions/title-flow/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-process-v1-2/versions/title-flow/inspection.json",
+      "check": "attempts/exchange-designer-process-v1-2/versions/title-flow/f808d26f1eaf4c04a212084791f1738d.json",
+      "images": [
+        "attempts/exchange-designer-process-v1-2/versions/title-flow/full.png",
+        "attempts/exchange-designer-process-v1-2/versions/title-flow/use.png"
+      ],
+      "exports": []
+    },
+    "imagery-recheck": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 9,
+      "spec_revision": 2,
+      "fingerprint": "1c48ce1a80caf42f477eb662c383f4d789066a3e9dc5e2bea821b0738e2791e1",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "title": [
+          22
+        ],
+        "left-hand": [
+          5,
+          18,
+          19
+        ],
+        "right-hand": [
+          6,
+          17
+        ],
+        "book": [
+          7,
+          8,
+          9,
+          20,
+          21
+        ],
+        "cover-mark": [
+          10,
+          11
+        ],
+        "tagline": [
+          12
+        ],
+        "details": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "native": "attempts/exchange-designer-process-v1-2/versions/imagery-recheck/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-process-v1-2/versions/imagery-recheck/inspection.json",
+      "check": "attempts/exchange-designer-process-v1-2/versions/imagery-recheck/720d3c969035472280822c550a1019f8.json",
+      "images": [
+        "attempts/exchange-designer-process-v1-2/versions/imagery-recheck/full.png",
+        "attempts/exchange-designer-process-v1-2/versions/imagery-recheck/use.png"
+      ],
+      "exports": []
+    },
+    "final": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 9,
+      "spec_revision": 2,
+      "fingerprint": "1c48ce1a80caf42f477eb662c383f4d789066a3e9dc5e2bea821b0738e2791e1",
+      "element_map": {
+        "background": [
+          2
+        ],
+        "title": [
+          22
+        ],
+        "left-hand": [
+          5,
+          18,
+          19
+        ],
+        "right-hand": [
+          6,
+          17
+        ],
+        "book": [
+          7,
+          8,
+          9,
+          20,
+          21
+        ],
+        "cover-mark": [
+          10,
+          11
+        ],
+        "tagline": [
+          12
+        ],
+        "details": [
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "native": "attempts/exchange-designer-process-v1-2/versions/final/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-process-v1-2/versions/final/inspection.json",
+      "check": "attempts/exchange-designer-process-v1-2/versions/final/e4dc98f1c56c4edd845e125d17fc03cb.json",
+      "images": [
+        "attempts/exchange-designer-process-v1-2/versions/final/full.png",
+        "attempts/exchange-designer-process-v1-2/versions/final/use.png"
+      ],
+      "exports": [
+        "attempts/exchange-designer-process-v1-2/versions/final/exports/00-93ee763d928649d6b9f76bc718cfdf2d.vectorcraft",
+        "attempts/exchange-designer-process-v1-2/versions/final/exports/01-34af7d97514943f7b3658af25c7c428b.svg",
+        "attempts/exchange-designer-process-v1-2/versions/final/exports/02-e343f9b9c71a4757a86fdac2b3819c89.pdf",
+        "attempts/exchange-designer-process-v1-2/versions/final/exports/03-e122a5229a404fd7aaba16e8fb6b43eb.png",
+        "attempts/exchange-designer-process-v1-2/versions/final/exports/04-5c4f9b5b6c5e42468009005be8e9366f.png"
+      ]
+    }
+  }
+}

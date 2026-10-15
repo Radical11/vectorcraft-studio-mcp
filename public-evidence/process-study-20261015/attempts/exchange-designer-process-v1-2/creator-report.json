@@ -1,0 +1,70 @@
+{
+  "profile": "designer-process-v1",
+  "trial": "exchange-designer-process-v1-2",
+  "status": "review_passed",
+  "best_version": "final",
+  "stopped_run": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\run.json",
+  "stop_reason": "Best common-brief version passed both independent specialists",
+  "native": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final\\artwork.vectorcraft",
+  "artifact_paths": [
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\exchange-night-use.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\exchange-night.pdf",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\exchange-night.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\exchange-night.svg",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\exchange-night.vectorcraft",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\pdf-render-use.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\pdf-render.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\svg-render-use.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\svg-render.png"
+  ],
+  "active_seconds_local_including_final_verification": 610.9194872379303,
+  "paused_review_seconds": 328.9664616584778,
+  "planned_batches": 12,
+  "host_calls": 164,
+  "timing_basis": "Session wall elapsed less explicit independent review pauses; parent shared ledger is authoritative and includes dispatch research overhead",
+  "reviewers": [
+    {
+      "id": "/root/pilot_05/concept",
+      "role": "concept",
+      "actual_returns": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\concept-review-return.json",
+      "actual_image_actions": 10
+    },
+    {
+      "id": "/root/pilot_05/communication",
+      "role": "communication",
+      "actual_returns": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\communication-return.json",
+      "actual_image_actions": 3
+    },
+    {
+      "id": "/root/pilot_05/craft",
+      "role": "craft",
+      "actual_returns": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\craft-return.json",
+      "actual_image_actions": 3
+    }
+  ],
+  "creator_actual_image_actions": 46,
+  "construction_study": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\representative-capture.json",
+  "stage_acceptance": "composition typography imagery finishing explicitly accepted; current relations passed",
+  "native_reopen_check": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\native-reopen-check.json",
+  "final_rounds": 0,
+  "final_findings": [],
+  "weaknesses": [
+    "Only 7 cached references, short of 15-25 research target; no direct exchange-poster reference or audience interviews",
+    "Straightforward familiar handoff metaphor; not highest originality",
+    "Stylized simplified anatomy",
+    "No completed baseline existed; final review used no_baseline",
+    "Standardized subsequent edit belongs to separate evaluation copy and was not performed by builder",
+    "Initial intermediate export paths were superseded by final exports before original byte hashes were logged; immutable finishing native/full/use captures preserve that artwork, but initial SVG/PDF export bytes were not separately retained."
+  ],
+  "lessons": [
+    "Actual use-size inspection identified detached receiving hand; moved hand and foreground thumb repaired contact",
+    "Independent concept review preferred direct exchange over appealing flight with absent people",
+    "Native single live area story preserves exact locked phrase while wrapping",
+    "Preflight area query needs active text selection; selection is read-only and changes no artwork"
+  ],
+  "owned_connections_closed": true,
+  "no_source_config_edits_installation_publication": true,
+  "execution_issues": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\execution-issues.json",
+  "creator_image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\creator-image-actions.json",
+  "local_lessons": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\local-lessons.md"
+}

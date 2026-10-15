@@ -1,0 +1,38 @@
+{
+  "issues": [
+    {
+      "kind": "interrupted_context",
+      "outcome": "budget_exhausted",
+      "observation": "More than the frozen wall allowance elapsed without an independent-review pause; original builder context no longer available.",
+      "settled_calls": [
+        {
+          "tool": "workflow_status",
+          "at": 1791919109.6898882,
+          "isError": false
+        },
+        {
+          "tool": "command_list",
+          "at": 1791919144.124272,
+          "isError": false
+        },
+        {
+          "tool": "command_list",
+          "at": 1791919144.1785576,
+          "isError": false
+        },
+        {
+          "tool": "run_command",
+          "at": 1791919144.2505257,
+          "isError": false
+        },
+        {
+          "tool": "command_list",
+          "at": 1791919144.3209374,
+          "isError": false
+        }
+      ],
+      "uncertain": false,
+      "replayed": false
+    }
+  ]
+}

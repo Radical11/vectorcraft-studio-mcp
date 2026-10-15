@@ -1,0 +1,23 @@
+{
+  "edition": "2026-10-15 interim",
+  "pages": 10,
+  "actual_page_images_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "renderer": "Microsoft Word read-only native PDF export plus Poppler PNG inspection",
+  "renderer_limitation": "Packaged render_docx.py could not find LibreOffice soffice.exe; no LibreOffice installed.",
+  "paper_sha256": {
+    "pdf": "53bb02fbae8efc1edb6f65fddd83bf4d9036d23a9a9e0699efcfc99a336961a4",
+    "docx": "60ec94f6fa72fa49da5f8ee52a121805ea6a19010c368086d6ddc20a5f25bf56"
+  },
+  "layout_observation": "All pages inspected; no clipped text, overlapping table cells or missing diagram labels observed. Not a research peer-review verdict."
+}

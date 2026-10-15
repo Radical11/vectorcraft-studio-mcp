@@ -1,0 +1,42 @@
+{
+  "profile": "designer-process-v1",
+  "issues": [
+    {
+      "issue": "Initial metadata/source discovery shell encoding and wildcard errors",
+      "resolution": "Use UTF-8 and exact source names; no authoring uncertainty or replay"
+    },
+    {
+      "issue": "Spec validation rejects newline-separated title against locked phrase",
+      "resolution": "Spec retains exact string, final native uses exact single story with automatic wrapping"
+    },
+    {
+      "issue": "Preflight engine text.areaOptions enabled state requires selected area type even with ids",
+      "resolution": "Selected title with select.set, then preflight succeeded without artwork change"
+    },
+    {
+      "issue": "Post-stop read-only document.json query conservatively classified by gateway as authoring and rejected",
+      "resolution": "No mutation occurred; closed connection and used fresh initialized/tools/open_file, doc_inspect and text.fonts only. Stopped workflow was never resumed."
+    },
+    {
+      "issue": "Post-stop read-only document.json query conservatively classified by gateway as authoring and rejected",
+      "resolution": "No mutation occurred; closed connection and used fresh initialized/tools/open_file, doc_inspect and text.fonts only. Stopped workflow was never resumed."
+    }
+  ],
+  "host_errors": [
+    {
+      "at": 1791953277.9574885,
+      "monotonic": 31308.9518303,
+      "tool": "workflow_record",
+      "error": "Final copy changed or omitted locked supplied text",
+      "replayed": false
+    },
+    {
+      "at": 1791953598.9677951,
+      "monotonic": 31629.9621365,
+      "tool": "workflow_record",
+      "error": "{\"content\": [{\"text\": \"command_run: command `text.areaOptions` is not available right now: nothing selected\", \"type\": \"text\"}], \"isError\": true}",
+      "replayed": false
+    }
+  ],
+  "uncertain_operations_replayed": false
+}

@@ -1,0 +1,52 @@
+{
+  "phase": "confirm",
+  "observations": "Final full/use/target views retain large navy two-line title, readable exact invitation and event details, coral book stack and opposite grips. Right finger gaps survive intended size, palms join sleeves, intentional right sleeve entry flush. No new clipping/overlaps; no raster imagery. Native selections group title and logistics for editing.",
+  "target_comparison": {
+    "silhouette": "Diagonal book transfer and opposing sleeves retained",
+    "proportions": "Same broad title/book/hand proportions",
+    "negative_space": "Open header/image/invitation fields retained; image10 points up",
+    "hierarchy": "Event title, handoff, invitation, date/time, courtyard/entry sequence clear",
+    "copy": "All six exact phrases live with natural title wrap",
+    "detail": "Sparse native creases and clearer fingers retained; broad stylization explicit"
+  },
+  "element_map": {
+    "paper": [
+      2
+    ],
+    "title": [
+      27
+    ],
+    "handoff": [
+      25
+    ],
+    "tagline": [
+      19
+    ],
+    "rule": [
+      20
+    ],
+    "date": [
+      21
+    ],
+    "time": [
+      22
+    ],
+    "location": [
+      23
+    ],
+    "entry": [
+      24
+    ]
+  },
+  "departures": [
+    {
+      "element": "handoff",
+      "reason": "10-point upward optical placement and refined right fingers from construction proof"
+    },
+    {
+      "element": "title",
+      "reason": "Exact phrase uses live area wrapping with optical cap position"
+    }
+  ],
+  "decision": "Four production stages complete; export and independently assess common-brief suitability"
+}

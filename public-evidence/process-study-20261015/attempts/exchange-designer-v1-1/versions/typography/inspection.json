@@ -1,0 +1,265 @@
+{
+  "artboards": [
+    {
+      "height": 1200.0,
+      "name": "Artboard 1",
+      "width": 900.0,
+      "x": 0.0,
+      "y": 0.0
+    }
+  ],
+  "layers": [
+    {
+      "bounds": {
+        "height": 1200.0,
+        "width": 900.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "children": [
+        {
+          "bounds": {
+            "height": 33.515625,
+            "width": 362.98828125,
+            "x": 72.0,
+            "y": 1081.841796875
+          },
+          "fill": "#172c38",
+          "id": 8,
+          "kind": "Type",
+          "locked": false,
+          "name": "Bring one book | Free entry",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "Bring one book | Free entry",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 40.21875,
+            "width": 278.103515625,
+            "x": 72.0,
+            "y": 1013.41015625
+          },
+          "fill": "#172c38",
+          "id": 7,
+          "kind": "Type",
+          "locked": false,
+          "name": "Library Courtyard",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "Library Courtyard",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 43.5703125,
+            "width": 91.025390625,
+            "x": 663.0,
+            "y": 949.6943359375
+          },
+          "fill": "#172c38",
+          "id": 6,
+          "kind": "Type",
+          "locked": false,
+          "name": "6 PM",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "6 PM",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 43.5703125,
+            "width": 214.63330078125,
+            "x": 72.0,
+            "y": 949.6943359375
+          },
+          "fill": "#172c38",
+          "id": 5,
+          "kind": "Type",
+          "locked": false,
+          "name": "9 NOV 2026",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "9 NOV 2026",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 40.21875,
+            "width": 423.544921875,
+            "x": 74.0,
+            "y": 313.41015625
+          },
+          "fill": "#172c38",
+          "id": 4,
+          "kind": "Type",
+          "locked": false,
+          "name": "Swap a book. Find a story.",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "Swap a book. Find a story.",
+          "visible": true
+        },
+        {
+          "bounds": {
+            "height": 245.0,
+            "width": 550.0,
+            "x": 70.0,
+            "y": 55.0
+          },
+          "fill": "#172c38",
+          "fit": "none",
+          "fitScale": 1.0,
+          "id": 3,
+          "kind": "Type",
+          "locked": false,
+          "name": "EXCHANGE NIGHT",
+          "overflow": true,
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "text": "EXCHANGE NIGHT",
+          "visible": true
+        },
+        {
+          "anchors": 4,
+          "bounds": {
+            "height": 1200.0,
+            "width": 900.0,
+            "x": 0.0,
+            "y": 0.0
+          },
+          "closed": true,
+          "fill": "#f3e9d2",
+          "id": 2,
+          "kind": "Path",
+          "locked": false,
+          "name": "<Path>",
+          "stroke": "None",
+          "strokeOptions": {
+            "align": "center",
+            "alignDashes": false,
+            "arrowAlign": "extend",
+            "cap": "butt",
+            "dash": null,
+            "dashOffset": 0.0,
+            "endArrow": null,
+            "gradientMode": "within",
+            "join": "miter",
+            "miterLimit": 10.0,
+            "profile": "uniform",
+            "startArrow": null,
+            "widthPoints": null
+          },
+          "strokeWidth": 0.0,
+          "visible": true
+        }
+      ],
+      "clip": false,
+      "color": "#4f80ff",
+      "dimImages": null,
+      "id": 1,
+      "kind": "Layer",
+      "locked": false,
+      "name": "Layer 1",
+      "preview": true,
+      "printable": true,
+      "template": false,
+      "visible": true
+    }
+  ],
+  "objects": 8,
+  "colorMode": "Rgb",
+  "units": "Points"
+}

@@ -93,7 +93,7 @@ def search(vault, query):
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--vault', default=r'D:\Design Brain')
+    p.add_argument('--vault', default=r'[private vault path withheld]')
     sub = p.add_subparsers(dest='cmd', required=True)
     sub.add_parser('init')
     q = sub.add_parser('write'); q.add_argument('--kind', choices=KINDS, required=True)

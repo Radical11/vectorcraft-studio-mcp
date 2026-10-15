@@ -1,0 +1,43 @@
+{
+  "phase": "confirm",
+  "observations": "Full/use shows exact-string area title wraps without overflow with exact Arial Bold, but its frame y is interpreted as top and moves title down about103pt, crowding book. Fonts exact with no missing glyphs. Neighbor book and entire hierarchy inspected.",
+  "target_comparison": {
+    "silhouette": "Book handoff unchanged",
+    "proportions": "Font112 remains target scale",
+    "negative_space": "Top padding grows and title/book clearance shrinks accidentally",
+    "hierarchy": "Title still readable but too near book",
+    "copy": "Exact phrase now stored as one live string, wrapped to two lines",
+    "detail": "Other text and focal details unchanged"
+  },
+  "element_map": {
+    "paper": [
+      2
+    ],
+    "title": [
+      27
+    ],
+    "handoff": [
+      25
+    ],
+    "tagline": [
+      19
+    ],
+    "rule": [
+      20
+    ],
+    "date": [
+      21
+    ],
+    "time": [
+      22
+    ],
+    "location": [
+      23
+    ],
+    "entry": [
+      24
+    ]
+  },
+  "departures": [],
+  "decision": "Restore title optical position by moving area frame upward103.2 points"
+}

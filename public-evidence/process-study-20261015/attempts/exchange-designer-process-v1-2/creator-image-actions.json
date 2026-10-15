@@ -1,0 +1,379 @@
+{
+  "creator": "/root/pilot_05",
+  "actual_action_count": 46,
+  "actions": [
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\references\\neon-drive.png",
+      "sha256": "f1f1284008ddc2e7423d525f94b6fe643e9fcad2fad93632cb013e38ebf82367",
+      "context": "reference discovery and targeted gap pass",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\references\\dusk-poster.png",
+      "sha256": "c459ff8e6b7b745473f287b56d1d05305761bf2dd40ada65dd5904960711d89b",
+      "context": "reference discovery and targeted gap pass",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\references\\wright.jpg",
+      "sha256": "7cd47076a35df791965ee25b9a62e343c40b5366cdbd545e192b96050b2849cb",
+      "context": "reference discovery and targeted gap pass",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\references\\perspective-city.png",
+      "sha256": "1ebd562bbd1f02926b599f1327568f1134ba91aeb4254ea494571ab4be347c04",
+      "context": "reference discovery and targeted gap pass",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\references\\epa-mechanisms.png",
+      "sha256": "1278410c5a7b26048d983ab8fe32be1592c71e230c3e3615073fa9c1e6c2d140",
+      "context": "reference discovery and targeted gap pass",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\references\\epa-flow.png",
+      "sha256": "cb456b66cf5fd95750a8bc62d73c73d52907e166a44ad46452e5c3a051faae34",
+      "context": "reference discovery and targeted gap pass",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\references\\feature-sheet.png",
+      "sha256": "c807ad224732492793ad07670115f40d67d653134fe11a252d95bcdde04b487c",
+      "context": "reference discovery and targeted gap pass",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff\\full.png",
+      "sha256": "d20bfaa9feeb2b45b52195f28f170e4759e0173d6cb09bbcc1b241d24c5e61a3",
+      "context": "native study handoff",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff\\use.png",
+      "sha256": "6ac10678c22d4cb3fbc37511609d707687be073dcf6135312825fcf83053e4b3",
+      "context": "native study handoff",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff-fixed\\full.png",
+      "sha256": "e6bbe16b41d7d079882c4b62354312a12ce8b9cd682f9a1ab9aa3920ab1060c5",
+      "context": "native study handoff-fixed",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff-fixed\\use.png",
+      "sha256": "17f0e73e0ced5d79e233e5351d523e7521c1ebe30973faee1359aa956bd7f8c5",
+      "context": "native study handoff-fixed",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-6dfc395134af43be-flight\\versions\\flight\\full.png",
+      "sha256": "b4707f2dcf159b69f62c76590182072d2664fbfa2c0f2d1fe233a63de6ad8d4b",
+      "context": "native study flight",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-6dfc395134af43be-flight\\versions\\flight\\use.png",
+      "sha256": "c6ae04481cbf306ea081bd9a69b97937cc6a6ab144a73ae13af3c5d7dd7c9475",
+      "context": "native study flight",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-9ed05e34e3e2467f-loop\\versions\\loop\\full.png",
+      "sha256": "8092634bec267dc43059b30599a88fca83c37ce6bce754e447ae2b73daa34d15",
+      "context": "native study loop",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-9ed05e34e3e2467f-loop\\versions\\loop\\use.png",
+      "sha256": "b8e74cc7280ac227504eed431e9c7dbc09e25a583df45c3d7be35840ee1a7482",
+      "context": "native study loop",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-bb7b816d54634c6a-representative\\versions\\representative\\full.png",
+      "sha256": "5e7a677a2571d5347ddfe14f728918b72e7e3e27716e81705b14d3099c2b8ba4",
+      "context": "native study representative",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-bb7b816d54634c6a-representative\\versions\\representative\\use.png",
+      "sha256": "e935ffe655caa4f52d2179579fb5733f1e267d20158feeb3fbcb9d6901a2ba0b",
+      "context": "native study representative",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\composition\\full.png",
+      "sha256": "5cf7042b92dfb9a0b961ac841161a464f026aa330403a49b6f64899c943353e0",
+      "context": "production capture composition",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\composition\\use.png",
+      "sha256": "021cd99b38d0a6be9c53548fb1348a503843473b8e38637fd096db3457650f0f",
+      "context": "production capture composition",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff-fixed\\full.png",
+      "sha256": "e6bbe16b41d7d079882c4b62354312a12ce8b9cd682f9a1ab9aa3920ab1060c5",
+      "context": "target comparison composition",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\typography\\full.png",
+      "sha256": "3cd14d2c47090cb5d30756d43fb57b8eb2d330fc38b7691fa7157279d7cf8d01",
+      "context": "production capture typography",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\typography\\use.png",
+      "sha256": "04a15e4e71f3af9bd3feddf52107c1b6dbbd16c7562e3e9ffa8e5113b6049807",
+      "context": "production capture typography",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff-fixed\\full.png",
+      "sha256": "e6bbe16b41d7d079882c4b62354312a12ce8b9cd682f9a1ab9aa3920ab1060c5",
+      "context": "target comparison typography",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\imagery\\full.png",
+      "sha256": "bde4c33077a702cd1725b73f4f78870f69c00bb21c4634a3617aa5226167a163",
+      "context": "production capture imagery",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\imagery\\use.png",
+      "sha256": "8e673063e6ec72a167ae3648164eb18a30b63de164e3d254a3f6e99eae9127b8",
+      "context": "production capture imagery",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff-fixed\\full.png",
+      "sha256": "e6bbe16b41d7d079882c4b62354312a12ce8b9cd682f9a1ab9aa3920ab1060c5",
+      "context": "target comparison imagery",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\finishing\\full.png",
+      "sha256": "4a410eb05849a2835240dbeb1577d6346b486a0c2bf5489302cdbadda810ee7c",
+      "context": "production capture finishing",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\finishing\\use.png",
+      "sha256": "a00a4ef09bd5b74d4d62d9929efbd5bb4b8609a41ef2b374c8ee9668e3da2112",
+      "context": "production capture finishing",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff-fixed\\full.png",
+      "sha256": "e6bbe16b41d7d079882c4b62354312a12ce8b9cd682f9a1ab9aa3920ab1060c5",
+      "context": "target comparison finishing",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\exchange-night.png",
+      "sha256": null,
+      "context": "initial export check before single-story title",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript",
+      "current_path_was_later_reexported": true,
+      "hash_limitation": "Initial export path was superseded by final export before its original byte hash was logged. Actual viewed image is in tool transcript; equivalent initial artwork is preserved in immutable finishing native/full/use capture. No historical export-byte hash is claimed."
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\exchange-night-use.png",
+      "sha256": null,
+      "context": "initial export check before single-story title",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript",
+      "current_path_was_later_reexported": true,
+      "hash_limitation": "Initial export path was superseded by final export before its original byte hash was logged. Actual viewed image is in tool transcript; equivalent initial artwork is preserved in immutable finishing native/full/use capture. No historical export-byte hash is claimed."
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\title-flow\\full.png",
+      "sha256": "43f7c9ad8deed074905f5488595af02defe11f900c791c0dbf5ee6d761bb6720",
+      "context": "production capture title-flow",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\title-flow\\use.png",
+      "sha256": "3f658deafbb8198869f427aabc78544cc83be3da161cce61eb80885ced7d3607",
+      "context": "production capture title-flow",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff-fixed\\full.png",
+      "sha256": "e6bbe16b41d7d079882c4b62354312a12ce8b9cd682f9a1ab9aa3920ab1060c5",
+      "context": "target comparison title-flow",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\imagery-recheck\\full.png",
+      "sha256": "43f7c9ad8deed074905f5488595af02defe11f900c791c0dbf5ee6d761bb6720",
+      "context": "production capture imagery-recheck",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\imagery-recheck\\use.png",
+      "sha256": "3f658deafbb8198869f427aabc78544cc83be3da161cce61eb80885ced7d3607",
+      "context": "production capture imagery-recheck",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff-fixed\\full.png",
+      "sha256": "e6bbe16b41d7d079882c4b62354312a12ce8b9cd682f9a1ab9aa3920ab1060c5",
+      "context": "target comparison imagery-recheck",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final\\full.png",
+      "sha256": "43f7c9ad8deed074905f5488595af02defe11f900c791c0dbf5ee6d761bb6720",
+      "context": "production capture final",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final\\use.png",
+      "sha256": "3f658deafbb8198869f427aabc78544cc83be3da161cce61eb80885ced7d3607",
+      "context": "production capture final",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\work\\vectorcraft-studio\\study-0e0ff2a915074d6f-handoff\\versions\\handoff-fixed\\full.png",
+      "sha256": "e6bbe16b41d7d079882c4b62354312a12ce8b9cd682f9a1ab9aa3920ab1060c5",
+      "context": "target comparison final",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\svg-render.png",
+      "sha256": "3967f9218fd2c8b5dd3288fe6d7f581bc92278bf64f27a5cbccfe72d8298cd0d",
+      "context": "final independent export full/use renders",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\svg-render-use.png",
+      "sha256": "99233b1f8a7215d58d44e69cc6b4ad139a4089d5dc7ae2ad10a10ddc84577348",
+      "context": "final independent export full/use renders",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\pdf-render.png",
+      "sha256": "730b1e0f6edd88f63b5673fa79998852e3d50311ab55620a0a072b0bc02ac11d",
+      "context": "final independent export full/use renders",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\pdf-render-use.png",
+      "sha256": "a3cb31984923f8b99b07d31bcd9b38bacc49aee9fbf50c9194efb0a4295475e1",
+      "context": "final independent export full/use renders",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\exchange-night.png",
+      "sha256": "e6209b7a8826a0d1d681b8f7f66c621abdd98e4ebc06704808cedd6eafcbfa30",
+      "context": "final independent export full/use renders",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    },
+    {
+      "tool": "functions.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-process-v1-2\\exports\\exchange-night-use.png",
+      "sha256": "b62d803f5b41b4e27ab837be4923e5ad7a8d8408b551ca27a20d7e11e699c574",
+      "context": "final independent export full/use renders",
+      "observed": true,
+      "evidence": "Actual successful view_image action displayed in pilot_05 transcript"
+    }
+  ],
+  "observation_basis": "Actual displayed images; not fixture or metadata-only observations"
+}

@@ -1,0 +1,201 @@
+{
+  "trial": "exchange-layout-blockout-v1-2",
+  "profile": "layout-blockout-v1",
+  "matching_profile": true,
+  "status": "completed",
+  "workflow_status": "review_passed",
+  "best_version": "final-v2",
+  "stopped_run": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\run.json",
+  "stopped_run_sha256": "5dc044acd4ed6813940946d82d7785bdecc95de5bad45ec0967da4661b184a01",
+  "run_stop_time": 1791952415.94218,
+  "run_stop_utc": "2026-10-14T04:33:35.942180+00:00",
+  "report_prepared_at": 1791952684.345668,
+  "construction_budget": {
+    "planned_batches": 13,
+    "session_calls": 101,
+    "ledger_batches": 13,
+    "ledger_calls": 101,
+    "shared_start_at": 1791950767.097154,
+    "shared_wall_until_stop_seconds": 1648.8450260162354,
+    "recorded_all_review_wait_seconds": 288.56449699401855,
+    "valid_independent_review_wait_seconds": 272.00037002563477,
+    "invalid_pause_as_active_overhead_seconds": 16.56412696838379,
+    "corrected_active_until_workflow_stop_seconds": 1376.8446559906006,
+    "session_clock": {
+      "started": 1791950851.5617113,
+      "started_monotonic": 28882.556053,
+      "batches": 13,
+      "calls": 101,
+      "paused_seconds": 288.56550884246826,
+      "review_start": null,
+      "clock_policy": "wall elapsed less explicit independent-review pauses; monotonic diagnostics only"
+    },
+    "parent_finishes_and_accounts_remaining_overhead": true,
+    "review_intervals": [
+      {
+        "pause": {
+          "ledger_index": 144,
+          "trial": "exchange-layout-blockout-v1-2",
+          "event": "review_pause",
+          "at": 1791951251.798386,
+          "monotonic": 29282.7927295
+        },
+        "resume": {
+          "ledger_index": 145,
+          "trial": "exchange-layout-blockout-v1-2",
+          "event": "review_resume",
+          "at": 1791951390.73724,
+          "monotonic": 29421.7315833
+        },
+        "valid_independent_review_wait": true
+      },
+      {
+        "pause": {
+          "ledger_index": 201,
+          "trial": "exchange-layout-blockout-v1-2",
+          "event": "review_pause",
+          "at": 1791952234.476313,
+          "monotonic": 30265.4706567
+        },
+        "resume": {
+          "ledger_index": 202,
+          "trial": "exchange-layout-blockout-v1-2",
+          "event": "review_resume",
+          "at": 1791952251.04044,
+          "monotonic": 30282.0347842
+        },
+        "valid_independent_review_wait": false
+      },
+      {
+        "pause": {
+          "ledger_index": 206,
+          "trial": "exchange-layout-blockout-v1-2",
+          "event": "review_pause",
+          "at": 1791952281.514515,
+          "monotonic": 30312.5088596
+        },
+        "resume": {
+          "ledger_index": 207,
+          "trial": "exchange-layout-blockout-v1-2",
+          "event": "review_resume",
+          "at": 1791952414.576031,
+          "monotonic": 30445.5703749
+        },
+        "valid_independent_review_wait": true
+      }
+    ]
+  },
+  "studies": {
+    "registered_blockouts": [
+      "hands-study",
+      "orbit-study",
+      "bridge-study"
+    ],
+    "construction_study": "grip-proof",
+    "selected": "hands",
+    "explicit_assembly_start": true,
+    "production_stages": [
+      "composition",
+      "typography",
+      "imagery",
+      "finishing"
+    ],
+    "focused_acceptance_or_entity_graph_imposed": false
+  },
+  "reviewers": [
+    {
+      "reviewer_id": "/root/pilot_04/concept_review",
+      "tool": "functions.exec tools.view_image",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\neon-drive.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\dusk-poster.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\wright.jpg",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\references\\perspective-city.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\full.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-16ddbb70f8c64cfc-hands-study\\versions\\hands-rough-fixed\\use.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-eb0f3aebb34a44f2-orbit-study\\versions\\orbit-rough-fixed\\full.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-eb0f3aebb34a44f2-orbit-study\\versions\\orbit-rough-fixed\\use.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-56f15a950c2d432f-bridge-study\\versions\\bridge-rough\\full.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-56f15a950c2d432f-bridge-study\\versions\\bridge-rough\\use.png"
+      ],
+      "evidence": "Fresh reviewer explicitly returned actual tool actions and concrete observations for all required paths; no editing tools or extra agents.",
+      "raw_return": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\concept-review-return.json"
+    },
+    {
+      "reviewer_id": "/root/pilot_04/final_communication",
+      "tool": "functions.exec tools.view_image",
+      "paths": [
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/A/full.png",
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/A/use.png",
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/target.png"
+      ],
+      "evidence": "Fresh reviewer explicitly returned actual tool actions and concrete observations for all required paths; no editing tools or extra agents.",
+      "raw_return": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\final_communication-raw-return.json"
+    },
+    {
+      "reviewer_id": "/root/pilot_04/final_craft",
+      "tool": "functions.exec tools.view_image",
+      "paths": [
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/A/full.png",
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/A/use.png",
+        "<project>/work/research32/pilot/process-pilot-20261013/exchange-layout-blockout-v1-2/work/vectorcraft-studio/artwork/review-packets/1251c554abbb/target.png"
+      ],
+      "evidence": "Fresh reviewer explicitly returned actual tool actions and concrete observations for all required paths; no editing tools or extra agents.",
+      "raw_return": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\final_craft-raw-return.json"
+    }
+  ],
+  "review_returns": {
+    "concept": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\concept-review-return.json",
+    "communication": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\final_communication-raw-return.json",
+    "craft": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\final_craft-raw-return.json",
+    "gateway_normalized_record": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\final-reviews.json"
+  },
+  "image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\creator-image-actions.json",
+  "execution_issues": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\execution-issues.json",
+  "artifacts": [
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\deliverables\\exchange-night.vectorcraft",
+      "bytes": 81423,
+      "sha256": "729f0e433c388fe46626738f3d3349af1f8aab834888a281c631bee728f1bfa5"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\deliverables\\exchange-night.svg",
+      "bytes": 3092,
+      "sha256": "ccabcb62ab334690de8d47a4a41f060af2e1e327f34d053762a9038aece4a2c1"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\deliverables\\exchange-night.pdf",
+      "bytes": 45632,
+      "sha256": "554c90c778ce936d322351a662201e51f8a4e83423033ac7b2550fbf5bb24eef"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\deliverables\\exchange-night-full.png",
+      "bytes": 51236,
+      "sha256": "b86af94487ceccb7fa929d5439a218520b3425eab55902759ff9b8d08d5e9aa8"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\deliverables\\exchange-night-use.png",
+      "bytes": 24396,
+      "sha256": "5201df92420406d8bd0a57c5f0bc13f586a644c128f472f12dacd177c4bc40b1"
+    }
+  ],
+  "native_verification": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\verification\\native-verification.json",
+  "native_document_fingerprint_preserved": true,
+  "live_text_objects": 6,
+  "editable_paths": 17,
+  "fonts": "Arial Bold/Regular and Georgia Italic exact, zero missing glyphs",
+  "all_owned_connections_closed": true,
+  "final_correction_rounds": 0,
+  "weaknesses": [
+    "Familiar direct handoff concept, resolved rather than unusually inventive per both specialists",
+    "Hands deliberately broad stylized vectors, not naturalistic anatomy",
+    "Frozen7-work reference pack below15-25/four-role target; no audience interview or contemporary book-exchange example supplied",
+    "No claim of general process improvement from this single build; counts/layout tests are not aesthetic evidence"
+  ],
+  "gates": {
+    "standardized_date_and_30pt_details_edit": "Not performed here; separate parent evaluation copy outside construction budget",
+    "install_publish_source_or_clock_mutation": "None"
+  },
+  "local_lessons": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\lessons.md",
+  "report": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\report.md"
+}

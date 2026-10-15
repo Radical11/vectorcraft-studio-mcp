@@ -1,0 +1,339 @@
+{
+  "format": "vectorcraft-studio-run",
+  "version": 3,
+  "quality_profile": "layout-blockout-v1",
+  "status": "review_passed",
+  "revision": 6,
+  "spec_revision": 2,
+  "completed_stages": [
+    "composition",
+    "typography",
+    "imagery",
+    "finishing"
+  ],
+  "working_version": "final-v2",
+  "best_version": "final-v2",
+  "original_version": null,
+  "pending": null,
+  "uncertain": false,
+  "revision_rounds": 0,
+  "no_improvement_streak": 0,
+  "stop_reason": "Best common-brief version passed both independent specialists",
+  "private_run_sha256": "5dc044acd4ed6813940946d82d7785bdecc95de5bad45ec0967da4661b184a01",
+  "versions": {
+    "composition-v1": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 1,
+      "spec_revision": 2,
+      "fingerprint": "1631bec23ef3b8e41cdce04bf645e2f41b2cbcb11b803fecc4ff8cc761cfbc08",
+      "element_map": {
+        "paper": [
+          2
+        ],
+        "title": [
+          3
+        ],
+        "handoff": [
+          25
+        ],
+        "tagline": [
+          19
+        ],
+        "rule": [
+          20
+        ],
+        "date": [
+          21
+        ],
+        "time": [
+          22
+        ],
+        "location": [
+          23
+        ],
+        "entry": [
+          24
+        ]
+      },
+      "native": "attempts/exchange-layout-blockout-v1-2/versions/composition-v1/artwork.vectorcraft",
+      "inspection": "attempts/exchange-layout-blockout-v1-2/versions/composition-v1/inspection.json",
+      "check": "attempts/exchange-layout-blockout-v1-2/versions/composition-v1/17c77d6ab7934d929d4991d369dc1c82.json",
+      "images": [
+        "attempts/exchange-layout-blockout-v1-2/versions/composition-v1/full.png",
+        "attempts/exchange-layout-blockout-v1-2/versions/composition-v1/use.png"
+      ],
+      "exports": []
+    },
+    "composition-v2": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 2,
+      "spec_revision": 2,
+      "fingerprint": "fbfdc6a04a58d4c4baedf92b04a07a234d3c0453fc8acd4b57c8c8f3c48c42b2",
+      "element_map": {
+        "paper": [
+          2
+        ],
+        "title": [
+          3
+        ],
+        "handoff": [
+          25
+        ],
+        "tagline": [
+          19
+        ],
+        "rule": [
+          20
+        ],
+        "date": [
+          21
+        ],
+        "time": [
+          22
+        ],
+        "location": [
+          23
+        ],
+        "entry": [
+          24
+        ]
+      },
+      "native": "attempts/exchange-layout-blockout-v1-2/versions/composition-v2/artwork.vectorcraft",
+      "inspection": "attempts/exchange-layout-blockout-v1-2/versions/composition-v2/inspection.json",
+      "check": "attempts/exchange-layout-blockout-v1-2/versions/composition-v2/ca3560312bc24e1692765933fb9c6568.json",
+      "images": [
+        "attempts/exchange-layout-blockout-v1-2/versions/composition-v2/full.png",
+        "attempts/exchange-layout-blockout-v1-2/versions/composition-v2/use.png"
+      ],
+      "exports": []
+    },
+    "typography-v1": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 3,
+      "spec_revision": 2,
+      "fingerprint": "763e9dd9a70924dde18735df2d9baca10ce58f5dabc3b8b02cf49e73320213fb",
+      "element_map": {
+        "paper": [
+          2
+        ],
+        "title": [
+          27
+        ],
+        "handoff": [
+          25
+        ],
+        "tagline": [
+          19
+        ],
+        "rule": [
+          20
+        ],
+        "date": [
+          21
+        ],
+        "time": [
+          22
+        ],
+        "location": [
+          23
+        ],
+        "entry": [
+          24
+        ]
+      },
+      "native": "attempts/exchange-layout-blockout-v1-2/versions/typography-v1/artwork.vectorcraft",
+      "inspection": "attempts/exchange-layout-blockout-v1-2/versions/typography-v1/inspection.json",
+      "check": "attempts/exchange-layout-blockout-v1-2/versions/typography-v1/2e0e910bc14642238785bbee2bd64ac8.json",
+      "images": [
+        "attempts/exchange-layout-blockout-v1-2/versions/typography-v1/full.png",
+        "attempts/exchange-layout-blockout-v1-2/versions/typography-v1/use.png"
+      ],
+      "exports": []
+    },
+    "typography-v2": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 4,
+      "spec_revision": 2,
+      "fingerprint": "a6eec88057a2aedcf99a6002302350c148d8ec4b1dc6cbfbcc2dfcdabaf31a2f",
+      "element_map": {
+        "paper": [
+          2
+        ],
+        "title": [
+          27
+        ],
+        "handoff": [
+          25
+        ],
+        "tagline": [
+          19
+        ],
+        "rule": [
+          20
+        ],
+        "date": [
+          21
+        ],
+        "time": [
+          22
+        ],
+        "location": [
+          23
+        ],
+        "entry": [
+          24
+        ]
+      },
+      "native": "attempts/exchange-layout-blockout-v1-2/versions/typography-v2/artwork.vectorcraft",
+      "inspection": "attempts/exchange-layout-blockout-v1-2/versions/typography-v2/inspection.json",
+      "check": "attempts/exchange-layout-blockout-v1-2/versions/typography-v2/a762647436c84d5f9eb2bf62a736c6c5.json",
+      "images": [
+        "attempts/exchange-layout-blockout-v1-2/versions/typography-v2/full.png",
+        "attempts/exchange-layout-blockout-v1-2/versions/typography-v2/use.png"
+      ],
+      "exports": []
+    },
+    "imagery-v1": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 5,
+      "spec_revision": 2,
+      "fingerprint": "7b265e668e372b79e0889403b41702afafe6b7cd98a1818dda2c1fb034dd81b4",
+      "element_map": {
+        "paper": [
+          2
+        ],
+        "title": [
+          27
+        ],
+        "handoff": [
+          25
+        ],
+        "tagline": [
+          19
+        ],
+        "rule": [
+          20
+        ],
+        "date": [
+          21
+        ],
+        "time": [
+          22
+        ],
+        "location": [
+          23
+        ],
+        "entry": [
+          24
+        ]
+      },
+      "native": "attempts/exchange-layout-blockout-v1-2/versions/imagery-v1/artwork.vectorcraft",
+      "inspection": "attempts/exchange-layout-blockout-v1-2/versions/imagery-v1/inspection.json",
+      "check": "attempts/exchange-layout-blockout-v1-2/versions/imagery-v1/99fb5e4c3a784dcfb1535ae4a6376ac1.json",
+      "images": [
+        "attempts/exchange-layout-blockout-v1-2/versions/imagery-v1/full.png",
+        "attempts/exchange-layout-blockout-v1-2/versions/imagery-v1/use.png"
+      ],
+      "exports": []
+    },
+    "final-v1": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 5,
+      "spec_revision": 2,
+      "fingerprint": "1dd535c04a4be4c44c82074b394966b7a55a0ae668efc7047d533285fc4d3012",
+      "element_map": {
+        "paper": [
+          2
+        ],
+        "title": [
+          27
+        ],
+        "handoff": [
+          25
+        ],
+        "tagline": [
+          19
+        ],
+        "rule": [
+          20
+        ],
+        "date": [
+          21
+        ],
+        "time": [
+          22
+        ],
+        "location": [
+          23
+        ],
+        "entry": [
+          24
+        ]
+      },
+      "native": "attempts/exchange-layout-blockout-v1-2/versions/final-v1/artwork.vectorcraft",
+      "inspection": "attempts/exchange-layout-blockout-v1-2/versions/final-v1/inspection.json",
+      "check": "attempts/exchange-layout-blockout-v1-2/versions/final-v1/c42ddcfadf584313ac62844ae02af18d.json",
+      "images": [
+        "attempts/exchange-layout-blockout-v1-2/versions/final-v1/full.png",
+        "attempts/exchange-layout-blockout-v1-2/versions/final-v1/use.png"
+      ],
+      "exports": []
+    },
+    "final-v2": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 6,
+      "spec_revision": 2,
+      "fingerprint": "63a5693da6ea186288fbbce9943be7d836cf58c04d539b8e3fe0e2db8b9fa5dd",
+      "element_map": {
+        "paper": [
+          2
+        ],
+        "title": [
+          27
+        ],
+        "handoff": [
+          25
+        ],
+        "tagline": [
+          19
+        ],
+        "rule": [
+          20
+        ],
+        "date": [
+          21
+        ],
+        "time": [
+          22
+        ],
+        "location": [
+          23
+        ],
+        "entry": [
+          24
+        ]
+      },
+      "native": "attempts/exchange-layout-blockout-v1-2/versions/final-v2/artwork.vectorcraft",
+      "inspection": "attempts/exchange-layout-blockout-v1-2/versions/final-v2/inspection.json",
+      "check": "attempts/exchange-layout-blockout-v1-2/versions/final-v2/6d0df6cdd65c4c6cb5a819c24bf05a2e.json",
+      "images": [
+        "attempts/exchange-layout-blockout-v1-2/versions/final-v2/full.png",
+        "attempts/exchange-layout-blockout-v1-2/versions/final-v2/use.png"
+      ],
+      "exports": [
+        "attempts/exchange-layout-blockout-v1-2/versions/final-v2/exports/00-df7c7bf06ee5438bb74006480126469d.vectorcraft",
+        "attempts/exchange-layout-blockout-v1-2/versions/final-v2/exports/01-56efd4c915ea464584cfb5c5f3becb35.svg",
+        "attempts/exchange-layout-blockout-v1-2/versions/final-v2/exports/02-2ed22e76400645d58e56a01a156d1a48.pdf",
+        "attempts/exchange-layout-blockout-v1-2/versions/final-v2/exports/03-f4489bcde8714dd6bf59d349196450ea.png",
+        "attempts/exchange-layout-blockout-v1-2/versions/final-v2/exports/04-c8e4258edf3b4292bc0e8bebd49e77d7.png"
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "cases": [
+    {
+      "id": "cycle1-illustration",
+      "status": "active",
+      "best_version": null,
+      "held_out": false,
+      "source_run_sha256": "bbfd1fb9ab64d181894f00c38f75610860c6bd83f94dfd21379139fdacd28ccc",
+      "files": []
+    },
+    {
+      "id": "cycle1-information",
+      "status": "review_passed",
+      "best_version": "finishing-v1",
+      "held_out": false,
+      "source_run_sha256": "a21bf5faf4383e07543f994338c5c512708d73d24d1597ea01b39403a6d8ad0a",
+      "files": [
+        {
+          "path": "cycle1-information/artwork.vectorcraft",
+          "source_sha256": "946f47fab3642576f2136e85b170699d484e329e53838d9c0d9e314570379644",
+          "public_sha256": "946f47fab3642576f2136e85b170699d484e329e53838d9c0d9e314570379644"
+        },
+        {
+          "path": "cycle1-information/full.png",
+          "source_sha256": "82b6b5c39a8c014b14bc169697d5d737b94541d9b379139442dfc45412d54f4a",
+          "public_sha256": "82b6b5c39a8c014b14bc169697d5d737b94541d9b379139442dfc45412d54f4a"
+        },
+        {
+          "path": "cycle1-information/use.png",
+          "source_sha256": "76c171dccea7b684e04eda1081db05f92d1edaf7871bf28faeeadb86efdb9ffe",
+          "public_sha256": "76c171dccea7b684e04eda1081db05f92d1edaf7871bf28faeeadb86efdb9ffe"
+        },
+        {
+          "path": "cycle1-information/0173994cb8b048aba540e77ed1be4dc7.vectorcraft",
+          "source_sha256": "946f47fab3642576f2136e85b170699d484e329e53838d9c0d9e314570379644",
+          "public_sha256": "946f47fab3642576f2136e85b170699d484e329e53838d9c0d9e314570379644"
+        },
+        {
+          "path": "cycle1-information/c88bf09774534020997c302a5ebcb31f.svg",
+          "source_sha256": "eddfc371e9b92efc46220bff977aa36eb97d0bdba3f59f72213891b799e4845c",
+          "public_sha256": "eddfc371e9b92efc46220bff977aa36eb97d0bdba3f59f72213891b799e4845c"
+        },
+        {
+          "path": "cycle1-information/5798d13b0c1645c280a9be35f3a34a94.svg",
+          "source_sha256": "25dabdc3c541ffb598e95213d6b8adbd327b8ea1ef15ec471de019d0d39edef8",
+          "public_sha256": "25dabdc3c541ffb598e95213d6b8adbd327b8ea1ef15ec471de019d0d39edef8"
+        },
+        {
+          "path": "cycle1-information/0ceb946b547b443ab0764da3869f025b.pdf",
+          "source_sha256": "fe91a6df8b476b7f0b2fe142202619408edf7991239c22aedf65d64ba21e3402",
+          "public_sha256": "fe91a6df8b476b7f0b2fe142202619408edf7991239c22aedf65d64ba21e3402"
+        },
+        {
+          "path": "cycle1-information/753f4236db1744d6a14c47ff71abae3b.png",
+          "source_sha256": "ee04bb90259631b66b03fa886c8568bed053c4b5789dec2efcdf2bf4be7ac678",
+          "public_sha256": "ee04bb90259631b66b03fa886c8568bed053c4b5789dec2efcdf2bf4be7ac678"
+        },
+        {
+          "path": "cycle1-information/0d09cc4e65b84bc5a29750dab8294ad4.png",
+          "source_sha256": "ec4175bed9e3c973048220df407a4f8ef62baa4ce3c16411183eebe80caa4123",
+          "public_sha256": "ec4175bed9e3c973048220df407a4f8ef62baa4ce3c16411183eebe80caa4123"
+        }
+      ]
+    },
+    {
+      "id": "cycle1-poster",
+      "status": "review_passed",
+      "best_version": "candidate-v2",
+      "held_out": false,
+      "source_run_sha256": "3e3e27da25543e7d7f313715cd7e18b1f8291e59aa194a5156c84bd902ad3f8d",
+      "files": [
+        {
+          "path": "cycle1-poster/artwork.vectorcraft",
+          "source_sha256": "87a93ddd9f4619fee29ddadc1d262a22476158dd94dce323b54cd6102a353517",
+          "public_sha256": "87a93ddd9f4619fee29ddadc1d262a22476158dd94dce323b54cd6102a353517"
+        },
+        {
+          "path": "cycle1-poster/full.png",
+          "source_sha256": "4a417e0fadf08d9d57937d266879955977bf8a0eecc9fe2742240f7221f41530",
+          "public_sha256": "4a417e0fadf08d9d57937d266879955977bf8a0eecc9fe2742240f7221f41530"
+        },
+        {
+          "path": "cycle1-poster/use.png",
+          "source_sha256": "eab584b7e1685f444913cd40ecc3386080d00834dfd290a5fc9cb7122274feec",
+          "public_sha256": "eab584b7e1685f444913cd40ecc3386080d00834dfd290a5fc9cb7122274feec"
+        },
+        {
+          "path": "cycle1-poster/33a617b9333344ba891c132bfd602d63.svg",
+          "source_sha256": "0aec736eeeb99f9e0a574556f4128cabc39673081febbc1c728b07f142d9d337",
+          "public_sha256": "0aec736eeeb99f9e0a574556f4128cabc39673081febbc1c728b07f142d9d337"
+        },
+        {
+          "path": "cycle1-poster/0249fc7ae3ad470ea666845012f9f39d.pdf",
+          "source_sha256": "e470f2efd9cc6e014e3fad1761bc554dbabb7d6fde672f22cb21a37beb992e3c",
+          "public_sha256": "e470f2efd9cc6e014e3fad1761bc554dbabb7d6fde672f22cb21a37beb992e3c"
+        },
+        {
+          "path": "cycle1-poster/ae0b0328087c4dbb99298ce03b89d8a6.png",
+          "source_sha256": "b7bf3d49bb19a836722ed453f7ee7f113f15d2c639ccea0c21689ddf77b8becd",
+          "public_sha256": "b7bf3d49bb19a836722ed453f7ee7f113f15d2c639ccea0c21689ddf77b8becd"
+        },
+        {
+          "path": "cycle1-poster/b12b4bea14ab430593817fa6898caa3c.png",
+          "source_sha256": "89ccd87c30a5097f0b6cafbda4063e54a0b1a5dd10322ef874252ec50f0b396e",
+          "public_sha256": "89ccd87c30a5097f0b6cafbda4063e54a0b1a5dd10322ef874252ec50f0b396e"
+        }
+      ]
+    },
+    {
+      "id": "cycle2-illustration",
+      "status": "review_passed",
+      "best_version": "finishing-v1",
+      "held_out": false,
+      "source_run_sha256": "6f4d4a841ade8184ac6b7ddca19b0d21a4e3c6386015448862e89c6884f8a6b2",
+      "files": [
+        {
+          "path": "cycle2-illustration/artwork.vectorcraft",
+          "source_sha256": "046319ea8869064f7a45567dbbf0e97893878845bbaa7483fc5e3c8d4bac0860",
+          "public_sha256": "046319ea8869064f7a45567dbbf0e97893878845bbaa7483fc5e3c8d4bac0860"
+        },
+        {
+          "path": "cycle2-illustration/full.png",
+          "source_sha256": "991127433a5d63736c2daed749ee1fe391eb2aefcadad27259948ce7885edb8f",
+          "public_sha256": "991127433a5d63736c2daed749ee1fe391eb2aefcadad27259948ce7885edb8f"
+        },
+        {
+          "path": "cycle2-illustration/use.png",
+          "source_sha256": "136e1c8085902df72cf2c2df31d8467da8c1266bdce842f6971063d821c00868",
+          "public_sha256": "136e1c8085902df72cf2c2df31d8467da8c1266bdce842f6971063d821c00868"
+        },
+        {
+          "path": "cycle2-illustration/6d908cd971594cd7a97da50086373505.vectorcraft",
+          "source_sha256": "046319ea8869064f7a45567dbbf0e97893878845bbaa7483fc5e3c8d4bac0860",
+          "public_sha256": "046319ea8869064f7a45567dbbf0e97893878845bbaa7483fc5e3c8d4bac0860"
+        },
+        {
+          "path": "cycle2-illustration/b14d43a3aa0641fb8992a7320855c341.svg",
+          "source_sha256": "3bdbcd867beba6fe0392dd13b1e7a03e08fa4c4aea73031f4e686987a8a6675b",
+          "public_sha256": "3bdbcd867beba6fe0392dd13b1e7a03e08fa4c4aea73031f4e686987a8a6675b"
+        },
+        {
+          "path": "cycle2-illustration/c41cb3cb183745b0bd869799c40189ac.pdf",
+          "source_sha256": "e08f1c6742d77bc2ed4c948fd638e9ace085339ca5074a3aa3dda7fffe91ea72",
+          "public_sha256": "e08f1c6742d77bc2ed4c948fd638e9ace085339ca5074a3aa3dda7fffe91ea72"
+        },
+        {
+          "path": "cycle2-illustration/5216aac4743d4d7d8f2cfc6ff5225b4f.png",
+          "source_sha256": "dee08a779ee9c3e498d4dc3354dca7e0a7e9305be4e1cd268ec4f72edb521cdf",
+          "public_sha256": "dee08a779ee9c3e498d4dc3354dca7e0a7e9305be4e1cd268ec4f72edb521cdf"
+        },
+        {
+          "path": "cycle2-illustration/141119c834ba4d1aa2f04f10b59531c7.png",
+          "source_sha256": "ad127411105ecaa5f3f15c4d49a2d4b1459eccfa36db98076dfe97124c360a8c",
+          "public_sha256": "ad127411105ecaa5f3f15c4d49a2d4b1459eccfa36db98076dfe97124c360a8c"
+        }
+      ]
+    }
+  ],
+  "scope": "Calibration only, excluded from held-out pilot. Original input/reference images and raw sessions withheld."
+}

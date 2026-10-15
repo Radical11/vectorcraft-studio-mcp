@@ -1,0 +1,245 @@
+{
+  "trial": "tyre-designer-v1-1",
+  "profile": "designer-v1",
+  "status": "budget_exhausted_incomplete",
+  "best": null,
+  "best_explanation": "No final specialist review established best_version. Final-1 is latest preserved candidate, not an independently accepted best.",
+  "stopped_run": {
+    "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\run.json",
+    "gateway_status": "active",
+    "working_version": "imagery",
+    "completed_stages": [
+      "composition",
+      "typography",
+      "imagery"
+    ],
+    "pending": {
+      "stage": "finishing",
+      "plan": {
+        "purpose": "Complete sparse workshop context and native organization",
+        "changes": "Add background tool rack and small workbench patch kit; organize paths into editable component groups",
+        "checks": "Tools separated from faces; no lettering or raster substitute; meaningful components remain editable",
+        "expected_result": "Finished wordless scene preserving focal wheel and hands"
+      },
+      "at": "2026-10-14T18:35:41.200434+00:00",
+      "start_revision": 2,
+      "spec_revision": 2,
+      "captured": "final-1"
+    },
+    "review_ready": false,
+    "external_stop_reason": "Shared active-time allowance exhausted at final-1 confirmation."
+  },
+  "counts": {
+    "local_planned_batches": 9,
+    "local_instrumented_calls": 84,
+    "receipt_count": 84,
+    "native_command_steps_completed": 971,
+    "creator_actual_image_actions": 28,
+    "reference_assets": 7,
+    "source_works": 6,
+    "developed_alternatives": 3,
+    "concept_reviewers": 1,
+    "final_specialist_reviewers": 0,
+    "correction_rounds": 0,
+    "final_native_node_count": 86,
+    "final_native_kind_counts": {
+      "group": 12,
+      "layer": 1,
+      "path": 73
+    }
+  },
+  "timing": {
+    "local_budget": {
+      "started": 1792000197.0953162,
+      "started_monotonic": 78225.9831452,
+      "batches": 9,
+      "calls": 84,
+      "paused_seconds": 25824.339472055435,
+      "review_start": null,
+      "clock_policy": "wall elapsed less explicit independent-review pauses; monotonic diagnostics only"
+    },
+    "ledger_last_successful_call": {
+      "index": 808,
+      "event": {
+        "trial": "tyre-designer-v1-1",
+        "event": "call",
+        "at": 1792002943.346938,
+        "monotonic": 80972.2347684,
+        "tool": "workflow_checkpoint"
+      }
+    },
+    "invalid_review_pause": {
+      "start": {
+        "index": 809,
+        "event": {
+          "trial": "tyre-designer-v1-1",
+          "event": "review_pause",
+          "at": 1792003212.836337,
+          "monotonic": 81241.7241684
+        }
+      },
+      "end": {
+        "index": 810,
+        "event": {
+          "trial": "tyre-designer-v1-1",
+          "event": "review_resume",
+          "at": 1792028875.808497,
+          "monotonic": 405.4804302
+        }
+      },
+      "seconds": 25662.97215986252,
+      "genuine_wait": false
+    },
+    "parent_alone_finalizes_shared_ledger": true
+  },
+  "reviewer_returns": {
+    "concept": {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\concept-review-return.json",
+      "reviewer_id": "/root/pilot_09/concept_reviewer",
+      "image_actions_verified": true,
+      "selected": "eye-level"
+    },
+    "final": []
+  },
+  "artifacts": [
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\composition\\artwork.vectorcraft",
+      "exists": true,
+      "bytes": 41143,
+      "sha256": "f5ef7fda47847888635fdb07d6a959047f4da638aa11048fbd203c57c57a87cb"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\composition\\full.png",
+      "exists": true,
+      "bytes": 37005,
+      "sha256": "1b4e63e57b3219fba453f473f0ee2a3c5426efa2097ac26c80d8eca3b9629b9c"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\composition\\use.png",
+      "exists": true,
+      "bytes": 11100,
+      "sha256": "3c75aaf27f358ae6e147860a3703609d30d6aab5c7e616932e966d86d3d5e1e4"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\composition\\inspection.json",
+      "exists": true,
+      "bytes": 10669,
+      "sha256": "a6a579fddcc86ad921479b09a887f20a43946e677204e3843a8dc467199e3100"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\typography\\artwork.vectorcraft",
+      "exists": true,
+      "bytes": 41143,
+      "sha256": "f5ef7fda47847888635fdb07d6a959047f4da638aa11048fbd203c57c57a87cb"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\typography\\full.png",
+      "exists": true,
+      "bytes": 37005,
+      "sha256": "1b4e63e57b3219fba453f473f0ee2a3c5426efa2097ac26c80d8eca3b9629b9c"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\typography\\use.png",
+      "exists": true,
+      "bytes": 11100,
+      "sha256": "3c75aaf27f358ae6e147860a3703609d30d6aab5c7e616932e966d86d3d5e1e4"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\typography\\inspection.json",
+      "exists": true,
+      "bytes": 10669,
+      "sha256": "a6a579fddcc86ad921479b09a887f20a43946e677204e3843a8dc467199e3100"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\imagery\\artwork.vectorcraft",
+      "exists": true,
+      "bytes": 161352,
+      "sha256": "57a147af73f0ba2b59958d7841a7ef71c7b9c53a25d62d7bd8c7982a18ce8569"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\imagery\\full.png",
+      "exists": true,
+      "bytes": 129335,
+      "sha256": "05500c638444fb44788038db2c76b15f1ac39107e37c485be9f0dbaed5f8dacd"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\imagery\\use.png",
+      "exists": true,
+      "bytes": 56105,
+      "sha256": "106237cf0adaa657f510f9f1ef94fa22502f54a94c8f3534ec79e891d7e0f9f8"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\imagery\\inspection.json",
+      "exists": true,
+      "bytes": 59803,
+      "sha256": "9a0af1f6605269c67760673ece1a07b9cd3d220641941dfef5825a015ce29f61"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\artwork.vectorcraft",
+      "exists": true,
+      "bytes": 215730,
+      "sha256": "041b484a560e339b9e322094b447e8e420c3254b114134d2a14b6cb44ef83a0e"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\full.png",
+      "exists": true,
+      "bytes": 130803,
+      "sha256": "12d6ffedac408fce0ce41911828be389c77332d6203e0e2292cf9586282faff7"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\use.png",
+      "exists": true,
+      "bytes": 57190,
+      "sha256": "d7047905798473a80d5fc95419ecdf10a0f945926645ed2ec5c65ee2beecd9c8"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\inspection.json",
+      "exists": true,
+      "bytes": 81927,
+      "sha256": "9dae6a6d3203f0b5095343e811a995953da11c6ac8a08aa0a9562da050edfec9"
+    }
+  ],
+  "creator_image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\creator-image-actions.json",
+  "execution_issues": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\execution-issues.json",
+  "accounting_audit": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\accounting-audit.json",
+  "native_evidence": {
+    "latest_native": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\artwork.vectorcraft",
+    "recorded_fingerprint": "9917c5fab89da8a76316466bea429e413f5573d3378edcfbb060253f84a23ed6",
+    "read_now_fingerprint": "9917c5fab89da8a76316466bea429e413f5573d3378edcfbb060253f84a23ed6",
+    "editable_component_groups": {
+      "room": 75,
+      "bench": 76,
+      "left": 77,
+      "working-arm": 78,
+      "right": 79,
+      "support-arm": 80,
+      "wheel": 81,
+      "bead": 82,
+      "lever": 83,
+      "working-hand": 84,
+      "support-hand": 85,
+      "context": 86
+    },
+    "text_applicability": "Wordless, no type expected.",
+    "reopened_new_readonly_gateway": false,
+    "reopening_limitation": "Not performed; parent explicitly restricted post-expiry work to preservation/accounting/closure."
+  },
+  "delivery": {
+    "svg": false,
+    "pdf": false,
+    "checkpoint_full_png": true,
+    "checkpoint_use_png": true,
+    "final_exports_inspected": false,
+    "standardized_edit_task": "Not performed in this construction attempt; separate evaluation copy belongs to subsequent evaluation."
+  },
+  "limitations": [
+    "Seven reference assets represent six works, below normal target.",
+    "Simplified fingers and schematic bead/tool mechanics remain; no final independent aesthetic/craft verdict.",
+    "Final-1 captured but unconfirmed; no completed four-stage acceptance.",
+    "No final exports/preflight/reopening/evaluation edit.",
+    "Native structural counts and fingerprints do not prove aesthetic quality."
+  ],
+  "owned_connections_closed": true,
+  "post_expiry_authoring_review_export_calls": 0,
+  "preservation_only_after_expiry": true
+}

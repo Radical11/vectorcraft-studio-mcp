@@ -1,0 +1,139 @@
+{
+  "phase": "confirm",
+  "outcome": "pass",
+  "observations": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained.",
+  "decision": "proceed",
+  "preservation_observation": "Neighbor inspection: both profiles, opposite hand role, bench and sparse workshop remain unchanged; whole scene retains centered wheel and quiet pale field.",
+  "element_map": {
+    "workshop": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "bench": [
+      8,
+      9,
+      10,
+      11,
+      51,
+      52
+    ],
+    "worker": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      41
+    ],
+    "helper": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      53
+    ],
+    "wheel": [
+      24,
+      25,
+      26,
+      27,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      65,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76
+    ],
+    "lever": [
+      58,
+      66
+    ],
+    "working-hand": [
+      42,
+      61,
+      62
+    ],
+    "supporting-hand": [
+      54,
+      55,
+      56
+    ]
+  },
+  "stage_complete": true,
+  "stage_checks": {
+    "scene_cohesion": {
+      "outcome": "pass",
+      "observation": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+    },
+    "visible_defects": {
+      "outcome": "pass",
+      "observation": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+    },
+    "production_readiness": {
+      "outcome": "pass",
+      "observation": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+    }
+  },
+  "check_results": [
+    {
+      "id": "required",
+      "outcome": "pass",
+      "observation": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+    },
+    {
+      "id": "preserved",
+      "outcome": "pass",
+      "observation": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+    }
+  ],
+  "target_comparison": {
+    "silhouette": "Same central circular wheel and inward profiles",
+    "proportions": "Same wheel/person scale; simplified arm lengths preserved",
+    "negative_space": "Same pale wheel interior and top field",
+    "hierarchy": "Gold tool and dark raised edge retain focus",
+    "copy": "Wordless in both",
+    "detail": "Same separated spokes; rubber continuation intentionally joins tyre"
+  },
+  "departures": [
+    {
+      "element": "wheel",
+      "reason": "Tapered raised edge connects to tyre to clarify contact versus target horseshoe impression"
+    }
+  ],
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\finishing-correction1-clean\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\finishing-correction1-clean\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\target.png"
+    ],
+    "observations": [
+      "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+    ]
+  },
+  "image_observation": {
+    "tool": "functions.view_image",
+    "evidence": "Actual builder full/use/target image returns for stage finishing-correction1-clean",
+    "observation": "Whole scene preserves people, arms, tools and workshop. Local contact is an open lip rather than closed loop; lower wheel opening reveals bench, separated spokes and clean hub. No new clipping or line artifacts visible at full/use; stylized anatomy and static expressions retained."
+  }
+}

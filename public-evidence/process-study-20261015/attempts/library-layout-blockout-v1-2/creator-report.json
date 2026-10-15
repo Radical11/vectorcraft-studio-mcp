@@ -1,0 +1,649 @@
+{
+  "trial": "library-layout-blockout-v1-2",
+  "profile": "layout-blockout-v1",
+  "method_commit": "9d47373",
+  "status": "creator-stop/quality-unresolved",
+  "outcome": "failed-quality-unresolved",
+  "quality_pass": false,
+  "best_version": "final-1",
+  "best": {
+    "native": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\best\\find-your-next-book.vectorcraft",
+    "full": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\best\\find-your-next-book-full.png",
+    "use": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\best\\find-your-next-book-use.png"
+  },
+  "stopped_run": {
+    "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\run.json",
+    "gateway_status": "active",
+    "externally_ended": true,
+    "authoring_end": {
+      "at": 1792029881.8836074,
+      "event": "external-authoring-end",
+      "reason": "No consequential correction remains; two fresh specialists judged final-2 equal to retained final-1. Do not manufacture corrections or claim unavailable review. Gateway has no voluntary-stop route before thresholds.",
+      "status": "creator-stop/quality-unresolved",
+      "gateway_status": "active",
+      "best_version": "final-1",
+      "candidate": "final-2",
+      "non_improvement_streak": 1,
+      "budget": {
+        "started": 1792029028.8831828,
+        "started_monotonic": 558.5551071,
+        "batches": 9,
+        "calls": 245,
+        "paused_seconds": 418.29023265838623,
+        "review_start": null,
+        "clock_policy": "wall elapsed less explicit independent-review pauses; monotonic diagnostics only"
+      },
+      "further_artwork_edits": false,
+      "parent_instruction": "Preserve active run exactly; parent accounts failed quality-unresolved. Readonly verification only."
+    },
+    "not_budget_exhausted": true,
+    "unresolved_stop_reason": "Initial retained-version distinctiveness3; correction equal. No voluntary-stop gateway route before thresholds."
+  },
+  "process": {
+    "isolated_layouts": 3,
+    "native_representative_studies": 1,
+    "actual_reference_assets": 7,
+    "source_works": 6,
+    "planned_batches": 9,
+    "production_confirmation": "Inherited legacy confirmation; no focused/entity graph prerequisites added.",
+    "explicit_selected_assembly": true,
+    "four_stages_confirmed": [
+      "composition",
+      "typography",
+      "imagery",
+      "finishing"
+    ],
+    "correction_rounds": 1,
+    "non_improvement_streak": 1,
+    "independent_concept_reviewers": 1,
+    "final_specialists": 4,
+    "final_review_rounds": 2
+  },
+  "counts_and_timing": {
+    "local_secondary_host_budget": {
+      "started": 1792029028.8831828,
+      "started_monotonic": 558.5551071,
+      "batches": 9,
+      "calls": 245,
+      "paused_seconds": 418.29023265838623,
+      "review_start": null,
+      "clock_policy": "wall elapsed less explicit independent-review pauses; monotonic diagnostics only"
+    },
+    "local_elapsed_to_external_end_seconds": 853.0004246234894,
+    "local_active_to_external_end_seconds": 434.71019196510315,
+    "shared_clock_and_ledger": "Parent started before dispatch and alone finalizes accounting; local timing excludes pre-Session preparation and is not authoritative.",
+    "host_calls": 245,
+    "receipt_count": 245,
+    "calls_by_tool": {
+      "command_list": 8,
+      "workflow_record": 19,
+      "command_run": 36,
+      "workflow_status": 9,
+      "workflow_begin": 9,
+      "draw_shape": 62,
+      "add_text": 39,
+      "draw_path": 34,
+      "workflow_checkpoint": 18,
+      "export": 10,
+      "transform": 1
+    },
+    "creator_actual_image_actions": 41,
+    "reviewer_actual_image_actions": 26
+  },
+  "reviewer_returns": [
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\concept-review-return.json",
+      "return": {
+        "assessments": [
+          {
+            "id": "catalogue-cards",
+            "composition": "The centered search box feeds a single horizontal connector with three downward arrows. Equal-width cards give the outcomes equal importance, and the three columns remain clearly separated at 600 Ã— 450. The status, icon, and action form a consistent vertical sequence in every card.",
+            "image_treatment": "The shelf/books, book/clock, and person/desk icons visibly support the subject and distinguish the actions. Muted teal, ochre, and coral panels coordinate with matching status headings and arrowheads. The restrained treatment is coherent, though visually conventional.",
+            "copy": "All required wording is visible. Actions remain readable in the intended-size image; Collect from the shelf and Place a reservation wrap cleanly. The one-line librarian action sits slightly lower relative to the other actions.",
+            "brief_fit": "Strongest overall fit. The search connects unambiguously to all three statuses, with each action contained inside its correct status card. Horizontal separation also gives the subsequent branch-position exchange a clear visual basis. This is a common-brief preference, not a fidelity judgment against another target."
+          },
+          {
+            "id": "service-rows",
+            "composition": "A left-hand search box feeds a vertical spine and three rightward arrows into stacked horizontal rows. Status and action are close together, making each row quick to scan. The search box is vertically centered rather than the first item encountered under the heading, so the reading sequence is slightly less immediate than the cards.",
+            "image_treatment": "The same three subject-specific icons are larger relative to row height and sit consistently beside the text. Colored edge bars and pale backgrounds reinforce row grouping without overwhelming the content.",
+            "copy": "All required wording is visible and readable at intended size. Each outcome fits on one line, and its status sits directly above it. The search label wraps over two lines without ambiguity.",
+            "brief_fit": "Strong communication of all required associations and a close second. The stacked branches do not offer the distinct horizontal branch positions requested by the subsequent standardized edit task. No alternative-target fidelity preference was applied."
+          },
+          {
+            "id": "reading-compass",
+            "composition": "The cream search diamond creates a conspicuous central decision point on a dark teal field. Three arrows lead left, right, and downward. However, the lower Not held card touches or overlaps the inner lower corners of the two side cards, weakening their independence. Its shorter shape also gives that outcome a different visual treatment.",
+            "image_treatment": "The dark background gives the cream title and connectors strong contrast. The familiar icons remain legible, but their placement differs from the other alternatives: the side-card icons sit to the right of the action text, while the lower icon occupies the right end of a shallow card.",
+            "copy": "All required wording is visible and readable in the intended-size image. Side actions wrap over two lines, while Ask a librarian remains on one line. No incorrect status/action association is visible.",
+            "brief_fit": "Meets the central communication requirement, but the touching cards and unequal outcome geometry make the three branches less orderly. The diamond is a useful decision cue; it does not compensate fully for the compressed lower arrangement. No alternative-target fidelity preference was applied."
+          }
+        ],
+        "selected": "catalogue-cards",
+        "all_weak": false,
+        "reason": "Catalogue-cards combines the clearest top-to-bottom reading sequence, equally prominent outcomes, intact status/action groupings, readable intended-size copy, and distinct horizontal branch positions. Service-rows is also effective. Reading-compass communicates the rules but has weaker separation between outcome cards. The calibration images informed visual observation only; their styles were not treated as required targets. PNG inspection cannot verify native editability, live text, or the other requested export formats.",
+        "image_inspection": {
+          "performed": true,
+          "paths": [
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f5d6d64bd0e74068-catalogue-cards\\versions\\cards-study\\full.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f5d6d64bd0e74068-catalogue-cards\\versions\\cards-study\\use.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-6a04377406174068-service-rows\\versions\\rows-study\\full.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-6a04377406174068-service-rows\\versions\\rows-study\\use.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f45fc9b3c3024818-reading-compass\\versions\\compass-study\\full.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\study-f45fc9b3c3024818-reading-compass\\versions\\compass-study\\use.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\neon-drive.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\epa-mechanisms.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\epa-flow.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\references\\feature-sheet.png"
+          ],
+          "observations": [
+            "Viewed both full and intended-size PNGs for every alternative. All three show the required nine text items and correct visible status/action groupings.",
+            "Catalogue-cards uses three evenly spaced vertical panels; service-rows uses three stacked horizontal panels; reading-compass uses a central diamond and three surrounding panels.",
+            "Neon-drive shows a large glowing title, striped sunset, mountain silhouettes, stars, and a magenta perspective grid.",
+            "Epa-mechanisms shows a two-column editorial page with an aerial map, a house shaded by trees, blue headings and captions, and dense serif body text.",
+            "Epa-flow shows a two-column text page with a labeled evapotranspiration illustration containing a tree, soil, sun, and directional arrows.",
+            "Feature-sheet shows a purple crescent and three gold stars on a peach field, with a Pathfinder caption near the bottom."
+          ]
+        },
+        "image_observation": {
+          "tool": "tools.view_image",
+          "evidence": "Executed ten tools.view_image calls with detail set to original, one for every exact path listed in image_inspection.paths, and displayed every returned image through functions.exec image output. Read only brief.md and concept-packet.json as text. No files were written and no editing tools were operated.",
+          "observation": "The actual intended-size images retain legible outcomes and traceable branches. Catalogue-cards has the most balanced separation; service-rows has the tightest status/action adjacency; reading-compass has the strongest central decision symbol but visibly touching outcome panels. These judgments come from the displayed images, not creator rationale or numerical layout checks."
+        }
+      }
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\communication-review-1.json",
+      "return": {
+        "image_inspection": {
+          "performed": true,
+          "paths": [
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\68cb4f065133\\A\\full.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\68cb4f065133\\A\\use.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\68cb4f065133\\target.png"
+          ],
+          "observations": [
+            "The centered catalogue-search box visibly branches into three downward arrows, each terminating above its own status card.",
+            "The left card pairs Available with Collect from the shelf; the middle pairs On loan with Place a reservation; the right pairs Not held with Ask a librarian.",
+            "At 600 Ã— 450, all nine required text strings remain readable. The title and status labels are bold, while the action sentences use smaller regular text.",
+            "The three pictograms show shelved books, a book with a clock, and a person behind a desk with an open book.",
+            "Compared with the target, A retains the same composition and palette, strengthens heading weights, places the first two outcomes on single lines, and adds book-detail marks and a junction dot."
+          ]
+        },
+        "scores": {
+          "brief": {
+            "score": 4,
+            "reason": "All required wording and status/outcome associations are present and clear at the intended size. Shared branching, separate card backgrounds, and subject-specific pictograms provide mutually reinforcing cues. No misleading branch association is visible."
+          },
+          "composition": {
+            "score": 4,
+            "reason": "The large title establishes the subject, the isolated dark search box establishes the starting action, and the horizontal branching leads to three equally weighted outcomes. The generous separation keeps the decision structure easy to scan without making any outcome look subordinate."
+          },
+          "alignment": {
+            "score": 4,
+            "reason": "The three cards have consistent dimensions and narrow repeated gutters; labels and outcome sentences share corresponding left insets and baselines. Connector endpoints align with the card centers, producing a coherent reading structure."
+          },
+          "typography": {
+            "score": 4,
+            "reason": "Bold title and status labels establish a clear hierarchy over regular supporting copy. All outcomes are legible at 600 Ã— 450, with sufficient room inside their cards and no clipping. The type treatment is conventional but effective for campus service information."
+          },
+          "color": {
+            "score": 4,
+            "reason": "Dark teal text and connectors remain visibly distinct from the warm background. Green, ochre, and terracotta consistently connect each card's status, illustration, top strip, and arrowhead. Written labels and spatial grouping preserve meaning independently of color."
+          },
+          "style": {
+            "score": 4,
+            "reason": "Flat fills, simple geometric pictograms, restrained line detail, and warm muted colors form a consistent visual language suited to an approachable library service. The imagery communicates the subject rather than acting as unrelated decoration."
+          },
+          "distinctiveness": {
+            "score": 3,
+            "reason": "The equal pastel cards, standard branching diagram, Arial typography, and familiar library pictograms make a useful but conventional institutional infographic. The book details add relevance, but the overall concept is still readily interchangeable with a generic service-status diagram."
+          },
+          "craft": {
+            "score": 4,
+            "reason": "The viewed renders show clean silhouettes, intact arrowheads, readable text, and no unintended overlaps or clipping. The inspection identifies live Type objects and vector shapes, with each status/outcome pair grouped together. Other delivered export formats were not supplied for inspection, so their behavior is not independently verified here."
+          }
+        },
+        "visual_fidelity": {
+          "score": 4,
+          "reason": "A closely preserves the target's warm background, dark centered search box, branching silhouette, three color-coded cards, icon positions, and broad spacing. Observable departures are heavier title/status type, smaller single-line outcomes, a junction dot, and added book details. These retain the target's meaning and overall visual direction."
+        },
+        "copy_assessment": {
+          "score": 4,
+          "reason": "The supplied copy is concise, specific to catalogue results, and gives an explicit action for every status. It answers both comprehension prompts directly: On loan means Place a reservation; Not held means Ask a librarian. The required locked wording is preserved and is not penalized for being supplied."
+        },
+        "findings": [
+          {
+            "criterion": "distinctiveness",
+            "severity": "preference",
+            "location": "Overall card-and-pictogram art direction",
+            "evidence": "The visual concept uses three equal pastel panels beneath a conventional branching line, with familiar shelf, clock/book, and service-desk symbols.",
+            "impact": "The service instructions are clear, but the graphic has limited visual identity or memorability beyond a standard institutional information sheet.",
+            "fix": "For a stronger original direction, develop a coherent library-specific visual motif across the three illustrations, such as recognizable catalogue-label or bookplate geometry, while preserving the current explicit branching and readable status/action pairs."
+          }
+        ],
+        "comparison": {
+          "winner": "no_baseline",
+          "reason": "Only candidate A and its visual target were supplied. The target is a fidelity reference, not an incumbent or original baseline."
+        },
+        "brief_comparison": {
+          "winner": "no_baseline",
+          "reason": "A serves the common brief clearly, but no retained artwork was supplied for a comparative suitability judgment.",
+          "regression": {
+            "present": false,
+            "evidence": "No baseline exists in this packet, so there is no observed consequential loss against retained artwork. Differences from the target are assessed separately under visual fidelity."
+          }
+        },
+        "summary": "A clear, readable campus-library decision graphic with accurate associations and consistent subject imagery. Communication and hierarchy are resolved; its principal limitation is conventional art direction rather than a usability defect. Distinctiveness remains below the rubric's all-scores-at-least-four pass threshold.",
+        "image_observation": {
+          "tool": "functions.exec â†’ tools.view_image",
+          "evidence": "Called tools.view_image for A\\full.png, A\\use.png, and target.png and displayed all three returned images in the tool result.",
+          "observation": "Directly observed the full composition, the 600 Ã— 450 text legibility and branch associations, and the target differences in type weight, outcome wrapping, junction marking, and pictogram detail."
+        }
+      }
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\craft-review-1.json",
+      "return": {
+        "image_inspection": {
+          "performed": true,
+          "paths": [
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\68cb4f065133\\A\\full.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\68cb4f065133\\A\\use.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\68cb4f065133\\target.png"
+          ],
+          "observations": [
+            "The central dark search box feeds a horizontal branching line with three downward arrowheads, each directed toward its own colored status card.",
+            "All three required status/outcome pairs are correctly grouped and readable in the 600 by 450 preview.",
+            "The shelf symbol has three visibly separate upright book spines. The loan symbol reads as a bound book with a clock overlapping its upper right corner. The librarian has a separate round head, curved torso, open book and desk with two short supports.",
+            "The candidate retains the target's overall geometry and palette, while using heavier title/status type, smaller single-line outcomes, a junction dot and additional book details.",
+            "Inspection records nine live Type objects, native shape/path objects and three named branch groups. The main branching connector remains a separate shared path."
+          ]
+        },
+        "scores": {
+          "brief": {
+            "score": 4,
+            "reason": "The graphic communicates the supplied fictional service rules accurately: Available leads to shelf collection, On loan to reservation, and Not held to a librarian. All required wording is present and readable at intended size. Inspection supports native vector and live-text construction; delivery of every required export format cannot be established from these three images and the inspection alone."
+          },
+          "composition": {
+            "score": 4,
+            "reason": "The title, search box, connector and three equal cards establish a clear reading sequence. The differently shaped library symbols give each outcome a useful visual anchor without competing with the status headings. Generous space separates the search stage from the three outcomes."
+          },
+          "alignment": {
+            "score": 4,
+            "reason": "Equal card widths, repeated gutters, aligned status headings and aligned outcome baselines create a coherent structure. The arrows meet the visual centers of their cards. The search icon's handle sits unusually close to the following text, a local spacing refinement."
+          },
+          "typography": {
+            "score": 4,
+            "reason": "Bold title and status headings clearly distinguish the hierarchy from the regular instructions and outcome text. The single-line outcomes remain readable in the intended-size preview and fit inside their cards without clipping. Their smaller size than the target is noticeable but does not prevent comprehension."
+          },
+          "color": {
+            "score": 4,
+            "reason": "Dark teal on warm cream provides clear primary reading contrast. Teal, ochre and rust status treatments consistently link headings, card accents, symbols and arrowheads. Explicit labels and spatial grouping preserve the associations independently of color."
+          },
+          "style": {
+            "score": 4,
+            "reason": "Flat fills, restrained rounded forms and simple geometric symbols form a consistent visual language appropriate to a campus service graphic. The book spines, clock and staffed desk supply subject-specific imagery. The small outlined book details remain subordinate to the solid silhouettes."
+          },
+          "distinctiveness": {
+            "score": 4,
+            "reason": "The visual treatment is restrained rather than unusual, but its three different library-service silhouettes and warm palette make the subject purposeful and coherent. It is more specific than a text-only generic flowchart, without adding decorative material that distracts from the decisions."
+          },
+          "craft": {
+            "score": 4,
+            "reason": "The observed silhouettes have clean contours and intentional overlaps: the clock sits in front of the bound book, the open book sits before the librarian, and the desk extends beyond the torso. The icons remain recognizable at intended size, with no consequential clipping or ambiguous branch overlap. Inspection shows editable native shapes and live type in named status/outcome groups. The separate shared connector will require endpoint maintenance during the requested branch exchange; that edit has not been tested in this review."
+          }
+        },
+        "visual_fidelity": {
+          "score": 4,
+          "reason": "The candidate closely preserves the target's search-to-three-card silhouette, card positions, palette, margins, symbols and connector routing. Visible departures are the heavier title and status text, smaller single-line outcomes replacing the target's larger wrapped outcomes, an added junction dot, an internal book line and an open book before the librarian. These change typographic emphasis and icon detail but retain the intended atmosphere and spatial relationships."
+        },
+        "copy_assessment": {
+          "score": 4,
+          "reason": "The exact supplied copy is clear and specific to the library task. Status labels and action phrases form direct, accurate pairs, and the guide sentence explains how to use the branches. Required supplied wording is treated as a constraint, not penalized for being locked."
+        },
+        "findings": [
+          {
+            "criterion": "alignment",
+            "severity": "minor",
+            "location": "Search box, magnifying-glass handle beside Search the catalogue",
+            "evidence": "The handle extends almost to the first letter; inspection places its right edge at x427 and the text object's left edge at x430. In the intended-size preview, the icon and word read as a tightly packed cluster.",
+            "impact": "The icon/text boundary is less relaxed and immediately distinct than the surrounding generous spacing.",
+            "fix": "Move the magnifying-glass icon several pixels left within the existing search box, retaining the current text position and branch alignment."
+          }
+        ],
+        "comparison": {
+          "winner": "no_baseline",
+          "reason": "Only candidate A and its target were supplied. The target is a fidelity reference, not an incumbent artwork, so a comparative winner cannot be established."
+        },
+        "brief_comparison": {
+          "winner": "no_baseline",
+          "reason": "Candidate A is suitable for the common library-service brief on its own merits, but no retained or original artwork was provided for a common-brief comparison.",
+          "regression": {
+            "present": false,
+            "evidence": "No baseline artwork was supplied, so no consequential loss against a retained version can be observed or asserted."
+          }
+        },
+        "summary": "A resolved, readable library decision graphic with correct associations and clean editable geometry evidence. The three subject-specific symbols remain recognizable at intended size. The only observed correction is minor spacing between the search icon and its text; export completeness and the later branch-exchange operation remain outside this visual review.",
+        "image_observation": {
+          "tool": "functions.exec invoking tools.view_image",
+          "evidence": "Executed tools.view_image separately for A\\full.png, A\\use.png and target.png; all three image results were emitted and visually inspected.",
+          "observation": "The full and intended-size candidate renders show the same correct three-branch relationships, readable live wording and distinct library symbols. Direct target inspection confirms the shared layout and palette and the candidate's heavier headings, single-line outcomes and added icon details."
+        }
+      }
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\communication-review-2.json",
+      "return": {
+        "image_inspection": {
+          "performed": true,
+          "paths": [
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\014681f7e2f1\\A\\full.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\014681f7e2f1\\A\\use.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\014681f7e2f1\\B\\full.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\014681f7e2f1\\B\\use.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\014681f7e2f1\\target.png"
+          ],
+          "observations": [
+            "Both versions visibly connect one central catalogue-search box to three separately colored cards, with each required status paired with its correct outcome.",
+            "At 600 Ã— 450, both versions retain readable outcome labels and recognizable shelf, book-and-clock, and staffed-desk symbols.",
+            "A adds matching thin frames with inward-curved corners around the three illustrations; B leaves those illustrations unframed.",
+            "A also gives the search magnifier slightly more separation from its label.",
+            "The target has the same overall spatial structure and palette, lighter title and status typography, larger wrapped wording in the first two outcomes, and unframed illustrations."
+          ]
+        },
+        "scores": {
+          "brief": {
+            "score": 4,
+            "reason": "All required wording is present, and the branching structure clearly communicates Available â†’ Collect from the shelf, On loan â†’ Place a reservation, and Not held â†’ Ask a librarian. The service imagery supports the campus-library subject."
+          },
+          "composition": {
+            "score": 4,
+            "reason": "The large title establishes the subject, the isolated search box establishes the starting action, and the three equal cards establish equally valid result-dependent routes. The framed illustrations remain secondary to the status labels and actions."
+          },
+          "alignment": {
+            "score": 4,
+            "reason": "The three cards share top and bottom edges, repeated internal text positions, and matching illustration-frame positions. Native inspection confirms equal 350 Ã— 344 card dimensions and consistently sized frames."
+          },
+          "typography": {
+            "score": 4,
+            "reason": "The bold title and status labels provide a clear hierarchy over the supporting instruction and outcomes. All three action labels remain readable without wrapping at intended size."
+          },
+          "color": {
+            "score": 4,
+            "reason": "The cream ground and dark teal primary text create a coherent library-information tone. Teal, ochre, and terracotta distinguish the branches consistently through headings, card accents, arrowheads, and illustrations, while wording supplies the meaning independently of color."
+          },
+          "style": {
+            "score": 4,
+            "reason": "Simple geometric library symbols, restrained colors, and repeated bookplate-like frames form a consistent visual language. The frames are quiet enough to preserve the practical information hierarchy."
+          },
+          "distinctiveness": {
+            "score": 4,
+            "reason": "The book-spine details, overlapping loan clock, open book at the staffed desk, and repeated bookplate-like outlines give the familiar branching-card structure sufficient subject-specific character for this explanatory graphic."
+          },
+          "craft": {
+            "score": 4,
+            "reason": "The viewed renders show clean boundaries, unobstructed text, intact connectors, and no unintended clipping. The supplied native inspection identifies live Type objects and vector geometry. This review does not independently validate exports beyond the supplied PNGs."
+          }
+        },
+        "visual_fidelity": {
+          "score": 4,
+          "reason": "A preserves the target's central search box, three equal service cards, connecting silhouette, palette, library symbols, and broad spacing. Observable departures include heavier title and status typography, smaller single-line outcomes, added illustration frames, a junction dot, and extra book details. The target's essential visual relationships remain recognizable, though B is closer to its unframed treatment."
+        },
+        "copy_assessment": {
+          "score": 4,
+          "reason": "The locked wording is direct, specific to catalogue results, and actionable for the intended audience. The instruction explains the branching choice, and each status has one concise response. No added slogan dilutes the service information."
+        },
+        "findings": [],
+        "comparison": {
+          "winner": "equal",
+          "reason": "A's frames provide a coherent bookplate-like treatment and its search icon has slightly clearer spacing. B's unframed symbols are equally easy to interpret and give the cards a quieter appearance. Neither change materially improves the reader's route selection, outcome recognition, or use-size readability, so there is no clear net improvement."
+        },
+        "brief_comparison": {
+          "winner": "equal",
+          "reason": "Both versions satisfy the same communication task with the same correct associations, legible actions, and purposeful library imagery. A's extra framing is an art-direction variation rather than a demonstrated improvement in common-brief suitability.",
+          "regression": {
+            "present": false,
+            "evidence": "A retains B's readable copy, card arrangement, recognizable symbols, and correct connector relationships. Its added outlines do not obstruct the symbols or labels at intended size; no consequential loss is visible."
+          }
+        },
+        "summary": "A is a resolved, readable campus-library decision graphic. Its added illustration frames are consistent and unobtrusive, but they do not establish a clear advantage over B. Both versions serve the brief equally well; B is somewhat closer to the target's simpler illustration treatment.",
+        "image_observation": {
+          "tool": "functions.exec â†’ tools.view_image",
+          "evidence": "Executed five view_image calls for A/full.png, A/use.png, B/full.png, B/use.png, and target.png, and observed all five returned image displays.",
+          "observation": "The actual image displays showed A's three outlined illustration frames, B's unframed versions of the same symbols, readable labels in both intended-size previews, and the target's lighter typography and wrapped first two action labels."
+        }
+      }
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\craft-review-2.json",
+      "return": {
+        "image_inspection": {
+          "performed": true,
+          "paths": [
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\014681f7e2f1\\A\\full.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\014681f7e2f1\\A\\use.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\014681f7e2f1\\B\\full.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\014681f7e2f1\\B\\use.png",
+            "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\review-packets\\014681f7e2f1\\target.png"
+          ],
+          "observations": [
+            "A full render shows three equal pastel service cards beneath one central search box; the arrows terminate above their corresponding status headings.",
+            "A intended-size render keeps all three outcomes readable and their associations unambiguous. Thin shaped frames surround the shelf, book-and-clock, and staffed-desk symbols.",
+            "B full render uses the same branch structure, wording, palette, card geometry and subject illustrations without the enclosing frames.",
+            "B intended-size render communicates the same actions clearly. Its search magnifier sits closer to the initial S than A's magnifier.",
+            "The target has unframed symbols, lighter title and status weights, and larger wrapped outcomes in the first two cards. Both reviewed versions preserve its principal spatial structure."
+          ]
+        },
+        "scores": {
+          "brief": {
+            "score": 4,
+            "reason": "The required wording is present, and each status is grouped with its correct action. The central search visibly connects to all three branches. The illustrations support the library subject at the required use size."
+          },
+          "composition": {
+            "score": 4,
+            "reason": "The title, search box, branching connector and three equal cards establish a clear reading sequence. Balanced card sizes and generous separation make the alternatives easy to scan."
+          },
+          "alignment": {
+            "score": 4,
+            "reason": "The three cards share consistent top and bottom edges, heading positions and outcome baselines. Inspection confirms equal 350-pixel card widths and repeated 15-pixel gaps. A also gives the search icon more breathing room before the text."
+          },
+          "typography": {
+            "score": 4,
+            "reason": "The bold title and status labels separate instruction levels effectively. All outcomes remain readable at 600 by 450, with consistent single-line treatment and no visible clipping."
+          },
+          "color": {
+            "score": 4,
+            "reason": "Teal, ochre and rust consistently link each card's heading, top rule, arrowhead and illustration. Dark outcome text remains visually distinct on the pale card backgrounds."
+          },
+          "style": {
+            "score": 4,
+            "reason": "The simple geometric illustrations, limited palette and repeated frame contours form a coherent visual language. The added frames remain subordinate to the status headings and do not interfere with the service information."
+          },
+          "distinctiveness": {
+            "score": 4,
+            "reason": "The shelf, loan clock and librarian reading behind a desk make the imagery specific to the three service actions. The repeated shaped frames add a modest bookplate-like character, although the overall flowchart convention remains familiar."
+          },
+          "craft": {
+            "score": 4,
+            "reason": "The viewed renders show clean contours, intact text and no unintended clipping or obstructive overlaps. Native inspection identifies live Type objects, vector shapes and grouped status/action branches. Export-file completeness and interactive edit behavior are outside the supplied evidence."
+          }
+        },
+        "visual_fidelity": {
+          "score": 4,
+          "reason": "A closely preserves the target's cream field, central dark search box, branching silhouette, three colored cards and library symbols. Visible departures are the heavier title and status typography, smaller single-line outcomes, added symbol frames, additional illustration details and junction dot. These departures preserve the target's explanatory structure."
+        },
+        "copy_assessment": {
+          "score": 4,
+          "reason": "All locked wording is retained and each action is specific to the catalogue status. The instructional sentence explains how to use the diagram, and the outcomes answer the supplied comprehension prompts directly."
+        },
+        "findings": [],
+        "comparison": {
+          "winner": "equal",
+          "reason": "A improves the small gap between the search icon and text, while its added frames supply visual character without changing comprehension. B already presents the same clear associations, readable actions and clean illustrations. The modest spacing refinement and decorative addition do not establish a clear net improvement in common-brief suitability."
+        },
+        "brief_comparison": {
+          "winner": "equal",
+          "reason": "Both versions fulfill the fictional campus-library task with the same accurate branch/action relationships and readable intended-size outcomes. A's enclosing frames are a stylistic variation rather than a demonstrable improvement to the reader's task.",
+          "regression": {
+            "present": false,
+            "evidence": "A retains the wording, card positions, branch endpoints, action readability and subject illustrations visible in B. Its frames introduce additional contours, but no consequential obstruction or loss of clarity is observed."
+          }
+        },
+        "summary": "A is a resolved, usable library information graphic with sound vector construction and clear intended-size communication. Its added frames and improved search-icon spacing produce a competent variation, while B remains equally suitable for the common brief. No corrective defect is identified in the supplied visual evidence.",
+        "image_observation": {
+          "tool": "tools.view_image via functions.exec",
+          "evidence": "Executed five separate tools.view_image calls for A/full.png, A/use.png, B/full.png, B/use.png and target.png; each returned and displayed its corresponding image.",
+          "observation": "Direct viewing established that A adds three thin shaped symbol frames and increases the search icon's separation from its text. B lacks those frames. Both retain the same readable three-card decision diagram; the target uses lighter heading weights and wrapped outcomes."
+        }
+      }
+    }
+  ],
+  "reviewer_action_evidence": "Exact public image_observation fields and actual child image-tool actions are preserved in each full return; concept10, initial specialists3+3, comparison specialists5+5 views. No synthetic independent review.",
+  "artifacts": [
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\find-your-next-book.vectorcraft",
+      "bytes": 142491,
+      "sha256": "1239711dfcc0090388cfd503679d32043a4d54777e6ee202e935c1853cf2d0bf",
+      "version": "final-1"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\find-your-next-book.svg",
+      "bytes": 6663,
+      "sha256": "1b5378108c28a236d390b135117d664d02339889d91138f2494af23bc087f93b",
+      "version": "final-1"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\find-your-next-book.pdf",
+      "bytes": 42228,
+      "sha256": "1984f83ac4c0fd300c9532b697beedf2de3cfa7e66596dbad635b2258c996ff1",
+      "version": "final-1"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\find-your-next-book-full.png",
+      "bytes": 38811,
+      "sha256": "3a89705eeca2ae2346dedbcd4641e88226bd36a32b54900c4827ee94056f7753",
+      "version": "final-1"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\find-your-next-book-use.png",
+      "bytes": 19012,
+      "sha256": "85a50bdf85fa5b46855e12fc8502129195d3caf13587a43c1d7fbc58146ddd75",
+      "version": "final-1"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\candidate-2\\find-your-next-book.vectorcraft",
+      "bytes": 172445,
+      "sha256": "61c221615056bfd972ef978e1e09999b3ec9da5d288e017f545417853faad1cb",
+      "version": "final-2"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\candidate-2\\find-your-next-book.svg",
+      "bytes": 7843,
+      "sha256": "82f53dbba7fabe7c14ccf76f15b6ab1f4fdd825f9b64a1f0a26c0c431590cf93",
+      "version": "final-2"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\candidate-2\\find-your-next-book.pdf",
+      "bytes": 42760,
+      "sha256": "4eac48993521fda8c3f88992b013326e529484d8f0762cdbb6fbdc0eadc3e29f",
+      "version": "final-2"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\candidate-2\\find-your-next-book-full.png",
+      "bytes": 41513,
+      "sha256": "9f223b40d924408a562b58a0a081d5fb25ad29431e60cadfc7f0d7dccd654131",
+      "version": "final-2"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\candidate-2\\find-your-next-book-use.png",
+      "bytes": 20326,
+      "sha256": "7876c11acc12d748a1ced39d576c55638351978395a1b518c1b237de342b3cd7",
+      "version": "final-2"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\best\\find-your-next-book.vectorcraft",
+      "bytes": 142491,
+      "sha256": "1239711dfcc0090388cfd503679d32043a4d54777e6ee202e935c1853cf2d0bf",
+      "version": "final-1"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\best\\find-your-next-book.svg",
+      "bytes": 6663,
+      "sha256": "1b5378108c28a236d390b135117d664d02339889d91138f2494af23bc087f93b",
+      "version": "final-1"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\best\\find-your-next-book.pdf",
+      "bytes": 42228,
+      "sha256": "1984f83ac4c0fd300c9532b697beedf2de3cfa7e66596dbad635b2258c996ff1",
+      "version": "final-1"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\best\\find-your-next-book-full.png",
+      "bytes": 38811,
+      "sha256": "3a89705eeca2ae2346dedbcd4641e88226bd36a32b54900c4827ee94056f7753",
+      "version": "final-1"
+    },
+    {
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\deliverables\\best\\find-your-next-book-use.png",
+      "bytes": 19012,
+      "sha256": "85a50bdf85fa5b46855e12fc8502129195d3caf13587a43c1d7fbc58146ddd75",
+      "version": "final-1"
+    }
+  ],
+  "verification": {
+    "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-layout-blockout-v1-2\\verification\\readonly-verification.json",
+    "native_fingerprint_match": true,
+    "live_text_objects": 9,
+    "editable_native_paths": 33,
+    "named_branch_groups": 3,
+    "exact_fonts": [
+      {
+        "family": "Arial",
+        "missing": false,
+        "missingGlyphs": 0,
+        "objects": 4,
+        "resolved": {
+          "family": "Arial",
+          "style": "Bold"
+        },
+        "runs": 4,
+        "status": "exact",
+        "style": "Bold"
+      },
+      {
+        "family": "Arial",
+        "missing": false,
+        "missingGlyphs": 0,
+        "objects": 5,
+        "resolved": {
+          "family": "Arial",
+          "style": "Regular"
+        },
+        "runs": 5,
+        "status": "exact",
+        "style": "Regular"
+      }
+    ],
+    "native_and_svg_full_use_actually_viewed": true,
+    "observations": "Fresh Gateway initialize/tools then native open_file before any workflow. No workflow created. Native fingerprint identical; nine live exact phrases,33 paths,3 groups, exact Arial Bold/Regular. Actual native and SVG full/use renders match retained layout, copy and associations. Exported PDF actual page was visually checked through PdfCraft. Retained PDF was additionally reopened in PdfCraft and actually viewed at max_side600 after external authoring end, then closed unchanged.",
+    "post_end_artwork_edits": 0,
+    "owned_connections_closed": true,
+    "pdf_actual_full_and_use_viewed": true
+  },
+  "limitations": [
+    "Seven supplied cached reference image assets represent six works, below 15-25 target; no additional discovery was allowed by frozen pack. All seven were actually viewed. No human comprehension answers collected.",
+    "Initial communication specialist scored distinctiveness3; craft scores4. First correction scored4 in both fresh specialists, but both voted equal to retained final-1; genuine equal judgments do not establish improvement. Retained best final-1 has not passed the initial all-criteria threshold.",
+    "No honest voluntary-stop route exists before thresholds. No remaining consequential correction was identified; external authoring end recorded per parent. Gateway run remains active, best final-1, one non-improvement. No false review-unavailable status, invented second correction, source change or budget exhaustion claim.",
+    "Retained final-1 keeps the initial specialist minor finding: search magnifier handle 3px before label. Candidate final-2 fixes this but was judged equal, so retained best remains final-1.",
+    "Subsequent standardized branch-position exchange belongs to separate evaluation outside construction; not performed by this builder. Native named groups and shared rail retained for that evaluator."
+  ],
+  "standardized_edit_performed": false,
+  "immutable_inputs_modified": false,
+  "no_install_source_or_vault_changes": true,
+  "report_files": [
+    "completion-report.json",
+    "creator-image-actions.json",
+    "execution-issues.json",
+    "local-lessons.md"
+  ]
+}

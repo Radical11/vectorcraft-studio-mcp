@@ -1,0 +1,37 @@
+{
+  "phase": "confirm",
+  "observations": "Full/use/target viewed. Date, time, venue and entry read clearly. Title area clips second line NIGHT, so this is a correction finding rather than accepted typography.",
+  "target_comparison": {
+    "silhouette": "Imagery deferred",
+    "proportions": "Headline first line matches target scale but second line missing",
+    "negative_space": "Upper second-line field unintentionally empty",
+    "hierarchy": "Broken title hierarchy due area overflow",
+    "copy": "Live string is exact but NIGHT not visible",
+    "detail": "Footer matches intended target"
+  },
+  "element_map": {
+    "ground": [
+      2
+    ],
+    "title": [
+      3
+    ],
+    "invitation": [
+      4
+    ],
+    "date": [
+      5
+    ],
+    "time": [
+      6
+    ],
+    "venue": [
+      7
+    ],
+    "entry": [
+      8
+    ]
+  },
+  "departures": [],
+  "decision": "Correct title area height and leading before imagery"
+}

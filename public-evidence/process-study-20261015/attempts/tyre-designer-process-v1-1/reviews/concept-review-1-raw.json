@@ -1,0 +1,112 @@
+{
+  "assessments": [
+    {
+      "id": "inward",
+      "composition": "Strongest direction: the upright central wheel immediately identifies the subject, and the two inward-facing figures bracket the repair action. The working hand and supporting hand remain separately readable at 768 × 512. The arrangement is static but coherent.",
+      "image_treatment": "The restrained cream, teal and rust palette provides useful focal separation. Broad silhouettes suit an editorial blockout. Hands receive outlines while arms do not, making the hand-to-arm transitions feel pasted on. The right supporting hand lacks a clearly articulated forearm.",
+      "copy": "Wordless, as requested.",
+      "brief_fit": "Two people, bench and removed wheel are recognizable. The left hand appears to grip the yellow lever and connects to the left figure's raised arm. The lever reaches the tyre, but the grey cap and tiny yellow wedge do not clearly demonstrate its tip passing beneath a lifted tyre edge at use size. The right hand contacts the tyre, but its connection to its own arm is unresolved."
+    },
+    {
+      "id": "overhead",
+      "composition": "The flattened wheel sits credibly on the bench and leaves both figures visible. Its extreme ellipse weakens immediate bicycle-wheel recognition and compresses the repair action into a small band. Large empty upper space reduces the collaborative focus.",
+      "image_treatment": "The palette and simple contours are coherent, but the figures remain frontal while the wheel has a substantially different viewing angle. The supporting hand again appears attached directly to the shirt without a legible arm.",
+      "copy": "Wordless, as requested.",
+      "brief_fit": "The left working arm is compact and reasonably connected. The lever and supporting hand touch the wheel silhouette, but the under-edge engagement is ambiguous at 768 × 512. The supporting hand's ownership can be inferred from placement, but plausible connected anatomy is not actually shown."
+    },
+    {
+      "id": "diagonal",
+      "composition": "The diagonal working arm introduces energy, but the very large wheel obscures much of the right participant. The left figure becomes remote from the action, with an excessively long reach. The wheel dominates cooperation rather than organizing it.",
+      "image_treatment": "The same palette remains readable. The exposed red supporting-arm construction inside the wheel creates confusing layering, including a detached-looking sleeve fragment. The long left arm is insufficiently articulated.",
+      "copy": "Wordless, as requested.",
+      "brief_fit": "Wheel and lever remain recognizable, but tool engagement is still indicated by the same ambiguous cap-and-wedge device. The right supporting hand has more explicit arm material than the other alternatives, yet its sleeve, elbow and body connection are visually confusing. Both anatomy and depth need substantial revision."
+    }
+  ],
+  "selected": "inward",
+  "all_weak": true,
+  "reason": "All three are weak against the locked requirements for visibly meaningful lever engagement and plausible connected supporting anatomy. Inward nevertheless warrants production as the clearest composition: it preserves circular wheel recognition, separates the two roles and concentrates attention around the action. Selection is a direction choice, not approval of the current blockout.",
+  "unresolved_limitations": [
+    "Redraw the supporting wrist, forearm and sleeve connection so the hand visibly belongs to the right participant.",
+    "Show an unmistakable local tyre-edge lift with the lever tip passing underneath; contact with a dark tyre silhouette alone is insufficient.",
+    "Clarify the working grip with a visible thumb and finger wrap while preserving the left hand's existing arm connection.",
+    "Reassess both contact points at 768 × 512 after production changes.",
+    "Native editability, exports and the standardized wheel-movement task were outside this image-only concept review.",
+    "The Wright calibration image was displayed by the tool at 1824 × 1367 after resizing from 5639 × 4226."
+  ],
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\wright.jpg",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\dusk-poster.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\perspective-city.png"
+    ],
+    "observations": [
+      "Inward full: central upright wheel and distinct hand roles; supporting forearm unresolved.",
+      "Inward use: immediate wheel recognition; lever reaches tyre but under-edge insertion remains ambiguous.",
+      "Overhead full: wheel ellipse rests across bench; wheel/figure viewing angles feel inconsistent.",
+      "Overhead use: compressed wheel and small contact zone weaken action recognition.",
+      "Diagonal full: long left reach and confusing right sleeve/arm construction inside wheel.",
+      "Diagonal use: large wheel masks the right participant and suppresses cooperative balance.",
+      "Wright: light, gaze and overlapping figures organize a shared focal event; used as narrative-focus calibration, not a style-copy target.",
+      "Dusk poster: economical silhouettes and layered color create clear hierarchy with little detail.",
+      "Perspective city: consistent directional geometry and value separation make depth legible; calibration highlights diagonal's inconsistent arm/wheel layering."
+    ]
+  },
+  "image_observation": {
+    "tool": "functions.exec → tools.view_image; each result emitted with image(), detail original",
+    "evidence": [
+      {
+        "action": 1,
+        "path_index": 1,
+        "observation": "Viewed inward full PNG."
+      },
+      {
+        "action": 2,
+        "path_index": 2,
+        "observation": "Viewed inward intended-size PNG."
+      },
+      {
+        "action": 3,
+        "path_index": 3,
+        "observation": "Viewed overhead full PNG."
+      },
+      {
+        "action": 4,
+        "path_index": 4,
+        "observation": "Viewed overhead intended-size PNG."
+      },
+      {
+        "action": 5,
+        "path_index": 5,
+        "observation": "Viewed diagonal full PNG."
+      },
+      {
+        "action": 6,
+        "path_index": 6,
+        "observation": "Viewed diagonal intended-size PNG."
+      },
+      {
+        "action": 7,
+        "path_index": 7,
+        "observation": "Viewed Wright calibration JPEG; tool display resized it."
+      },
+      {
+        "action": 8,
+        "path_index": 8,
+        "observation": "Viewed Dusk calibration PNG."
+      },
+      {
+        "action": 9,
+        "path_index": 9,
+        "observation": "Viewed perspective-city calibration PNG."
+      }
+    ],
+    "observation": "All six alternative images and all three calibration images were actually displayed and inspected. Judgments derive from visible images, including contact and anatomy at intended size; no creator outcomes, historical reviews or numerical layout checks were consulted."
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="1200" viewBox="0 0 900 1200">
+  <title>Exchange Night - Hands Study</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M0 0 L900 0 L900 1200 L0 1200 Z" fill="#f3ecd7"/>
+    <g>
+      <path d="M45 728 L277 580 L358 681 L141 840 Z" fill="#172b3a"/>
+      <path d="M290 605 C326 562 369 553 402 558 L439 580 C449 590 444 607 430 610 L390 605 L449 631 C475 640 476 664 453 675 L405 693 C386 716 352 732 321 712 Z" fill="#e4af78"/>
+      <path d="M900 381 L758 405 L667 522 L755 597 L900 505 Z" fill="#3b6575"/>
+      <path d="M760 443 C723 429 698 446 668 460 L612 467 C594 469 587 483 601 492 L640 501 L605 520 C588 529 591 547 609 543 L650 525 L629 546 C617 561 629 573 644 561 L672 542 C690 563 715 554 733 528 L774 486 Z" fill="#e4af78"/>
+      <path d="M339 497 L561 417 L651 633 L430 724 Z" fill="#172b3a"/>
+      <path d="M337 477 L559 397 L649 613 L426 701 Z" fill="#c94d35"/>
+      <path d="M351 479 L552 407 L629 601 L429 677 Z" fill="#f9f2df"/>
+      <path d="M337 459 L555 378 L635 577 L418 660 Z" fill="#eb6444"/>
+      <path d="M337 459 L360 451 L440 652 L418 660 Z" fill="#bd4834"/>
+      <path d="M399 483 L532 435 L541 458 L409 506 Z" fill="#f3ecd7"/>
+      <path d="M418 531 L506 499 L511 511 L423 544 Z" fill="#f3ecd7"/>
+      <path d="M391 676 C407 661 429 648 453 639 C476 631 486 649 471 664 L435 689 C419 709 393 703 391 676 Z" fill="#e4af78"/>
+      <path d="M653 456 L603 473 C580 482 572 463 591 450 L639 426 C665 416 680 437 653 456 Z" fill="#e4af78"/>
+      <path d="M299 628 L316 651 L312 655 L294 633 Z" fill="#bb8258"/>
+      <path d="M731 464 L716 481 L712 477 L727 459 Z" fill="#bb8258"/>
+    </g>
+    <text transform="matrix(1 0 0 1 68 922)" x="0" y="0" xml:space="preserve" font-family="Georgia" font-size="36" font-style="italic" fill="#172b3a"><tspan x="0" y="0">Swap a book. Find a story.</tspan></text>
+    <g>
+      <path d="M68 971 L832 971 L832 974 L68 974 Z" fill="#172b3a"/>
+      <text transform="matrix(1 0 0 1 68 1029)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="37" font-weight="bold" fill="#172b3a"><tspan x="0" y="0">9 NOV 2026</tspan></text>
+      <text transform="matrix(1 0 0 1 685 1029)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="37" font-weight="bold" fill="#172b3a"><tspan x="0" y="0">6 PM</tspan></text>
+      <text transform="matrix(1 0 0 1 68 1084)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="33" fill="#172b3a"><tspan x="0" y="0">Library Courtyard</tspan></text>
+      <text transform="matrix(1 0 0 1 68 1135)" x="0" y="0" xml:space="preserve" font-family="Arial" font-size="28" fill="#172b3a"><tspan x="0" y="0">Bring one book | Free entry</tspan></text>
+    </g>
+    <text transform="matrix(1 0 0 1 68 49.8)" x="0" y="101.391" xml:space="preserve" font-family="Arial" font-size="112" font-weight="bold" fill="#172b3a"><tspan x="0" y="101.391">EXCHANGE</tspan><tspan x="0" y="235.791">NIGHT</tspan></text>
+  </g>
+</svg>

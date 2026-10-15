@@ -1,0 +1,85 @@
+{
+  "phase": "confirm",
+  "observations": "Actual full/use/target views show only the added small junction dot; all three paths and existing text retain their selected layout.",
+  "decision": "Proceed; required grouping retained.",
+  "target_comparison": {
+    "silhouette": "Three equal service cards under a centered catalogue search match selected target.",
+    "proportions": "Original card dimensions and broad spacing retained.",
+    "negative_space": "Title field and connector corridor remain open.",
+    "hierarchy": "Title, search, status and action read in order at use size.",
+    "copy": "Actual full/use/target views show only the added small junction dot; all three paths and existing text retain their selected layout.",
+    "detail": "Subject symbols and branch endpoints remain distinct."
+  },
+  "element_map": {
+    "background": [
+      2
+    ],
+    "routes": [
+      9,
+      12,
+      23,
+      33,
+      42
+    ],
+    "cards": [
+      10,
+      11,
+      21,
+      22,
+      31,
+      32
+    ],
+    "title": [
+      3
+    ],
+    "guide": [
+      4
+    ],
+    "search": [
+      6
+    ],
+    "available": [
+      13
+    ],
+    "collect": [
+      19,
+      20
+    ],
+    "loan": [
+      24
+    ],
+    "reserve": [
+      29,
+      30
+    ],
+    "notheld": [
+      34
+    ],
+    "librarian": [
+      40
+    ],
+    "symbols": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      25,
+      26,
+      27,
+      28,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "furniture": [
+      5,
+      7,
+      8,
+      41
+    ]
+  },
+  "departures": []
+}

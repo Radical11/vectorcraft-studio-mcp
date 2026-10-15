@@ -1,0 +1,71 @@
+{
+  "definite_gateway_errors": [
+    {
+      "at": 1791979186.28747,
+      "monotonic": 57218.4439836,
+      "tool": "command_list",
+      "error": "{\"code\": -32602, \"message\": \"unknown argument `category` for `command_list`\"}",
+      "replayed": false
+    },
+    {
+      "at": 1791980392.6025293,
+      "monotonic": 58424.7590433,
+      "tool": "command_run",
+      "error": "Inspect and confirm captured previews before more edits; then plan a new batch",
+      "replayed": false
+    }
+  ],
+  "uncertain_operations": [],
+  "replayed_uncertain_operations": 0,
+  "additional_definite_errors": [
+    {
+      "operation": "record-pass.py local file read",
+      "error": "communication-return.json absent on first attempt",
+      "effect": "No workflow review recorded; review pause had resumed; requested exact return archival, then recorded once."
+    },
+    {
+      "operation": "view_image correction1-clean before successful capture",
+      "error": "File did not exist",
+      "effect": "No image returned; failed action retained."
+    },
+    {
+      "operation": "rg Windows wildcard paths",
+      "error": "Two source searches used invalid wildcard path syntax",
+      "effect": "Read-only search failed; corrected using rg src -g *.py."
+    },
+    {
+      "operation": "Initial noninteractive host.py",
+      "error": "stdin ended immediately after READY",
+      "effect": "Exited zero; no authoring; subsequent interactive host used, then explicitly closed."
+    }
+  ],
+  "protocol_deviations": [
+    {
+      "operation": "collaboration.list_agents during first concept review wait",
+      "exposure": "Global status output unintentionally included another trial completion-status summary. No other trial artwork/script/report/judgment file opened and summary not used in design decisions. Further global listings avoided.",
+      "disposition": "Retain trial in primary eighteen-attempt accounting, label protocol deviation, parent sensitivity discussion. No exclusion, reset or rebuilding.",
+      "action": "collaboration.list_agents with {} during first concept_07 waiting period",
+      "exposure_time_utc": "Exact wall timestamp was not returned by collaboration tool and not retained locally; bounded by first directions record and first concept-review record in run.json. No exact timestamp invented.",
+      "exact_unsolicited_status_summary": {
+        "agent_name": "/root/pilot_06",
+        "agent_status": {
+          "completed": "Recorded `budget_exhausted`: 0 batches, 2 settled calls, 7 actual reference views. No artwork or reviews were produced. Original active run bytes remain unchanged; no owned process remained.\n\nPreserved evidence:\n\n- [Completion report](/<project>/work/research32/pilot/process-pilot-20261013/tyre-layout-blockout-v1-2/completion-report.json)\n- [Image actions](/<project>/work/research32/pilot/process-pilot-20261013/tyre-layout-blockout-v1-2/creator-image-actions.json)\n- [Execution issues](/<project>/work/research32/pilot/process-pilot-20261013/tyre-layout-blockout-v1-2/execution-issues.json)\n- [Local lessons](/<project>/work/research32/pilot/process-pilot-20261013/tyre-layout-blockout-v1-2/local-lessons.md)\n\nParent ledger was not modified.\n\n"
+        }
+      },
+      "stated_non_use": "The builder did not open the named other-trial files or inspect another trial image/judgment, did not use the unsolicited completion-status summary in design decisions, and avoided further global listings. This statement is an attestation, not proof of cognitive independence.",
+      "bounded_exposure_interval_utc": {
+        "after": "2026-10-14T12:03:23.020686+00:00",
+        "before": "2026-10-14T12:06:45.598511+00:00"
+      }
+    }
+  ],
+  "evidence_limitations": [
+    "Research used four relevant works below15-25 target. All seven assigned assets/six distinct works actually viewed; EPA pages considered not directly applicable.",
+    "Initial concept/final workflow records contain concise transcriptions, labeled in completion report; exact public returns archived by original reviewers when available.",
+    "Actual subjective reviewers establish aesthetics; native hashes and object counts establish integrity only."
+  ],
+  "standardized_edit_task": "Not performed by builder: after-stop verification read-only; subsequent separate evaluation copy belongs to parent.",
+  "owned_connections": "All constructor/context sessions and readonly Gateway shut down; no desktop opened.",
+  "ownership_check": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\owned-connections-check.json",
+  "relationship_attestation_limitation": "The declared wheel-bench relation is typed contact, while the corrected image and final reviewer observations support an upright wheel held in front of the bench with the bench visible through spokes, not an unambiguous mechanical tabletop support point. This extra relation is not a locked-brief requirement; its pass is an agent attestation and should not be treated as physical contact proof. Stopped gateway records remain unchanged."
+}

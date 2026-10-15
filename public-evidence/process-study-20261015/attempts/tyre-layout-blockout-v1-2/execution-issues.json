@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-10-14T11:56:28.276187+00:00",
+  "issues": [
+    {
+      "type": "operational_disruption",
+      "source": "Parent message on accounting resume",
+      "detail": "Usage-limit interruption delayed attempt until shared 60-minute wall-active budget expired. Operational gaps count active. Parent directed accounting only, no authoring resume.",
+      "outcome_uncertain": false,
+      "replayed": false
+    },
+    {
+      "type": "local_script_output_error",
+      "detail": "First setup script initialized Session then failed printing tool metadata under cp1252 with UnicodeEncodeError for U+2192. Context-manager shutdown ran. No Session.call occurred in that invocation.",
+      "outcome_uncertain": false,
+      "replayed": false
+    },
+    {
+      "type": "local_read_errors",
+      "detail": "Initial schema lookup used nonexistent process_workflow.py, designer_workflow.py and process_profile.py names; corrected by reading actual design_process.py, study_session.py and designer.py. One rg wildcard command had invalid filename syntax.",
+      "outcome_uncertain": false,
+      "replayed": false
+    },
+    {
+      "type": "local_query_errors",
+      "detail": "Two command-schema shell queries failed: UTF-8 metadata decoded as cp1252, then list response treated as dictionary. Read-only failures with no document change.",
+      "outcome_uncertain": false,
+      "replayed": false
+    },
+    {
+      "type": "script_patch_rejected",
+      "detail": "Proposed extended builder script patch failed verification because delete and add targeted same driver.py. No extended builder script was installed or executed; combined exec stopped before shell authoring.",
+      "outcome_uncertain": false,
+      "replayed": false
+    },
+    {
+      "type": "budget_exhaustion",
+      "detail": "No permitted remaining active build time. Preserved gateway run remains active revision 0; accounting report records budget_exhausted without mutating run or ledger.",
+      "outcome_uncertain": false,
+      "replayed": false
+    }
+  ],
+  "settled_host_receipts": [
+    {
+      "tool": "workflow_status",
+      "at": 1791954636.962503,
+      "isError": false
+    },
+    {
+      "tool": "command_list",
+      "at": 1791954636.9903023,
+      "isError": false
+    }
+  ],
+  "owned_process_check": "CIM process command-line audit showed two VectorCraft processes rooted in other projects or repository root; no process rooted in this exact trial. No processes killed and no new Gateway opened.",
+  "gateway_uncertain": false
+}

@@ -1,0 +1,253 @@
+{
+  "format": "vectorcraft-studio-run",
+  "version": 3,
+  "quality_profile": "designer-v1",
+  "status": "review_passed",
+  "revision": 6,
+  "spec_revision": 2,
+  "completed_stages": [
+    "composition",
+    "typography",
+    "imagery",
+    "finishing"
+  ],
+  "working_version": "final-1",
+  "best_version": "final-1",
+  "original_version": null,
+  "pending": null,
+  "uncertain": false,
+  "revision_rounds": 0,
+  "no_improvement_streak": 0,
+  "stop_reason": "Best common-brief version passed both independent specialists",
+  "private_run_sha256": "808e48b9dfd818fd0f0d4aca379983686a2cf01b3f1ec6954c946f2f26516c9e",
+  "versions": {
+    "composition": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 1,
+      "spec_revision": 2,
+      "fingerprint": "3b73a7ddf28368c7c33113147530166eba874d3463fea26e9154cef4dc64fc61",
+      "element_map": {
+        "ground": [
+          2
+        ]
+      },
+      "native": "attempts/exchange-designer-v1-1/versions/composition/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-v1-1/versions/composition/inspection.json",
+      "check": "attempts/exchange-designer-v1-1/versions/composition/47cf774c9c1c489e8cce2e1a9d08fd41.json",
+      "images": [
+        "attempts/exchange-designer-v1-1/versions/composition/full.png",
+        "attempts/exchange-designer-v1-1/versions/composition/use.png"
+      ],
+      "exports": []
+    },
+    "typography": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 2,
+      "spec_revision": 2,
+      "fingerprint": "0261e8bf4eef04cf8b186c41b2552b5d51a3c1920118d393d66027cb7fc8e3c9",
+      "element_map": {
+        "ground": [
+          2
+        ],
+        "title": [
+          3
+        ],
+        "invitation": [
+          4
+        ],
+        "date": [
+          5
+        ],
+        "time": [
+          6
+        ],
+        "venue": [
+          7
+        ],
+        "entry": [
+          8
+        ]
+      },
+      "native": "attempts/exchange-designer-v1-1/versions/typography/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-v1-1/versions/typography/inspection.json",
+      "check": "attempts/exchange-designer-v1-1/versions/typography/3bec09e82741458c99894645a1aa2c4e.json",
+      "images": [
+        "attempts/exchange-designer-v1-1/versions/typography/full.png",
+        "attempts/exchange-designer-v1-1/versions/typography/use.png"
+      ],
+      "exports": []
+    },
+    "typography-fixed": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 4,
+      "spec_revision": 2,
+      "fingerprint": "5e976ccd5102b7a0f675b4779bb582f78e512697eb75c6ef44261d8df85133ba",
+      "element_map": {
+        "ground": [
+          2
+        ],
+        "title": [
+          3
+        ],
+        "invitation": [
+          4
+        ],
+        "date": [
+          5
+        ],
+        "time": [
+          6
+        ],
+        "venue": [
+          7
+        ],
+        "entry": [
+          8
+        ]
+      },
+      "native": "attempts/exchange-designer-v1-1/versions/typography-fixed/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-v1-1/versions/typography-fixed/inspection.json",
+      "check": "attempts/exchange-designer-v1-1/versions/typography-fixed/f97eb59f7919490a80fd37ef9ba4ddef.json",
+      "images": [
+        "attempts/exchange-designer-v1-1/versions/typography-fixed/full.png",
+        "attempts/exchange-designer-v1-1/versions/typography-fixed/use.png"
+      ],
+      "exports": []
+    },
+    "imagery": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 5,
+      "spec_revision": 2,
+      "fingerprint": "13b93c567a1d4d2ee3f07ee69ffcfafe886ed0d78fa52ed7cefa42eb07c51157",
+      "element_map": {
+        "ground": [
+          2
+        ],
+        "title": [
+          3
+        ],
+        "invitation": [
+          4
+        ],
+        "date": [
+          5
+        ],
+        "time": [
+          6
+        ],
+        "venue": [
+          7
+        ],
+        "entry": [
+          8
+        ],
+        "book": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "left-hand": [
+          22,
+          23,
+          24
+        ],
+        "right-hand": [
+          25,
+          26,
+          27
+        ]
+      },
+      "native": "attempts/exchange-designer-v1-1/versions/imagery/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-v1-1/versions/imagery/inspection.json",
+      "check": "attempts/exchange-designer-v1-1/versions/imagery/bc7cd7e1db734b38aa364efe53dc93d5.json",
+      "images": [
+        "attempts/exchange-designer-v1-1/versions/imagery/full.png",
+        "attempts/exchange-designer-v1-1/versions/imagery/use.png"
+      ],
+      "exports": []
+    },
+    "final-1": {
+      "confirmed": true,
+      "role": "working",
+      "revision": 6,
+      "spec_revision": 2,
+      "fingerprint": "b97c725ce0d8ce5c5f95b5cd63671827986b0c42196f76d173437afe9a924dde",
+      "element_map": {
+        "ground": [
+          2
+        ],
+        "title": [
+          3
+        ],
+        "invitation": [
+          4
+        ],
+        "date": [
+          5
+        ],
+        "time": [
+          6
+        ],
+        "venue": [
+          7
+        ],
+        "entry": [
+          8
+        ],
+        "book": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "left-hand": [
+          22,
+          23,
+          24
+        ],
+        "right-hand": [
+          25,
+          26,
+          27
+        ]
+      },
+      "native": "attempts/exchange-designer-v1-1/versions/final-1/artwork.vectorcraft",
+      "inspection": "attempts/exchange-designer-v1-1/versions/final-1/inspection.json",
+      "check": "attempts/exchange-designer-v1-1/versions/final-1/f796ec81a8d84b7fbf61c593cc14fd9e.json",
+      "images": [
+        "attempts/exchange-designer-v1-1/versions/final-1/full.png",
+        "attempts/exchange-designer-v1-1/versions/final-1/use.png"
+      ],
+      "exports": [
+        "attempts/exchange-designer-v1-1/versions/final-1/exports/00-2824918587a3457f98ac2a0693199901.vectorcraft",
+        "attempts/exchange-designer-v1-1/versions/final-1/exports/01-e00b0290e4124b0388521043077948c2.svg",
+        "attempts/exchange-designer-v1-1/versions/final-1/exports/02-b087b4da325d4bc89590d0506915b464.pdf",
+        "attempts/exchange-designer-v1-1/versions/final-1/exports/03-47a259ec344f425faff95dbf3118cd9c.png",
+        "attempts/exchange-designer-v1-1/versions/final-1/exports/04-340ef12ac305498db56cb41aa31b6836.png"
+      ]
+    }
+  }
+}

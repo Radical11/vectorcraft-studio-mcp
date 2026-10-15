@@ -1,0 +1,68 @@
+{
+  "recorded_at": "2026-10-14T11:56:28.276187+00:00",
+  "trial": "tyre-layout-blockout-v1-2",
+  "profile": "layout-blockout-v1",
+  "status": "budget_exhausted",
+  "outcome": "Interrupted before design records or native authoring; preserved incomplete attempt. No artwork deliverable.",
+  "best": null,
+  "best_version": null,
+  "stopped_run": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\run.json",
+  "preserved_run_status": "active",
+  "run_revision": 0,
+  "run_sha256_before_accounting": "de4c77216e0d2cbebec701155f92402ad623e2fff0f4c34f151b94038a3884c4",
+  "timings": {
+    "ceiling_wall_active_seconds": 3600,
+    "shared_wall_active_seconds_at_audit": 24622.44588828087,
+    "host_wall_active_seconds_at_audit": 24359.410163640976,
+    "review_paused_seconds": 0,
+    "clock_policy": "Wall active, operational interruption included; no pause occurred.",
+    "budget_exceeded": true
+  },
+  "batches": {
+    "actual": 0,
+    "ceiling": 24
+  },
+  "calls": {
+    "session_actual": 2,
+    "ledger_actual": 2,
+    "settled_receipts": 2,
+    "tools": [
+      "workflow_status",
+      "command_list"
+    ]
+  },
+  "reviewer_returns": [],
+  "reviewer_actions": [],
+  "creator_image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\creator-image-actions.json",
+  "artifacts": {
+    "brief": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\brief.md",
+    "references": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\references",
+    "run": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\run.json",
+    "host_receipts": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\host-receipts.jsonl",
+    "host_budget": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\host-budget.json",
+    "clock_diagnostics": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\clock-diagnostics.jsonl",
+    "workflow_status_snapshot": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\status-initial.json",
+    "tool_schema": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\tool-schema.json",
+    "native": null,
+    "svg": null,
+    "pdf": null,
+    "full_png": null,
+    "use_png": null
+  },
+  "unresolved_weaknesses": [
+    "No design_brief/research/calibration records submitted.",
+    "No three isolated layouts or native blockouts.",
+    "No concept selection, target/spec or representative study.",
+    "No assembly, production stages, exports or independent final reviews.",
+    "No native reopening/editability/font validation possible without native artwork.",
+    "Seven supplied refs were actually viewed; pack lacks direct tyre lever repair close-up.",
+    "No standardized post-construction edit evaluation; no artwork exists."
+  ],
+  "operational_disruption": "Usage-limit interruption exhausted allowance; no subsequent authoring allowed.",
+  "execution_issues": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\execution-issues.json",
+  "local_lessons": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-layout-blockout-v1-2\\local-lessons.md",
+  "source_constraints": "No source, owned skills, configuration, binding, budget or ledger edited. No install/publication or mutable vault access. Only quick memory registry index was searched, without opening prior rollouts or judgments.",
+  "connection_cleanup": "Both executed Session contexts closed on exit. Post-interruption exact-root process audit found no owned process. Other connections left untouched.",
+  "run_sha256_after_accounting": "de4c77216e0d2cbebec701155f92402ad623e2fff0f4c34f151b94038a3884c4",
+  "run_bytes_preserved": true
+}

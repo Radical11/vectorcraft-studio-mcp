@@ -1,0 +1,145 @@
+{
+  "profile": "layout-blockout-v1",
+  "frozen_source_or_clock_edits": false,
+  "uncertain_artwork_operations_replayed": false,
+  "gateway_issues": [
+    {
+      "id": "saved-selection-recovery",
+      "initial_rejection": {
+        "at": 1791951885.4894958,
+        "monotonic": 29916.4838377,
+        "tool": "workflow_checkpoint",
+        "error": "Document changed outside this snapshot; reconcile and capture a new batch",
+        "replayed": false
+      },
+      "settled_receipts": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\execution-evidence\\settled-select-save-receipts.json",
+      "exact_diff": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\execution-evidence\\saved-selections-only-diff.json",
+      "source_recovery": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\evidence\\b607555b5cbb4a08a6dd1fb677e7b5dd.vectorcraft",
+      "captured_native": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final-v1\\artwork.vectorcraft",
+      "preserved_recovery_copy": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\execution-evidence\\recovery-before-title-selection.vectorcraft",
+      "preserved_capture_copy": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\execution-evidence\\captured-with-title-selection.vectorcraft",
+      "observation": "select.save returned settled success but is classified read; resumed last normal mutating recovery omitted newly saved title selection. Artwork document differs only in saved_selections.",
+      "definite_resolution": "Through Session restored missing saved title selection to inspected actual id27, confirmed captured snapshot, then planned explicit134.4pt title leading edit established normal new recovery. Captured/visually inspected final-v2 full/use and target. Fresh stopped read-only roundtrip fingerprint passes.",
+      "resolution_receipts": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\recovery-reconcile.json",
+      "new_recovery": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\evidence\\2693b268bff245ceaebee1e1fb5f765f.vectorcraft",
+      "visual_evidence": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final-v2\\full.png",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\work\\vectorcraft-studio\\artwork\\versions\\final-v2\\use.png"
+      ]
+    },
+    {
+      "id": "area-preflight-selection",
+      "initial_rejection": {
+        "at": 1791952233.872799,
+        "monotonic": 30264.8671408,
+        "tool": "workflow_record",
+        "error": "{\"content\": [{\"text\": \"command_run: command `text.areaOptions` is not available right now: nothing selected\", \"type\": \"text\"}], \"isError\": true}",
+        "replayed": false
+      },
+      "observation": "text.areaOptions was unavailable with nothing selected even with explicit ids:[27] inside preflight. No artwork side effect.",
+      "definite_resolution": "Selected live title id27 through Session, then preflight passed in same connection; native document fingerprint unaffected by UI selection.",
+      "resolution_receipts": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\preflight-selected.json.1.json",
+      "actual_area_observation": "Earlier native areaOptions returned overflow:false, exact Arial and fitScale1; final full/use/export renders readable."
+    }
+  ],
+  "builder_issues": [
+    {
+      "id": "default-fill-selection",
+      "observation": "Setting default fill recolored prior selected shapes in first study. Actual full/use showed wrong palm/sleeve colors.",
+      "resolution": "Explicit returned object IDs assigned planned fills in a study correction batch; full/use re-inspected.",
+      "paths": [
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\hands-author.json.2.json",
+        "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-layout-blockout-v1-2\\hands-fix.json"
+      ]
+    },
+    {
+      "id": "area-text-origin",
+      "observation": "Area text creation y is frame top rather than point-text baseline, shifting exact-string title downward about103 points.",
+      "resolution": "Inspected full/use, planned title-only optical translation -103.2 points, then inspected full/use and target."
+    },
+    {
+      "id": "study-title-collision",
+      "observation": "Orbit cream book overlapped terminal EXCHANGE letters.",
+      "resolution": "Native live title reduced86to70 points in correction study; all full/use checked."
+    },
+    {
+      "id": "composition-edge-gap",
+      "observation": "A12-point left optical shift exposed a cream strip at right sleeve canvas entry.",
+      "resolution": "Restored only horizontal shift in planned composition correction, retained10-point upward change; whole scene checked."
+    }
+  ],
+  "validation_rejections": [
+    {
+      "at": 1791950851.6437657,
+      "monotonic": 28882.6381069,
+      "tool": "list_fonts",
+      "error": "Full design needs research, directions, target and spec before artwork edits",
+      "replayed": false
+    },
+    {
+      "at": 1791951011.8708277,
+      "monotonic": 29042.8651691,
+      "tool": "command_batch",
+      "error": "Do not mix document setup with artwork edits in one batch",
+      "replayed": false
+    },
+    {
+      "at": 1791951057.9767134,
+      "monotonic": 29088.9710545,
+      "tool": "workflow_checkpoint",
+      "error": "study correction/block reason must be nonempty text",
+      "replayed": false
+    },
+    {
+      "at": 1791951462.0269153,
+      "monotonic": 29493.0212572,
+      "tool": "workflow_record",
+      "error": "Final copy changed or omitted locked supplied text",
+      "replayed": false
+    },
+    {
+      "at": 1791951885.4894958,
+      "monotonic": 29916.4838377,
+      "tool": "workflow_checkpoint",
+      "error": "Document changed outside this snapshot; reconcile and capture a new batch",
+      "replayed": false
+    },
+    {
+      "at": 1791952233.872799,
+      "monotonic": 30264.8671408,
+      "tool": "workflow_record",
+      "error": "{\"content\": [{\"text\": \"command_run: command `text.areaOptions` is not available right now: nothing selected\", \"type\": \"text\"}], \"isError\": true}",
+      "replayed": false
+    }
+  ],
+  "non_gateway_script_issues": [
+    "Inline Python __file__ was <stdin>, causing task-local element-map path lookup failure; fixed explicit task root before authoring.",
+    "An attempted use-size.png image path did not exist; inspected actual returned use.png instead.",
+    "Setup mixed with authoring batch rejected before side effects; split native file.new into separate Session call.",
+    "Missing study reason rejected before confirmation; supplied actual observed correction reason.",
+    "Spec exact-copy validator does not normalize explicit newlines; final exact title stored as single live phrase with natural area wrapping."
+  ],
+  "invalid_review_pause": {
+    "classification": "Builder orchestration error; parent must count as active overhead, not independent-review waiting",
+    "ledger_path": "<project>\\work\\experiments\\process-pilot-20261013\\ledger.json",
+    "pause_event": {
+      "ledger_index": 201,
+      "trial": "exchange-layout-blockout-v1-2",
+      "event": "review_pause",
+      "at": 1791952234.476313,
+      "monotonic": 30265.4706567
+    },
+    "resume_event": {
+      "ledger_index": 202,
+      "trial": "exchange-layout-blockout-v1-2",
+      "event": "review_resume",
+      "at": 1791952251.04044,
+      "monotonic": 30282.0347842
+    },
+    "start_utc": "2026-10-14T04:30:34.476313+00:00",
+    "resume_utc": "2026-10-14T04:30:51.040440+00:00",
+    "duration_seconds": 16.56412696838379,
+    "reason": "PowerShell continued to following separate pause after preflight script failed, before reviewers were started. Immediately resumed upon detection. Original clock/events unchanged.",
+    "parent_accounting_correction_required": true
+  }
+}

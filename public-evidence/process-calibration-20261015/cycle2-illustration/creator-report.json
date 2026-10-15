@@ -1,0 +1,193 @@
+{
+  "profile": "designer-process-v1",
+  "phase": "calibration",
+  "cycle": 2,
+  "identity": "Separately identified second illustration calibration, old release brief; not held-out evaluation.",
+  "status": "review_passed",
+  "best_version": "finishing-v1",
+  "stop_reason": "Best common-brief version passed both independent specialists",
+  "timing": {
+    "started_wall": 1791877234.7864351,
+    "finished_wall": 1791879433.1342576,
+    "wall_seconds": 2198.3478224277496,
+    "independent_review_paused_seconds": 694.1809799671173,
+    "wall_active_seconds": 1504.1668424606323,
+    "wall_active_minutes": 25.069447374343873,
+    "allowance_seconds": 3600,
+    "clock_policy": "wall elapsed less explicit independent-review pauses; monotonic diagnostics only",
+    "monotonic_diagnostic_max_drift_seconds": 1.6047852113842964e-06,
+    "clock_diagnostics": "<project>\\work\\research32\\calibration\\cycle2-illustration\\clock-diagnostics.jsonl",
+    "clock_refunded_or_reset": false
+  },
+  "batches": 10,
+  "batch_ceiling": 24,
+  "calls": 388,
+  "readonly_verification_calls": 4,
+  "production_revision": 119,
+  "completed_stages": [
+    "composition",
+    "typography",
+    "imagery",
+    "finishing"
+  ],
+  "correction_rounds": 0,
+  "native_studies": {
+    "registered_blockouts": 3,
+    "separate_construction_studies": 1,
+    "native_study_ids": [
+      "study-face",
+      "study-diagonal",
+      "study-shoulder",
+      "construction-contact"
+    ],
+    "selected_study": "study-face"
+  },
+  "relationships": {
+    "entities": 9,
+    "declared": 8,
+    "current_resolved": 8,
+    "semantic_proof": "Actual full/use/target image observations; no geometry-only semantic claim."
+  },
+  "independent_reviews": {
+    "concept": "/root/calibration_illustration_cycle2/concept_review",
+    "communication": "/root/calibration_illustration_cycle2/final_communication",
+    "craft": "/root/calibration_illustration_cycle2/final_craft",
+    "final_applicable_scores": "Both specialists returned 4 for every applicable criterion; typography and copy N/A.",
+    "actual_returns": [
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\concept-review.json",
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\final-communication.json",
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\final-craft.json"
+    ],
+    "actions_and_hashes": "Each actual return stores image action evidence and image hashes."
+  },
+  "verification": {
+    "mode": "fresh Gateway read-only; initialize/tools then open_file before any workflow",
+    "native": "<project>\\work\\research32\\calibration\\cycle2-illustration\\exports\\repair-cafe.vectorcraft",
+    "sha256": "046319ea8869064f7a45567dbbf0e97893878845bbaa7483fc5e3c8d4bac0860",
+    "native_fingerprint": "c47955e6f57cd5d5cad26108218621ec818dbeb972e9d18b65cb18231694ca5c",
+    "object_types": {
+      "layer": 1,
+      "path": 143,
+      "group": 3
+    },
+    "named_objects": 97,
+    "text_count": 0,
+    "raster_native_count": 0,
+    "svg_embedded_image": false,
+    "live_fonts": "Not applicable: wordless artwork contains zero native text nodes.",
+    "artboards": [
+      {
+        "height": 1024.0,
+        "name": "Artboard 1",
+        "width": 1536.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "native_images": [
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\verification\\native-full.png",
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\verification\\native-use.png"
+    ],
+    "calls": [
+      "open_file",
+      "doc_inspect",
+      "render_preview",
+      "render_preview"
+    ],
+    "workflow_calls": false,
+    "pdf": {
+      "tool": "bundled Node pdf-lib",
+      "pages": 1,
+      "image_objects": 0,
+      "font_objects": 0
+    },
+    "views_after_stop": [
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\verification\\native-full.png",
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\verification\\native-use.png",
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\exports\\full.png",
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\exports\\use.png",
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\exports\\svg-full.png",
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\exports\\svg-use.png",
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\exports\\pdf-full.png",
+      "<project>\\work\\research32\\calibration\\cycle2-illustration\\exports\\pdf-use.png"
+    ],
+    "observations": "Fresh read-only native reopening and actual native/export full/use, outlined SVG and native PDF renders were inspected after stop. No material export loss observed. Antialiasing differs slightly.",
+    "native_connections_closed": true,
+    "authoring_after_stop": false,
+    "selected_bytes": {
+      "selected_native_matches_export": true,
+      "full_png_matches_selected": false,
+      "use_png_matches_selected": false,
+      "png_encoding_note": "Snapshot/native previews are RGBA; engine PNG exports are RGB. Their pixels also differ slightly between rendering paths. Actual views showed no material form loss.",
+      "full_png_pixels_match_selected": false,
+      "use_png_pixels_match_selected": false,
+      "render_diagnostics": {
+        "full": {
+          "mean_absolute_rgb_difference_0_255": [
+            0.18745803833007812,
+            0.1305688222249349,
+            0.08872350056966145
+          ],
+          "pixel_equal": false
+        },
+        "use": {
+          "mean_absolute_rgb_difference_0_255": [
+            0.36791229248046875,
+            0.2550557454427083,
+            0.17435455322265625
+          ],
+          "pixel_equal": false
+        }
+      }
+    }
+  },
+  "artifacts": {
+    "exports\\full.png": {
+      "sha256": "dee08a779ee9c3e498d4dc3354dca7e0a7e9305be4e1cd268ec4f72edb521cdf",
+      "bytes": 124328
+    },
+    "exports\\pdf-full.png": {
+      "sha256": "2a02c97ada49a36fbae4976ba391acadd740abec6285353a5b04f0d5852e0999",
+      "bytes": 133556
+    },
+    "exports\\pdf-use.png": {
+      "sha256": "24133e15f6e50fff7196e9cf2809974d68810c0bc7b283b716084541d655bc4e",
+      "bytes": 61360
+    },
+    "exports\\repair-cafe.pdf": {
+      "sha256": "e08f1c6742d77bc2ed4c948fd638e9ace085339ca5074a3aa3dda7fffe91ea72",
+      "bytes": 17322
+    },
+    "exports\\repair-cafe.svg": {
+      "sha256": "3bdbcd867beba6fe0392dd13b1e7a03e08fa4c4aea73031f4e686987a8a6675b",
+      "bytes": 25683
+    },
+    "exports\\repair-cafe.vectorcraft": {
+      "sha256": "046319ea8869064f7a45567dbbf0e97893878845bbaa7483fc5e3c8d4bac0860",
+      "bytes": 353154
+    },
+    "exports\\svg-full.png": {
+      "sha256": "fd7de5e620b2619083a066a366383f5216ed90e73a9e436e4ed4d2badd02d4cd",
+      "bytes": 177115
+    },
+    "exports\\svg-use.png": {
+      "sha256": "284bf1487e69609b0d21a133bc22f1184c6cd7c777ba433dc3bffcd9de49fc3d",
+      "bytes": 74578
+    },
+    "exports\\use.png": {
+      "sha256": "ad127411105ecaa5f3f15c4d49a2d4b1459eccfa36db98076dfe97124c360a8c",
+      "bytes": 56654
+    }
+  },
+  "limitations": [
+    "The locked cached pack contained seven works, below the 15–25 research target; four relevant references were actually viewed. Dedicated repair-anatomy reference and contemporary editorial source were absent.",
+    "Communication reviewer retained one minor finding: the optional student bag cue added to the specification was not drawn.",
+    "Craft reviewer retained one minor finding: the supporting sleeve contour does not fully explain its route from shoulder to cuff.",
+    "The three roughs share a palette and treatment but differ in object scale, figure dominance and entry direction. The third does not convincingly realize a true over-shoulder viewpoint; that weakness was independently observed and it was not selected.",
+    "Independent model judgments are subjective assessments, not evidence of comparative aesthetic improvement or human approval.",
+    "Exact runtime model and reasoning-effort identifiers were not exposed to builder or reviewers; no overrides were requested or used.",
+    "Engine PNG exports use RGB while workflow previews use RGBA; pixel values also differ slightly between render paths. Full/use images were actually inspected with no material form loss observed."
+  ],
+  "source_policy_edits": false,
+  "config_install_or_publication": false
+}

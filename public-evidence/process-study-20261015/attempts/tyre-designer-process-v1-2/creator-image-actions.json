@@ -1,0 +1,98 @@
+{
+  "profile": "designer-process-v1",
+  "status": "budget_exhausted",
+  "actions": [
+    {
+      "id": "pilot01-reference-1-functions-image-batch",
+      "tool": "tools.view_image via functions.exec",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\references\\neon-drive.png",
+      "phase": "research",
+      "observed": true,
+      "observation": "Bright sun isolated between dark mountain silhouettes and grid.",
+      "tool_result_reference": "functions image batch (seven images) before research records",
+      "id_type": "creator descriptive ID; not a provider-issued action ID"
+    },
+    {
+      "id": "pilot01-reference-2-functions-image-batch",
+      "tool": "tools.view_image via functions.exec",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\references\\dusk-poster.png",
+      "phase": "research",
+      "observed": true,
+      "observation": "Overlapping mountain masses surround warm sun.",
+      "tool_result_reference": "functions image batch (seven images) before research records",
+      "id_type": "creator descriptive ID; not a provider-issued action ID"
+    },
+    {
+      "id": "pilot01-reference-3-functions-image-batch",
+      "tool": "tools.view_image via functions.exec",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\references\\wright.jpg",
+      "phase": "research",
+      "observed": true,
+      "observation": "Lit faces and hands gather around central apparatus.",
+      "tool_result_reference": "functions image batch (seven images) before research records",
+      "id_type": "creator descriptive ID; not a provider-issued action ID"
+    },
+    {
+      "id": "pilot01-reference-4-functions-image-batch",
+      "tool": "tools.view_image via functions.exec",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\references\\perspective-city.png",
+      "phase": "research",
+      "observed": true,
+      "observation": "Window rows follow two coherent building planes.",
+      "tool_result_reference": "functions image batch (seven images) before research records",
+      "id_type": "creator descriptive ID; not a provider-issued action ID"
+    },
+    {
+      "id": "pilot01-reference-5-functions-image-batch",
+      "tool": "tools.view_image via functions.exec",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\references\\epa-mechanisms.png",
+      "phase": "research",
+      "observed": true,
+      "observation": "Map and photograph have adjacent descriptive captions.",
+      "tool_result_reference": "functions image batch (seven images) before research records",
+      "id_type": "creator descriptive ID; not a provider-issued action ID"
+    },
+    {
+      "id": "pilot01-reference-6-functions-image-batch",
+      "tool": "tools.view_image via functions.exec",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\references\\epa-flow.png",
+      "phase": "research",
+      "observed": true,
+      "observation": "Tree/ground flow arrows and leaders correspond to visible features.",
+      "tool_result_reference": "functions image batch (seven images) before research records",
+      "id_type": "creator descriptive ID; not a provider-issued action ID"
+    },
+    {
+      "id": "pilot01-reference-7-functions-image-batch",
+      "tool": "tools.view_image via functions.exec",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\references\\feature-sheet.png",
+      "phase": "research",
+      "observed": true,
+      "observation": "Crescent and stars have separated clean contours.",
+      "tool_result_reference": "functions image batch (seven images) before research records",
+      "id_type": "creator descriptive ID; not a provider-issued action ID"
+    },
+    {
+      "id": "pilot01-stop-inspection-rough1-full",
+      "tool": "tools.view_image via functions.exec",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\study-edf1ecc41c13420f-rough1\\versions\\rough1\\full.png",
+      "phase": "read-only stop inspection after exhaustion",
+      "observed": true,
+      "observation": "Two torso masses flank an upright spoked wheel. Mint lever enters a raised upper-left tyre lip, with left hand around its lower end; right hand overlaps upper-right tyre. Heads and hands are simplified. No stage or semantic acceptance recorded.",
+      "tool_result_reference": "functions image batch (two rough1 capture images) on resumed stop turn",
+      "id_type": "creator descriptive ID; not a provider-issued action ID"
+    },
+    {
+      "id": "pilot01-stop-inspection-rough1-use",
+      "tool": "tools.view_image via functions.exec",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-2\\work\\vectorcraft-studio\\study-edf1ecc41c13420f-rough1\\versions\\rough1\\use.png",
+      "phase": "read-only stop inspection after exhaustion",
+      "observed": true,
+      "observation": "Two torso masses flank an upright spoked wheel. Mint lever enters a raised upper-left tyre lip, with left hand around its lower end; right hand overlaps upper-right tyre. Heads and hands are simplified. No stage or semantic acceptance recorded.",
+      "tool_result_reference": "functions image batch (two rough1 capture images) on resumed stop turn",
+      "id_type": "creator descriptive ID; not a provider-issued action ID"
+    }
+  ],
+  "independent_review_actions": [],
+  "note": "Reference inspections occurred before records. Rough captures were first viewed only during read-only stop handling; they were never confirmed."
+}

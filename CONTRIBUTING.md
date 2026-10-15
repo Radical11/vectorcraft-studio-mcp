@@ -1,6 +1,8 @@
 # Contributing
 
-Keep the companion scope clear: host judgment and workflow enforcement around VectorCraft, not a replacement vector renderer. Make changes in src/ and deployable skills in skills/. New enforcement belongs to version-three designer-v1 records. Preserve legacy helper contracts and historical evidence.
+Experimental study connections must keep document, revision, desktop and recovery ownership separate from production. Retain every trial failure and cost; geometry diagnostics are separate from actual image judgments. Never reset budgets or transfer held-out feedback between builders.
+
+Keep the companion scope clear: host judgment and workflow enforcement around VectorCraft, not a replacement vector renderer. Make changes in src/ and deployable skills in skills/. New enforcement belongs to explicitly versioned version-three profiles: designer-v1 remains default; focused-execution-v1, layout-blockout-v1 and designer-process-v1 are opt-in. Preserve legacy helper contracts and historical evidence. Keep policy evidence separate from actually observed artwork and proposed roadmap features.
 
 Use Python 3.13. Run self-contained tests before proposing changes; run local Windows integration checks when touching native commands, desktop ownership or recovery. Add tests for consequential policy/installation changes, not tests that merely mirror low-impact prose. Distinguish fixtures from actual observed artwork.
 

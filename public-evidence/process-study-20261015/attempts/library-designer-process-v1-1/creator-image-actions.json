@@ -1,0 +1,104 @@
+{
+  "trial": "library-designer-process-v1-1",
+  "profile": "designer-process-v1",
+  "actions": [
+    {
+      "sequence": 1,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\references\\neon-drive.png",
+      "sha256": "f1f1284008ddc2e7423d525f94b6fe643e9fcad2fad93632cb013e38ebf82367",
+      "action_performed": true,
+      "image_returned_and_observed": true,
+      "evidence": "Actual seven-image functions.exec result immediately before the turn_aborted interruption; no native artwork images were generated.",
+      "observation": "Large white title sits above a warm striped sun on a purple field; a magenta perspective grid occupies the foreground.",
+      "display_limitation": null,
+      "timestamp": null,
+      "timestamp_limitation": "Individual action wall timestamps were not recorded before interruption."
+    },
+    {
+      "sequence": 2,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\references\\dusk-poster.png",
+      "sha256": "c459ff8e6b7b745473f287b56d1d05305761bf2dd40ada65dd5904960711d89b",
+      "action_performed": true,
+      "image_returned_and_observed": true,
+      "evidence": "Actual seven-image functions.exec result immediately before the turn_aborted interruption; no native artwork images were generated.",
+      "observation": "Cream DUSK title occupies open sky above overlapping purple mountain masses and a partially hidden warm sun.",
+      "display_limitation": null,
+      "timestamp": null,
+      "timestamp_limitation": "Individual action wall timestamps were not recorded before interruption."
+    },
+    {
+      "sequence": 3,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\references\\wright.jpg",
+      "sha256": "7cd47076a35df791965ee25b9a62e343c40b5366cdbd545e192b96050b2849cb",
+      "action_performed": true,
+      "image_returned_and_observed": true,
+      "evidence": "Actual seven-image functions.exec result immediately before the turn_aborted interruption; no native artwork images were generated.",
+      "observation": "Faces and hands surround the illuminated central apparatus; peripheral figures and room recede into dark areas.",
+      "display_limitation": "Tool resized source from 5639x4226 to 1824x1367 pixels.",
+      "timestamp": null,
+      "timestamp_limitation": "Individual action wall timestamps were not recorded before interruption."
+    },
+    {
+      "sequence": 4,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\references\\perspective-city.png",
+      "sha256": "1ebd562bbd1f02926b599f1327568f1134ba91aeb4254ea494571ab4be347c04",
+      "action_performed": true,
+      "image_returned_and_observed": true,
+      "evidence": "Actual seven-image functions.exec result immediately before the turn_aborted interruption; no native artwork images were generated.",
+      "observation": "Two building faces meet at a vertical corner; repeated window shapes follow the two different planes.",
+      "display_limitation": null,
+      "timestamp": null,
+      "timestamp_limitation": "Individual action wall timestamps were not recorded before interruption."
+    },
+    {
+      "sequence": 5,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\references\\epa-mechanisms.png",
+      "sha256": "1278410c5a7b26048d983ab8fe32be1592c71e230c3e3615073fa9c1e6c2d140",
+      "action_performed": true,
+      "image_returned_and_observed": true,
+      "evidence": "Actual seven-image functions.exec result immediately before the turn_aborted interruption; no native artwork images were generated.",
+      "observation": "Two-column page separates a vegetation map and house photograph from adjacent prose, with captions below each image.",
+      "display_limitation": null,
+      "timestamp": null,
+      "timestamp_limitation": "Individual action wall timestamps were not recorded before interruption."
+    },
+    {
+      "sequence": 6,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\references\\epa-flow.png",
+      "sha256": "cb456b66cf5fd95750a8bc62d73c73d52907e166a44ad46452e5c3a051faae34",
+      "action_performed": true,
+      "image_returned_and_observed": true,
+      "evidence": "Actual seven-image functions.exec result immediately before the turn_aborted interruption; no native artwork images were generated.",
+      "observation": "A small tree diagram uses nearby leaders for roots, stem and stomata and upward blue arrows; explanatory prose surrounds it.",
+      "display_limitation": null,
+      "timestamp": null,
+      "timestamp_limitation": "Individual action wall timestamps were not recorded before interruption."
+    },
+    {
+      "sequence": 7,
+      "tool": "functions.exec -> tools.view_image",
+      "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\library-designer-process-v1-1\\references\\feature-sheet.png",
+      "sha256": "c807ad224732492793ad07670115f40d67d653134fe11a252d95bcdde04b487c",
+      "action_performed": true,
+      "image_returned_and_observed": true,
+      "evidence": "Actual seven-image functions.exec result immediately before the turn_aborted interruption; no native artwork images were generated.",
+      "observation": "Purple crescent and three separated warm stars appear on pale ground above one readable bottom label.",
+      "display_limitation": null,
+      "timestamp": null,
+      "timestamp_limitation": "Individual action wall timestamps were not recorded before interruption."
+    }
+  ],
+  "count": 7,
+  "distinct_source_works": 6,
+  "artwork_or_export_image_actions": 0,
+  "research_limitations": [
+    "Seven supplied assets represent six works; the 15-25-work research target was not met.",
+    "No audience interviews or comprehension answers were collected."
+  ]
+}

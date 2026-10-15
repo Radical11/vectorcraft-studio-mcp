@@ -1,0 +1,61 @@
+{
+  "directions_sha256": "1336d57b1562f1df5af7ec098715f9e6cbbe3ed1e6dd3e897ce1db9073e752e5",
+  "calibration_sha256": "770e2017ac41bb77e4ea60ee0f176b7fe269e62e89a1bfb65402bb3aefe33e3e",
+  "reviewer_id": "concept_07b",
+  "assessments": [
+    {
+      "id": "inward",
+      "composition": "Current inward2 strongest: central wheel framed by two people, distinct gestures at768; balanced but static",
+      "image_treatment": "Cream teal rust coherent; visible supporting forearm/sleeve and enlarged raised edge improve earlier study, but edge resembles separate horseshoe piece",
+      "copy": "Wordless consistent with brief",
+      "brief_fit": "Removed wheel, cooperative people, gripping hand and separate support visible; both hands connect to arms. Tool enters below raised edge, exact tyre relationship somewhat ambiguous. Proceed with contact/anatomy refinement"
+    },
+    {
+      "id": "overhead",
+      "composition": "Flat ellipse and frontal people do not establish overhead view; empty upper space",
+      "image_treatment": "Small tool contact merges into dark tyre; supporting hand lacks visible forearm",
+      "copy": "Wordless consistent with brief",
+      "brief_fit": "Needs supporting-arm continuity and meaningful lever engagement before production"
+    },
+    {
+      "id": "diagonal",
+      "composition": "Directional reach but oversized wheel masks helper; long rigid arm stretched",
+      "image_treatment": "Red sleeve crosses wheel with confusing overlap and no convincing skin/forearm",
+      "copy": "Wordless consistent with brief",
+      "brief_fit": "Arm proportion, continuity and tyre engagement weak; substantial reconstruction needed"
+    }
+  ],
+  "selected": "inward",
+  "all_weak": false,
+  "reason": "Current inward2 only direction with both visibly connected hand roles and enlarged lever-under-edge event to warrant production; selection approves direction not finished illustration",
+  "unresolved_limitations": [
+    "Raised tyre edge resembles detached curved piece",
+    "Working thumb/finger overlap and simplified wrist/elbow",
+    "Static attention",
+    "Sparse generic context"
+  ],
+  "image_inspection": {
+    "performed": true,
+    "paths": [
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-84c48de02fc94dd1-inward2\\versions\\inward2-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-84c48de02fc94dd1-inward2\\versions\\inward2-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\full.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\use.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\wright.jpg",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\dusk-poster.png",
+      "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\perspective-city.png"
+    ],
+    "observations": [
+      "All8 study images and3 refs actually returned and viewed; intended-size images directly inspected. Current inward uses inward2, earlier inward separately viewed. References are guidance not proof of achieved quality."
+    ]
+  },
+  "image_observation": {
+    "tool": "functions.exec/tools.view_image",
+    "evidence": "Fresh concept_07b eleven actual image actions: ordered paths in image_inspection; action observations in concept-review-2-actions.json",
+    "observation": "Inward2 both hands visibly arm-connected; tool below enlarged edge; edge still resembles detached horseshoe segment"
+  }
+}

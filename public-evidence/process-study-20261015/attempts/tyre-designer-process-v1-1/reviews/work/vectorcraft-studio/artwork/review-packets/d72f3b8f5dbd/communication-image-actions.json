@@ -1,0 +1,27 @@
+[
+  {
+    "tool": "view_image",
+    "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\d72f3b8f5dbd\\A\\full.png",
+    "action": "Viewed full illustration."
+  },
+  {
+    "tool": "view_image",
+    "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\d72f3b8f5dbd\\A\\use.png",
+    "action": "Viewed intended-size illustration and assessed repair narrative."
+  },
+  {
+    "tool": "view_image",
+    "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\d72f3b8f5dbd\\B\\full.png",
+    "action": "Viewed full incumbent illustration."
+  },
+  {
+    "tool": "view_image",
+    "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\d72f3b8f5dbd\\B\\use.png",
+    "action": "Viewed intended-size incumbent and compared contact clarity."
+  },
+  {
+    "tool": "view_image",
+    "path": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\artwork\\review-packets\\d72f3b8f5dbd\\target.png",
+    "action": "Viewed target and compared silhouette, palette and meaningful contact detail."
+  }
+]

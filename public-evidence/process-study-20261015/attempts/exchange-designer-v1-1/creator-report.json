@@ -1,0 +1,79 @@
+{
+  "profile": "designer-v1",
+  "condition": "CURRENT DEFAULT",
+  "status": "completed",
+  "run_status": "review_passed",
+  "best_version": "final-1",
+  "stop_reason": "Best common-brief version passed both independent specialists",
+  "stopped_run": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\run.json",
+  "original_version": null,
+  "original_note": "Built from blank; no supplied original or incumbent. All concept/study/failed typography/production snapshots preserved.",
+  "timings": {
+    "host_started_unix": 1791918014.7142005,
+    "last_instrumented_call_unix": 1791918869.8800292,
+    "host_active_seconds_to_last_call": 511.2374017238617,
+    "review_paused_seconds": 343.9284269809723,
+    "shared_ledger_note": "Parent started ledger before dispatch; ledger additionally counts initial reading/research/planning and reporting. Parent alone finishes and accounts trial."
+  },
+  "batches": 9,
+  "session_calls": 75,
+  "receipts": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\host-receipts.jsonl",
+  "clock_diagnostics": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\clock-diagnostics.jsonl",
+  "planning_connections": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\planning-connections.jsonl",
+  "reviewers": [
+    {
+      "role": "concept",
+      "reviewer_id": "/root/pilot_02/concept_review",
+      "return": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\concept-review-return.json",
+      "actual_images": 10
+    },
+    {
+      "role": "communication",
+      "reviewer_id": "/root/pilot_02/final_communication",
+      "return": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\final-communication-return.json",
+      "actual_images": 3
+    },
+    {
+      "role": "craft",
+      "reviewer_id": "/root/pilot_02/final_craft",
+      "return": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\final-craft-return.json",
+      "actual_images": 3
+    }
+  ],
+  "review_rounds": 1,
+  "final_correction_rounds": 0,
+  "aesthetic_evidence": "Both fresh specialists actually viewed full/use/target, returned all eight criteria4, fidelity5/copy4, no findings; retained first candidate. Assessments subjective; no aesthetic claim from object counts.",
+  "image_actions": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\creator-image-actions.json",
+  "execution_issues": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\execution-issues.json",
+  "limitations": [
+    "Frozen pack contained seven image references, representing six distinct source works (two EPA pages from one publication); fewer than15-25 and no direct book-exchange or anatomy reference. No audience interviews.",
+    "Concept is direct and familiar; specialists identify originality as its ceiling.",
+    "Hands deliberately stylized, with broad two-finger contours.",
+    "Live SVG text depends on Impact and Arial availability outside this machine; both are exact locally. Native/SVG/PDF/PNG renders agreed visually locally, aside from minor antialiasing.",
+    "Title area placement approximately10pt lower than target while hierarchy stays intact.",
+    "Standardized date/block edit is reserved for parent separate evaluation copy and not performed here."
+  ],
+  "artifacts": {
+    "exchange-night.vectorcraft": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\exchange-night.vectorcraft",
+    "exchange-night.svg": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\exchange-night.svg",
+    "exchange-night.pdf": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\exchange-night.pdf",
+    "exchange-night.png": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\exchange-night.png",
+    "exchange-night-use.png": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\exports\\exchange-night-use.png"
+  },
+  "retained_native_snapshot": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\work\\vectorcraft-studio\\artwork\\versions\\final-1\\artwork.vectorcraft",
+  "post_stop_verification": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\post-stop-verification.json",
+  "live_component_map": {
+    "title": 3,
+    "invitation": 4,
+    "date": 5,
+    "time": 6,
+    "venue": 7,
+    "entry": 8,
+    "event_details_group": 28,
+    "book_group": 29,
+    "left_hand_group": 30,
+    "right_hand_group": 31
+  },
+  "closed_owned_native_connections": true,
+  "lessons": "<project>\\work\\research32\\pilot\\process-pilot-20261013\\exchange-designer-v1-1\\local-lessons.md"
+}

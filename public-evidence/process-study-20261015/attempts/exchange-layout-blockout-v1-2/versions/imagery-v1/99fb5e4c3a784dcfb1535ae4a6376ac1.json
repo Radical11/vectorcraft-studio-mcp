@@ -1,0 +1,52 @@
+{
+  "phase": "confirm",
+  "observations": "Full/use and target inspected: revised right palm now has two open cream finger gaps beside cover edge, with thumb over book. Neighbor sleeve and page mass retained, whole scene keeps title/image/invitation/detail order. Hand remains deliberately stylized.",
+  "target_comparison": {
+    "silhouette": "Book handoff retained; palm contact more articulated than target",
+    "proportions": "Cover/palm/sleeve scales retained",
+    "negative_space": "Finger spaces open at use size; title and bottom fields unchanged",
+    "hierarchy": "No new detail competes with title or coral cover",
+    "copy": "All locked copy remains visible and live",
+    "detail": "Bent fingers and sparse crease improve book-edge contact without hatch texture"
+  },
+  "element_map": {
+    "paper": [
+      2
+    ],
+    "title": [
+      27
+    ],
+    "handoff": [
+      25
+    ],
+    "tagline": [
+      19
+    ],
+    "rule": [
+      20
+    ],
+    "date": [
+      21
+    ],
+    "time": [
+      22
+    ],
+    "location": [
+      23
+    ],
+    "entry": [
+      24
+    ]
+  },
+  "departures": [
+    {
+      "element": "handoff",
+      "reason": "10-point upward placement and observed right palm refinement from separate proof"
+    },
+    {
+      "element": "title",
+      "reason": "Exact string stored live and naturally wrapped in area type"
+    }
+  ],
+  "decision": "Imagery accepted; finish native edit selection organization without adding ornament"
+}

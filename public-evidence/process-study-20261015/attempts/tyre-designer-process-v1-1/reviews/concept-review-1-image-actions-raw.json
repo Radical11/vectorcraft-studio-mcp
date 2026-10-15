@@ -1,0 +1,64 @@
+{
+  "paths": [
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\full.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-6f50da75d8a04668-inward\\versions\\inward-blockout\\use.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\full.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-96a7ab00978e45a8-overhead\\versions\\overhead-blockout\\use.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\full.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\work\\vectorcraft-studio\\study-d079868205994a39-diagonal\\versions\\diagonal-blockout\\use.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\wright.jpg",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\dusk-poster.png",
+    "<project>\\work\\research32\\pilot\\process-pilot-20261013\\tyre-designer-process-v1-1\\references\\perspective-city.png"
+  ],
+  "image_observation": {
+    "tool": "functions.exec → tools.view_image; each result emitted with image(), detail original",
+    "evidence": [
+      {
+        "action": 1,
+        "path_index": 1,
+        "observation": "Viewed inward full PNG."
+      },
+      {
+        "action": 2,
+        "path_index": 2,
+        "observation": "Viewed inward intended-size PNG."
+      },
+      {
+        "action": 3,
+        "path_index": 3,
+        "observation": "Viewed overhead full PNG."
+      },
+      {
+        "action": 4,
+        "path_index": 4,
+        "observation": "Viewed overhead intended-size PNG."
+      },
+      {
+        "action": 5,
+        "path_index": 5,
+        "observation": "Viewed diagonal full PNG."
+      },
+      {
+        "action": 6,
+        "path_index": 6,
+        "observation": "Viewed diagonal intended-size PNG."
+      },
+      {
+        "action": 7,
+        "path_index": 7,
+        "observation": "Viewed Wright calibration JPEG; tool display resized it."
+      },
+      {
+        "action": 8,
+        "path_index": 8,
+        "observation": "Viewed Dusk calibration PNG."
+      },
+      {
+        "action": 9,
+        "path_index": 9,
+        "observation": "Viewed perspective-city calibration PNG."
+      }
+    ],
+    "observation": "All six alternative images and all three calibration images were actually displayed and inspected. Judgments derive from visible images, including contact and anatomy at intended size; no creator outcomes, historical reviews or numerical layout checks were consulted."
+  }
+}

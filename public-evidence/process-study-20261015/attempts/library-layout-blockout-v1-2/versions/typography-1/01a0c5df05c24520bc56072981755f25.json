@@ -1,0 +1,92 @@
+{
+  "phase": "confirm",
+  "observations": "Full/use/target inspected: title and status weights are stronger; all exact actions now share a common single-line baseline. They remain readable at 600px with clear status grouping.",
+  "decision": "Proceed; required grouping retained.",
+  "target_comparison": {
+    "silhouette": "Three equal service cards under a centered catalogue search match selected target.",
+    "proportions": "Original card dimensions and broad spacing retained.",
+    "negative_space": "Title field and connector corridor remain open.",
+    "hierarchy": "Title, search, status and action read in order at use size.",
+    "copy": "Full/use/target inspected: title and status weights are stronger; all exact actions now share a common single-line baseline. They remain readable at 600px with clear status grouping.",
+    "detail": "Subject symbols and branch endpoints remain distinct."
+  },
+  "element_map": {
+    "background": [
+      2
+    ],
+    "routes": [
+      9,
+      12,
+      23,
+      33,
+      42
+    ],
+    "cards": [
+      10,
+      11,
+      21,
+      22,
+      31,
+      32
+    ],
+    "title": [
+      3
+    ],
+    "guide": [
+      4
+    ],
+    "search": [
+      6
+    ],
+    "available": [
+      13
+    ],
+    "collect": [
+      43
+    ],
+    "loan": [
+      24
+    ],
+    "reserve": [
+      44
+    ],
+    "notheld": [
+      34
+    ],
+    "librarian": [
+      45
+    ],
+    "symbols": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      25,
+      26,
+      27,
+      28,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "furniture": [
+      5,
+      7,
+      8,
+      41
+    ]
+  },
+  "departures": [
+    {
+      "element": "collect",
+      "reason": "One exact live phrase on a single baseline replaces the two-line blockout fragments."
+    },
+    {
+      "element": "reserve",
+      "reason": "Single exact live phrase matches other actions."
+    }
+  ]
+}

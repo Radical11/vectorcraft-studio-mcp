@@ -1,0 +1,128 @@
+{
+  "phase": "calibration",
+  "held_out_evidence": false,
+  "profile": "designer-process-v1",
+  "status": "review_passed",
+  "best_version": "candidate-v2",
+  "revision_rounds": 1,
+  "planned_batches": 12,
+  "host_calls": 254,
+  "active_minutes_at_completion": 26.077,
+  "wall_minutes_at_completion": 34.967,
+  "paused_review_minutes": 8.89,
+  "completion_unix": 1791840142.6141014,
+  "run": "<project>\\work\\research32\\calibration\\cycle1-poster\\work\\vectorcraft-studio\\artwork",
+  "deliverables": "<project>\\work\\research32\\calibration\\cycle1-poster\\final",
+  "native_verification": "<project>\\work\\research32\\calibration\\cycle1-poster\\verification\\verification.json",
+  "live_text_objects": 6,
+  "editable_paths": 61,
+  "raster_objects": [],
+  "native_fingerprint_matches": true,
+  "current_relations": {
+    "hand-grip": {
+      "outcome": "pass",
+      "observation": "Pale hand shape overlaps angled dark torch housing; forward arm continuous to it.",
+      "diagnostic": null,
+      "current": true,
+      "spec_revision": 2,
+      "entity_fingerprints": {
+        "walker": "19d138ed8cd509a9363bf103aaf233b6ad3d8cc46471198941029f198749a18e",
+        "torch": "13280c4e2375c6f7b9c6572392fb83b6b27b4fd4c7b577b8c466e453d78e3e9f"
+      }
+    },
+    "source-light": {
+      "outcome": "pass",
+      "observation": "Pale lens lies at root of widening beam with no visible gap.",
+      "diagnostic": null,
+      "current": true,
+      "spec_revision": 2,
+      "entity_fingerprints": {
+        "torch": "13280c4e2375c6f7b9c6572392fb83b6b27b4fd4c7b577b8c466e453d78e3e9f",
+        "beam": "79aeb4fa675e3676b42cb1e8e51cdd4448e594dcf0f44e2b18264f9b061696d4"
+      }
+    },
+    "branch-light": {
+      "outcome": "pass",
+      "observation": "Leaves and woody stem visibly interrupt warm light and remain connected.",
+      "diagnostic": null,
+      "current": true,
+      "spec_revision": 2,
+      "entity_fingerprints": {
+        "nature": "64fd65302385ca22313dd4193313e16a09b0cb8c86d950f9044968095c456a35",
+        "beam": "79aeb4fa675e3676b42cb1e8e51cdd4448e594dcf0f44e2b18264f9b061696d4"
+      }
+    },
+    "moth-light": {
+      "outcome": "pass",
+      "observation": "Antennae and paired wings are fully visible within warm projected field.",
+      "diagnostic": null,
+      "current": true,
+      "spec_revision": 2,
+      "entity_fingerprints": {
+        "moth": "a750afde9b3555ed5b25ab39090a83280a1eca50b4d2de1c29bd7618ee43ab26",
+        "beam": "79aeb4fa675e3676b42cb1e8e51cdd4448e594dcf0f44e2b18264f9b061696d4"
+      }
+    },
+    "foot-trail": {
+      "outcome": "pass",
+      "observation": "Rear boot overlaps the curving trail edge; raised forward foot completes visible stride.",
+      "diagnostic": null,
+      "current": true,
+      "spec_revision": 2,
+      "entity_fingerprints": {
+        "walker": "19d138ed8cd509a9363bf103aaf233b6ad3d8cc46471198941029f198749a18e",
+        "ground": "877cf007f500c8d071b740fcf1ddbbc0c4145193f5e3477de775c4980f422ec2"
+      }
+    },
+    "footer-align": {
+      "outcome": "pass",
+      "observation": "Date and meeting line share observed x=68 left baseline origin.",
+      "diagnostic": 0.0,
+      "current": true,
+      "spec_revision": 2,
+      "entity_fingerprints": {
+        "date": "365477f36178fc44ec91d466a719adcf21451cf232b8258e8efbbc5030996423",
+        "meet": "0c60c899d6cebe136e34317ea32776f71742d6796ce5b35ddb75115dfecb9524"
+      }
+    },
+    "insect-contained": {
+      "outcome": "pass",
+      "observation": "Entire moth including antennae remains inside beam bounds and visibly within illuminated region.",
+      "diagnostic": true,
+      "current": true,
+      "spec_revision": 2,
+      "entity_fingerprints": {
+        "beam": "79aeb4fa675e3676b42cb1e8e51cdd4448e594dcf0f44e2b18264f9b061696d4",
+        "moth": "a750afde9b3555ed5b25ab39090a83280a1eca50b4d2de1c29bd7618ee43ab26"
+      }
+    }
+  },
+  "reviewers": {
+    "concept": "/root/calibration_poster_cycle1/concept_review",
+    "communication_v1": "communication-a927b2ad825a-20261013-fc91",
+    "craft_v1": "craft-final-a927b2ad825a-independent-01",
+    "communication_v2": "communication-c1-37332c85a28f-f7b6d09a",
+    "craft_v2": "craft-37332c85-fresh-7a962f18"
+  },
+  "reviewer_image_actions": {
+    "concept_initial": 7,
+    "concept_intended_size_supplement": 3,
+    "communication_v1": 3,
+    "craft_v1": 3,
+    "communication_v2": 5,
+    "craft_v2": 5
+  },
+  "final_review_scores": "Both final specialists all applicable criteria 4; both selected candidate-v2; no findings or consequential regressions",
+  "visual_findings": "Torch-lit insect/botanicals and walker remain clear at450x600. Round1 grip/foot schematic contours corrected; round2 reviewers observed improvement. This is subjective model calibration evidence.",
+  "limitations": [
+    "Only4 fresh relevant cached reference works inspected; below15-25 broad target",
+    "Initial independent concept review omitted use previews; supplement viewed all3 after first composition edit and retained selection",
+    "Optional live-text SVG requires Impact/Inter availability; Sharp substituted Inter, retained fallback render. Primary SVG outlined to preserve appearance; native text stays live",
+    "No human review or general aesthetic improvement inference from one calibration"
+  ],
+  "implementation_defects": [],
+  "execution_issues": "<project>\\work\\research32\\calibration\\cycle1-poster\\execution-issues.json",
+  "verification_authoring_calls": 0,
+  "verification_workflow_start_calls": 0,
+  "binding_intact": true
+}
