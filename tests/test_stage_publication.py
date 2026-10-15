@@ -25,7 +25,7 @@ class StagePublicationTests(unittest.TestCase):
             {'id': 'b', 'brief': 'tyre', 'repeat': 2, 'condition': 'designer-v1', 'status': 'pending', 'retained_version': None}]})
         (self.root / 'image.png').write_bytes(b'SYNTHETIC IMAGE BYTES')
         self.write('summary.json', {'best_version': 'misleading-composition-name', 'versions': {'misleading-composition-name': {'confirmed': True}}})
-        capture = {'id': 'c', 'version': 'misleading-composition-name', 'kind': 'production', 'stage': 'imagery',
+        capture = {'id': 'c', 'order': 1, 'version': 'misleading-composition-name', 'kind': 'production', 'stage': 'imagery',
                    'at': '02', 'confirmed': True, 'retained_best': True, 'selected_for_display': True,
                    'source_begin_event': 0, 'source_confirm_event': 1,
                    'images': {'full': {'path': 'image.png', 'sha256': stages.sha(self.root / 'image.png')}}}
@@ -34,6 +34,13 @@ class StagePublicationTests(unittest.TestCase):
                                      source_summary={'path': 'summary.json', 'sha256': stages.sha(self.root / 'summary.json')},
                                      source_events={'path': 'events.json', 'sha256': stages.sha(self.root / 'events.json')}, captures=[capture]),
                                 dict(self.read('checkpoint.json')['results'][1], captures=[])]}
+        self.data['stages'] = {k: {'title': v[0], 'purpose': v[1]} for k, v in stages.STAGES.items()}
+        for number, trial in enumerate(self.data['trials'], 1):
+            trial['order'] = number
+        self.guide = {'steps': [{'trial_id': 'a', 'capture_id': 'c',
+                                 'full_sha256': stages.sha(self.root / 'image.png'),
+                                 'title': 'Synthetic step', 'change': 'Synthetic change description.',
+                                 'reading': 'Synthetic explanation; not an image observation.'}]}
 
     def tearDown(self):
         self.tmp.cleanup()
@@ -47,6 +54,44 @@ class StagePublicationTests(unittest.TestCase):
     def test_event_not_filename_assigns_stage(self):
         self.assertEqual(stages.stage_binding(self.events, 'misleading-composition-name', {'at': '02'})[0], 'imagery')
         stages.validate(self.root, self.data)
+
+    def test_reading_labels_preserve_source_ids_and_have_stable_steps(self):
+        display = stages.presentation(self.data, self.guide)
+        trial = display['trials'][0]
+        self.assertEqual(trial['display_name'], 'Repair · Standard · Run 1')
+        self.assertEqual(trial['short_id'], 'T01')
+        self.assertEqual(trial['id'], 'a')
+        self.assertEqual(trial['captures'][0]['version'], 'misleading-composition-name')
+        self.assertEqual(trial['captures'][0]['step'], 'T01.01')
+        self.assertNotIn('display_name', self.data['trials'][0])
+
+    def test_every_step_description_is_required_exactly_once(self):
+        for mode in ('missing', 'unknown', 'duplicate', 'empty'):
+            guide = copy.deepcopy(self.guide)
+            if mode == 'missing': guide['steps'] = []
+            elif mode == 'unknown': guide['steps'][0]['capture_id'] = 'unknown'
+            elif mode == 'duplicate': guide['steps'] *= 2
+            else: guide['steps'][0]['change'] = ' '
+            with self.subTest(mode=mode), self.assertRaises(ValueError):
+                stages.presentation(self.data, guide)
+
+    def test_caption_image_binding_and_capture_order_cannot_drift(self):
+        for mode in ('hash', 'order'):
+            data = copy.deepcopy(self.data)
+            capture = data['trials'][0]['captures'][0]
+            if mode == 'hash': capture['images']['full']['sha256'] = 'changed'
+            else: capture['order'] = 9
+            with self.subTest(mode=mode), self.assertRaises(ValueError):
+                stages.presentation(data, self.guide)
+
+    def test_progress_label_never_promotes_an_unconfirmed_or_failed_task(self):
+        capture = self.data['trials'][0]['captures'][0]
+        for confirmed, outcome, expected in ((False, 'pass', 'Not confirmed'),
+                                              (True, 'revise', 'Needs correction'),
+                                              (True, 'pass', 'Recorded step')):
+            capture.update(confirmed=confirmed, task_outcome=outcome)
+            result = stages.presentation(self.data, self.guide)
+            self.assertEqual(result['trials'][0]['captures'][0]['progress_label'], expected)
 
     def test_unconfirmed_capture_binds_to_begin_timestamp(self):
         stage, begin, confirm, _ = stages.stage_binding(self.events, 'not-confirmed', {'at': '02'})
@@ -137,6 +182,7 @@ class StagePublicationTests(unittest.TestCase):
         (self.root / 'site/research.css').write_text('/* synthetic */', encoding='utf-8')
         guide = self.root / 'docs/research/PROGRESS.md'
         guide.parent.mkdir(parents=True)
+        (self.root / stages.STEP_GUIDE).write_text(json.dumps(self.guide), encoding='utf-8')
         guide.write_text('Author-owned prose without generation markers.', encoding='utf-8')
         with self.assertRaisesRegex(ValueError, 'markers'):
             stages.render(self.root, supplement, check=True)

@@ -23,6 +23,13 @@ STAGES = {
     'finishing': ('Finishing', 'Check whole-scene cohesion, consequential defects and production readiness.'),
 }
 PROFILES = ['designer-v1', 'layout-blockout-v1', 'designer-process-v1']
+PROFILE_NAMES = {'designer-v1': 'Standard', 'focused-execution-v1': 'Focused build',
+                 'layout-blockout-v1': 'Layout first', 'designer-process-v1': 'Full process'}
+BRIEF_NAMES = {'tyre': 'Repair', 'exchange': 'Book exchange', 'library': 'Library guide'}
+STAGE_NAMES = {'roughs': 'Try layouts', 'construction-study': 'Test a detail',
+               'composition': 'Arrange the scene', 'typography': 'Set the text',
+               'imagery': 'Build the drawing', 'finishing': 'Polish and check'}
+STEP_GUIDE = Path('docs/research/STEP-GUIDE.json')
 
 
 def read(path):
@@ -284,14 +291,53 @@ def validate(root, data):
             raise ValueError('Changed source report')
 
 
+def presentation(data, guide):
+    """Add display labels without changing source identities or inferring quality."""
+    result = json.loads(json.dumps(data))
+    result['profile_names'] = PROFILE_NAMES
+    for key, stage in result['stages'].items():
+        stage['technical_name'] = stage['title']
+        stage['title'] = STAGE_NAMES[key]
+    expected = {(t['id'], c['id']) for t in data['trials'] for c in t['captures']}
+    entries = {}
+    for row in guide['steps']:
+        key = (row['trial_id'], row['capture_id'])
+        if key in entries:
+            raise ValueError('Duplicate step description')
+        if not all(isinstance(row.get(k), str) and row[k].strip() for k in ('title', 'change', 'reading')):
+            raise ValueError('Incomplete step description')
+        entries[key] = row
+    if set(entries) != expected:
+        raise ValueError('Missing or unknown step descriptions')
+    for trial in result['trials']:
+        trial['short_id'] = f"T{trial['order']:02}"
+        trial['display_name'] = f"{BRIEF_NAMES[trial['brief']]} · {PROFILE_NAMES[trial['condition']]} · Run {trial['repeat']}"
+        for number, capture in enumerate(trial['captures'], 1):
+            if capture['order'] != number:
+                raise ValueError('Step order differs from capture index')
+            row = entries[(trial['id'], capture['id'])]
+            if row['full_sha256'] != capture['images']['full']['sha256']:
+                raise ValueError('Step description image binding changed')
+            capture['step'] = f"{trial['short_id']}.{number:02}"
+            capture['title'] = row['title']
+            capture['change'] = row['change']
+            capture['reading'] = row['reading']
+            # These labels describe recorded state, never a new visual rating.
+            capture['progress_label'] = ('Not confirmed' if not capture['confirmed'] else
+                                         'Needs correction' if capture.get('task_outcome') == 'revise' else
+                                         'Recorded step')
+    return result
+
+
 def markdown(data):
     lines = ['## All eighteen attempts', '', '| Attempt | Outcome | Available captures |', '| --- | --- | ---: |']
     for t in data['trials']:
-        lines.append(f"| [{t['id']}](#{t['id']}) | {t['label']} | {len(t['captures'])} |")
+        lines.append(f"| [{t['short_id']} — {t['display_name']}](#{t['id']}) | {t['label']} | {len(t['captures'])} |")
     lines += ['', '## Stage-by-stage records', '',
               'Images link to exact stored full/use captures. Captions below quote or summarize existing checkpoint fields. Blank stages are not reconstructed.', '']
     for t in data['trials']:
-        lines += [f"### {t['id']}", '', f"{t['label']}. Profile `{t['condition']}`, repeat {t['repeat']}.", '']
+        lines += [f'<a id="{t["id"]}"></a>', '', f"### {t['short_id']} — {t['display_name']}", '',
+                  f"{t['label']}. Source ID: `{t['id']}`.", '']
         if t.get('report'):
             lines += [f"[Creator report](../../{t['report']['path']})", '']
         if not t['captures']:
@@ -302,15 +348,18 @@ def markdown(data):
             observation = c['observations'].get('observations') or c['observations'].get('decision') or 'No confirmation observation recorded.'
             if isinstance(observation, list):
                 observation = ' '.join(str(x) for x in observation)
-            lines += [f"**{STAGES[c['stage']][0]} — `{c['version']}`** ({', '.join(flags)}). {links}", '',
-                      str(observation).replace('\n', ' '), '', '*Source: ' + c['observations']['attribution'] + '*', '']
+            lines += [f"**{c['step']} — {c['title']}** · {data['stages'][c['stage']]['title']} ({', '.join(flags)}). {links}", '',
+                      f"**Change / check:** {c['change']}", '', f"**Purpose:** {data['stages'][c['stage']]['purpose']}", '',
+                      '**Recorded observation:** ' + str(observation).replace('\n', ' '), '',
+                      f"**How to read the progress:** {c['reading']}", '',
+                      f"Source version: `{c['version']}`. *{c['observations']['attribution']}*", '']
     return '\n'.join(lines).rstrip() + '\n'
 
 
 def render(root, supplement, check=False):
     data = read(supplement / 'index.json')
     validate(root, data)
-    page_data = json.loads(json.dumps(data))
+    page_data = presentation(data, read(root / STEP_GUIDE))
     assets = {}
     for trial in page_data['trials']:
         for capture in trial['captures']:
@@ -331,7 +380,7 @@ def render(root, supplement, check=False):
     begin, end = '<!-- BEGIN GENERATED STAGE INDEX -->', '<!-- END GENERATED STAGE INDEX -->'
     if text.count(begin) != 1 or text.count(end) != 1:
         raise ValueError('Progress guide generated-region markers missing or duplicated')
-    updated = text.split(begin)[0] + begin + '\n' + markdown(data) + end + text.split(end)[1]
+    updated = text.split(begin)[0] + begin + '\n' + markdown(page_data) + end + text.split(end)[1]
     assets[progress] = updated.encode('utf-8')
     for path, content in assets.items():
         if check:

@@ -39,8 +39,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "source_sha256": "e11afdddb7a5a3ceff64dcaf640f9f94385143b7ce518847d8df59ef744c0774",
-      "public_sha256": "e11afdddb7a5a3ceff64dcaf640f9f94385143b7ce518847d8df59ef744c0774",
+      "source_sha256": "9747c9afb2f2abc388e5206b8d6ba303ae0862bf4ed9068c42a4bc27012ee9a0",
+      "public_sha256": "9747c9afb2f2abc388e5206b8d6ba303ae0862bf4ed9068c42a4bc27012ee9a0",
       "sanitized_derivative": false
     },
     {
@@ -69,8 +69,8 @@
     },
     {
       "path": "README.md",
-      "source_sha256": "a297b07c6ea2aaa13b5d8c22f035a1044bf5a3ee26b218273ed10c89144e3cca",
-      "public_sha256": "a297b07c6ea2aaa13b5d8c22f035a1044bf5a3ee26b218273ed10c89144e3cca",
+      "source_sha256": "413a7bd29cfa773b1a34217dd3c9f83d40523951f43a8a95c11acb5cd619d730",
+      "public_sha256": "413a7bd29cfa773b1a34217dd3c9f83d40523951f43a8a95c11acb5cd619d730",
       "sanitized_derivative": false
     },
     {
@@ -207,8 +207,8 @@
     },
     {
       "path": "docs/PROCESS.md",
-      "source_sha256": "06da7f589e22240abde411bcace1de8715db4074d5aeb16a6a18415c7800c8e9",
-      "public_sha256": "06da7f589e22240abde411bcace1de8715db4074d5aeb16a6a18415c7800c8e9",
+      "source_sha256": "0972d92beca404f67429e2a605051004a99fe83ed6b5f710dc1af626da2bafd9",
+      "public_sha256": "0972d92beca404f67429e2a605051004a99fe83ed6b5f710dc1af626da2bafd9",
       "sanitized_derivative": false
     },
     {
@@ -459,8 +459,8 @@
     },
     {
       "path": "docs/research/PROGRESS.md",
-      "source_sha256": "89022afc129356d6e2ba49d0cf3aa8ef4bd0bcb3093200a5256b313fcbd308a6",
-      "public_sha256": "89022afc129356d6e2ba49d0cf3aa8ef4bd0bcb3093200a5256b313fcbd308a6",
+      "source_sha256": "1eb3ebab308cede45473f328aefd3140c5849dc70ab36e5f37092b471e9e0c62",
+      "public_sha256": "1eb3ebab308cede45473f328aefd3140c5849dc70ab36e5f37092b471e9e0c62",
       "sanitized_derivative": false
     },
     {
@@ -486,6 +486,12 @@
       "source_sha256": "03afb474b6852393e165b7c23ea3db9d63f33c2c63bf17f0baf6bf56964a03d3",
       "public_sha256": "03afb474b6852393e165b7c23ea3db9d63f33c2c63bf17f0baf6bf56964a03d3",
       "sanitized_derivative": false
+    },
+    {
+      "path": "docs/research/STEP-GUIDE.json",
+      "source_sha256": "e66edd979f61582a42defe594c984e3fbe5379a10ac95ae7a5294ecdbaf82f26",
+      "public_sha256": "a5863673659b8a1474bbfc4294d25eea4a3b43e90579728cf41220e90b9d828b",
+      "sanitized_derivative": true
     },
     {
       "path": "docs/research/bibliography.bib",
@@ -3141,8 +3147,8 @@
     },
     {
       "path": "scripts/README.md",
-      "source_sha256": "526e9c970d57df5bed9e7c1a7956528b70ff1ebf9700b5cbb3700ef197164c02",
-      "public_sha256": "526e9c970d57df5bed9e7c1a7956528b70ff1ebf9700b5cbb3700ef197164c02",
+      "source_sha256": "3bffd625ae3bb979a67783a53654d632a7af94d117f1420075092070fc75162c",
+      "public_sha256": "3bffd625ae3bb979a67783a53654d632a7af94d117f1420075092070fc75162c",
       "sanitized_derivative": false
     },
     {
@@ -3153,8 +3159,8 @@
     },
     {
       "path": "scripts/build_stage_evidence.py",
-      "source_sha256": "dad426b758d009e52957ee323d5f02e7ae979f95d09fcd3efc4a8faf7031dd36",
-      "public_sha256": "dad426b758d009e52957ee323d5f02e7ae979f95d09fcd3efc4a8faf7031dd36",
+      "source_sha256": "e06379ff0f184f93a5fd1e693bfd1c38b6b19f3732aeec9b5c433da86b2f6f89",
+      "public_sha256": "e06379ff0f184f93a5fd1e693bfd1c38b6b19f3732aeec9b5c433da86b2f6f89",
       "sanitized_derivative": false
     },
     {
@@ -3837,8 +3843,8 @@
     },
     {
       "path": "site/assets/stages/index.json",
-      "source_sha256": "abb143dfbaad7d82bd36da26505a91932021068824f59093e92867acea8ddcc8",
-      "public_sha256": "383da3adb5e53bb205d2980a723e5d9caf9a1d978e21ba84b4ac32a01dfc80d8",
+      "source_sha256": "29f9697e8271122771d4617f970623025fe48015628788bd08431bccc40d7342",
+      "public_sha256": "985633468268b1ddbf4e143189f848f1b932064f435cad3876f3dce9c4c83d1d",
       "sanitized_derivative": true
     },
     {
@@ -3885,26 +3891,26 @@
     },
     {
       "path": "site/research.css",
-      "source_sha256": "13f971888968f1e63c46101c41279a5f3b30e2e43a30f5d57adcf48d57161465",
-      "public_sha256": "13f971888968f1e63c46101c41279a5f3b30e2e43a30f5d57adcf48d57161465",
+      "source_sha256": "3cf1bcd66793f4714d6b790839127ecd49b52fbda0ceb4690b385b2f879346e3",
+      "public_sha256": "3cf1bcd66793f4714d6b790839127ecd49b52fbda0ceb4690b385b2f879346e3",
       "sanitized_derivative": false
     },
     {
       "path": "site/research.html",
-      "source_sha256": "286a66e744746282746f6104da62a494a53355bb03e6f6722f53045d6f728ba9",
-      "public_sha256": "3fd243511f408ecd1dbae189de17bdd2c690788021975c61e219ac44c98204ff",
+      "source_sha256": "b20ce3b300eeeaa3359e0005fcc10aad99a1223c267af7ad1144a4df5cca7377",
+      "public_sha256": "a075b6aef12c5e74596a92c68ef41a0169dc2e1c5d7ccb7c242046ff4efd0914",
       "sanitized_derivative": true
     },
     {
       "path": "site/research.js",
-      "source_sha256": "3e865e56a363d00e0e5a44904caed7a8aab7cabf3347986eaba87fb375bf6b8c",
-      "public_sha256": "3e865e56a363d00e0e5a44904caed7a8aab7cabf3347986eaba87fb375bf6b8c",
+      "source_sha256": "64d827220e37cff7f374fe3a931467c4af711382c96070838e3887a121f001e6",
+      "public_sha256": "64d827220e37cff7f374fe3a931467c4af711382c96070838e3887a121f001e6",
       "sanitized_derivative": false
     },
     {
       "path": "site/research.template.html",
-      "source_sha256": "c5de37c80eb903e7a8629e934387a272c1cc6ee7216e6e6ad1381982ed3fb025",
-      "public_sha256": "c5de37c80eb903e7a8629e934387a272c1cc6ee7216e6e6ad1381982ed3fb025",
+      "source_sha256": "2e57a2fb02a82b11068ec6704d57cb1cc1105571c0be32daa53152d222f7f870",
+      "public_sha256": "2e57a2fb02a82b11068ec6704d57cb1cc1105571c0be32daa53152d222f7f870",
       "sanitized_derivative": false
     },
     {
@@ -4281,8 +4287,8 @@
     },
     {
       "path": "tests/test_stage_publication.py",
-      "source_sha256": "951c18e4e35cf4abe7f810740486c80b640fd04a0f24a7ce6680760cb0130c12",
-      "public_sha256": "951c18e4e35cf4abe7f810740486c80b640fd04a0f24a7ce6680760cb0130c12",
+      "source_sha256": "1aaa8a569f222f9e4f525a6c96bcf2729f697bf88196052aefae002c24bb92da",
+      "public_sha256": "1aaa8a569f222f9e4f525a6c96bcf2729f697bf88196052aefae002c24bb92da",
       "sanitized_derivative": false
     },
     {

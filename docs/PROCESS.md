@@ -49,12 +49,26 @@ Choose `quality_profile` when starting a full workflow. Resume uses the saved pr
 
 | Profile | Native roughs before selection | Focused task acceptance | Explicit entity/relationship checks |
 | --- | --- | --- | --- |
-| `designer-v1` — default | No mandatory isolated three-rough set | Existing batch confirmation | Existing element mappings and visual inspection |
-| `focused-execution-v1` | Inherited concept/construction studies | Yes | Existing mappings; no additional relationship graph |
-| `layout-blockout-v1` | Three inspected isolated native roughs | Existing batch confirmation | Existing mappings |
-| `designer-process-v1` | Three inspected isolated native roughs | Yes | Yes: semantic entities, anchors, dependencies, and observed relations |
+| **Standard** — `designer-v1` (default) | No mandatory isolated three-rough set | Existing batch confirmation | Existing element mappings and visual inspection |
+| **Focused build** — `focused-execution-v1` | Inherited concept/construction studies | Yes | Existing mappings; no additional relationship graph |
+| **Layout first** — `layout-blockout-v1` | Three inspected isolated native roughs | Existing batch confirmation | Existing mappings |
+| **Full process** — `designer-process-v1` | Three inspected isolated native roughs | Yes | Yes: semantic entities, anchors, dependencies, and observed relations |
 
 All retain research, concept selection, construction studies, independent final review, and production checks. See [focused contracts](FOCUSED-EXECUTION.md) and [designer-process contracts](DESIGNER-PROCESS.md) for exact fields and restrictions.
+
+These short names are reading labels. The exact IDs above still select the same profiles. The study compares Standard, Layout first, and Full process; Focused build is a separate available option. Run 1 and Run 2 are separate attempts, not before-and-after versions. An attempt named **Repair · Full process · Run 1** keeps its source ID and gets a short reference, **T07**, from its recorded trial order.
+
+## How the implementation has developed
+
+| Change | Problem it addresses | What it adds | What we can currently say |
+| --- | --- | --- | --- |
+| Standard workflow | An artwork needs a deliberate sequence and independent inspection | Research, concepts, construction stages, final review and delivery checks | Implemented; individual pass and partial outcomes are recorded |
+| Focused build | The builder can confuse several changes when attempting them together | A compact packet, one small task, and separate task/stage acceptance | Enforcement is technically tested; this feature alone is not a separate study arm |
+| Layout first | Selecting an idea only from its written description leaves visual problems hidden | Three isolated native roughs before selection | Captured roughs expose detached contact, collisions and weaker alternatives; they do not prove general superiority |
+| Full process | Parts can look acceptable separately but fail where they connect | Combines roughs and focused work with named parts and relationship checks | Recorded corrections show local fixes and regressions; cross-profile benefit remains unestablished |
+| Clear progress tracking | Version strings obscure what actually changed | Simple names, numbered steps, change descriptions and source-bound observations | Implemented as documentation and presentation; original study evidence stays intact |
+
+These are development changes, not four consecutive versions of the same artwork. Layout first and Focused build address different problems; Full process combines their mechanisms. Broader quality improvement is the hypothesis still awaiting evaluation.
 
 ## One manageable construction task
 
@@ -76,12 +90,14 @@ A component can pass while its stage remains unfinished. A revise preserves the 
 
 | Stage | Main question | Detail deferred |
 | --- | --- | --- |
-| Composition | Are placement, scale, reading order, and focal separation working? | Fine contours, surface detail |
-| Typography | Is exact copy live, correctly set, and readable at intended size? | Optional decorative polish |
-| Imagery | Are forms recognizable, proportionate, and correctly interacting? | Nonessential texture/detail |
-| Finishing | Does the whole scene cohere, with consequential defects resolved and production ready? | Changes without a consequential reason |
+| Arrange the scene (composition) | Are placement, scale, reading order, and focal separation working? | Fine contours, surface detail |
+| Set the text (typography) | Is exact copy live, correctly set, and readable at intended size? | Optional decorative polish |
+| Build the drawing (imagery) | Are forms recognizable, proportionate, and correctly interacting? | Nonessential texture/detail |
+| Polish and check (finishing) | Does the whole scene cohere, with consequential defects resolved and production ready? | Changes without a consequential reason |
 
 Inapplicable checks require an explanation. Geometric bounds can flag suspicious distances or alignment; they cannot prove that a hand is gripping or that an illustration communicates well.
+
+Before production, **Try layouts** means comparing native roughs and **Test a detail** means proving a difficult form or interaction in isolation. Within an attempt, steps such as **T07.10 — Open the tyre edge** follow recorded capture order. A correction may return to Build the drawing after Polish and check. Stage names explain the kind of work; step numbers explain when it happened.
 
 ## A correction that needed its own correction
 

@@ -9,28 +9,34 @@
   },
   "stages": {
     "roughs": {
-      "title": "Native roughs",
-      "purpose": "Compare overall ideas, placement, scale and reading experience."
+      "title": "Try layouts",
+      "purpose": "Compare overall ideas, placement, scale and reading experience.",
+      "technical_name": "Native roughs"
     },
     "construction-study": {
-      "title": "Construction study",
-      "purpose": "Check a representative native form or interaction before production."
+      "title": "Test a detail",
+      "purpose": "Check a representative native form or interaction before production.",
+      "technical_name": "Construction study"
     },
     "composition": {
-      "title": "Composition",
-      "purpose": "Check placement, scale, reading order and focal separation."
+      "title": "Arrange the scene",
+      "purpose": "Check placement, scale, reading order and focal separation.",
+      "technical_name": "Composition"
     },
     "typography": {
-      "title": "Typography",
-      "purpose": "Check exact copy, live text, fonts and intended-size readability."
+      "title": "Set the text",
+      "purpose": "Check exact copy, live text, fonts and intended-size readability.",
+      "technical_name": "Typography"
     },
     "imagery": {
-      "title": "Imagery",
-      "purpose": "Check recognizable forms, proportions and critical interactions."
+      "title": "Build the drawing",
+      "purpose": "Check recognizable forms, proportions and critical interactions.",
+      "technical_name": "Imagery"
     },
     "finishing": {
-      "title": "Finishing",
-      "purpose": "Check whole-scene cohesion, consequential defects and production readiness."
+      "title": "Polish and check",
+      "purpose": "Check whole-scene cohesion, consequential defects and production readiness.",
+      "technical_name": "Finishing"
     }
   },
   "limits": [
@@ -98,7 +104,12 @@
           },
           "observations": {
             "attribution": "No recorded confirmation observation for this capture."
-          }
+          },
+          "step": "T01.01",
+          "title": "Try the repair layout",
+          "change": "Start an isolated rough showing two people, a wheel and a lever.",
+          "reading": "The capture was never confirmed. This attempt was interrupted; it cannot establish a completed rough or an improvement.",
+          "progress_label": "Not confirmed"
         }
       ],
       "retained_version": null,
@@ -120,7 +131,9 @@
       "source_events": {
         "path": "public-evidence/process-stages-20261015/attempts/tyre-designer-process-v1-2/stage-events.json",
         "sha256": "9f6314b845a586da8cb5f1b0df3a4a7a2cdc3116202ca28fa3a0eb14f2f14070"
-      }
+      },
+      "short_id": "T01",
+      "display_name": "Repair · Full process · Run 2"
     },
     {
       "id": "exchange-designer-v1-1",
@@ -176,7 +189,12 @@
             "observations": "Full/use and target viewed: cream native ground fills artboard; title and imagery are intentionally not introduced yet.",
             "decision": "proceed"
           },
-          "source_check_sha256": "b4e6fe1d1ecf51761e4a7bc1b9f2bc9bb604b6730ea9b0e4579a6a58c86c76d3"
+          "source_check_sha256": "b4e6fe1d1ecf51761e4a7bc1b9f2bc9bb604b6730ea9b0e4579a6a58c86c76d3",
+          "step": "T02.01",
+          "title": "Lay out the poster background",
+          "change": "Create the cream poster field and reserve space for the title and shared book.",
+          "reading": "This is the starting scaffold; text and illustration are deliberately deferred.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-typography",
@@ -223,7 +241,12 @@
             "observations": "Full/use/target viewed. Date, time, venue and entry read clearly. Title area clips second line NIGHT, so this is a correction finding rather than accepted typography.",
             "decision": "Correct title area height and leading before imagery"
           },
-          "source_check_sha256": "934b11737335ea0447d0e7f217519ab166a64fd548a70dd97e1e8fc009093351"
+          "source_check_sha256": "934b11737335ea0447d0e7f217519ab166a64fd548a70dd97e1e8fc009093351",
+          "step": "T02.02",
+          "title": "Add the event wording",
+          "change": "Set a large title, invitation and event details as live text.",
+          "reading": "The captured title clips NIGHT. A saved capture does not mean the text stage succeeded.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-typography-fixed",
@@ -270,7 +293,12 @@
             "observations": "Full/use/target inspected. EXCHANGE NIGHT is now fully visible in two lines; invitation and footer readable at intended size; image field intentionally open.",
             "decision": "proceed"
           },
-          "source_check_sha256": "df66bf09a241b32a3c9a2bc9c3ae2208e99dee1cc8d81aea5deebc417b53d589"
+          "source_check_sha256": "df66bf09a241b32a3c9a2bc9c3ae2208e99dee1cc8d81aea5deebc417b53d589",
+          "step": "T02.03",
+          "title": "Reveal the complete title",
+          "change": "Increase the title frame and adjust line spacing.",
+          "reading": "The recorded observation says NIGHT is now fully visible and the invitation remains separate. This fixes the previous clipping.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-imagery",
@@ -317,7 +345,12 @@
             "observations": "Full/use and target viewed. Recognizable cream curved pages, coral cover, navy depth and teal bookmark; two hands contact book at opposite corners. Native contours preserve target geometry; all text remains clear and untouched.",
             "decision": "proceed"
           },
-          "source_check_sha256": "3bb92df24d05aa323eaac51a224a0a9e917a825346f51f567e5243a38ccefe68"
+          "source_check_sha256": "3bb92df24d05aa323eaac51a224a0a9e917a825346f51f567e5243a38ccefe68",
+          "step": "T02.04",
+          "title": "Draw the shared book",
+          "change": "Build the book, page curves and two hands touching opposite corners.",
+          "reading": "The recorded observation describes a recognizable book and both contacts with the text preserved. This adds the focal illustration.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-final-1",
@@ -364,7 +397,12 @@
             "observations": "Full/use and target inspected. Grouping changed no visible geometry or text. Two-line title is complete, central hand/book contact clear, entry condition and location readable; no accidental clipping beyond intentional cropped sleeve edge.",
             "decision": "proceed to export and independent review"
           },
-          "source_check_sha256": "cee7d8b36a902f76ca2616b0d3cfb82e37aa08f5ab5c806e06b9c56a3c722643"
+          "source_check_sha256": "cee7d8b36a902f76ca2616b0d3cfb82e37aa08f5ab5c806e06b9c56a3c722643",
+          "step": "T02.05",
+          "title": "Group and check the finished poster",
+          "change": "Group the book, hands and event details into editable components.",
+          "reading": "No visible change was recorded after grouping. This is an organization and verification step; the attempt subsequently passed final construction review.",
+          "progress_label": "Recorded step"
         }
       ],
       "retained_version": "final-1",
@@ -391,7 +429,9 @@
       "source_events": {
         "path": "public-evidence/process-stages-20261015/attempts/exchange-designer-v1-1/stage-events.json",
         "sha256": "effef581701e79816c448880287e17986cc83049103b032b364d9c8c75c30103"
-      }
+      },
+      "short_id": "T02",
+      "display_name": "Book exchange · Standard · Run 1"
     },
     {
       "id": "exchange-designer-process-v1-1",
@@ -421,7 +461,9 @@
       "source_events": {
         "path": "public-evidence/process-stages-20261015/attempts/exchange-designer-process-v1-1/stage-events.json",
         "sha256": "71862c27f958798546db12b46e9944a894399bbab2842f58d8e22de7f0758625"
-      }
+      },
+      "short_id": "T03",
+      "display_name": "Book exchange · Full process · Run 1"
     },
     {
       "id": "exchange-layout-blockout-v1-2",
@@ -507,7 +549,12 @@
               }
             ]
           },
-          "source_check_sha256": "128d171270d1af7ba03b82cc8cc34d919153ee13a25e71457f8f6b89bdce1ce9"
+          "source_check_sha256": "128d171270d1af7ba03b82cc8cc34d919153ee13a25e71457f8f6b89bdce1ce9",
+          "step": "T04.01",
+          "title": "Try a handoff layout",
+          "change": "Explore two hands meeting at the same book with the required event wording.",
+          "reading": "The observation records incorrect sleeve and palm colors. This rough needs a color repair.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-hands-study-hands-rough-fixed",
@@ -583,7 +630,12 @@
               }
             ]
           },
-          "source_check_sha256": "da1283ddc82222ade49bf6dcc4b7d9ba8adfabda97bea191b7d8dbd1656441db"
+          "source_check_sha256": "da1283ddc82222ade49bf6dcc4b7d9ba8adfabda97bea191b7d8dbd1656441db",
+          "step": "T04.02",
+          "title": "Restore hand and sleeve colors",
+          "change": "Assign the intended fills directly to the native objects.",
+          "reading": "The recorded colors now separate peach hands, dark sleeves and the coral book; the broad hand shapes remain stylized.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-orbit-study-orbit-rough",
@@ -660,7 +712,12 @@
               }
             ]
           },
-          "source_check_sha256": "3dfa2a8eb8b70f26bd2ddf3c3c330361e11db3e64233422a96c073393f442038"
+          "source_check_sha256": "3dfa2a8eb8b70f26bd2ddf3c3c330361e11db3e64233422a96c073393f442038",
+          "step": "T04.03",
+          "title": "Try a circular book layout",
+          "change": "Explore books circulating around a central title.",
+          "reading": "The observation records a title collision with the right book. This is an alternative concept, not a refinement of the handoff.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-orbit-study-orbit-rough-fixed",
@@ -736,7 +793,12 @@
               }
             ]
           },
-          "source_check_sha256": "4366ef35b901fc9893dff48f71304810daa47f61cd8f48927f19d40424b1c023"
+          "source_check_sha256": "4366ef35b901fc9893dff48f71304810daa47f61cd8f48927f19d40424b1c023",
+          "step": "T04.04",
+          "title": "Give the circular title space",
+          "change": "Reduce the central EXCHANGE word to clear the book.",
+          "reading": "The record describes readable copy and coherent circulation, while judging this idea less warm than the handoff.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-bridge-study-bridge-rough",
@@ -812,7 +874,12 @@
               }
             ]
           },
-          "source_check_sha256": "6146cecb3e88e459339dc799f4ff23338a9ce55ab0c036aea9ca585f69c19c54"
+          "source_check_sha256": "6146cecb3e88e459339dc799f4ff23338a9ce55ab0c036aea9ca585f69c19c54",
+          "step": "T04.05",
+          "title": "Try a book bridge layout",
+          "change": "Explore two people connected by one large open book.",
+          "reading": "This is the third concept direction. The observation describes a literal shared-reading bridge with intentionally simple people.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-grip-proof-grip-proof-v1",
@@ -888,7 +955,12 @@
               }
             ]
           },
-          "source_check_sha256": "5484e29cf82a2ec41ad4071fa81640e456da5d0277a84554eba03206f25508ba"
+          "source_check_sha256": "5484e29cf82a2ec41ad4071fa81640e456da5d0277a84554eba03206f25508ba",
+          "step": "T04.06",
+          "title": "Test the receiving fingers",
+          "change": "Build a separate book-and-hand study with a more distinct finger contour.",
+          "reading": "The record describes clearer right finger separation at intended size; it does not establish realistic anatomy.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-composition-v1",
@@ -935,7 +1007,12 @@
             "observations": "Full/use comparison shows readable selected layout and groups, but left shift leaves 12-point cream strip at formerly entering right sleeve. Neighbors and whole scene inspected.",
             "decision": "Repair right canvas-entry before typography"
           },
-          "source_check_sha256": "34286098e17534c31082b44f10c15da6a1bdcb4532d0a86ea1ebb7c9c7fbc5bb"
+          "source_check_sha256": "34286098e17534c31082b44f10c15da6a1bdcb4532d0a86ea1ebb7c9c7fbc5bb",
+          "step": "T04.07",
+          "title": "Place the chosen handoff",
+          "change": "Group the focal objects and shift them left and upward.",
+          "reading": "The shift exposes an accidental cream strip at the right sleeve entry. Placement needs another correction.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-composition-v2",
@@ -982,7 +1059,12 @@
             "observations": "Actual full/use and target comparison confirms right sleeve flush to canvas, book silhouette unchanged, more open gap before tagline. Both image neighbors and whole scene remain coherent.",
             "decision": "Composition accepted; proceed to live typography"
           },
-          "source_check_sha256": "539a19417883a6597d5497dcc078010d5ee10f66a23af0ee9bf3feb4344c31be"
+          "source_check_sha256": "539a19417883a6597d5497dcc078010d5ee10f66a23af0ee9bf3feb4344c31be",
+          "step": "T04.08",
+          "title": "Reconnect the sleeve to the edge",
+          "change": "Move the focal group back to the right while retaining its upward adjustment.",
+          "reading": "The recorded sleeve is now flush with the canvas and title clearance remains. This fixes the strip introduced in the previous step.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-typography-v1",
@@ -1029,7 +1111,12 @@
             "observations": "Full/use shows exact-string area title wraps without overflow with exact Arial Bold, but its frame y is interpreted as top and moves title down about103pt, crowding book. Fonts exact with no missing glyphs. Neighbor book and entire hierarchy inspected.",
             "decision": "Restore title optical position by moving area frame upward103.2 points"
           },
-          "source_check_sha256": "b363f296ae8c3dd0520b4ce7464e8e930401915be5d99310f8cf4a8e749f38ee"
+          "source_check_sha256": "b363f296ae8c3dd0520b4ce7464e8e930401915be5d99310f8cf4a8e749f38ee",
+          "step": "T04.09",
+          "title": "Keep the title in one live phrase",
+          "change": "Replace the rough title with naturally wrapping live area text.",
+          "reading": "Exact wording and fonts are present, but the new text frame pushes the title down toward the book. File correctness and visual placement differ.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-typography-v2",
@@ -1076,7 +1163,12 @@
             "observations": "Full/use/target now align optically: cap top near target70, NIGHT clear of book, and exact phrase naturally wraps. All event details remain legible; fonts exact Arial Bold/Regular and Georgia Italic with no missing glyphs or overflow.",
             "decision": "Typography accepted; proceed with observed representative palm refinement"
           },
-          "source_check_sha256": "5ae54fef40452b398ebddfbce79530e50b1af1cd408842823b98bab498cdfdee"
+          "source_check_sha256": "5ae54fef40452b398ebddfbce79530e50b1af1cd408842823b98bab498cdfdee",
+          "step": "T04.10",
+          "title": "Restore the title position",
+          "change": "Move only the live title upward to restore its intended margin.",
+          "reading": "The record describes restored title clearance, readable details and exact fonts. This corrects the area-text placement.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-imagery-v1",
@@ -1123,7 +1215,12 @@
             "observations": "Full/use and target inspected: revised right palm now has two open cream finger gaps beside cover edge, with thumb over book. Neighbor sleeve and page mass retained, whole scene keeps title/image/invitation/detail order. Hand remains deliberately stylized.",
             "decision": "Imagery accepted; finish native edit selection organization without adding ornament"
           },
-          "source_check_sha256": "71153346645ed1d667c167b6759a9558b0df6313a96fbb1971b2fa69c9683f88"
+          "source_check_sha256": "71153346645ed1d667c167b6759a9558b0df6313a96fbb1971b2fa69c9683f88",
+          "step": "T04.11",
+          "title": "Apply the tested finger shape",
+          "change": "Transfer the isolated grip geometry to the production hand.",
+          "reading": "The observation records two open finger gaps at the book edge while preserving sleeve, pages and reading order.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-final-v1",
@@ -1170,7 +1267,12 @@
             "observations": "Final full/use/target views retain large navy two-line title, readable exact invitation and event details, coral book stack and opposite grips. Right finger gaps survive intended size, palms join sleeves, intentional right sleeve entry flush. No new clipping/overlaps; no raster imagery. Native selections group title and logistics for editing.",
             "decision": "Four production stages complete; export and independently assess common-brief suitability"
           },
-          "source_check_sha256": "8a39801620f9cbd4ccd05cf2095d318229cccf27f0914dd5fec6aaf252d9337e"
+          "source_check_sha256": "8a39801620f9cbd4ccd05cf2095d318229cccf27f0914dd5fec6aaf252d9337e",
+          "step": "T04.12",
+          "title": "Check editable parts and fonts",
+          "change": "Save useful selections, clear selection highlights and inspect native groups and fonts.",
+          "reading": "The recorded final views preserve the composition and legible finger gaps. This is preparation and verification rather than a new image concept.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-final-v2",
@@ -1217,7 +1319,12 @@
             "observations": "Final full/use/target views retain large navy two-line title, readable exact invitation and event details, coral book stack and opposite grips. Right finger gaps survive intended size, palms join sleeves, intentional right sleeve entry flush. No new clipping/overlaps; no raster imagery. Native selections group title and logistics for editing. Explicit134.4pt title leading retains target line spacing; saved selection recovery reconciled from inspected metadata-only difference.",
             "decision": "Four production stages complete; export and independently assess common-brief suitability"
           },
-          "source_check_sha256": "cbb9f26ccda296c099773d7f2ac5048adaf4748ab29e0c3e7275d71a5830654c"
+          "source_check_sha256": "cbb9f26ccda296c099773d7f2ac5048adaf4748ab29e0c3e7275d71a5830654c",
+          "step": "T04.13",
+          "title": "Preserve title spacing on recovery",
+          "change": "Store explicit title line spacing and check recovered editing metadata.",
+          "reading": "The record describes the same visible title spacing and a reconciled metadata difference. The attempt passed final construction review; this step does not claim added visual quality.",
+          "progress_label": "Recorded step"
         }
       ],
       "retained_version": "final-v2",
@@ -1244,7 +1351,9 @@
       "source_events": {
         "path": "public-evidence/process-stages-20261015/attempts/exchange-layout-blockout-v1-2/stage-events.json",
         "sha256": "13f739095500cfdf801f6b1a53d8e746f89e2caf85c0bb17ea2c79f8ae721a8b"
-      }
+      },
+      "short_id": "T04",
+      "display_name": "Book exchange · Layout first · Run 2"
     },
     {
       "id": "exchange-designer-process-v1-2",
@@ -1330,7 +1439,12 @@
               }
             ]
           },
-          "source_check_sha256": "f4e62c5395e32e173c3ccc02f22374d3f7f30430602e50f4e5d70223c4161b27"
+          "source_check_sha256": "f4e62c5395e32e173c3ccc02f22374d3f7f30430602e50f4e5d70223c4161b27",
+          "step": "T05.01",
+          "title": "Try a shared-book layout",
+          "change": "Explore two hands meeting at one book with the event wording.",
+          "reading": "The recorded receiving hand is still detached from the book, so the interaction needs correction.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-handoff-handoff-fixed",
@@ -1406,7 +1520,12 @@
               }
             ]
           },
-          "source_check_sha256": "e04bc53ac12f96be728efdd291abc9b01240d755fa334ebf8d9b45178f52c56c"
+          "source_check_sha256": "e04bc53ac12f96be728efdd291abc9b01240d755fa334ebf8d9b45178f52c56c",
+          "step": "T05.02",
+          "title": "Connect the receiving hand",
+          "change": "Move the hand into the book and add a visible thumb.",
+          "reading": "The observation now records both hands contacting the same book, with the title and details preserved.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-flight-flight",
@@ -1482,7 +1601,12 @@
               }
             ]
           },
-          "source_check_sha256": "6976b40498cdbc9c2533d3a144643f40c8c477f8b861bef8290e738e4fd2d250"
+          "source_check_sha256": "6976b40498cdbc9c2533d3a144643f40c8c477f8b861bef8290e738e4fd2d250",
+          "step": "T05.03",
+          "title": "Try flying books",
+          "change": "Explore wing-shaped books crossing a courtyard arch.",
+          "reading": "This alternative communicates discovery, but the record says a human exchange is less literal than in the handoff.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-loop-loop",
@@ -1558,7 +1682,12 @@
               }
             ]
           },
-          "source_check_sha256": "ac7edaf63a591033dda5c1421ee889bf921980bd4f02a6d9abed15bc3c629e5e"
+          "source_check_sha256": "ac7edaf63a591033dda5c1421ee889bf921980bd4f02a6d9abed15bc3c629e5e",
+          "step": "T05.04",
+          "title": "Try a two-book exchange",
+          "change": "Explore opposed hands, two books and curved return arrows.",
+          "reading": "This is a distinct alternative. The record notes readable wording and a lower arc close to the tagline.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-representative-representative",
@@ -1625,7 +1754,12 @@
               }
             ]
           },
-          "source_check_sha256": "7a0da630cfd53b66a0021e5071ee4be68b6f5d3483e02ff7c8b54c84707aba50"
+          "source_check_sha256": "7a0da630cfd53b66a0021e5071ee4be68b6f5d3483e02ff7c8b54c84707aba50",
+          "step": "T05.05",
+          "title": "Test both book contacts",
+          "change": "Build a separate native study of the book planes and two grips.",
+          "reading": "Both contacts and the page block are recorded as readable at half size. This tests construction before production.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-composition",
@@ -1711,7 +1845,12 @@
               }
             }
           },
-          "source_check_sha256": "63841bab49719951bfbc1d762e6e92a87e23c46eb7eb003ea65b8aee1d61774f"
+          "source_check_sha256": "63841bab49719951bfbc1d762e6e92a87e23c46eb7eb003ea65b8aee1d61774f",
+          "step": "T05.06",
+          "title": "Give the book room",
+          "change": "Move the focal group upward without moving the header or details.",
+          "reading": "The record describes clear gaps around the book while both contacts remain intact.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-typography",
@@ -1797,7 +1936,12 @@
               }
             }
           },
-          "source_check_sha256": "96449ca0e5d6787cc10c5358864e7f7fa53f5e9d567050dca1e2c5238628b847"
+          "source_check_sha256": "96449ca0e5d6787cc10c5358864e7f7fa53f5e9d567050dca1e2c5238628b847",
+          "step": "T05.07",
+          "title": "Tune the live text hierarchy",
+          "change": "Adjust title spacing and the date and time weights.",
+          "reading": "The record confirms all six exact strings are live and readable with available fonts.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-imagery",
@@ -1892,7 +2036,12 @@
               }
             }
           },
-          "source_check_sha256": "856219e74de49667e1250ceec8c15aa868813c425aef217884427c5d80fed843"
+          "source_check_sha256": "856219e74de49667e1250ceec8c15aa868813c425aef217884427c5d80fed843",
+          "step": "T05.08",
+          "title": "Clarify the giving thumb",
+          "change": "Add a thumb crossing the cover and a short finger crease.",
+          "reading": "The observation describes clearer giving-hand contact while preserving the receiving grip, emblem and pages.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-finishing",
@@ -1978,7 +2127,12 @@
               }
             }
           },
-          "source_check_sha256": "9233e3af6780e524e6b690b4180ecdec0edd36200465b27d9cdda08262108aa3"
+          "source_check_sha256": "9233e3af6780e524e6b690b4180ecdec0edd36200465b27d9cdda08262108aa3",
+          "step": "T05.09",
+          "title": "Add sparse page edges",
+          "change": "Add two separated page-edge strokes.",
+          "reading": "The record describes book thickness without dense texture; both grips and the overall hierarchy remain visible.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-title-flow",
@@ -2064,7 +2218,12 @@
               }
             }
           },
-          "source_check_sha256": "2b643370227ebec6aa776c90ae3204855f91889ad53510c7c6bb9f522d114f43"
+          "source_check_sha256": "2b643370227ebec6aa776c90ae3204855f91889ad53510c7c6bb9f522d114f43",
+          "step": "T05.10",
+          "title": "Make the title one editable phrase",
+          "change": "Replace separate title words with one exact live wrapping text object.",
+          "reading": "The record describes the same large two-line title with a slightly deeper top margin. This improves wording integrity, not a measured preference score.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-imagery-recheck",
@@ -2150,7 +2309,12 @@
               }
             }
           },
-          "source_check_sha256": "de54e592d6543146f4fd08eb8f06c70191cf7e4e05a75f0a4d0a8267b6d3f053"
+          "source_check_sha256": "de54e592d6543146f4fd08eb8f06c70191cf7e4e05a75f0a4d0a8267b6d3f053",
+          "step": "T05.11",
+          "title": "Recheck the book after the text edit",
+          "change": "Inspect both grips, the book silhouette and the emblem again.",
+          "reading": "The record says these relationships remain as previously inspected. Rechecking preservation is progress in verification, without an asserted visual gain.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-final",
@@ -2236,7 +2400,12 @@
               }
             }
           },
-          "source_check_sha256": "64654d975aa5fcca8dd58b66825697eb0a972885b8860ef87b940751d3d09dc4"
+          "source_check_sha256": "64654d975aa5fcca8dd58b66825697eb0a972885b8860ef87b940751d3d09dc4",
+          "step": "T05.12",
+          "title": "Check the whole poster again",
+          "change": "Inspect the complete poster after the title correction and renewed image checks.",
+          "reading": "The record reports readable logistics and no clipped title or detached hand. The attempt passed final construction review.",
+          "progress_label": "Recorded step"
         }
       ],
       "retained_version": "final",
@@ -2263,7 +2432,9 @@
       "source_events": {
         "path": "public-evidence/process-stages-20261015/attempts/exchange-designer-process-v1-2/stage-events.json",
         "sha256": "cf561e7ce6ffb5da6f2437e82645c9cd985113464787804daf6800bcb4a56246"
-      }
+      },
+      "short_id": "T05",
+      "display_name": "Book exchange · Full process · Run 2"
     },
     {
       "id": "tyre-layout-blockout-v1-2",
@@ -2293,7 +2464,9 @@
       "source_events": {
         "path": "public-evidence/process-stages-20261015/attempts/tyre-layout-blockout-v1-2/stage-events.json",
         "sha256": "90c74b045000895cba72207ace4f8824e7a9eb67f9a0a48b9f5b8776ba484195"
-      }
+      },
+      "short_id": "T06",
+      "display_name": "Repair · Layout first · Run 2"
     },
     {
       "id": "tyre-designer-process-v1-1",
@@ -2378,7 +2551,12 @@
               }
             ]
           },
-          "source_check_sha256": "ba597e01b910ccd8fc6db3e55af22210c0d99cb8ca48e16687316d9ccec8dd75"
+          "source_check_sha256": "ba597e01b910ccd8fc6db3e55af22210c0d99cb8ca48e16687316d9ccec8dd75",
+          "step": "T07.01",
+          "title": "Try a centered wheel",
+          "change": "Explore two inward-facing people around an upright wheel.",
+          "reading": "The recorded rough shows the golden lever and separate supporting hand at intended size. This establishes one concept direction.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-overhead-overhead-blockout",
@@ -2454,7 +2632,12 @@
               }
             ]
           },
-          "source_check_sha256": "434aee27cf97457cbc27ed57a0c22938fb15588a77ebbcd2f67d9186b2d7b1d2"
+          "source_check_sha256": "434aee27cf97457cbc27ed57a0c22938fb15588a77ebbcd2f67d9186b2d7b1d2",
+          "step": "T07.02",
+          "title": "Try a wide bench view",
+          "change": "Explore a wide foreground wheel and opposing people.",
+          "reading": "This is an alternative layout. The observation describes a front/oblique hybrid rather than a true overhead perspective.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-diagonal-diagonal-blockout",
@@ -2530,7 +2713,12 @@
               }
             ]
           },
-          "source_check_sha256": "13c5899dcbcba75829b4e36ddcb0cb7ff516f39a2968ae351cc3cdc42f0529c6"
+          "source_check_sha256": "13c5899dcbcba75829b4e36ddcb0cb7ff516f39a2968ae351cc3cdc42f0529c6",
+          "step": "T07.03",
+          "title": "Try a diagonal repair gesture",
+          "change": "Explore a wheel shifted right with a longer working arm.",
+          "reading": "The record identifies an obscured helper and stretched limb. Exploring an alternative can reveal a weaker option rather than an improvement.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-inward2-inward2-blockout",
@@ -2606,7 +2794,12 @@
               }
             ]
           },
-          "source_check_sha256": "8532dd138722883f1337f39e15c5cd83b6710d72b0220f19ee4a4c18b1ebcfed"
+          "source_check_sha256": "8532dd138722883f1337f39e15c5cd83b6710d72b0220f19ee4a4c18b1ebcfed",
+          "step": "T07.04",
+          "title": "Connect the supporting arm",
+          "change": "Refine the centered layout with a continuous sleeve-to-hand route and a larger tyre opening.",
+          "reading": "The recorded arm ownership and exposed gold tool are clearer; the grip remains stylized.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-contact-study-contact-study",
@@ -2673,7 +2866,12 @@
               }
             ]
           },
-          "source_check_sha256": "bcf3ef7b11419e77806ae6d0464b77e2bf0810882770257ad71eb8f90773f00f"
+          "source_check_sha256": "bcf3ef7b11419e77806ae6d0464b77e2bf0810882770257ad71eb8f90773f00f",
+          "step": "T07.05",
+          "title": "Test the tyre and tool contact",
+          "change": "Taper the raised rubber into the wheel in a separate native study.",
+          "reading": "The recorded tyre continuity and separate hand roles survive intended size. The exaggerated raised edge remains a limitation.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-composition",
@@ -2759,7 +2957,12 @@
               }
             }
           },
-          "source_check_sha256": "6db45c53459a2ab3d724fe3e3d8ec6768e3458356eb0fb2893bb2d34fe8940dc"
+          "source_check_sha256": "6db45c53459a2ab3d724fe3e3d8ec6768e3458356eb0fb2893bb2d34fe8940dc",
+          "step": "T07.06",
+          "title": "Accept the scene arrangement",
+          "change": "Inspect the selected seed for scale, framing and focal separation without authoring a new layout.",
+          "reading": "The record accepts the two people framing the wheel. This is a stage decision, not a new visual improvement.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-typography",
@@ -2850,7 +3053,12 @@
               }
             }
           },
-          "source_check_sha256": "fa07c1fe3768427571a08b276e79c53a42b5f0813dc408351a7feab8859cbbc0"
+          "source_check_sha256": "fa07c1fe3768427571a08b276e79c53a42b5f0813dc408351a7feab8859cbbc0",
+          "step": "T07.07",
+          "title": "Verify the wordless brief",
+          "change": "Check that there are no letters, labels, captions or native text objects.",
+          "reading": "Text and font checks are explicitly inapplicable. Passing this stage does not add text or new drawing detail.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-imagery",
@@ -2936,7 +3144,12 @@
               }
             }
           },
-          "source_check_sha256": "e19065a7b45376ddddcefe349b1e81856d5c2a41b1f3126a3d36382f6131ef50"
+          "source_check_sha256": "e19065a7b45376ddddcefe349b1e81856d5c2a41b1f3126a3d36382f6131ef50",
+          "step": "T07.08",
+          "title": "Remove the overlapping grip",
+          "change": "Keep one thumb-and-finger contour and inspect the tool, tyre and supporting arm.",
+          "reading": "The record describes one clean working contour with the gold shaft under the tyre lip and both arm roles preserved.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-finishing",
@@ -3022,7 +3235,12 @@
               }
             }
           },
-          "source_check_sha256": "a573049e23b3714023cad063a88be05758a3363b1ff85fee3fafb6a73bc2653e"
+          "source_check_sha256": "a573049e23b3714023cad063a88be05758a3363b1ff85fee3fafb6a73bc2653e",
+          "step": "T07.09",
+          "title": "Inspect the workshop scene",
+          "change": "Check the palette, spokes, people, clipping and readiness for final review.",
+          "reading": "The scene is recorded as coherent, with deliberately simplified anatomy and tyre mechanics. Final review can still request a consequential correction.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-correction1",
@@ -3104,7 +3322,12 @@
               }
             ]
           },
-          "source_check_sha256": "e6af7023120bfa3d3b60c2dac45e957581b488b7e4fd62482d274a89ee5e36be"
+          "source_check_sha256": "e6af7023120bfa3d3b60c2dac45e957581b488b7e4fd62482d274a89ee5e36be",
+          "step": "T07.10",
+          "title": "Open the tyre edge",
+          "change": "Replace the loop-like lip with an open raised edge and reveal the bench through the wheel.",
+          "reading": "The intended contact becomes more open, but duplicate spokes cross the hub. The task receives revise; this is a failed correction requiring cleanup.",
+          "progress_label": "Needs correction"
         },
         {
           "id": "production-correction1-clean",
@@ -3199,7 +3422,12 @@
               }
             }
           },
-          "source_check_sha256": "93302f8ee0df8419a95c438b871545e47878c837927d1c5405573c01641d213a"
+          "source_check_sha256": "93302f8ee0df8419a95c438b871545e47878c837927d1c5405573c01641d213a",
+          "step": "T07.11",
+          "title": "Remove duplicate spokes",
+          "change": "Delete duplicated originals and restore the hub above the remaining lines.",
+          "reading": "The record describes a clean hub and single spokes while the open lip, tool and arm connections remain. This repairs the regression from the previous step.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-finishing-correction1-clean",
@@ -3285,7 +3513,12 @@
               }
             }
           },
-          "source_check_sha256": "3bf8e52153bd179cac113d82a4ab4344085d20e763781b91df048d53efa4dd17"
+          "source_check_sha256": "3bf8e52153bd179cac113d82a4ab4344085d20e763781b91df048d53efa4dd17",
+          "step": "T07.12",
+          "title": "Verify the corrected whole scene",
+          "change": "Inspect the complete scene after the local spoke cleanup.",
+          "reading": "The record reports preserved people and contacts without new line artifacts. Final reviewers accepted this candidate; simplified anatomy and a minor blunt lip remain disclosed.",
+          "progress_label": "Recorded step"
         }
       ],
       "retained_version": "finishing-correction1-clean",
@@ -3312,7 +3545,9 @@
       "source_events": {
         "path": "public-evidence/process-stages-20261015/attempts/tyre-designer-process-v1-1/stage-events.json",
         "sha256": "f99b29f2385e1945548479d84b1d730694e4a065681ceccada9c8a0889c2bb4c"
-      }
+      },
+      "short_id": "T07",
+      "display_name": "Repair · Full process · Run 1"
     },
     {
       "id": "library-designer-process-v1-1",
@@ -3330,7 +3565,9 @@
         "path": "public-evidence/process-study-20261015/attempts/library-designer-process-v1-1/creator-report.json",
         "sha256": "5f692d0f53dc4d6ed60b1334410e9c05f8b1e750f0574ab85d2fe16ee3be8b26",
         "source_sha256": "aa07784e6ebb2c2281793db399f77b37cde7225abcf75d174a4a2cc831827c60"
-      }
+      },
+      "short_id": "T08",
+      "display_name": "Library guide · Full process · Run 1"
     },
     {
       "id": "tyre-designer-v1-1",
@@ -3386,7 +3623,12 @@
             "observations": "Actually viewed full/use composition: pale wall and window surround reserved central space; mustard bench top meets darker front plane at shared corners, two legs end at intentional artboard bleed.",
             "decision": "Proceed with inspected stage."
           },
-          "source_check_sha256": "b59b03422de65e234a068f36aab52375ee8bfdf752565c01a236522b7b0971eb"
+          "source_check_sha256": "b59b03422de65e234a068f36aab52375ee8bfdf752565c01a236522b7b0971eb",
+          "step": "T09.01",
+          "title": "Build the workshop scaffold",
+          "change": "Create a quiet wall, window, bench planes and legs.",
+          "reading": "The record describes a reserved focal area and joined bench planes. People and the wheel are deferred.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-typography",
@@ -3433,7 +3675,12 @@
             "observations": "Viewed full/use typography capture and target. No text or raster illustration introduced; scaffold retains target canvas and bench planes. Typography is deliberately inapplicable.",
             "decision": "Proceed with inspected stage."
           },
-          "source_check_sha256": "6b77f22a8cfacff3d90a96ab7322cf566eda0ebf458ac0105e43ad4567f13d3e"
+          "source_check_sha256": "6b77f22a8cfacff3d90a96ab7322cf566eda0ebf458ac0105e43ad4567f13d3e",
+          "step": "T09.02",
+          "title": "Verify the wordless scaffold",
+          "change": "Inspect the scene for the required absence of text.",
+          "reading": "No text is recorded and the scaffold remains open. This is an inapplicability check, not a visible refinement.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-imagery",
@@ -3480,7 +3727,12 @@
             "observations": "Viewed full/use imagery and target. Two profiles and wheel preserve target proportions; thumb pad overlaps turquoise handle, raised bead cap occludes end of hook. Brown supporting forearm now visible over apron and connects hand to rolled sleeve. Three visible hands all connect to their own figure. Fingers are simplified.",
             "decision": "Proceed with inspected stage."
           },
-          "source_check_sha256": "b554f04d11f8173c0ac85343c5193c6baef9c86974c3e09ff01da96ea5792619"
+          "source_check_sha256": "b554f04d11f8173c0ac85343c5193c6baef9c86974c3e09ff01da96ea5792619",
+          "step": "T09.03",
+          "title": "Build the repair action",
+          "change": "Add connected people, forearms, wheel, lever and wrapped grip.",
+          "reading": "The record describes connected hands and a partly hidden hook. This remains the confirmed working version in a partial attempt.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-final-1",
@@ -3524,7 +3776,12 @@
           },
           "observations": {
             "attribution": "No recorded confirmation observation for this capture."
-          }
+          },
+          "step": "T09.04",
+          "title": "Add workshop details",
+          "change": "Attempt a tool rack, patch kit and editable component groups.",
+          "reading": "This capture is unconfirmed. It did not replace the confirmed working image and does not establish completed finishing, final review or delivery.",
+          "progress_label": "Not confirmed"
         }
       ],
       "retained_version": "imagery",
@@ -3550,7 +3807,9 @@
       "source_events": {
         "path": "public-evidence/process-stages-20261015/attempts/tyre-designer-v1-1/stage-events.json",
         "sha256": "0b3472a2dbbdb761048a3ae7a0de0e5b06e78b3fe624496eeb3a3045fed8560f"
-      }
+      },
+      "short_id": "T09",
+      "display_name": "Repair · Standard · Run 1"
     },
     {
       "id": "library-layout-blockout-v1-2",
@@ -3635,7 +3894,12 @@
               }
             ]
           },
-          "source_check_sha256": "c2703890feff4fdbfff425f80425561ca9c5ff104c335d9cf5f0bc6086e1b8a2"
+          "source_check_sha256": "c2703890feff4fdbfff425f80425561ca9c5ff104c335d9cf5f0bc6086e1b8a2",
+          "step": "T10.01",
+          "title": "Try three catalogue cards",
+          "change": "Explore one search source branching into three book-shaped service cards.",
+          "reading": "The recorded routes, color associations and required wording are readable at intended size. This is the first layout option.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-service-rows-rows-study",
@@ -3711,7 +3975,12 @@
               }
             ]
           },
-          "source_check_sha256": "afdde013239d0fe1fc1162e93b5d05c0cfa657c7beb58ffcc54a1d3068c9508c"
+          "source_check_sha256": "afdde013239d0fe1fc1162e93b5d05c0cfa657c7beb58ffcc54a1d3068c9508c",
+          "step": "T10.02",
+          "title": "Try horizontal service rows",
+          "change": "Explore a search terminal feeding three horizontal rows.",
+          "reading": "This alternative keeps actions and icons together in rows; it is not a later correction of the card layout.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-reading-compass-compass-study",
@@ -3787,7 +4056,12 @@
               }
             ]
           },
-          "source_check_sha256": "d6348df11d4bb35bb38f95c110fbb08c00cd37d4e9669594c8038b44c00304e4"
+          "source_check_sha256": "d6348df11d4bb35bb38f95c110fbb08c00cd37d4e9669594c8038b44c00304e4",
+          "step": "T10.03",
+          "title": "Try a central decision map",
+          "change": "Explore a light decision diamond with three destination shelves.",
+          "reading": "The record notes correct associations and a tight near-touch at lower card corners. This alternative exposes a spacing weakness.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "study-construction-proof-native-proof",
@@ -3863,7 +4137,12 @@
               }
             ]
           },
-          "source_check_sha256": "359727638c26743cd684d54165353341933906665cc4097f6c0eb35dc7d2e17c"
+          "source_check_sha256": "359727638c26743cd684d54165353341933906665cc4097f6c0eb35dc7d2e17c",
+          "step": "T10.04",
+          "title": "Test one service card",
+          "change": "Build a separate card with live action text, book/clock symbol and attached route.",
+          "reading": "The record describes readable wording, separate clock hands and a connector above the card. This tests the parts before production.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-composition-1",
@@ -3910,7 +4189,12 @@
             "observations": "Actual full/use/target views show only the added small junction dot; all three paths and existing text retain their selected layout.",
             "decision": "Proceed; required grouping retained."
           },
-          "source_check_sha256": "f684e44a3c657e530a6e46198aee0fded68211951352e918ed27558ae526e89e"
+          "source_check_sha256": "f684e44a3c657e530a6e46198aee0fded68211951352e918ed27558ae526e89e",
+          "step": "T10.05",
+          "title": "Clarify the shared route junction",
+          "change": "Add a small dot at the search fan without moving branches.",
+          "reading": "The observation records only the added junction; routes and text preserve the chosen layout.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-typography-1",
@@ -3957,7 +4241,12 @@
             "observations": "Full/use/target inspected: title and status weights are stronger; all exact actions now share a common single-line baseline. They remain readable at 600px with clear status grouping.",
             "decision": "Proceed; required grouping retained."
           },
-          "source_check_sha256": "590f465427b5bf8d844997e6c90753a815118deaa6026c7cb4163f2309fd3e43"
+          "source_check_sha256": "590f465427b5bf8d844997e6c90753a815118deaa6026c7cb4163f2309fd3e43",
+          "step": "T10.06",
+          "title": "Align the service actions",
+          "change": "Combine action fragments into single live phrases and strengthen headings.",
+          "reading": "The record describes matching baselines, stronger weights and readable exact actions at intended size.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-imagery-1",
@@ -4004,7 +4293,12 @@
             "observations": "Actual full/use/target views show the librarian now visibly holding an open book above the desk. The loan book retains its clock and gains an inset page edge. No neighboring label or route was covered.",
             "decision": "Proceed; required grouping retained."
           },
-          "source_check_sha256": "11f8e84a5e3c90c40fea5d33e4fde503ae24297d604410bf6bd9151063783876"
+          "source_check_sha256": "11f8e84a5e3c90c40fea5d33e4fde503ae24297d604410bf6bd9151063783876",
+          "step": "T10.07",
+          "title": "Make the desk read as a library",
+          "change": "Add an open book at the desk and a page edge on the loan book.",
+          "reading": "The record describes clearer library imagery with the clock, labels and routes unobstructed.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-final-1",
@@ -4051,7 +4345,12 @@
             "observations": "Actual full/use and target views show unchanged final composition after grouping. All nine required strings remain readable; all connectors land above the matching card. Bold headings and single-baseline actions are intentional target departures.",
             "decision": "Proceed; required grouping retained."
           },
-          "source_check_sha256": "1c0383d01cf6239f07fed4c6b5b46f4bf7ed125958bcea9037749fe639e8450a"
+          "source_check_sha256": "1c0383d01cf6239f07fed4c6b5b46f4bf7ed125958bcea9037749fe639e8450a",
+          "step": "T10.08",
+          "title": "Group each editable branch",
+          "change": "Group each card with its status, symbol, action and arrowhead.",
+          "reading": "The record reports unchanged composition and readable exact wording. This becomes the retained version, with quality acceptance unresolved.",
+          "progress_label": "Recorded step"
         },
         {
           "id": "production-final-2",
@@ -4098,7 +4397,12 @@
             "observations": "Actual full/use/target views show repeated concave-corner bookplate frames around distinct service icons. Frames clear the bold status headings and exact actions; the search icon now has a relaxed gap before its text. Three routes, cards and neighboring content remain intact.",
             "decision": "Proceed; required grouping retained."
           },
-          "source_check_sha256": "d83aa06f3afef272b92cb28d2c45aa980db3dcf5571004da31a0fec70cbcc978"
+          "source_check_sha256": "d83aa06f3afef272b92cb28d2c45aa980db3dcf5571004da31a0fec70cbcc978",
+          "step": "T10.09",
+          "title": "Try matching symbol frames",
+          "change": "Add bookplate contours and move the search icon away from its label.",
+          "reading": "The record describes clearer search spacing and preserved routes, but both final reviewers judged the candidate equal overall. The earlier version stays retained; this does not turn unresolved acceptance into a pass.",
+          "progress_label": "Recorded step"
         }
       ],
       "retained_version": "final-1",
@@ -4125,7 +4429,9 @@
       "source_events": {
         "path": "public-evidence/process-stages-20261015/attempts/library-layout-blockout-v1-2/stage-events.json",
         "sha256": "032e4a4b9de71bb4b2ad7bfeada3c888122daa292734838599433a03bb578ed2"
-      }
+      },
+      "short_id": "T10",
+      "display_name": "Library guide · Layout first · Run 2"
     },
     {
       "id": "tyre-designer-v1-2",
@@ -4138,7 +4444,9 @@
       "captures": [],
       "retained_version": null,
       "completed_stages": [],
-      "run_status": null
+      "run_status": null,
+      "short_id": "T11",
+      "display_name": "Repair · Standard · Run 2"
     },
     {
       "id": "library-designer-v1-2",
@@ -4151,7 +4459,9 @@
       "captures": [],
       "retained_version": null,
       "completed_stages": [],
-      "run_status": null
+      "run_status": null,
+      "short_id": "T12",
+      "display_name": "Library guide · Standard · Run 2"
     },
     {
       "id": "library-designer-v1-1",
@@ -4164,7 +4474,9 @@
       "captures": [],
       "retained_version": null,
       "completed_stages": [],
-      "run_status": null
+      "run_status": null,
+      "short_id": "T13",
+      "display_name": "Library guide · Standard · Run 1"
     },
     {
       "id": "library-designer-process-v1-2",
@@ -4177,7 +4489,9 @@
       "captures": [],
       "retained_version": null,
       "completed_stages": [],
-      "run_status": null
+      "run_status": null,
+      "short_id": "T14",
+      "display_name": "Library guide · Full process · Run 2"
     },
     {
       "id": "exchange-layout-blockout-v1-1",
@@ -4190,7 +4504,9 @@
       "captures": [],
       "retained_version": null,
       "completed_stages": [],
-      "run_status": null
+      "run_status": null,
+      "short_id": "T15",
+      "display_name": "Book exchange · Layout first · Run 1"
     },
     {
       "id": "exchange-designer-v1-2",
@@ -4203,7 +4519,9 @@
       "captures": [],
       "retained_version": null,
       "completed_stages": [],
-      "run_status": null
+      "run_status": null,
+      "short_id": "T16",
+      "display_name": "Book exchange · Standard · Run 2"
     },
     {
       "id": "tyre-layout-blockout-v1-1",
@@ -4216,7 +4534,9 @@
       "captures": [],
       "retained_version": null,
       "completed_stages": [],
-      "run_status": null
+      "run_status": null,
+      "short_id": "T17",
+      "display_name": "Repair · Layout first · Run 1"
     },
     {
       "id": "library-layout-blockout-v1-1",
@@ -4229,8 +4549,16 @@
       "captures": [],
       "retained_version": null,
       "completed_stages": [],
-      "run_status": null
+      "run_status": null,
+      "short_id": "T18",
+      "display_name": "Library guide · Layout first · Run 1"
     }
   ],
-  "omissions": []
+  "omissions": [],
+  "profile_names": {
+    "designer-v1": "Standard",
+    "focused-execution-v1": "Focused build",
+    "layout-blockout-v1": "Layout first",
+    "designer-process-v1": "Full process"
+  }
 }

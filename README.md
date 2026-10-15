@@ -28,12 +28,14 @@ The gateway adds five workflow tools while preserving native MCP tools. It check
 
 | Profile | What it adds |
 | --- | --- |
-| `designer-v1` | Default research, concept selection, four production stages, and independent final reviews |
-| `focused-execution-v1` | One manageable construction task at a time, compact working packets, explicit task and stage acceptance |
-| `layout-blockout-v1` | Three isolated native roughs before concept selection |
-| `designer-process-v1` | Native roughs, focused execution, semantic entities, and relationship checks |
+| **Standard** — `designer-v1` | Default research, concept selection, four production stages, and independent final reviews |
+| **Focused build** — `focused-execution-v1` | One manageable construction task at a time, compact working packets, explicit task and stage acceptance |
+| **Layout first** — `layout-blockout-v1` | Three isolated native roughs before concept selection |
+| **Full process** — `designer-process-v1` | Native roughs, focused execution, semantic entities, and relationship checks |
 
 Experimental profiles are full-mode opt-ins. See the [process guide](docs/PROCESS.md#choosing-a-profile) for selection and the [technical contracts](docs/DESIGNER-PROCESS.md) for exact behavior.
+
+Progress uses names such as **Repair · Full process · Run 1**, with numbered steps such as **T07.10 — Open the tyre edge**. Each step explains the change, recorded result, and remaining issue. [See how to read progress](docs/research/PROGRESS.md#simple-names-and-step-numbers). Original technical IDs stay available in the evidence.
 
 ## Development and evidence
 
