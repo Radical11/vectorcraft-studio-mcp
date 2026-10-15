@@ -3,7 +3,7 @@
 const data = JSON.parse(document.querySelector('#stage-data').textContent);
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const repo = 'https://github.com/Radical11/vectorcraft-studio-mcp/blob/codex/designer-process-interim-20261015/';
+const repo = 'https://github.com/Radical11/vectorcraft-studio-mcp/blob/main/';
 const profiles = ['designer-v1', 'layout-blockout-v1', 'designer-process-v1'];
 let mode = 'within';
 for (const t of data.trials) $('trial').add(new Option(`${t.order}. ${t.id}`, t.id));

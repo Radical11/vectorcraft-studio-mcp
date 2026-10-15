@@ -69,8 +69,8 @@
     },
     {
       "path": "README.md",
-      "source_sha256": "1fe45a03473dc81771d86e748f09a12bc200d7887bf40d6cb967d88ee08bc288",
-      "public_sha256": "1fe45a03473dc81771d86e748f09a12bc200d7887bf40d6cb967d88ee08bc288",
+      "source_sha256": "a297b07c6ea2aaa13b5d8c22f035a1044bf5a3ee26b218273ed10c89144e3cca",
+      "public_sha256": "a297b07c6ea2aaa13b5d8c22f035a1044bf5a3ee26b218273ed10c89144e3cca",
       "sanitized_derivative": false
     },
     {
@@ -459,8 +459,8 @@
     },
     {
       "path": "docs/research/PROGRESS.md",
-      "source_sha256": "e8a6b51faf168bfa1af9bc856208350986b78ec93d701d4664594deacfb6dd10",
-      "public_sha256": "e8a6b51faf168bfa1af9bc856208350986b78ec93d701d4664594deacfb6dd10",
+      "source_sha256": "89022afc129356d6e2ba49d0cf3aa8ef4bd0bcb3093200a5256b313fcbd308a6",
+      "public_sha256": "89022afc129356d6e2ba49d0cf3aa8ef4bd0bcb3093200a5256b313fcbd308a6",
       "sanitized_derivative": false
     },
     {
@@ -3891,20 +3891,20 @@
     },
     {
       "path": "site/research.html",
-      "source_sha256": "d4ee896715218ef3ab40e35f536e64b03ac8e524f9d036708aff9c606e855f11",
-      "public_sha256": "c997654e3cc13af35727e82b4dc891a2f6bca72bb900619bed1e112a5247b57b",
+      "source_sha256": "286a66e744746282746f6104da62a494a53355bb03e6f6722f53045d6f728ba9",
+      "public_sha256": "3fd243511f408ecd1dbae189de17bdd2c690788021975c61e219ac44c98204ff",
       "sanitized_derivative": true
     },
     {
       "path": "site/research.js",
-      "source_sha256": "c4893251750d2572f1cc3416c95a2dd043bb31400fcd04c1a53bd452c0fb68a4",
-      "public_sha256": "c4893251750d2572f1cc3416c95a2dd043bb31400fcd04c1a53bd452c0fb68a4",
+      "source_sha256": "3e865e56a363d00e0e5a44904caed7a8aab7cabf3347986eaba87fb375bf6b8c",
+      "public_sha256": "3e865e56a363d00e0e5a44904caed7a8aab7cabf3347986eaba87fb375bf6b8c",
       "sanitized_derivative": false
     },
     {
       "path": "site/research.template.html",
-      "source_sha256": "91407773282c9483289eff07d00710d574dd7fb04d2f5015765fe597b830dbf5",
-      "public_sha256": "91407773282c9483289eff07d00710d574dd7fb04d2f5015765fe597b830dbf5",
+      "source_sha256": "c5de37c80eb903e7a8629e934387a272c1cc6ee7216e6e6ad1381982ed3fb025",
+      "public_sha256": "c5de37c80eb903e7a8629e934387a272c1cc6ee7216e6e6ad1381982ed3fb025",
       "sanitized_derivative": false
     },
     {

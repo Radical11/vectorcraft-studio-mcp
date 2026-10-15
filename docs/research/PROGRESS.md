@@ -12,7 +12,7 @@ Cross-profile views group the same brief **and repeat**. Missing slots remain vi
 
 Stage captions identify the existing record they summarize. They do not add new aesthetic scores or independent reviews. A confirmed image means the recorded capture was confirmed; it does not imply final acceptance. Native reopening and export checks establish file properties rather than communication quality.
 
-The [interactive research page](../../site/research.html) supports stage and trial selection with full/intended-size previews. Serve `site/` locally to use the controls. The public showcase follows deployed main, while this research work stays on the draft branch.
+The [published research explorer](https://radical11.github.io/vectorcraft-studio-mcp/research.html) supports stage and trial selection with full/intended-size previews. Its [source page](../../site/research.html) also works locally. These displays use existing evidence and introduce no new preference judgments.
 
 The additive [stage supplement](../../public-evidence/process-stages-20261015/README.md) indexes 56 existing captures: 17 roughs, four representative construction studies, and 35 production/correction captures. It does not replace the original checkpoint. Its [publication audit](../../public-evidence/process-stages-20261015/publication-audit.json) discloses the earlier JSON normalization/redaction hash differences.
 

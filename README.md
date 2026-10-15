@@ -14,7 +14,7 @@ An experimental, unofficial design companion for Codex and local VectorCraft on 
 | How do I run it? | [Installation and rollback](docs/INSTALLATION.md) |
 | Where does everything belong? | [Repository map](docs/README.md) |
 
-The [research webpage](site/research.html) provides an interactive stage explorer when served from `site/`. The [public showcase](https://radical11.github.io/vectorcraft-studio-mcp/) reflects the deployed main branch; research-branch pages are available locally until separately deployed.
+The [public research explorer](https://radical11.github.io/vectorcraft-studio-mcp/research.html) shows the recorded stages and corrections. Its [source page](site/research.html) also works locally. The [public showcase](https://radical11.github.io/vectorcraft-studio-mcp/) serves the documentation from main.
 
 ## How it works
 
