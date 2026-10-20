@@ -39,8 +39,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "source_sha256": "af747f486264ff6fa1d6215f75393c9781ee7ed3fb7b97c574e980dba82451da",
-      "public_sha256": "af747f486264ff6fa1d6215f75393c9781ee7ed3fb7b97c574e980dba82451da",
+      "source_sha256": "9ce6b3938b2f674406f1d72fe87d3591d269e89cdf7516c2b2c830c78e2bac7d",
+      "public_sha256": "9ce6b3938b2f674406f1d72fe87d3591d269e89cdf7516c2b2c830c78e2bac7d",
       "sanitized_derivative": false
     },
     {
@@ -69,8 +69,8 @@
     },
     {
       "path": "README.md",
-      "source_sha256": "f9faec11af74bbbfd6cbfb1c0b296919073db61d42d851bd62e71438e4a21706",
-      "public_sha256": "f9faec11af74bbbfd6cbfb1c0b296919073db61d42d851bd62e71438e4a21706",
+      "source_sha256": "b1046a4a521fa63dead435ff4cb31a217981017f1c17cf2418c4fd9579ae6b4e",
+      "public_sha256": "b1046a4a521fa63dead435ff4cb31a217981017f1c17cf2418c4fd9579ae6b4e",
       "sanitized_derivative": false
     },
     {
@@ -165,9 +165,9 @@
     },
     {
       "path": "docs/COARSE-TO-FINE-ROADMAP.md",
-      "source_sha256": "09e6e34f357af3c8945c02bfc7b5a845ef69b50a23f26b7249d1723abb4815e3",
+      "source_sha256": "c204a8fe3df6200731531e53386a5d19e14b2bee41328aa8b4f6affd301aa3c8",
       "public_sha256": "c204a8fe3df6200731531e53386a5d19e14b2bee41328aa8b4f6affd301aa3c8",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/DESIGNER-PROCESS.md",
@@ -237,9 +237,9 @@
     },
     {
       "path": "docs/peer-review/bibliography.bib",
-      "source_sha256": "b50d3ecdb343c1e625bbeede6b55d3f59da527dbb2c4da49cfe74fb98bf7be82",
+      "source_sha256": "6e16c6923e1c2d5a57c517209b484683076c554ca2d64671b23ed462c85f8d10",
       "public_sha256": "6e16c6923e1c2d5a57c517209b484683076c554ca2d64671b23ed462c85f8d10",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/peer-review/bibliography.json",
@@ -273,9 +273,9 @@
     },
     {
       "path": "docs/peer-review/figures/01-timeline.svg",
-      "source_sha256": "e209545f240e8d544460df477a22467dccc9d617da83d22ed12f34f3d4aa10a6",
+      "source_sha256": "008a01398cb44ff820c24a67b847c149606d404a0f7063df5068f4a91b19d63f",
       "public_sha256": "008a01398cb44ff820c24a67b847c149606d404a0f7063df5068f4a91b19d63f",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/peer-review/figures/02-architecture.png",
@@ -285,9 +285,9 @@
     },
     {
       "path": "docs/peer-review/figures/02-architecture.svg",
-      "source_sha256": "a1166c4d675c48108b6039d9bbc3bbb11b516ed6b2e3b56e75f3e242aab00b3b",
+      "source_sha256": "3b69cea9682d97c3313752ba547b979f82d6770dbc75d050478930dc41f106a2",
       "public_sha256": "3b69cea9682d97c3313752ba547b979f82d6770dbc75d050478930dc41f106a2",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/peer-review/figures/03-current-workflow.png",
@@ -297,9 +297,9 @@
     },
     {
       "path": "docs/peer-review/figures/03-current-workflow.svg",
-      "source_sha256": "1a8a6e88e371cef92bc2ed09af7496de1789a8ec0bd3b6756355f9fb4959c75c",
+      "source_sha256": "1337347bac5493ed29c5d470fabcfc080e70870e16da338eb23bbf5aed95155f",
       "public_sha256": "1337347bac5493ed29c5d470fabcfc080e70870e16da338eb23bbf5aed95155f",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/peer-review/figures/04-revision.png",
@@ -309,9 +309,9 @@
     },
     {
       "path": "docs/peer-review/figures/04-revision.svg",
-      "source_sha256": "177e6d42d0dfc79b7008b061463bd5dd4852f0f033f82362950ff770ae38a8c8",
+      "source_sha256": "b594b567460bb7873cbf6a3d4d2fce58394ff78afa03bfde9749e5de66d44d21",
       "public_sha256": "b594b567460bb7873cbf6a3d4d2fce58394ff78afa03bfde9749e5de66d44d21",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/peer-review/figures/05-proposed-pipeline.png",
@@ -321,9 +321,9 @@
     },
     {
       "path": "docs/peer-review/figures/05-proposed-pipeline.svg",
-      "source_sha256": "7bfb1993f505da8e57b58c0b1dce356848a8c09f451db5a005131a012effb3d9",
+      "source_sha256": "5d1aca28e0de5f7aa33f0de7ce11b64acf52b3af51463842c8481a9b3cf12dfe",
       "public_sha256": "5d1aca28e0de5f7aa33f0de7ce11b64acf52b3af51463842c8481a9b3cf12dfe",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/peer-review/figures/06-hierarchy.png",
@@ -333,9 +333,9 @@
     },
     {
       "path": "docs/peer-review/figures/06-hierarchy.svg",
-      "source_sha256": "929f1bfbd61def396fdb252c02bae491945cf1b15f3c44c6ae01fbde3f343805",
+      "source_sha256": "4cf3862614be01a0c72c9d4c1f4bc037868c22542c3493cebdb878bf7e41ae54",
       "public_sha256": "4cf3862614be01a0c72c9d4c1f4bc037868c22542c3493cebdb878bf7e41ae54",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/peer-review/figures/07-relationships.png",
@@ -345,9 +345,9 @@
     },
     {
       "path": "docs/peer-review/figures/07-relationships.svg",
-      "source_sha256": "4829fb8e808c29045842ea2bd0ab631eaa5f59e4cc5d58503a12961be595d15f",
+      "source_sha256": "588b672c6bf50661e85bbf4d63481a73a565e8f7a7b255f0312e5638a8c0d3dc",
       "public_sha256": "588b672c6bf50661e85bbf4d63481a73a565e8f7a7b255f0312e5638a8c0d3dc",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/peer-review/figures/08-selection.png",
@@ -357,9 +357,9 @@
     },
     {
       "path": "docs/peer-review/figures/08-selection.svg",
-      "source_sha256": "dc3bcf04e911e7331bb434a5771d0ac07471251238ada97f897938caaf21366a",
+      "source_sha256": "8ecef7d205aebec82ff0958e1568343f4016ed3f8489f5d850d9a2799e8084ad",
       "public_sha256": "8ecef7d205aebec82ff0958e1568343f4016ed3f8489f5d850d9a2799e8084ad",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/peer-review/figures/comparison-campus-poster.png",
@@ -429,9 +429,9 @@
     },
     {
       "path": "docs/research/CLAIMS.md",
-      "source_sha256": "1cd9d7b4f0d5b914856461a7c50b07b816f39ad5eb96539c7e268908046271e8",
+      "source_sha256": "ee19c0aa31f20e613e5df59b7c1a3538fb24b9d6e0afa5ef6b0cfa4dd43bf90f",
       "public_sha256": "ee19c0aa31f20e613e5df59b7c1a3538fb24b9d6e0afa5ef6b0cfa4dd43bf90f",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/research/COMPARISONS.json",
@@ -441,9 +441,9 @@
     },
     {
       "path": "docs/research/EXECUTION-NOTES.md",
-      "source_sha256": "1002b26478b18ffb53eccad9f20d110ab28bc66b94d5818a1fb6911f9775bac0",
+      "source_sha256": "333515443c45f0b8ea47ae6896f3148ac627cba1a669efdef2bc44f5defec456",
       "public_sha256": "333515443c45f0b8ea47ae6896f3148ac627cba1a669efdef2bc44f5defec456",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/research/HUMAN-EVALUATION.md",
@@ -495,9 +495,9 @@
     },
     {
       "path": "docs/research/STEP-GUIDE.json",
-      "source_sha256": "e66edd979f61582a42defe594c984e3fbe5379a10ac95ae7a5294ecdbaf82f26",
+      "source_sha256": "a5863673659b8a1474bbfc4294d25eea4a3b43e90579728cf41220e90b9d828b",
       "public_sha256": "a5863673659b8a1474bbfc4294d25eea4a3b43e90579728cf41220e90b9d828b",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/research/bibliography.bib",
@@ -531,9 +531,9 @@
     },
     {
       "path": "docs/research/editions/2026-10-15-interim/verification.json",
-      "source_sha256": "78d83a83ff60616213a2bf4981c2149b8aedf62daa11c824edbdaf1befc0f110",
+      "source_sha256": "0c5ac4e490650fa9c6ae5e13bd7913d09a1fdb3935b139e5cd34a2897095ede9",
       "public_sha256": "0c5ac4e490650fa9c6ae5e13bd7913d09a1fdb3935b139e5cd34a2897095ede9",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/research/figures/process-control.png",
@@ -549,9 +549,9 @@
     },
     {
       "path": "docs/research/manuscript.md",
-      "source_sha256": "90f37a27e19473c6eed91866d3ded29232f4fa01f20a08f8d7d227b0072f001b",
+      "source_sha256": "2e510c8e6f38b8f61f7b3b87e18f55d02f1238e8431479b599de4f5ad14316aa",
       "public_sha256": "2e510c8e6f38b8f61f7b3b87e18f55d02f1238e8431479b599de4f5ad14316aa",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "docs/research/render-word.ps1",
@@ -561,9 +561,9 @@
     },
     {
       "path": "examples/README.md",
-      "source_sha256": "b6779c0c48ad3a9753f3a2f7876098e764c238a7a0d7577f27e71f3f6a16d060",
+      "source_sha256": "37498fc356d0fd4ab2cdc5920c126855f42d3d9d673df12d6428343de3202f16",
       "public_sha256": "37498fc356d0fd4ab2cdc5920c126855f42d3d9d673df12d6428343de3202f16",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "examples/campus-poster/baseline/artwork.pdf",
@@ -591,9 +591,9 @@
     },
     {
       "path": "examples/campus-poster/baseline/inspection.json",
-      "source_sha256": "fb57d91cbdc8d46cacb743c6cb948a3c9567d4b234a206abc60b87e8ffecd819",
+      "source_sha256": "10f0d9cd43e3ea6a1410ba0761b17adc07b3e405f170ee080fc48201d2df860b",
       "public_sha256": "10f0d9cd43e3ea6a1410ba0761b17adc07b3e405f170ee080fc48201d2df860b",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "examples/campus-poster/baseline/use.png",
@@ -627,9 +627,9 @@
     },
     {
       "path": "examples/campus-poster/improved/inspection.json",
-      "source_sha256": "9bfb3a518360bc0f69726417cc45bb14eeb351fc46c28c23ce2efa49fcddbbff",
+      "source_sha256": "bd14c43b5baa50acf80f7e5ac41827e53a62f9a8f9cb7e1793c3532e9dc0c383",
       "public_sha256": "bd14c43b5baa50acf80f7e5ac41827e53a62f9a8f9cb7e1793c3532e9dc0c383",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "examples/campus-poster/improved/use.png",
@@ -663,9 +663,9 @@
     },
     {
       "path": "examples/repair-cafe/baseline/inspection.json",
-      "source_sha256": "493d9d7dac297bedc2fffa3b1057d6e627bcdc56aef6317cc0139aebd7e118bb",
+      "source_sha256": "659b0e3019cca102c97afdb189a8c68fa715acc2aef0f320a7e2050cdcdb63d4",
       "public_sha256": "659b0e3019cca102c97afdb189a8c68fa715acc2aef0f320a7e2050cdcdb63d4",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "examples/repair-cafe/baseline/use.png",
@@ -699,9 +699,9 @@
     },
     {
       "path": "examples/repair-cafe/improved/inspection.json",
-      "source_sha256": "db0b96875033b2e098684000db4c03a1da0a7962bca701fcb54d5979a49fa7db",
+      "source_sha256": "e6278eac1b2510389968c35729be985821512faba586b6d0936b2dd42f7d0014",
       "public_sha256": "e6278eac1b2510389968c35729be985821512faba586b6d0936b2dd42f7d0014",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "examples/repair-cafe/improved/use.png",
@@ -735,9 +735,9 @@
     },
     {
       "path": "examples/urban-heat/baseline/inspection.json",
-      "source_sha256": "ac0d88766202011829e413af75055d7ba7f0097e20ad9483d72bbb6313e65489",
+      "source_sha256": "003ac9c906f1aa9c28ebe55adcc6cee0dc12bba5ea45c09f050a5cb27c6475a1",
       "public_sha256": "003ac9c906f1aa9c28ebe55adcc6cee0dc12bba5ea45c09f050a5cb27c6475a1",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "examples/urban-heat/baseline/use.png",
@@ -771,9 +771,9 @@
     },
     {
       "path": "examples/urban-heat/improved/inspection.json",
-      "source_sha256": "6b649ad539060a59345096daef8f4751b80da7dcc7688cf608b2e454fdcb577a",
+      "source_sha256": "f6e8ad077d47acbeae7be8297f33c3dc09a65a9553e6bd668d41ecda235dc519",
       "public_sha256": "f6e8ad077d47acbeae7be8297f33c3dc09a65a9553e6bd668d41ecda235dc519",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "examples/urban-heat/improved/use.png",
@@ -789,39 +789,39 @@
     },
     {
       "path": "public-evidence/archive-integrity.json",
-      "source_sha256": "cd1bd92f3dd4dd41f54690483f02becbf3aac97cfa20df72034807c82d0f2fcc",
+      "source_sha256": "e66ee12715f042a539cf2f3cdd537f28284a253f1f18bd063b9b9c96d2f783be",
       "public_sha256": "e66ee12715f042a539cf2f3cdd537f28284a253f1f18bd063b9b9c96d2f783be",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/artwork-production.json",
-      "source_sha256": "898d38c0e320df52a0d0807fb9942db4ca0d3433100889925f51766ec7bb82ab",
+      "source_sha256": "44b9ac4917d61a4e799d2b43d9656e8779dff22323de5e123ca5775e54f2535f",
       "public_sha256": "44b9ac4917d61a4e799d2b43d9656e8779dff22323de5e123ca5775e54f2535f",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/clean-checkout.json",
-      "source_sha256": "3af6c2c2c127fcacebb483ef92bf223b1fe54baea4e1344254975fb4c06183c3",
+      "source_sha256": "92056ddba4fff8f3eff931db7a3e907e72d45eb0bffa1dac8b355c6af78310f6",
       "public_sha256": "92056ddba4fff8f3eff931db7a3e907e72d45eb0bffa1dac8b355c6af78310f6",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/full-activation.json",
-      "source_sha256": "9a412c89c400888a14cdc6b1b79d2f853e9afa3fd67438adee09a8c52b9cc635",
+      "source_sha256": "4b540620937732aed7f954c91b7b2fb963ff95603f942f9e54bb7b7884bdb8be",
       "public_sha256": "4b540620937732aed7f954c91b7b2fb963ff95603f942f9e54bb7b7884bdb8be",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/historical-revisit.json",
-      "source_sha256": "1ad18f681e44700b29d899cf33e66b917b8f227fd1506a4bb5d9748679c4235d",
+      "source_sha256": "a8629845be69d30fc2a193b0aab82811ba6c2aaf0c069073bbd38443c06ec9e1",
       "public_sha256": "a8629845be69d30fc2a193b0aab82811ba6c2aaf0c069073bbd38443c06ec9e1",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/installation-rollback.json",
-      "source_sha256": "ca5efb71e952d9b549002c1280a314b81053a1ac0b9510a128a6ca3e41077ce1",
+      "source_sha256": "90d1973cd797f0da0ce886d4ce8eb1719eb0dde8dd501183a5248fbec3bd9729",
       "public_sha256": "90d1973cd797f0da0ce886d4ce8eb1719eb0dde8dd501183a5248fbec3bd9729",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/owner-review.json",
@@ -831,15 +831,15 @@
     },
     {
       "path": "public-evidence/process-calibration-20261015/README.md",
-      "source_sha256": "4b58b756a4f85402eb10e9178669238790034d52c94d2a61b4fc9ef4348eee2e",
+      "source_sha256": "50a56d82cb1b91ac6f3d67c85f0af5d399062e101b8b47889b7e3dc2e3604f8d",
       "public_sha256": "50a56d82cb1b91ac6f3d67c85f0af5d399062e101b8b47889b7e3dc2e3604f8d",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-calibration-20261015/cycle1-illustration/creator-report.json",
-      "source_sha256": "b36ddc223a3caa5063ecf00f842617a34189ae7c1ec39d6385ea381b2d6ae98a",
+      "source_sha256": "470cd8e88f8a32fb93a4660d42b23a9906e4cbe377e104deb33c108ab6fdce7f",
       "public_sha256": "470cd8e88f8a32fb93a4660d42b23a9906e4cbe377e104deb33c108ab6fdce7f",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-calibration-20261015/cycle1-information/0173994cb8b048aba540e77ed1be4dc7.vectorcraft",
@@ -885,9 +885,9 @@
     },
     {
       "path": "public-evidence/process-calibration-20261015/cycle1-information/creator-report.json",
-      "source_sha256": "d7bb9763e8c581cbb178db9e3cffb8a7777548c731d9c48536ccd0aee7c2c8b4",
+      "source_sha256": "a9111578a56da95fa48290bf5d9f307db91124a080361ed422b935dd73bab26c",
       "public_sha256": "a9111578a56da95fa48290bf5d9f307db91124a080361ed422b935dd73bab26c",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-calibration-20261015/cycle1-information/full.png",
@@ -933,9 +933,9 @@
     },
     {
       "path": "public-evidence/process-calibration-20261015/cycle1-poster/creator-report.json",
-      "source_sha256": "09f4460669f4546dbd3e171f754f9dbd393d4b1c7b018d7457347c4072d9693f",
+      "source_sha256": "6e264bd699ca8e1602c17c16c80a8a34ab0954ef0894ebbbb5cd51385e9536b0",
       "public_sha256": "6e264bd699ca8e1602c17c16c80a8a34ab0954ef0894ebbbb5cd51385e9536b0",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-calibration-20261015/cycle1-poster/full.png",
@@ -987,9 +987,9 @@
     },
     {
       "path": "public-evidence/process-calibration-20261015/cycle2-illustration/creator-report.json",
-      "source_sha256": "61dc443dbc7ee7c44b507cf12ba3bd8d76d9404f50cd8af2de727ee154f490c6",
+      "source_sha256": "a2bd98ab4a127a4fb71c182c5c967c8e62f8e948a6f9894998bcad585a8859ee",
       "public_sha256": "a2bd98ab4a127a4fb71c182c5c967c8e62f8e948a6f9894998bcad585a8859ee",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-calibration-20261015/cycle2-illustration/full.png",
@@ -1005,15 +1005,15 @@
     },
     {
       "path": "public-evidence/process-calibration-20261015/index.json",
-      "source_sha256": "c12d431f7b91a959f7c980470e112e49f9305a8f5b0fc55248fbdbedc94db7a9",
+      "source_sha256": "fe5c5d364f4c692c35534800447397f4e122ebb0dbc7101718ebcb128d5e0e5d",
       "public_sha256": "fe5c5d364f4c692c35534800447397f4e122ebb0dbc7101718ebcb128d5e0e5d",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-stages-20261015/README.md",
-      "source_sha256": "a89da146d2e97c63b7c6a2a19a01e5d1b781d14bdd84160baa14ce9b566860e0",
+      "source_sha256": "080a4bc4652c4627bb3b53da867b5448b0ba63f5e54c0f8b8a39f1728de557db",
       "public_sha256": "080a4bc4652c4627bb3b53da867b5448b0ba63f5e54c0f8b8a39f1728de557db",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-stages-20261015/attempts/exchange-designer-process-v1-1/stage-events.json",
@@ -1461,75 +1461,75 @@
     },
     {
       "path": "public-evidence/process-study-20261015/README.md",
-      "source_sha256": "8bd6ff7eb02d9b6c5ee7e45fe0b2e5cbe525e7772c885ba5895b61d31c86b163",
+      "source_sha256": "1c14949e9c99bd7fd59d91c327aa0f17279495fb2a4a8956535a2054b226066f",
       "public_sha256": "1c14949e9c99bd7fd59d91c327aa0f17279495fb2a4a8956535a2054b226066f",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/artifact-manifest.json",
-      "source_sha256": "6cac0f57cb48845cc084a2ee2391dd203ef4dfa1f67c9f5672612768cc4eedd4",
+      "source_sha256": "871d84c76c3a19c9b7cf88313c88c473e894b146b6388e1648dd20cda7fa416e",
       "public_sha256": "871d84c76c3a19c9b7cf88313c88c473e894b146b6388e1648dd20cda7fa416e",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-1/creator-image-actions.json",
-      "source_sha256": "da5b8f9ea928676bd1f73e502caf20bf0b8c724a5eb6108776998081a9c3ceae",
+      "source_sha256": "30c069ea6c3edf17657e60f7968f88a7a6eb8ad128897f8a363e1ef72e83eeff",
       "public_sha256": "30c069ea6c3edf17657e60f7968f88a7a6eb8ad128897f8a363e1ef72e83eeff",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-1/creator-report.json",
-      "source_sha256": "dce6d87d0f05a022f6219c73993ee1954a24e0925d7d4a8ff3e432ce14cfa750",
+      "source_sha256": "e7bb1d5f37f2a5545b30228fcf50a6ab4966e605bed95fdc53d41a7fcce13873",
       "public_sha256": "e7bb1d5f37f2a5545b30228fcf50a6ab4966e605bed95fdc53d41a7fcce13873",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-1/execution-issues.json",
-      "source_sha256": "c195aacf01a05178d1060e5be5f0ce1b9016b62da7c0e8e18efe5fde0928eea8",
+      "source_sha256": "8640a34da10c2780c021b3cfb359ad70cbf7c25f22294e9427aa9262338d09f1",
       "public_sha256": "8640a34da10c2780c021b3cfb359ad70cbf7c25f22294e9427aa9262338d09f1",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-1/run-summary.json",
-      "source_sha256": "ab5639c5c9621a13630e8b5830971ce49b6ae3fc41dafc8375fd006a33fff372",
+      "source_sha256": "d36d4227a99c4df23f9fd7300784ac4d3a61b5f728b382c221806f94275d3b7b",
       "public_sha256": "d36d4227a99c4df23f9fd7300784ac4d3a61b5f728b382c221806f94275d3b7b",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/creator-image-actions.json",
-      "source_sha256": "25a0d4f603ba594a84c39faac8ef35bde387040a14d77b9f29ab6bb350b236bd",
+      "source_sha256": "a9c48a0869b7cd4f7f60ed7bbba1635e00f744fe499ec53841b9d5cf523be1ae",
       "public_sha256": "a9c48a0869b7cd4f7f60ed7bbba1635e00f744fe499ec53841b9d5cf523be1ae",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/creator-report.json",
-      "source_sha256": "fff10a48a082d7d5f4b60097872dba96fc99e1e23f36d3ab13669dcdbbf29d0a",
+      "source_sha256": "688f2397eea7e025d60e268ee9c315b7020fbf9b0c4acb0a5bacaaeb5ce01646",
       "public_sha256": "688f2397eea7e025d60e268ee9c315b7020fbf9b0c4acb0a5bacaaeb5ce01646",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/execution-issues.json",
-      "source_sha256": "bee15528d376674e470be143f00c7380f15176d8b0e31c872a6eaadd635ef75a",
+      "source_sha256": "379fadd32519043681c0416ab553c5c369288155d2c1343a75ee27edf2345c1f",
       "public_sha256": "379fadd32519043681c0416ab553c5c369288155d2c1343a75ee27edf2345c1f",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/reviews/concept-review-return.json",
-      "source_sha256": "d6ab852b1e63debae258997d4c715bf99421885c986e2eceba8af385ae74ab73",
+      "source_sha256": "093045f46002b74d7d26b60face7ddadc7411e2c08b8bd11759e5c8426ee5835",
       "public_sha256": "093045f46002b74d7d26b60face7ddadc7411e2c08b8bd11759e5c8426ee5835",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/run-summary.json",
-      "source_sha256": "f26bb32afb885c2699d32b4ba4c1d0752ef87c16d50342c96fb032acd8d3a069",
+      "source_sha256": "a3db44d6f5cfed02ec4b2ce13cee400b6a326fdf6b123d013bc4d2ccad7da6e8",
       "public_sha256": "a3db44d6f5cfed02ec4b2ce13cee400b6a326fdf6b123d013bc4d2ccad7da6e8",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/composition/60b1005936a84ca59ca7b51e64b06f28.json",
-      "source_sha256": "a1f0042c5f2c0c39836705b50cfb3ef7dfc64e5de5b6043b9feb1eaad72e8600",
+      "source_sha256": "da568bd7167e6cdd91de6e4fe1b9ea7e9dd7f66a1107922263c90007977798dd",
       "public_sha256": "da568bd7167e6cdd91de6e4fe1b9ea7e9dd7f66a1107922263c90007977798dd",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/composition/artwork.vectorcraft",
@@ -1545,9 +1545,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/composition/inspection.json",
-      "source_sha256": "4dff43d86673d973420a81d57eea2b29f7cb23581eb893ecd1ac33f6daa7a399",
+      "source_sha256": "b19b156fa23134b2526a3280249fdb0095226065100381b6810aa6c0d35dbe41",
       "public_sha256": "b19b156fa23134b2526a3280249fdb0095226065100381b6810aa6c0d35dbe41",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/composition/use.png",
@@ -1563,9 +1563,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/final/e4dc98f1c56c4edd845e125d17fc03cb.json",
-      "source_sha256": "5ff082dd4e86ff64aac47e2fc2d705a000da227d40d78046a6583af21729d21f",
+      "source_sha256": "647422841e66261cdfdd488e442eae0123a4eb0a3cee0bb3610ca416d38de516",
       "public_sha256": "647422841e66261cdfdd488e442eae0123a4eb0a3cee0bb3610ca416d38de516",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/final/exports/00-93ee763d928649d6b9f76bc718cfdf2d.vectorcraft",
@@ -1605,9 +1605,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/final/inspection.json",
-      "source_sha256": "25ef5b9b514be0a039892b069f6f10f7457a6025524b98cf85ee2a6e29b0d6b5",
+      "source_sha256": "62b3e1b59c4d45894935ba1c0939c4502e484f3bd92d3696775470df5556e623",
       "public_sha256": "62b3e1b59c4d45894935ba1c0939c4502e484f3bd92d3696775470df5556e623",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/final/use.png",
@@ -1623,9 +1623,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/finishing/cc5a75f6270745ce8d80ce531ff1f6cd.json",
-      "source_sha256": "224ed155e8eeabbb83f8b2302c35eb57e88d8237e6f9fbece45938bba0ee5d93",
+      "source_sha256": "ccc4a44b04ae44448fbcfb032d97f79435749f5ac3c1c068c04b5eba58101cf9",
       "public_sha256": "ccc4a44b04ae44448fbcfb032d97f79435749f5ac3c1c068c04b5eba58101cf9",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/finishing/full.png",
@@ -1635,9 +1635,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/finishing/inspection.json",
-      "source_sha256": "fb8599e40ce737865c1f78fc12288f0b38f11bdbd0fcc1f7da3da59450d7e305",
+      "source_sha256": "c20c7fc4b5ffbff02e5f7a114d8586069c70deb4d242157e176f09aa0b85b0cc",
       "public_sha256": "c20c7fc4b5ffbff02e5f7a114d8586069c70deb4d242157e176f09aa0b85b0cc",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/finishing/use.png",
@@ -1647,9 +1647,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery-recheck/720d3c969035472280822c550a1019f8.json",
-      "source_sha256": "8d6dbd9a6cd1dd3007f634c1aa6f589996a74fe304ab07340ea31ef90bf5cffb",
+      "source_sha256": "2375713d9d6117d0697e9df33b4f8c5ef842933840672cbe01fad29c24fa1ab4",
       "public_sha256": "2375713d9d6117d0697e9df33b4f8c5ef842933840672cbe01fad29c24fa1ab4",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery-recheck/artwork.vectorcraft",
@@ -1665,9 +1665,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery-recheck/inspection.json",
-      "source_sha256": "25ef5b9b514be0a039892b069f6f10f7457a6025524b98cf85ee2a6e29b0d6b5",
+      "source_sha256": "62b3e1b59c4d45894935ba1c0939c4502e484f3bd92d3696775470df5556e623",
       "public_sha256": "62b3e1b59c4d45894935ba1c0939c4502e484f3bd92d3696775470df5556e623",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery-recheck/use.png",
@@ -1677,9 +1677,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery/8469ede46c3045ab922ca6791e1c03d9.json",
-      "source_sha256": "0d7af027818f71a603727de2a9ce27ed889cdce230a883fdc945f39a5d8d26ab",
+      "source_sha256": "92061aa8debeee925ef26ac18840b2f9d9bf9b961c2a3560bb53f2f8b97a7aeb",
       "public_sha256": "92061aa8debeee925ef26ac18840b2f9d9bf9b961c2a3560bb53f2f8b97a7aeb",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery/artwork.vectorcraft",
@@ -1695,9 +1695,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery/inspection.json",
-      "source_sha256": "a7cc52c29238513677ddab89a431513674b1a52563200b9da3d47d0a8889cb1c",
+      "source_sha256": "0975c072ac54305c7b49da9d4f108d869566a0d0f9d0a32876f55b65244ef404",
       "public_sha256": "0975c072ac54305c7b49da9d4f108d869566a0d0f9d0a32876f55b65244ef404",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/imagery/use.png",
@@ -1713,9 +1713,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/title-flow/f808d26f1eaf4c04a212084791f1738d.json",
-      "source_sha256": "1dce0863c83e6859084cf4b540a4417d495aa21712bef9621b694f17d41ffbec",
+      "source_sha256": "4cf0b44bf955f512767c5f23f7e6cf2a1261089e1e158c1133886feaca2f023c",
       "public_sha256": "4cf0b44bf955f512767c5f23f7e6cf2a1261089e1e158c1133886feaca2f023c",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/title-flow/full.png",
@@ -1725,9 +1725,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/title-flow/inspection.json",
-      "source_sha256": "25ef5b9b514be0a039892b069f6f10f7457a6025524b98cf85ee2a6e29b0d6b5",
+      "source_sha256": "62b3e1b59c4d45894935ba1c0939c4502e484f3bd92d3696775470df5556e623",
       "public_sha256": "62b3e1b59c4d45894935ba1c0939c4502e484f3bd92d3696775470df5556e623",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/title-flow/use.png",
@@ -1743,9 +1743,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/typography/f5f9733790dd48bd838453be59a80bf7.json",
-      "source_sha256": "ae42bb9c7c2a70e474090ff3b4077486bd38d12227e440410a56465dc8fa91d5",
+      "source_sha256": "bf66719cef8c129aa2ef96a1cb0f5d17e2ca575ab206b1acbe4d829cee184dfd",
       "public_sha256": "bf66719cef8c129aa2ef96a1cb0f5d17e2ca575ab206b1acbe4d829cee184dfd",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/typography/full.png",
@@ -1755,9 +1755,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/typography/inspection.json",
-      "source_sha256": "d0a6a3315f332e5b5f33c19d0048ad08ddaede14cef4020ea5671c1c77be2832",
+      "source_sha256": "07877cc08b35044ac15eb4dae901d3c94637358cdffa79add0a517612e6ec391",
       "public_sha256": "07877cc08b35044ac15eb4dae901d3c94637358cdffa79add0a517612e6ec391",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-process-v1-2/versions/typography/use.png",
@@ -1767,39 +1767,39 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/creator-image-actions.json",
-      "source_sha256": "950af6c9e1120b63ea611636b657d5c5681438bb6e819a4707775ccdbfb2770b",
+      "source_sha256": "b26be45d1ee4526f0e4b3a3c8fa9cc2ac32b2373aa82d00aeb05a4c56fad29e1",
       "public_sha256": "b26be45d1ee4526f0e4b3a3c8fa9cc2ac32b2373aa82d00aeb05a4c56fad29e1",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/creator-report.json",
-      "source_sha256": "004e79af5f027b6d6d1f62999afc4c5f63a4875bbb340652969ac5d4d605bb05",
+      "source_sha256": "748a69656f5618877c97156a664ac6df93a7d3d8f16aeafa954d8f4564ba37e6",
       "public_sha256": "748a69656f5618877c97156a664ac6df93a7d3d8f16aeafa954d8f4564ba37e6",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/execution-issues.json",
-      "source_sha256": "60620d9c3198a96b3af11c5e2bcfa06ffdd461dcf93ddad67b3e9810d7cc3106",
+      "source_sha256": "f1f2f7058fb31376e50b56ff1c3d1ad34b600a0b6a95e9bf757ebc6bf3a0d439",
       "public_sha256": "f1f2f7058fb31376e50b56ff1c3d1ad34b600a0b6a95e9bf757ebc6bf3a0d439",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/reviews/concept-review-return.json",
-      "source_sha256": "ee5dadf75ac9af0f31740d1ff477e096a5c102a61bd68542482e1e92d961f3c0",
+      "source_sha256": "ba40c921714d3920f4b595999299872c5707f37e33bfa33e4efa7defb7ce2c16",
       "public_sha256": "ba40c921714d3920f4b595999299872c5707f37e33bfa33e4efa7defb7ce2c16",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/run-summary.json",
-      "source_sha256": "7abe26c93cffebe95dbf7dfec19460b13bcf8763f13f566f71cd28f6ed934d1b",
+      "source_sha256": "001e8e7372e8dc2dc5c395c7680059ea35018d6672b429d789b53f6735590048",
       "public_sha256": "001e8e7372e8dc2dc5c395c7680059ea35018d6672b429d789b53f6735590048",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/composition/47cf774c9c1c489e8cce2e1a9d08fd41.json",
-      "source_sha256": "733175fe67182a030b089eff157ecf1f88b3567eff5572ec831c876215fbb319",
+      "source_sha256": "72578ec829952375d621dd15fd87c01dbf05c642072380c9faf198558cedf2ab",
       "public_sha256": "72578ec829952375d621dd15fd87c01dbf05c642072380c9faf198558cedf2ab",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/composition/artwork.vectorcraft",
@@ -1815,9 +1815,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/composition/inspection.json",
-      "source_sha256": "d09f3bf05c1661bd45ad56139ec26289d34f5821481de4125fb84e770aed7f1f",
+      "source_sha256": "01f8b8a5e60b28f7f96f2b1b7cabef6a75ed704a4a57bd04cb1a1c91d119f1af",
       "public_sha256": "01f8b8a5e60b28f7f96f2b1b7cabef6a75ed704a4a57bd04cb1a1c91d119f1af",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/composition/use.png",
@@ -1863,9 +1863,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/final-1/f796ec81a8d84b7fbf61c593cc14fd9e.json",
-      "source_sha256": "b1c7f41da41ea5a9637c94575d18d492aeb0ec27745c933e6a1b1b690c174e90",
+      "source_sha256": "34f33d8885afe2017502367b04fe06bc22fd0d4f39a1e7f6c4e71b5c07ec614a",
       "public_sha256": "34f33d8885afe2017502367b04fe06bc22fd0d4f39a1e7f6c4e71b5c07ec614a",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/final-1/full.png",
@@ -1875,9 +1875,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/final-1/inspection.json",
-      "source_sha256": "2f35c860119c5efe925d5193444d5a62eed886c2c08c5f4d680f5cd73a7c2096",
+      "source_sha256": "327c185f317806eca6147bd7c76f2a25c357186ab92b83be5bf96004eedc0aa6",
       "public_sha256": "327c185f317806eca6147bd7c76f2a25c357186ab92b83be5bf96004eedc0aa6",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/final-1/use.png",
@@ -1893,9 +1893,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/imagery/bc7cd7e1db734b38aa364efe53dc93d5.json",
-      "source_sha256": "c0d425cee6bd61e7d2cd5a16acb39f4211970ba9c1e51f8774d3f70c99101371",
+      "source_sha256": "1f03d08eb987eface7ef24f5e40bbb3e68945030896efec39a6208b053bef49d",
       "public_sha256": "1f03d08eb987eface7ef24f5e40bbb3e68945030896efec39a6208b053bef49d",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/imagery/full.png",
@@ -1905,9 +1905,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/imagery/inspection.json",
-      "source_sha256": "13a6380d77d8bbcad995ab95a59f7659a00c3748e85dd74d61c7bf1a42739e82",
+      "source_sha256": "1b762ae201a0662db8276cdb369364d01ec387a19fa5225ecbeb96d01e4ab738",
       "public_sha256": "1b762ae201a0662db8276cdb369364d01ec387a19fa5225ecbeb96d01e4ab738",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/imagery/use.png",
@@ -1923,9 +1923,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography-fixed/f97eb59f7919490a80fd37ef9ba4ddef.json",
-      "source_sha256": "c98e6715676a12c3c7ad4bd742718df840fe97c58d34a95d315e6d52f5291368",
+      "source_sha256": "699dee08c9dfb484a58f15dfcabdcb3e9782ff743e7d95a8b975c0e89f7e5952",
       "public_sha256": "699dee08c9dfb484a58f15dfcabdcb3e9782ff743e7d95a8b975c0e89f7e5952",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography-fixed/full.png",
@@ -1935,9 +1935,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography-fixed/inspection.json",
-      "source_sha256": "a8e06c214d11e1893d623739c95d49694fcbd3ea4636081f70e978f68bc94d45",
+      "source_sha256": "b2745dece75a9c6ee5c953de3722e506929fbfcf592f431c378adcf85fbac054",
       "public_sha256": "b2745dece75a9c6ee5c953de3722e506929fbfcf592f431c378adcf85fbac054",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography-fixed/use.png",
@@ -1947,9 +1947,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography/3bec09e82741458c99894645a1aa2c4e.json",
-      "source_sha256": "3dba799989da44984d3207a60682ad52db46bdf74e55d06ebdc4d0bb2e5e03bf",
+      "source_sha256": "fef4383118a9d745c100b69fac4ca820c802c3248ba0792443dd389b56aa1b14",
       "public_sha256": "fef4383118a9d745c100b69fac4ca820c802c3248ba0792443dd389b56aa1b14",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography/artwork.vectorcraft",
@@ -1965,9 +1965,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography/inspection.json",
-      "source_sha256": "b9fbbaa725cc570653e6fab72df416c34eb04e857ad3d6350d3da756c1d34463",
+      "source_sha256": "ba2102f4f89817ffd13de89f6058aa5c49c488573cf4ea4819837b9d90e0240d",
       "public_sha256": "ba2102f4f89817ffd13de89f6058aa5c49c488573cf4ea4819837b9d90e0240d",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-designer-v1-1/versions/typography/use.png",
@@ -1977,39 +1977,39 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/creator-image-actions.json",
-      "source_sha256": "b21bae770da845f9ea8e6099bad2bfc3cce36d1a28ac532c3affcae83f4857ea",
+      "source_sha256": "6d34c2e3cc63188709adaf0bce69da137f80cc1c36a3d226a18f7d53e2284b20",
       "public_sha256": "6d34c2e3cc63188709adaf0bce69da137f80cc1c36a3d226a18f7d53e2284b20",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/creator-report.json",
-      "source_sha256": "3b17258af3e81d7244cce0a351cd4bf4cb9200bd0d4297877450c197e9c2df30",
+      "source_sha256": "bf9496a9a04f2f5594e79453fb22cedb96e3ed257a3e74b37e65f6479c630247",
       "public_sha256": "bf9496a9a04f2f5594e79453fb22cedb96e3ed257a3e74b37e65f6479c630247",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/execution-issues.json",
-      "source_sha256": "9256dd91c5e784b44c15878d2bd7c6e9e09bb5985fe0e238c9c3e1d5748ab9b0",
+      "source_sha256": "fd16717775e6f1eaacaa2af1b39a8656c2f7cce67adfd21ef3f0b14b9986e904",
       "public_sha256": "fd16717775e6f1eaacaa2af1b39a8656c2f7cce67adfd21ef3f0b14b9986e904",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/reviews/concept-review-return.json",
-      "source_sha256": "59efb13dc9c289688e1dfa130c03bafb3ad0ef04b1d2583fbe6624da5c28deb7",
+      "source_sha256": "d45bfe27bc8597288f924c05cdd5af6ffe38944cd2291efccda1951e2fb76849",
       "public_sha256": "d45bfe27bc8597288f924c05cdd5af6ffe38944cd2291efccda1951e2fb76849",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/run-summary.json",
-      "source_sha256": "68b81c81e96950a03fa2f5197242cb050a2f37b1e880ef9c782efb13b072f55e",
+      "source_sha256": "fb0c622927f5b746a6ede9c0ed9ef9d76b647fb3cf5b2be069f8b59ae8bd6fce",
       "public_sha256": "fb0c622927f5b746a6ede9c0ed9ef9d76b647fb3cf5b2be069f8b59ae8bd6fce",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v1/17c77d6ab7934d929d4991d369dc1c82.json",
-      "source_sha256": "8be9e3fbd4941140132f356f842c0aa0629055458b5164c6504b118c11bc63e3",
+      "source_sha256": "c803c98cc183216240f62c3c8a02d7a110192e841bc97b5dba347decb681f338",
       "public_sha256": "c803c98cc183216240f62c3c8a02d7a110192e841bc97b5dba347decb681f338",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v1/artwork.vectorcraft",
@@ -2025,9 +2025,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v1/inspection.json",
-      "source_sha256": "f528845b2827c4c16160c798a7a2b474418990849b1473ff6a41265462b9f27a",
+      "source_sha256": "9428eeb618dc67145e736a086707c03ee8d3005bf238ba187622deef00459cd3",
       "public_sha256": "9428eeb618dc67145e736a086707c03ee8d3005bf238ba187622deef00459cd3",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v1/use.png",
@@ -2043,9 +2043,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v2/ca3560312bc24e1692765933fb9c6568.json",
-      "source_sha256": "5a45036354e562ca64ee8a9e4e4da34f4c422276546f19eaa743410f9da25440",
+      "source_sha256": "d5588f9f64e77c5802c66652718b1ee41dff68dc48fb753fd462d757cb939694",
       "public_sha256": "d5588f9f64e77c5802c66652718b1ee41dff68dc48fb753fd462d757cb939694",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v2/full.png",
@@ -2055,9 +2055,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v2/inspection.json",
-      "source_sha256": "fad469b013998ff716585fe1292975f3d10d92c3b7c2795159eff776d8eb71f8",
+      "source_sha256": "c9ed64ecad6827b0baf166db2ae16ab600dcb4952d745b4b1a725b6d2957746f",
       "public_sha256": "c9ed64ecad6827b0baf166db2ae16ab600dcb4952d745b4b1a725b6d2957746f",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/composition-v2/use.png",
@@ -2073,9 +2073,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v1/c42ddcfadf584313ac62844ae02af18d.json",
-      "source_sha256": "28b17d9ab39090788399e2ab9c79b05ff53e09eade6a8bcdda780944fa63be61",
+      "source_sha256": "bdb6e867ac28ca1408ff4fed76d51dcc888e519dba1d2aeecd5e3d77db3abab9",
       "public_sha256": "bdb6e867ac28ca1408ff4fed76d51dcc888e519dba1d2aeecd5e3d77db3abab9",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v1/full.png",
@@ -2085,9 +2085,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v1/inspection.json",
-      "source_sha256": "24e8eb12766007ae261631fc0e56020adc261917dbf4854fcdd71324427fb8de",
+      "source_sha256": "9a7dbf292473e22c16d8b0e2d04da79534583b8be2f53ec656904116dd693e45",
       "public_sha256": "9a7dbf292473e22c16d8b0e2d04da79534583b8be2f53ec656904116dd693e45",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v1/use.png",
@@ -2097,9 +2097,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v2/6d0df6cdd65c4c6cb5a819c24bf05a2e.json",
-      "source_sha256": "fbd5c66abaede9b9b36cf6dae85bf702e243e3aedda0c51d97b298a5b8ce2a8c",
+      "source_sha256": "79921762973b57eb8456212cf5a32e20dffedf0e0deb0289a5c4101942b1d936",
       "public_sha256": "79921762973b57eb8456212cf5a32e20dffedf0e0deb0289a5c4101942b1d936",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v2/artwork.vectorcraft",
@@ -2145,9 +2145,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v2/inspection.json",
-      "source_sha256": "24e8eb12766007ae261631fc0e56020adc261917dbf4854fcdd71324427fb8de",
+      "source_sha256": "9a7dbf292473e22c16d8b0e2d04da79534583b8be2f53ec656904116dd693e45",
       "public_sha256": "9a7dbf292473e22c16d8b0e2d04da79534583b8be2f53ec656904116dd693e45",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/final-v2/use.png",
@@ -2157,9 +2157,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/imagery-v1/99fb5e4c3a784dcfb1535ae4a6376ac1.json",
-      "source_sha256": "206259c102edab0e715b903f2193773d291b74eca7e79f480ca93f6d26d0b581",
+      "source_sha256": "9234535373d055e11afa4f73cd113ce356a2a9551ffaa60361129d8776908494",
       "public_sha256": "9234535373d055e11afa4f73cd113ce356a2a9551ffaa60361129d8776908494",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/imagery-v1/artwork.vectorcraft",
@@ -2175,9 +2175,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/imagery-v1/inspection.json",
-      "source_sha256": "24e8eb12766007ae261631fc0e56020adc261917dbf4854fcdd71324427fb8de",
+      "source_sha256": "9a7dbf292473e22c16d8b0e2d04da79534583b8be2f53ec656904116dd693e45",
       "public_sha256": "9a7dbf292473e22c16d8b0e2d04da79534583b8be2f53ec656904116dd693e45",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/imagery-v1/use.png",
@@ -2187,9 +2187,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v1/2e0e910bc14642238785bbee2bd64ac8.json",
-      "source_sha256": "2fd0b181054f16c0099dcc044162523777203a4c19d9e1c56612aee3b3b57e83",
+      "source_sha256": "8120c699c7bad356ad6cfe79fb53e7fab4222f7017fbafd22a2aa93c9d1c3416",
       "public_sha256": "8120c699c7bad356ad6cfe79fb53e7fab4222f7017fbafd22a2aa93c9d1c3416",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v1/artwork.vectorcraft",
@@ -2205,9 +2205,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v1/inspection.json",
-      "source_sha256": "18317360b32b0daa866e64e0d0f27f5b832a27be959bcb0f351023330ecd3be6",
+      "source_sha256": "6ab1e564766d3a40445b75fd4a073b947f8df5c3324c549f81ca2fe467820770",
       "public_sha256": "6ab1e564766d3a40445b75fd4a073b947f8df5c3324c549f81ca2fe467820770",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v1/use.png",
@@ -2217,9 +2217,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v2/a762647436c84d5f9eb2bf62a736c6c5.json",
-      "source_sha256": "f4b34d89fb57cdc703bef2cd46a0f5bae0498fc00b6bfac2c674fadd15cd0d63",
+      "source_sha256": "3885a0cecfec86a26704c3a7db25c78d1c7b2ae8d57e823f539f86bf24f299ba",
       "public_sha256": "3885a0cecfec86a26704c3a7db25c78d1c7b2ae8d57e823f539f86bf24f299ba",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v2/artwork.vectorcraft",
@@ -2235,9 +2235,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v2/inspection.json",
-      "source_sha256": "152e1b2aeff27b2b38c233b2a408ed6318311d0bf1b3425c487f5226fcd46205",
+      "source_sha256": "ea3654641376cd641bdedd861c212f2d7a0dda2ed4b119c490f197da894dc7c0",
       "public_sha256": "ea3654641376cd641bdedd861c212f2d7a0dda2ed4b119c490f197da894dc7c0",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/exchange-layout-blockout-v1-2/versions/typography-v2/use.png",
@@ -2247,57 +2247,57 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-designer-process-v1-1/creator-image-actions.json",
-      "source_sha256": "7df83b0eb681990c30c602cf42925c3b0357ef19365734bbebc88f8f1999046c",
+      "source_sha256": "937e0d3f4decca5112506a2b052172a21a10e6482761e6a4f7c7dbcb1137e912",
       "public_sha256": "937e0d3f4decca5112506a2b052172a21a10e6482761e6a4f7c7dbcb1137e912",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-designer-process-v1-1/creator-report.json",
-      "source_sha256": "aa07784e6ebb2c2281793db399f77b37cde7225abcf75d174a4a2cc831827c60",
+      "source_sha256": "5f692d0f53dc4d6ed60b1334410e9c05f8b1e750f0574ab85d2fe16ee3be8b26",
       "public_sha256": "5f692d0f53dc4d6ed60b1334410e9c05f8b1e750f0574ab85d2fe16ee3be8b26",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-designer-process-v1-1/execution-issues.json",
-      "source_sha256": "ee5be870777a37eecadb9a2b9b217717e3109f6c56ea79800f2f8d87c6425b47",
+      "source_sha256": "b3cfbcaf654636121b71b915094d83f5bb702ee49e52b9c80cd424683ea98900",
       "public_sha256": "b3cfbcaf654636121b71b915094d83f5bb702ee49e52b9c80cd424683ea98900",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/creator-image-actions.json",
-      "source_sha256": "d75b0aa1798fcf2b1ae2562e908eaa2b9d556b018f130484f7a52b4c5b077bb7",
+      "source_sha256": "d7aa06280c8d6683f8d8fb83547cb36bfbc35ae67c93e67efcffa497826eb447",
       "public_sha256": "d7aa06280c8d6683f8d8fb83547cb36bfbc35ae67c93e67efcffa497826eb447",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/creator-report.json",
-      "source_sha256": "39f369b02d2a40ba28bcce699f840c8f13c75eb3f5e07d5bfe6cae113d2ea7d6",
+      "source_sha256": "8d48d2ad31c70a8366cb55e0d3661508acab4a318176e566e64b475e3ce0444b",
       "public_sha256": "8d48d2ad31c70a8366cb55e0d3661508acab4a318176e566e64b475e3ce0444b",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/execution-issues.json",
-      "source_sha256": "6525161e084a955f075a07236bcd89a560dec79274ec06b9dea6bd75bd2ffb1c",
+      "source_sha256": "45aa1c1c2f7c8aed0bf4e5f568ad074f29b92212e492ab0c1c6d084cb08abbee",
       "public_sha256": "45aa1c1c2f7c8aed0bf4e5f568ad074f29b92212e492ab0c1c6d084cb08abbee",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/reviews/concept-review-return.json",
-      "source_sha256": "08855da6082dd3a241ef261293352b96e5a3834d325d4f41ef78719f69db6581",
+      "source_sha256": "699692b41dc796c5efd5aa66e6ae9dfee99508124612d049cc96dea1ea953206",
       "public_sha256": "699692b41dc796c5efd5aa66e6ae9dfee99508124612d049cc96dea1ea953206",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/run-summary.json",
-      "source_sha256": "1436b53b50336f25fb5a1f486c64659ff3b2626e0b5831ad660bc933d7aa96d9",
+      "source_sha256": "15cecc7ee324928da0403b8f5491e0efc72e0c9a844691912de9acc4982f3c4d",
       "public_sha256": "15cecc7ee324928da0403b8f5491e0efc72e0c9a844691912de9acc4982f3c4d",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/composition-1/6a6308dea8124665b2efb74846b18660.json",
-      "source_sha256": "188cc9cb6e6346a2040b5f278a2b3fbe0e6ccc54b867e903dd42aa41e0f6deed",
+      "source_sha256": "338c76c4ecac706f51cc22f85ddf553279934aefb8ff11b2fe52d7e768cbf814",
       "public_sha256": "338c76c4ecac706f51cc22f85ddf553279934aefb8ff11b2fe52d7e768cbf814",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/composition-1/artwork.vectorcraft",
@@ -2313,9 +2313,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/composition-1/inspection.json",
-      "source_sha256": "9ef22e031480ab85d2f56829ec7218da72f0a090271bb10dfd25f871f04771bc",
+      "source_sha256": "7871dbf1c0d6d9c410585c5d66de0c5cc4f82ae227b7694b6ff5b2e4f7b02df4",
       "public_sha256": "7871dbf1c0d6d9c410585c5d66de0c5cc4f82ae227b7694b6ff5b2e4f7b02df4",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/composition-1/use.png",
@@ -2325,9 +2325,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-1/61e8b6da9c0742b7a37b46d9b1121787.json",
-      "source_sha256": "346febfa48d3f450dd24f4c6abd77d58f51cbd990c1791dad973c82afd5d3cb7",
+      "source_sha256": "1920d4602be2d6e19b1e7ede1eca61d122b470b8aa2e619ead33a6c3cba32c38",
       "public_sha256": "1920d4602be2d6e19b1e7ede1eca61d122b470b8aa2e619ead33a6c3cba32c38",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-1/artwork.vectorcraft",
@@ -2373,9 +2373,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-1/inspection.json",
-      "source_sha256": "6a682156321a18e9120b69389a258c529fb2aefef2b77429fa450a58fd3063d8",
+      "source_sha256": "4e974c62fa48543bfb8d600017edd2f05d088fd0db31a64ad2a48431e29a2d0c",
       "public_sha256": "4e974c62fa48543bfb8d600017edd2f05d088fd0db31a64ad2a48431e29a2d0c",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-1/use.png",
@@ -2391,9 +2391,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-2/ee43b62d6e9a4c298816660e63cb308c.json",
-      "source_sha256": "42a648074119150ba8b01bdbb4418885de33bf71bcf32514d5f870a143bfa0e8",
+      "source_sha256": "8cdb9a1e1a76a7ce8bf0f1547b3350a434dd0cfbc194a19c540ca27c1dfc7c37",
       "public_sha256": "8cdb9a1e1a76a7ce8bf0f1547b3350a434dd0cfbc194a19c540ca27c1dfc7c37",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-2/exports/00-f5f61ad06b8f49a5b744ee12bfdf2ca2.vectorcraft",
@@ -2433,9 +2433,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-2/inspection.json",
-      "source_sha256": "d5f32f04938d72ecb61261f4f334793c52fa1788cd2e3bb3a18c1631ff2af627",
+      "source_sha256": "08b7c102c94ec4449b06ed82c4c5f4e22d41e8d470defc6a393d2317b60cef4a",
       "public_sha256": "08b7c102c94ec4449b06ed82c4c5f4e22d41e8d470defc6a393d2317b60cef4a",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/final-2/use.png",
@@ -2451,9 +2451,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/imagery-1/fb616f6fe31340e9ad30792b39fdefaa.json",
-      "source_sha256": "1682cf695076d1d3f602935dc14aa937c9d0030356d32e21e7c280e931d119d4",
+      "source_sha256": "06774ea3c1f0a3ad6d99324c9af131da29e9b05a32a72b3d86e7e2bb41cbd400",
       "public_sha256": "06774ea3c1f0a3ad6d99324c9af131da29e9b05a32a72b3d86e7e2bb41cbd400",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/imagery-1/full.png",
@@ -2463,9 +2463,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/imagery-1/inspection.json",
-      "source_sha256": "519c110513099797d8f7c4b91e8e6dd343d9cc494b5b529ad32ef1b3349dccc3",
+      "source_sha256": "c722c7198b37dde602b55eb1bd7a4b9fedae6f6ddb45bfc610b16f063cae5fd4",
       "public_sha256": "c722c7198b37dde602b55eb1bd7a4b9fedae6f6ddb45bfc610b16f063cae5fd4",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/imagery-1/use.png",
@@ -2475,9 +2475,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/typography-1/01a0c5df05c24520bc56072981755f25.json",
-      "source_sha256": "926e05ac5e34120fffb526891a6b31434310d3a21fccc48d71fc1b5cbd8c675f",
+      "source_sha256": "04b52e1499a8849d87c5b6b9384dba8e4b254c8e5aa0c94e437ad30f1b719fd3",
       "public_sha256": "04b52e1499a8849d87c5b6b9384dba8e4b254c8e5aa0c94e437ad30f1b719fd3",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/typography-1/artwork.vectorcraft",
@@ -2493,9 +2493,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/typography-1/inspection.json",
-      "source_sha256": "3febf9772d20020de633b8f03af83343d1b10be1a659982ef0e728fbe41b0ce8",
+      "source_sha256": "2fde78ecdb0ca267cce662c7ae308041b5948987b5c6b1f28f5b7ba8d8c16ef9",
       "public_sha256": "2fde78ecdb0ca267cce662c7ae308041b5948987b5c6b1f28f5b7ba8d8c16ef9",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/library-layout-blockout-v1-2/versions/typography-1/use.png",
@@ -2505,129 +2505,129 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/creator-image-actions.json",
-      "source_sha256": "a964eb315c774160c08be0f458535dcbc6f7020ce6765c55a36d5626872841e0",
+      "source_sha256": "032419566f83a42b97db28108966470d37e50da7d87b27ea14f2d297864f0a59",
       "public_sha256": "032419566f83a42b97db28108966470d37e50da7d87b27ea14f2d297864f0a59",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/creator-report.json",
-      "source_sha256": "d274763d6ccd59369af0bae9d0ea79caf4a4852839930c0d79311aa7dd76aa0a",
+      "source_sha256": "56c72ae9b3c4e5544df1770c6d36838d855797b6f7dfb477deaabb91fc39e42c",
       "public_sha256": "56c72ae9b3c4e5544df1770c6d36838d855797b6f7dfb477deaabb91fc39e42c",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/execution-issues.json",
-      "source_sha256": "61694960b78c9071781d8c36df421837372a010763dff4e184a8ba6bc5d40ff7",
+      "source_sha256": "4dd99b5c6ee26a525e631c134bb05fb9bdf4a7e3cca77b3a2ba36d3bda7c28ef",
       "public_sha256": "4dd99b5c6ee26a525e631c134bb05fb9bdf4a7e3cca77b3a2ba36d3bda7c28ef",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-1-image-actions-raw.json",
-      "source_sha256": "9bbbe42379abe88d4786307b54cf13bcd85649591980e0a5cfa00a366fc7c15a",
+      "source_sha256": "2913b73d9441ef90b7af6a20e45949c53617dd759f96700fbf7beddac4b6030c",
       "public_sha256": "2913b73d9441ef90b7af6a20e45949c53617dd759f96700fbf7beddac4b6030c",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-1-raw.json",
-      "source_sha256": "778fd527a5a6e79f6e6cb0e06da0d84f2cc582fe367da7fb31ad982df14c4247",
+      "source_sha256": "9f2380fc094cda4167bb1ddd3c9b42bfd155e906f480ba3a0c4963f59af65b73",
       "public_sha256": "9f2380fc094cda4167bb1ddd3c9b42bfd155e906f480ba3a0c4963f59af65b73",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-1.json",
-      "source_sha256": "83eff61c35182ef7f5851068c946a32e25f05ffd7fda7a70fecb0732b2e801ae",
+      "source_sha256": "371642c6d6b1cc25cef6b1146108b03eafc605f7eea153a8c8c9faf171fe2661",
       "public_sha256": "371642c6d6b1cc25cef6b1146108b03eafc605f7eea153a8c8c9faf171fe2661",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-2-actions.json",
-      "source_sha256": "21b4b8c65f213840ba3e3d85e18ade17b38da532c45f755ff074b58c9a382f03",
+      "source_sha256": "2896a836ef7736593216f433ccf762562ce6a8637d174e9c5204cd7c627bc878",
       "public_sha256": "2896a836ef7736593216f433ccf762562ce6a8637d174e9c5204cd7c627bc878",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-2-image-actions-raw.json",
-      "source_sha256": "991b8e02de2378569ef82f65658ecbbcd58d253f6e50b003e3d4b72fe5ca55a2",
+      "source_sha256": "3bbb59d426d5a91e78b3218a0d8ad8e011543205a0ee60422618751db2ab4249",
       "public_sha256": "3bbb59d426d5a91e78b3218a0d8ad8e011543205a0ee60422618751db2ab4249",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-2-raw.json",
-      "source_sha256": "c8a666dbe05949708264d89619cee88599a77e51ce661bead2232e38c63efe60",
+      "source_sha256": "b883209b5a1e761d793c66000020986276dbd395af25a3f7c5a643b6d2fd48c3",
       "public_sha256": "b883209b5a1e761d793c66000020986276dbd395af25a3f7c5a643b6d2fd48c3",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/concept-review-2.json",
-      "source_sha256": "5853f217e3ba8fe046dec7fa36f95f41d511a6c48203c2b018e0012125a6272b",
+      "source_sha256": "570f1581f7b6d1077eca7acf312a16e4f096b2eddeb1b4f6fdb079e52e8f69f7",
       "public_sha256": "570f1581f7b6d1077eca7acf312a16e4f096b2eddeb1b4f6fdb079e52e8f69f7",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/review-1-communication.json",
-      "source_sha256": "d4c625f85431d44a5b323683c33dc5a94351b929a3abaa25f1dc250ee2bb1600",
+      "source_sha256": "e63e700a8fe0726700988aab32ff28a7978ed27b37ba78ff8461cc833e9d6870",
       "public_sha256": "e63e700a8fe0726700988aab32ff28a7978ed27b37ba78ff8461cc833e9d6870",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/review-1-craft.json",
-      "source_sha256": "7e1a67e28a1d66516df9d1c5da5ed095f71f87751157f35381738c68e5ac4bac",
+      "source_sha256": "5e6b003bfeb0063b24eb9e8f42d327b9f36a02df5b8035a2f7f2978523b32b8e",
       "public_sha256": "5e6b003bfeb0063b24eb9e8f42d327b9f36a02df5b8035a2f7f2978523b32b8e",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/aea1acf57cb1/communication-image-actions.json",
-      "source_sha256": "7f9004a616700333edfccf8d63339dff6222f14666331ebf278ac197d19ae2da",
+      "source_sha256": "cb174394f7f28ea1c1faac51fa63e24a65ebe8f7d7baad45f5a4791b59772013",
       "public_sha256": "cb174394f7f28ea1c1faac51fa63e24a65ebe8f7d7baad45f5a4791b59772013",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/aea1acf57cb1/communication-return.json",
-      "source_sha256": "d1e0383de8132df928ad6df612a0b1cba0760870a69973cf58d35d40910b9781",
+      "source_sha256": "34c94f803ff7c4de0f32d15b93886b5d958f2381fa8409c5c3270bfd3569784c",
       "public_sha256": "34c94f803ff7c4de0f32d15b93886b5d958f2381fa8409c5c3270bfd3569784c",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/aea1acf57cb1/craft-image-actions.json",
-      "source_sha256": "94d62cb797534d1c238105d70bc9ac8e233b88eb36921f5c44e833aa6a4cc91f",
+      "source_sha256": "9987e0f572e99f32988b1f0aa5788eb57160c3fdaa9d4ef8462b5923ca2546a8",
       "public_sha256": "9987e0f572e99f32988b1f0aa5788eb57160c3fdaa9d4ef8462b5923ca2546a8",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/aea1acf57cb1/craft-return.json",
-      "source_sha256": "c4c34d91bf652976cab8623b5afacb2419261a6339855c8ff2491dd25610a884",
+      "source_sha256": "d71fe909ac0f9861d64ea971c49b02965b678ae58b000926e44c4e3c42718fca",
       "public_sha256": "d71fe909ac0f9861d64ea971c49b02965b678ae58b000926e44c4e3c42718fca",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/d72f3b8f5dbd/communication-image-actions.json",
-      "source_sha256": "5e7d88168fba5f5e064f9d572645a9ff9c0140ca9121b6fae26f619ca7e140c7",
+      "source_sha256": "e82c9cef9ddbec80985e27423522f80bc547d25ff355a617c6d745018cc46375",
       "public_sha256": "e82c9cef9ddbec80985e27423522f80bc547d25ff355a617c6d745018cc46375",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/d72f3b8f5dbd/communication-return.json",
-      "source_sha256": "f2e9ef10a7dd64569b03d716722cfbd80f09d4ecb2cbed31dec37ea4c7fe849c",
+      "source_sha256": "3f3eaca935fb55e30ab9dded0d9c5e02bdb736abc8d70e1ee6d88248269d381d",
       "public_sha256": "3f3eaca935fb55e30ab9dded0d9c5e02bdb736abc8d70e1ee6d88248269d381d",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/d72f3b8f5dbd/craft-image-actions.json",
-      "source_sha256": "7dce56ec25ac1e64cdb6945f46585df3f0f997bbd9e2214be3989004cd9a68a8",
+      "source_sha256": "02e6ed20c294bbda65fa4eb19f6fa1cdc2396354e34db7f69feaa7b6861a5a22",
       "public_sha256": "02e6ed20c294bbda65fa4eb19f6fa1cdc2396354e34db7f69feaa7b6861a5a22",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/reviews/work/vectorcraft-studio/artwork/review-packets/d72f3b8f5dbd/craft-return.json",
-      "source_sha256": "23ffebb6a326d4bf9a41aff8d6020f0ebf08d86f9958625ef362b00606ae438a",
+      "source_sha256": "bb9943525ba1237084b2bf73f53f32df279372ed328e7dd304802495e0400c95",
       "public_sha256": "bb9943525ba1237084b2bf73f53f32df279372ed328e7dd304802495e0400c95",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/run-summary.json",
-      "source_sha256": "910c20690fc0b7ec1332c524acfbf8d8c26226d83595fbde2192605ba8c45678",
+      "source_sha256": "3f7f69bcc21c2e34d888885eec4683fb08937a7d40dba81733c25ed05ec48976",
       "public_sha256": "3f7f69bcc21c2e34d888885eec4683fb08937a7d40dba81733c25ed05ec48976",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/composition/artwork.vectorcraft",
@@ -2637,9 +2637,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/composition/c13fdd40b6b84c9b83eb26774abbf1dd.json",
-      "source_sha256": "2006c4c4bf920f3e65b9eda9fb2c7a9faa361be8bb009ead6b804e6be9972752",
+      "source_sha256": "9228d3e9535a68b1783c0c9eaf997772221fd3cebf1ba2ca04691e8361905fe5",
       "public_sha256": "9228d3e9535a68b1783c0c9eaf997772221fd3cebf1ba2ca04691e8361905fe5",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/composition/full.png",
@@ -2649,9 +2649,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/composition/inspection.json",
-      "source_sha256": "a5832ac3f51a093fd68e14e6ab0b9e2e1c6a91995ca4d5dfb9c1f348c2ae5042",
+      "source_sha256": "d6aafb0b1b1d4e2f8e65e69ef657b2a7d75a3c69f9716d7263f03b27922b596c",
       "public_sha256": "d6aafb0b1b1d4e2f8e65e69ef657b2a7d75a3c69f9716d7263f03b27922b596c",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/composition/use.png",
@@ -2667,9 +2667,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1-clean/e8ee496ee25142a497a2ece0c5a1c1aa.json",
-      "source_sha256": "0ecdd841573b63ddfa91a0be60956fd1cba09c02b8f0a2443249ea94d06ce45c",
+      "source_sha256": "3fa85704d473bc54483d0fa0a65e4f6f55ae4dd1332c36436fe775b1792999c2",
       "public_sha256": "3fa85704d473bc54483d0fa0a65e4f6f55ae4dd1332c36436fe775b1792999c2",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1-clean/full.png",
@@ -2679,9 +2679,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1-clean/inspection.json",
-      "source_sha256": "9479f12196f6d921b5ba19c7de5074c4677ffd46edee4eea4dd1c8a0d7efb899",
+      "source_sha256": "c8631593ddf8a73a6b9d6c66625aaafda19cc4bfc3e647eed72735c5952e3b88",
       "public_sha256": "c8631593ddf8a73a6b9d6c66625aaafda19cc4bfc3e647eed72735c5952e3b88",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1-clean/use.png",
@@ -2691,9 +2691,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1/7719b41daa8441d1a37807357342a4fc.json",
-      "source_sha256": "37faebfa95585f33afa263e1bb4cb161e350d96b36eb25efcd6a469e76e252ae",
+      "source_sha256": "e8fd0809a80ace1f4a5f388a46fbce7b894729b4dca6c01726231210d985f88b",
       "public_sha256": "e8fd0809a80ace1f4a5f388a46fbce7b894729b4dca6c01726231210d985f88b",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1/artwork.vectorcraft",
@@ -2709,9 +2709,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1/inspection.json",
-      "source_sha256": "0ca7a6e49b5b87339af0983c47e60bc236b29697d8e5e17a393e7815c2ee1bc4",
+      "source_sha256": "e4fc35007a8a90bbbb9cd7ad25cbc315eaa55fbe5349f38709f61b074a9a83be",
       "public_sha256": "e4fc35007a8a90bbbb9cd7ad25cbc315eaa55fbe5349f38709f61b074a9a83be",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/correction1/use.png",
@@ -2727,9 +2727,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/bce1d01e30ee4bd8971e282f9600e69e.json",
-      "source_sha256": "863270827e00f80f49f7f222752c75b2bf23ce21af75b73b7166c5bac32d196b",
+      "source_sha256": "5bbb9e1c96a0b90769197452f00761e197ea8a681869e30e7d6e563f7fe32a2d",
       "public_sha256": "5bbb9e1c96a0b90769197452f00761e197ea8a681869e30e7d6e563f7fe32a2d",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/exports/00-ee20bd48ec864644b97fe1aab30f08ad.svg",
@@ -2763,9 +2763,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/inspection.json",
-      "source_sha256": "9479f12196f6d921b5ba19c7de5074c4677ffd46edee4eea4dd1c8a0d7efb899",
+      "source_sha256": "c8631593ddf8a73a6b9d6c66625aaafda19cc4bfc3e647eed72735c5952e3b88",
       "public_sha256": "c8631593ddf8a73a6b9d6c66625aaafda19cc4bfc3e647eed72735c5952e3b88",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing-correction1-clean/use.png",
@@ -2805,9 +2805,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing/f1868afaeda045efa758ffbcce3584e6.json",
-      "source_sha256": "6e81d0a6616e9cf952612a758e1094fe337b0d8648f94ae44b97877b492ffda3",
+      "source_sha256": "3df41876dfbd0e025003bc75075e158a091061be16cdc2365a2533ee51e7b6c5",
       "public_sha256": "3df41876dfbd0e025003bc75075e158a091061be16cdc2365a2533ee51e7b6c5",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing/full.png",
@@ -2817,9 +2817,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing/inspection.json",
-      "source_sha256": "8a6bebf851b13558bb4616d7e1b1b1f0dc6778cbe6f24339d08d60fc8381cc3f",
+      "source_sha256": "81b91b5c600e0a181e37b73b42e0ad4b7c3ef2d93a486d503b74fd6205c6fcee",
       "public_sha256": "81b91b5c600e0a181e37b73b42e0ad4b7c3ef2d93a486d503b74fd6205c6fcee",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/finishing/use.png",
@@ -2829,9 +2829,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/imagery/985ba86990484d57b13db35389a914f9.json",
-      "source_sha256": "1154bbaf9f496d968cfc723e2a75c637b44fffe9259ebee38b4ce77467850149",
+      "source_sha256": "3b23241ec071a0a6195f819513f453495929006583c510f3fd34aedff6bf535f",
       "public_sha256": "3b23241ec071a0a6195f819513f453495929006583c510f3fd34aedff6bf535f",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/imagery/artwork.vectorcraft",
@@ -2847,9 +2847,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/imagery/inspection.json",
-      "source_sha256": "8a6bebf851b13558bb4616d7e1b1b1f0dc6778cbe6f24339d08d60fc8381cc3f",
+      "source_sha256": "81b91b5c600e0a181e37b73b42e0ad4b7c3ef2d93a486d503b74fd6205c6fcee",
       "public_sha256": "81b91b5c600e0a181e37b73b42e0ad4b7c3ef2d93a486d503b74fd6205c6fcee",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/imagery/use.png",
@@ -2859,9 +2859,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/typography/08fb214a9d01494dae7afdb65267af4e.json",
-      "source_sha256": "8b86c14e3c3449e1154558d1f77c24f8c2942d7207632e9021c9bdf2c46fe18a",
+      "source_sha256": "de45e620c49704d2a431f27cd7942e3a4b84840c749a400edc83921adbca410a",
       "public_sha256": "de45e620c49704d2a431f27cd7942e3a4b84840c749a400edc83921adbca410a",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/typography/artwork.vectorcraft",
@@ -2877,9 +2877,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/typography/inspection.json",
-      "source_sha256": "a5832ac3f51a093fd68e14e6ab0b9e2e1c6a91995ca4d5dfb9c1f348c2ae5042",
+      "source_sha256": "d6aafb0b1b1d4e2f8e65e69ef657b2a7d75a3c69f9716d7263f03b27922b596c",
       "public_sha256": "d6aafb0b1b1d4e2f8e65e69ef657b2a7d75a3c69f9716d7263f03b27922b596c",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-1/versions/typography/use.png",
@@ -2889,63 +2889,63 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-2/creator-image-actions.json",
-      "source_sha256": "8ef30402faa5e40da0dfd8868eeef5484d7b4497c8f8ac6e9c3d629a51f35445",
+      "source_sha256": "1316b39160e1ce9f142d8f7173bb3efdd7e476d3f31830f6f0aeae6c8eb71c5c",
       "public_sha256": "1316b39160e1ce9f142d8f7173bb3efdd7e476d3f31830f6f0aeae6c8eb71c5c",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-2/creator-report.json",
-      "source_sha256": "6f37c8e888f8efc82ff5573e29df626f4deec794996782d6da6bcd93bb20d8d1",
+      "source_sha256": "3069727d11b2d7c52b22ba65bb28ef196c2e6a599479a05e02955a147ca26d8f",
       "public_sha256": "2e297dbd5984bf879e97fdadc7b4971370e68be7a09094bf82e3df13af369c8a",
       "sanitized_derivative": true
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-2/execution-issues.json",
-      "source_sha256": "9e82b10d70737cbde41bd9f48b4b7d282328ac3acaeb9574399c10e6370f6881",
+      "source_sha256": "94d1d7eb82fc0c05e4e120fd8a94a3f8ee58d206155d2d3c0d7199bfebd7df84",
       "public_sha256": "94d1d7eb82fc0c05e4e120fd8a94a3f8ee58d206155d2d3c0d7199bfebd7df84",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-process-v1-2/run-summary.json",
-      "source_sha256": "a6fc1b9cf5eddec41c769c4f1ff3abe59fc4afd77c34ccf87109fc1a22db6ac2",
+      "source_sha256": "818e490e2c0c9437ca0e452196b5053bf5bc8de9921b39733856189c084051d0",
       "public_sha256": "818e490e2c0c9437ca0e452196b5053bf5bc8de9921b39733856189c084051d0",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/accounting-audit.json",
-      "source_sha256": "6d8977e829b3d87e0cbe54aaf40e996853f810aa8654776833ea37d8d42138ab",
+      "source_sha256": "ab4b16ac66bb086eb81143b8690eeb2fbcd72b9f7c5d9ed33e8c55768739e928",
       "public_sha256": "ab4b16ac66bb086eb81143b8690eeb2fbcd72b9f7c5d9ed33e8c55768739e928",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/creator-image-actions.json",
-      "source_sha256": "a65c8d8473d8f92d12cb33e92c25b6829533d295f8cc9e807861e292ec3f2ebf",
+      "source_sha256": "b04a48e93400e06b7ae19e860e7e5c0148c7be9ef8aed690dc547c8e0b9e4cdd",
       "public_sha256": "b04a48e93400e06b7ae19e860e7e5c0148c7be9ef8aed690dc547c8e0b9e4cdd",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/creator-report.json",
-      "source_sha256": "5469f1abcabf33795262d1d8baf2db7dd0d22d74299f5ee9637ea26e923ced1f",
+      "source_sha256": "eb7891f08d4f910ecaf8d2ee74f54ebe7ec3b402948b7c1ece73091d0b2f3015",
       "public_sha256": "eb7891f08d4f910ecaf8d2ee74f54ebe7ec3b402948b7c1ece73091d0b2f3015",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/execution-issues.json",
-      "source_sha256": "48b3c05e242ed39215b1c6193959e0c2495379478f479b1406f4929a8f95f773",
+      "source_sha256": "a327bffd03909310c7024fec05e5111ede3fe6ae840705f3daaf17314e6a98f2",
       "public_sha256": "a327bffd03909310c7024fec05e5111ede3fe6ae840705f3daaf17314e6a98f2",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/reviews/concept-review-return.json",
-      "source_sha256": "a40fcb9e80bea5652a4232a9d664128afbbfd62ca73f123c1f6ebf12f276b957",
+      "source_sha256": "1e645482435af45fd67a7b06e13b76b574b541ef5086018dc6563b8ddbc04118",
       "public_sha256": "1e645482435af45fd67a7b06e13b76b574b541ef5086018dc6563b8ddbc04118",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/run-summary.json",
-      "source_sha256": "541888bed6e0a8816a0fe36a9fc57157d9d205797ecbf8fca68fb5bccd1f041d",
+      "source_sha256": "4046304d3f08944ad3b3c557dca3fa36cb0410c68eaffd64836bea9ca6c5ed10",
       "public_sha256": "4046304d3f08944ad3b3c557dca3fa36cb0410c68eaffd64836bea9ca6c5ed10",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/composition/artwork.vectorcraft",
@@ -2955,9 +2955,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/composition/ff878ab71bfb497999cf24063528fb41.json",
-      "source_sha256": "f5b8db1b27bb285c7ffcd677289b9a2ec784b312b543975ce76a775427b00cac",
+      "source_sha256": "06c48bee94bd04f7c0200bb4319798fb17d758443c000eaaf52227cb9793d43b",
       "public_sha256": "06c48bee94bd04f7c0200bb4319798fb17d758443c000eaaf52227cb9793d43b",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/composition/full.png",
@@ -2967,9 +2967,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/composition/inspection.json",
-      "source_sha256": "c20e734a42f68e495fa3fb87d241ffc7d1c34cbf8ced5217db5175f63ff5b0b2",
+      "source_sha256": "abfbc09b866d22e05f1f2cf154334fba9a026e65efd6e83a53f6d3ac612819cc",
       "public_sha256": "abfbc09b866d22e05f1f2cf154334fba9a026e65efd6e83a53f6d3ac612819cc",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/composition/use.png",
@@ -2991,9 +2991,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/final-1/inspection.json",
-      "source_sha256": "c57c4e8c76d9209843bc6416c1e4dfc8ad4425d5518d33090b68f19c8742e432",
+      "source_sha256": "ab29cf7c7dbd9ce3898a30a223ca15c47cd496d0a1d07a3f76893879a61b2db5",
       "public_sha256": "ab29cf7c7dbd9ce3898a30a223ca15c47cd496d0a1d07a3f76893879a61b2db5",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/final-1/use.png",
@@ -3009,9 +3009,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/imagery/c47e1581eb2546dcad5ab4996a20cc1f.json",
-      "source_sha256": "2fb32aa8304dd1d62fe8451f519c3ba5906bf6a40d2f86e66e136c446d9c6458",
+      "source_sha256": "cf79d7223ff56e64f03614daafe47363aff77a6c289b42d27f649578c30a77b4",
       "public_sha256": "cf79d7223ff56e64f03614daafe47363aff77a6c289b42d27f649578c30a77b4",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/imagery/full.png",
@@ -3021,9 +3021,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/imagery/inspection.json",
-      "source_sha256": "3d4572abecefb9462d94ae0d96419da05c2e7bee63e561a99c76e8944906488c",
+      "source_sha256": "1d62dc397f497c6f4fe83900d568b0e85c51e6366cc9353478a981684d16657e",
       "public_sha256": "1d62dc397f497c6f4fe83900d568b0e85c51e6366cc9353478a981684d16657e",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/imagery/use.png",
@@ -3033,9 +3033,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/typography/a24ba88bc5054dd99f84ca2d4a328878.json",
-      "source_sha256": "b6dd84945802bce82177a7b3fe6914a30e2df6c49afc1babcb1e5004daee78c3",
+      "source_sha256": "fd02c90ce223ab743ce59fc9681bbc266586381ad935f9c1bf54bccf041ef14f",
       "public_sha256": "fd02c90ce223ab743ce59fc9681bbc266586381ad935f9c1bf54bccf041ef14f",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/typography/artwork.vectorcraft",
@@ -3051,9 +3051,9 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/typography/inspection.json",
-      "source_sha256": "c20e734a42f68e495fa3fb87d241ffc7d1c34cbf8ced5217db5175f63ff5b0b2",
+      "source_sha256": "abfbc09b866d22e05f1f2cf154334fba9a026e65efd6e83a53f6d3ac612819cc",
       "public_sha256": "abfbc09b866d22e05f1f2cf154334fba9a026e65efd6e83a53f6d3ac612819cc",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-designer-v1-1/versions/typography/use.png",
@@ -3063,63 +3063,63 @@
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-layout-blockout-v1-2/creator-image-actions.json",
-      "source_sha256": "e7140a1a45660dd5864628c4f42fa7d4c9168a58dc6741c56325884ef64bdcdf",
+      "source_sha256": "37ba2ae82ec9a68323d8eb4091e2316b22364f375fac8d96ec39b3fcc55f2c5d",
       "public_sha256": "37ba2ae82ec9a68323d8eb4091e2316b22364f375fac8d96ec39b3fcc55f2c5d",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-layout-blockout-v1-2/creator-report.json",
-      "source_sha256": "8c15f71597836fd100253588c1e9bde1f4fece123a5c386a911f97c529bb760f",
+      "source_sha256": "fe5d48c23453b2dcce5fb6fc2fcf8889f2edc32cc3b13b758deeaf3f3299ce29",
       "public_sha256": "fe5d48c23453b2dcce5fb6fc2fcf8889f2edc32cc3b13b758deeaf3f3299ce29",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-layout-blockout-v1-2/execution-issues.json",
-      "source_sha256": "9b4c7ac718b4ce0cad348aa730e67aa190da7f905f059d4a02d61b567c1b6af6",
+      "source_sha256": "0d157d04fff7e9e911869cb15b58c7d371446b6c54909fb6cffb91979b4c11ad",
       "public_sha256": "0d157d04fff7e9e911869cb15b58c7d371446b6c54909fb6cffb91979b4c11ad",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/attempts/tyre-layout-blockout-v1-2/run-summary.json",
-      "source_sha256": "e093d4a331c01f8d02becf8cf0251128a28379e840754f3d41371ed11cc1fb91",
+      "source_sha256": "0076181d989b96776ba7627a16053385dc65dab3390c6801f1e2d0772ba628eb",
       "public_sha256": "0076181d989b96776ba7627a16053385dc65dab3390c6801f1e2d0772ba628eb",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/checkpoint.json",
-      "source_sha256": "fe09715ad7115734d5097a4fb7268decd8e9da1443df19b0d37cc218acfd0bc9",
+      "source_sha256": "b1dfd81a426218c5418569ab4bd3af4d63d13656784fb0b7bbfe236b81ee309f",
       "public_sha256": "b1dfd81a426218c5418569ab4bd3af4d63d13656784fb0b7bbfe236b81ee309f",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/method-input-hashes.json",
-      "source_sha256": "306c080dc6556425d2b3fa0e70265d12b2b1de1fec3dcc83a5a2fbd34e6cdf60",
+      "source_sha256": "e1a546e56b21aa30e0888791464050fb472749b6866fe2ff50b81f75061488a3",
       "public_sha256": "e1a546e56b21aa30e0888791464050fb472749b6866fe2ff50b81f75061488a3",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/verification/publication-unit-199.json",
-      "source_sha256": "1ccd541d593b9d6a52f1e33326f1f9285e11f886237219c63b94fd27e8e5b115",
+      "source_sha256": "08d9ca2676f8febb3d8144d7c41910f31a91bc8244a9714876cf98dd68b2e1b4",
       "public_sha256": "08d9ca2676f8febb3d8144d7c41910f31a91bc8244a9714876cf98dd68b2e1b4",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/verification/recorded-native-and-fixture-216.json",
-      "source_sha256": "fa9ec1ac818533de5310e23c5dd20e5268b5c5137ab649a527fae3f0916eb7b6",
+      "source_sha256": "721c26659e619c863531e9ec346f1c5d734e376cbe266eb91876332fa29f03ef",
       "public_sha256": "721c26659e619c863531e9ec346f1c5d734e376cbe266eb91876332fa29f03ef",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/process-study-20261015/verification/supplemental-checks.json",
-      "source_sha256": "369625e1572f6208c8f5940bc586f4ca9515ad53bf143146e3819837513ded3c",
+      "source_sha256": "bfc407ffd6c0b6485e7738710fd9ad9ae987033a74c8b8861de07550bd9e25cc",
       "public_sha256": "bfc407ffd6c0b6485e7738710fd9ad9ae987033a74c8b8861de07550bd9e25cc",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/quick-activation.json",
-      "source_sha256": "6a14a4ef446a6626c86b8cd07d2cb1ad4eb7a3c74219e4bf3ef5c535e8f10c11",
+      "source_sha256": "62b3115d6f1ff7cac62d095082be1964819e79b650f1a738e021c1c7c8dba072",
       "public_sha256": "62b3115d6f1ff7cac62d095082be1964819e79b650f1a738e021c1c7c8dba072",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/repository-cleanup-20261015.json",
@@ -3135,9 +3135,9 @@
     },
     {
       "path": "public-evidence/test-results.json",
-      "source_sha256": "a10b8522d368e44a7c819eaa2c06df1041ad9c33c3d0f443287f75cb05e47901",
+      "source_sha256": "9b75f5204f901d41ac1ff2814fc328650ae099d814e1bfee42a1373880d1f699",
       "public_sha256": "9b75f5204f901d41ac1ff2814fc328650ae099d814e1bfee42a1373880d1f699",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "public-evidence/visual-comparisons.json",
@@ -3161,6 +3161,12 @@
       "path": "scripts/activation31.py",
       "source_sha256": "9cfe5506a811a757f14091d27c1b8de6ffa75e33f981ef934635ea652d780ebe",
       "public_sha256": "9cfe5506a811a757f14091d27c1b8de6ffa75e33f981ef934635ea652d780ebe",
+      "sanitized_derivative": false
+    },
+    {
+      "path": "scripts/benchmark_execution.py",
+      "source_sha256": "774093f4d46ed959385552be6b64ac1f251f73a650782bf35e557f1f3994699f",
+      "public_sha256": "774093f4d46ed959385552be6b64ac1f251f73a650782bf35e557f1f3994699f",
       "sanitized_derivative": false
     },
     {
@@ -3201,20 +3207,26 @@
     },
     {
       "path": "scripts/stage_public.py",
-      "source_sha256": "9d2a9de9ca32f2c3d3115decc74f00feca8a47719bf2db1d29169ee0fa583189",
-      "public_sha256": "9d2a9de9ca32f2c3d3115decc74f00feca8a47719bf2db1d29169ee0fa583189",
+      "source_sha256": "b163139086bf16b3eb72bd5d7b664b496ecea251b54b59900432b5c899d76189",
+      "public_sha256": "b163139086bf16b3eb72bd5d7b664b496ecea251b54b59900432b5c899d76189",
       "sanitized_derivative": false
     },
     {
       "path": "scripts/test_suite.py",
-      "source_sha256": "10424d2589a9e749b4cfbeb9739b852ac2991f5a551fc1297914f6c196376478",
-      "public_sha256": "10424d2589a9e749b4cfbeb9739b852ac2991f5a551fc1297914f6c196376478",
+      "source_sha256": "56cc2969df1cb847c5b24a685dd96240b6206633b3549f79f37e12fda14137c1",
+      "public_sha256": "56cc2969df1cb847c5b24a685dd96240b6206633b3549f79f37e12fda14137c1",
       "sanitized_derivative": false
     },
     {
       "path": "scripts/validate_skills.py",
       "source_sha256": "ca31aea57bf1c197a625eb197ffef66aec89d9c72ea2617482d3a1f0d55f7015",
       "public_sha256": "ca31aea57bf1c197a625eb197ffef66aec89d9c72ea2617482d3a1f0d55f7015",
+      "sanitized_derivative": false
+    },
+    {
+      "path": "scripts/verify_engine.py",
+      "source_sha256": "00697abb92a34b9f398831a073b99b6256c4291a65d8276916e3c34029d4fce0",
+      "public_sha256": "00697abb92a34b9f398831a073b99b6256c4291a65d8276916e3c34029d4fce0",
       "sanitized_derivative": false
     },
     {
@@ -3927,15 +3939,15 @@
     },
     {
       "path": "skills/vectorcraft-studio/SKILL.md",
-      "source_sha256": "a4400235b3188c15d9b24b1c724797a9fe6455879d9921cf9148eb562c6e3685",
-      "public_sha256": "a4400235b3188c15d9b24b1c724797a9fe6455879d9921cf9148eb562c6e3685",
+      "source_sha256": "ec8f0237ed2394aa7acc0259ef921166ef43fc1c982f2c8652e605a95a69faa1",
+      "public_sha256": "ec8f0237ed2394aa7acc0259ef921166ef43fc1c982f2c8652e605a95a69faa1",
       "sanitized_derivative": false
     },
     {
       "path": "skills/vectorcraft-studio/agents/openai.yaml",
-      "source_sha256": "3d2d327e50678105496dd0cc88253029e81bd2d93d1cf160abfdb4625f53f24a",
+      "source_sha256": "9b48be83b406b541f7dd5b3bd1e6ec97c8f3d786f16dfeb8712060a6c3f44a4e",
       "public_sha256": "9b48be83b406b541f7dd5b3bd1e6ec97c8f3d786f16dfeb8712060a6c3f44a4e",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "skills/vectorcraft-studio/references/designer-process-v1.md",
@@ -3950,6 +3962,12 @@
       "sanitized_derivative": false
     },
     {
+      "path": "skills/vectorcraft-studio/references/efficient-v1.md",
+      "source_sha256": "f10cd601ef15c72b5f7ad0223f874ea4412b3900450bcc816b9be32924c1aaac",
+      "public_sha256": "f10cd601ef15c72b5f7ad0223f874ea4412b3900450bcc816b9be32924c1aaac",
+      "sanitized_derivative": false
+    },
+    {
       "path": "skills/vectorcraft-studio/references/focused-execution-v1.md",
       "source_sha256": "e5bf510bfe023046309c9227c70890622d57e4df9c45a28113f84d0e1a4ff06c",
       "public_sha256": "e5bf510bfe023046309c9227c70890622d57e4df9c45a28113f84d0e1a4ff06c",
@@ -3957,9 +3975,9 @@
     },
     {
       "path": "skills/vectorcraft-studio/references/legacy-workflow.md",
-      "source_sha256": "c1e19e19b388ab775a9eac9b5ebad6fd963791e6eab917f33923f4df1edeb871",
+      "source_sha256": "746d0c3d6093df884f01658f40786bc7a0808e117dcf670435ee02afabbd6273",
       "public_sha256": "746d0c3d6093df884f01658f40786bc7a0808e117dcf670435ee02afabbd6273",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "skills/vectorcraft-studio/references/local-connection.md",
@@ -3969,15 +3987,15 @@
     },
     {
       "path": "skills/vectorcraft-studio/references/research-and-design.md",
-      "source_sha256": "c203f6807f759950b9246f3bc2e27f0225bb2ed0495eb582e509ca4319366981",
+      "source_sha256": "4e4c1901769e8ee715205d85b351c9a9ec656ae8c0c6b3300cf432d1c7f56284",
       "public_sha256": "f288b15e3f5bd4b13f832be226e31abeee83d229550b796f9abaf62bd0cfdf63",
       "sanitized_derivative": true
     },
     {
       "path": "skills/vectorcraft-studio/references/reviewer.md",
-      "source_sha256": "1ad84a226b8f39aca771f345ccc65db572997b7e24e35f10a05f2f6d397457bf",
+      "source_sha256": "0a4f3507d12b569911408bc095f3371bdb7a5b9d871182cf5e6d00c789876365",
       "public_sha256": "0a4f3507d12b569911408bc095f3371bdb7a5b9d871182cf5e6d00c789876365",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "skills/vectorcraft-studio/references/rollback.md",
@@ -3999,7 +4017,7 @@
     },
     {
       "path": "skills/vectorcraft-studio/references/workflow-records.md",
-      "source_sha256": "020fdb16d12ca48d0ed275d8d9b1e017ca5f862e93c9d508b038c84d8b412dd6",
+      "source_sha256": "0b1c240eab262b8d12364c551f251eeda4240c66393dd4ad766de0f1f3ccfd0d",
       "public_sha256": "cbf8cef315ab35db12e3fde73edeb1ec873189f84531092c282efb71565ab05d",
       "sanitized_derivative": true
     },
@@ -4035,8 +4053,8 @@
     },
     {
       "path": "skills/vectorcraft/SKILL.md",
-      "source_sha256": "f1d1495c1caf0e9e59521327a010098ce87b480902a579b771f5cf2ac08adbf2",
-      "public_sha256": "f1d1495c1caf0e9e59521327a010098ce87b480902a579b771f5cf2ac08adbf2",
+      "source_sha256": "f348534e87505153bc3257e8b871976e5cbf51c329f628d015458a71d607abb7",
+      "public_sha256": "f348534e87505153bc3257e8b871976e5cbf51c329f628d015458a71d607abb7",
       "sanitized_derivative": false
     },
     {
@@ -4064,6 +4082,12 @@
       "sanitized_derivative": false
     },
     {
+      "path": "src/efficient.py",
+      "source_sha256": "33d5ec94fb575b01e67b3fa451d5bebfb28332eb1d864c1050703d338832d043",
+      "public_sha256": "33d5ec94fb575b01e67b3fa451d5bebfb28332eb1d864c1050703d338832d043",
+      "sanitized_derivative": false
+    },
+    {
       "path": "src/experiment.py",
       "source_sha256": "b89ba95790f8e25faec1946ef564e8d1fd4478157e2948289b694fe924a60f08",
       "public_sha256": "b89ba95790f8e25faec1946ef564e8d1fd4478157e2948289b694fe924a60f08",
@@ -4083,20 +4107,26 @@
     },
     {
       "path": "src/study_session.py",
-      "source_sha256": "d21595d85c40535adae45c78e2008042a654865c307f9e0cd4e0988cfa698a38",
-      "public_sha256": "d21595d85c40535adae45c78e2008042a654865c307f9e0cd4e0988cfa698a38",
+      "source_sha256": "0e9573097b8472d01720a2aa61792b040a706399ac412c512a178003adcce248",
+      "public_sha256": "0e9573097b8472d01720a2aa61792b040a706399ac412c512a178003adcce248",
+      "sanitized_derivative": false
+    },
+    {
+      "path": "src/telemetry.py",
+      "source_sha256": "d4f812977c98a731b22e5f6a04a18e5767f28a7d90b59e1ea4d5b0d55127eb03",
+      "public_sha256": "d4f812977c98a731b22e5f6a04a18e5767f28a7d90b59e1ea4d5b0d55127eb03",
       "sanitized_derivative": false
     },
     {
       "path": "src/vectorcraft_gateway.py",
-      "source_sha256": "2058228b3fe7880563146a2ea3b09686302a0699722d653574e69d4bf7474164",
-      "public_sha256": "2058228b3fe7880563146a2ea3b09686302a0699722d653574e69d4bf7474164",
+      "source_sha256": "7c65b4814398689cb94b0271628728f8f7d25183180adc73a8c784e1bb71fe51",
+      "public_sha256": "7c65b4814398689cb94b0271628728f8f7d25183180adc73a8c784e1bb71fe51",
       "sanitized_derivative": false
     },
     {
       "path": "src/workflow.py",
-      "source_sha256": "f04eeee159613f3ad4e16843f2e4344d0dad9ec7ecd863cb5a135e8afc05f2cb",
-      "public_sha256": "f04eeee159613f3ad4e16843f2e4344d0dad9ec7ecd863cb5a135e8afc05f2cb",
+      "source_sha256": "dde030d79a899c48d1aaf146a7fc2ccdee80d9d41781a102d6053af2b3345b62",
+      "public_sha256": "dde030d79a899c48d1aaf146a7fc2ccdee80d9d41781a102d6053af2b3345b62",
       "sanitized_derivative": false
     },
     {
@@ -4119,9 +4149,9 @@
     },
     {
       "path": "tests/fixtures/legacy-poster/finishing-inspection.json",
-      "source_sha256": "97cf8c105bcafafc539d4e4f43a8873d5b798765e1fd249dfdaae00c1c1115a6",
+      "source_sha256": "02a00d0c4aad3313ef7a32e10f54e0521a57543fa7b9582f0f5dbff346d827a6",
       "public_sha256": "02a00d0c4aad3313ef7a32e10f54e0521a57543fa7b9582f0f5dbff346d827a6",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "tests/fixtures/legacy-poster/finishing-use.png",
@@ -4137,9 +4167,9 @@
     },
     {
       "path": "tests/fixtures/legacy-poster/research.json",
-      "source_sha256": "845c1c454c98d01851fbf39c40bdc5dcd4feb8509e0b4956bec7f1d9632aa0f1",
+      "source_sha256": "eb17dcef06d07835da072ba268461c8266da2bdfbc3156a2529114d1c4b712ed",
       "public_sha256": "eb17dcef06d07835da072ba268461c8266da2bdfbc3156a2529114d1c4b712ed",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "tests/fixtures/legacy-poster/thumb-1.png",
@@ -4167,9 +4197,9 @@
     },
     {
       "path": "tests/fixtures/studio-existing/original-inspection.json",
-      "source_sha256": "5698e55ae92b5dd0099030c107af904781c79018bccd3f0fd0b5fe640788c094",
+      "source_sha256": "cae9aa7083c198ff4be2f7bc35879a8270d39795f9e10a5bfdfe5043ec1be920",
       "public_sha256": "cae9aa7083c198ff4be2f7bc35879a8270d39795f9e10a5bfdfe5043ec1be920",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "tests/fixtures/studio-existing/original-use.png",
@@ -4185,33 +4215,33 @@
     },
     {
       "path": "tests/legacy/studio-fixture.py",
-      "source_sha256": "680efbd330f7476a952dca3392feb2509e594887cceb1679a13e106fff604d46",
+      "source_sha256": "31a7c8e4a6e21e3c93b6e7e7daf4cd16c8a2ff4ec8fcd45d1db65b9f4b6ccd6a",
       "public_sha256": "31a7c8e4a6e21e3c93b6e7e7daf4cd16c8a2ff4ec8fcd45d1db65b9f4b6ccd6a",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "tests/legacy/test-studio-ledger.py",
-      "source_sha256": "fa50ce464cd55c48e601a8f572427403b9c1098ed0309aaef07ac73e066325fa",
+      "source_sha256": "da1547243fdee1241158b20d80321196ca93212c6570d032f331147869a72c39",
       "public_sha256": "da1547243fdee1241158b20d80321196ca93212c6570d032f331147869a72c39",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "tests/legacy/test-studio-v2.py",
-      "source_sha256": "2fc5a8b8de32464f31533fedf2a8e7c822b8973921ac3d91213f1fbfd9a07882",
+      "source_sha256": "a467ae6570dff8ef620811f49d3b6c2133ae3df7ad0fe7d6a87cede2f73bb6f8",
       "public_sha256": "a467ae6570dff8ef620811f49d3b6c2133ae3df7ad0fe7d6a87cede2f73bb6f8",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "tests/legacy/test-vectorcraft-gateway.py",
-      "source_sha256": "bcfbce5617efbae3db1f39bb4d28dd9036627e7725580fcffea799e89b48a7b7",
+      "source_sha256": "162f5cfae5fc5ecb1f1d2544c0199b867f616e42316aa2f2a424cd656a74c2dc",
       "public_sha256": "162f5cfae5fc5ecb1f1d2544c0199b867f616e42316aa2f2a424cd656a74c2dc",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "tests/legacy/test-vectorcraft-recovery.py",
-      "source_sha256": "d902ffb1a7ae8487bfd7a6739cf838e111097c1b99352be6e61c319e71587608",
+      "source_sha256": "d700b363b9ea80a5a74bd2a55a9e4b4c0d73ea3e3167b734832ff0ed4cb73241",
       "public_sha256": "d700b363b9ea80a5a74bd2a55a9e4b4c0d73ea3e3167b734832ff0ed4cb73241",
-      "sanitized_derivative": true
+      "sanitized_derivative": false
     },
     {
       "path": "tests/test_design_process.py",
@@ -4235,6 +4265,18 @@
       "path": "tests/test_edit_live.py",
       "source_sha256": "36cf5aa9d6f974da9305f4c4114c8af4f4a780859ce5e74b73688139c4145f53",
       "public_sha256": "36cf5aa9d6f974da9305f4c4114c8af4f4a780859ce5e74b73688139c4145f53",
+      "sanitized_derivative": false
+    },
+    {
+      "path": "tests/test_efficient.py",
+      "source_sha256": "d46d696c7cc2834848df83a7961fb68402d8b76881874072711d620328666a5a",
+      "public_sha256": "d46d696c7cc2834848df83a7961fb68402d8b76881874072711d620328666a5a",
+      "sanitized_derivative": false
+    },
+    {
+      "path": "tests/test_efficient_live.py",
+      "source_sha256": "969969607f304774a805c7c0bf80a8f55834937d64c07e6a1e90c51f4c78d7d1",
+      "public_sha256": "969969607f304774a805c7c0bf80a8f55834937d64c07e6a1e90c51f4c78d7d1",
       "sanitized_derivative": false
     },
     {
