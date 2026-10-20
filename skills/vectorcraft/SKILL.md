@@ -13,6 +13,14 @@ The experimental `focused-execution-v1` profile is available only for explicitly
 
 ## Create and revise
 
+Opt-in `execution_profile:efficient-v1` supports full Focused build and Full process.
+Read [Efficient execution](../vectorcraft-studio/references/efficient-v1.md).
+Reuse current packets; retrieve omitted context explicitly. Discover commands with
+`filter` and inspect IDs with bounded `document.node` summaries. On verified 0.12
+use coherent drawing batches with explicit paint and returned-ID references, at
+most 32 steps. A named atomic batch is an undo group, not rollback. Never replay
+a partial/uncertain edit. On 0.11 choose supported individual drawing calls first.
+
 The opt-in full profiles `layout-blockout-v1` and `designer-process-v1` add isolated native study contexts. Read [Studio process](../vectorcraft-studio/references/designer-process-v1.md). Study authoring uses a separate connection and an explicit transition into production.
 
 Check the working packet's preview context/current flag before acting. Study packets expose their own goal and checks; the selected blockout is the initial production preview. Neither is an accepted production stage.

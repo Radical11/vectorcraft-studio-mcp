@@ -13,6 +13,11 @@ New full runs default to designer-v1: research, calibration, developed alternati
 
 ## Experimental focused execution
 
+For explicitly requested efficiency work, read [Efficient execution](references/efficient-v1.md).
+Select `execution_profile:efficient-v1` only with full Focused build or Full process.
+Reuse returned packets, filtered discovery and bounded object queries; preserve
+all image inspection, stage acceptance, independent reviews and recovery checkpoints.
+
 For explicitly requested research builds, full-mode `layout-blockout-v1` and `designer-process-v1` provide isolated native studies. Read [designer process](references/designer-process-v1.md). These profiles remain experimental. Only the owner's explicitly authorized study trials use fresh sequential builder agents; ordinary construction stays sequential in the host.
 
 Working packets identify the active study or production context. Use current previews and mapped IDs; stale or uncertain evidence requires inspection before further edits. Closing a study and opening the selected blockout provide no production acceptance.

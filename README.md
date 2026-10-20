@@ -37,6 +37,8 @@ The gateway adds five workflow tools while preserving native MCP tools. It check
 
 Experimental profiles are full-mode opt-ins. See the [process guide](docs/PROCESS.md#choosing-a-profile) for selection and the [technical contracts](docs/DESIGNER-PROCESS.md) for exact behavior.
 
+For opt-in **Efficient execution**, add `execution_profile:"efficient-v1"` to a full Focused build or Full process start. It uses smaller working packets and verified 0.12 drawing batches, while retaining image inspection, stage acceptance and recovery. See the [operating guidance](skills/vectorcraft-studio/references/efficient-v1.md). `standard` remains the default; 0.11 keeps its supported individual-drawing path.
+
 Progress uses names such as **Repair · Full process · Run 1**, with numbered steps such as **T07.10 — Open the tyre edge**. Each step explains the change, recorded result, and remaining issue. [See how to read progress](docs/research/PROGRESS.md#simple-names-and-step-numbers). Original technical IDs stay available in the evidence.
 
 ## Development and evidence

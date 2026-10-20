@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased — efficient execution
+
+- Add opt-in `efficient-v1` execution, revision-bound compact packets, verified 0.12 drawing batches, engine-bound resume, local cost receipts and explicit unresolved stops. Preserve default quality profiles and legacy contracts.
+- Preserve empty custom documents on resume; treat saved selections as edits, verify targeted area text, invalidate changed capabilities and retain partial-batch uncertainty. Keep 0.11 fallback support and installation rollback.
+
 ## Unreleased — designer-process experiments
 
 - Add source-bound before/after examples, diagrams of profile development and the focused construction loop, and a complete per-profile status chart. Separate observed local fixes, retained-best decisions and workflow development from unmeasured comparative benefit or model training.

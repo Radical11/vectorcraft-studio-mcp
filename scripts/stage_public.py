@@ -17,7 +17,8 @@ TOP = {'README.md', 'LICENSE-MIT', 'LICENSE-APACHE', 'NOTICE', 'ASSETS.md', 'CON
        'CHANGELOG.md', 'RELEASE-NOTES.md', '.gitignore', '.gitattributes', 'AGENTS.md', 'requirements-dev.txt'}
 PUBLIC_SCRIPTS = {'install.py', 'test_suite.py', 'validate_skills.py', 'verify_installation.py',
                   'check_public.py', 'prepare_release.py', 'activation31.py', 'public_checkout31.py',
-                  'export_interim_study.py', 'build_stage_evidence.py', 'stage_public.py', 'README.md'}
+                  'export_interim_study.py', 'build_stage_evidence.py', 'stage_public.py',
+                  'benchmark_execution.py', 'verify_engine.py', 'README.md'}
 PUBLIC_BENCH = {'process_host.py', 'edit_host.py', 'prepare_process_pilot.py', 'prepare_blind_comparisons.py',
                 'prepare_edit_tasks.py', 'collect_process_results.py', 'assess_process_pilot.py', 'README.md'}
 PROTECTED = ('docs/peer-review/', 'docs/research/editions/',
