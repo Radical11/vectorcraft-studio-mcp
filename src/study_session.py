@@ -18,8 +18,9 @@ class Studies:
         self.child.call('workflow_start',{'resume':p['studies'][identifier]['run']})
     def open_child(self):
         from vectorcraft_gateway import Gateway
-        self.child=Gateway(self.parent.root,self.parent.notify)
+        self.child=Gateway(self.parent.root,self.parent.notify,cli=self.parent.cli,desktop=self.parent.desktop_exe)
         self.child.initialize(self.parent.init_params);self.child.tools()
+        self.child.efficient_owner=self.parent.workflow
     def begin(self,stage,plan):
         w=self.parent.workflow;w.require_active()
         if not process.enabled(w):raise ValueError('Isolated studies require an experimental process profile')
@@ -85,6 +86,7 @@ class Studies:
         w.persist();return {'content':[{'type':'text','text':__import__('json').dumps(w.response())}],'isError':False}
     def route(self,name,args):
         from vectorcraft_gateway import text_result
+        if self.parent.workflow.state['status']!='active':raise ValueError('Parent run is stopped; resume it with explicit feedback before continuing its study')
         if name=='workflow_begin':
             if args.get('plan',{}).get('context')!='study':raise ValueError('Finish the isolated study before production')
             return text_result(self.begin(**args))

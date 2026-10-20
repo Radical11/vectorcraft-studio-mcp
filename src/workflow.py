@@ -13,7 +13,7 @@ import uuid
 
 STAGES = ('composition', 'typography', 'imagery', 'finishing')
 CRITERIA = ('brief','composition','alignment','typography','color','style','distinctiveness','craft')
-KINDS = ('research','calibration','directions','concept_review','target','spec','construction_study','preflight','packet','review','unavailable')
+KINDS = ('research','calibration','directions','concept_review','target','spec','construction_study','preflight','packet','review','unavailable','stop')
 
 INSTRUCTIONS = (
     'For substantial designs use research -> build -> independent critique. Start workflow_start '
@@ -31,6 +31,7 @@ INSTRUCTIONS = (
 )
 
 SCHEMAS = {
+ 'stop':{'reason':'why execution stopped without acceptance','unresolved_findings':['visible weakness or technical blocker; preserve pending evidence and remaining budget']},
  'calibration':{'genre':'expressive-poster|editorial-illustration|information-graphic','references':'3..5 {research_url,image,observation,principle,application}','image_inspection':'{performed:true,paths,observations}','image_observation':'{tool,evidence,observation}'},
  'concept_review':{'directions_sha256':'latest directions record hash','calibration_sha256':'latest calibration record hash','reviewer_id':'fresh independent identity','assessments':'three {id,composition,image_treatment,copy,brief_fit}','selected':'direction id','all_weak':'boolean','reason':'observed selection basis','unresolved_limitations':'required when weak after second pass','image_inspection':'all alternatives + calibration images','image_observation':'{tool,evidence,observation}'},
  'construction_study':{'spec_sha256':'latest spec record hash','method':'native|trace-rebuild','native':'project native study','images':'full/use previews','element_map':'semantic component -> actual study object ids','checks':'{silhouette,spacing,proportions,gesture,contours,detail}','confirmed':True,'limitations':[],'image_inspection':'both previews','image_observation':'{tool,evidence,observation}'},
@@ -123,7 +124,12 @@ class Workflow:
                 for v in value:walk(v)
         if self.state: walk(self.state)
 
-    def start(self,backend,mode='full',brief_path=None,scope=None,run_id=None,resume=None,use_width=None,reopen_reason=None,feedback_path=None,quality_profile='designer-v1'):
+    def start(self,backend,mode='full',brief_path=None,scope=None,run_id=None,resume=None,use_width=None,reopen_reason=None,feedback_path=None,quality_profile='designer-v1',execution_profile='standard'):
+        import efficient
+        if execution_profile not in ('standard',efficient.PROFILE):raise ValueError('Unknown execution profile')
+        if not resume and execution_profile==efficient.PROFILE:
+            if mode!='full' or quality_profile not in ('focused-execution-v1','designer-process-v1'):raise ValueError('Efficient execution requires full Focused build or Full process')
+            if not getattr(self,'engine_identity',None):raise ValueError('Efficient execution requires a verified engine identity')
         if mode not in ('full','quick'): raise ValueError('mode must be full or quick')
         if quality_profile not in ('designer-v1','legacy-v3','focused-execution-v1','layout-blockout-v1','designer-process-v1'):raise ValueError('Unknown quality profile')
         if mode=='quick' and quality_profile in ('focused-execution-v1','layout-blockout-v1','designer-process-v1') and not resume:raise ValueError('Focused execution requires full mode')
@@ -135,8 +141,11 @@ class Workflow:
             state=read(run/'run.json')
             if state.get('version')!=3 or Path(state['project_root']).resolve()!=self.root: raise ValueError('Resume requires a version-three run belonging to this project')
             self.run,self.state=run,state;self.verify()
+            if efficient.enabled(self) and state.get('engine_identity')!=getattr(self,'engine_identity',None):
+                self.run,self.state=None,None
+                raise ValueError('Resume engine identity differs; reopen with the stored engine before editing')
             if state['status']!='active':
-                if state['status']!='review_passed' or state['revision_rounds']>=state['max_rounds']:
+                if state['status'] not in ('review_passed','stopped_unresolved') or state['revision_rounds']>=state['max_rounds']:
                     raise ValueError('Stopped or exhausted run cannot acquire extra revision budget')
                 nonempty(reopen_reason,'explicit reason for new feedback')
                 if not feedback_path:raise ValueError('Reopening requires a project feedback artifact')
@@ -149,8 +158,16 @@ class Workflow:
             checkpoint=state.get('recovery')
             snap=snap or state['versions'].get(state.get('original_version'))
             path=(run/checkpoint['path']) if checkpoint else (run/snap['native']['path'] if snap else None)
+            needs_verification=bool(state['uncertain'] or efficient.enabled(self))
+            if state['uncertain'] and not path:raise ValueError('Uncertain run has no verified recovery snapshot; preserve it for manual reconciliation')
             if path:
+                if needs_verification:
+                    self.state['uncertain']=True;self.persist()
                 backend.checked_call('open_file',{'path':str(path)})
+                if needs_verification:
+                    reopened=run/'resume-verification.vectorcraft'
+                    backend.checked_call('export',{'format':'vectorcraft','path':str(reopened)})
+                    if native_fingerprint(path)!=native_fingerprint(reopened):raise ValueError('Reopened recovery does not match saved document; do not replay edits')
                 self.state['uncertain']=False
                 self.state['events'].append({'event':'resume','at':now(),'snapshot':str(path),'pending_batch':bool(state.get('pending'))})
                 self.persist()
@@ -164,6 +181,7 @@ class Workflow:
         self.run=run
         self.state={'format':'vectorcraft-studio-run','version':3,'project_root':str(self.root),'mode':mode,
           'quality_profile':quality_profile,
+          'execution_profile':execution_profile,'engine_identity':getattr(self,'engine_identity',None),
           **({'review_contract':'observed-comparison-v1'} if quality_profile in ('designer-v1','focused-execution-v1','layout-blockout-v1','designer-process-v1') and mode=='full' else {}),
           'scope':scope,'status':'active','revision':0,'spec_revision':0,'records':[], 'events':[],
           'pending':None,'completed_stages':[],'versions':{},'working_version':None,'best_version':None,
@@ -174,10 +192,21 @@ class Workflow:
         if design_process.enabled(self):design_process.initialize(self)
         if brief_path:self.state['brief']=self.artifact(brief_path,'brief')
         self.persist()
-        inspection=result_payload(backend.checked_call('doc_inspect',{}))
-        if inspection and inspection.get('objects',0)>1:
-            self.capture(backend,'original',role='original',use_width=use_width)
-            self.state['original_version']='original'
+        try:
+            inspection=result_payload(backend.checked_call('doc_inspect',{}))
+            if not isinstance(inspection,dict):raise ValueError('Cannot verify the starting document')
+            if inspection.get('objects',0)>1:
+                self.capture(backend,'original',role='original',use_width=use_width)
+                self.state['original_version']='original'
+            else:
+                # Empty documents still carry artboards, units and color settings.
+                # Resume must restore those bytes rather than the engine's defaults.
+                initial=self.run/'initial-document.vectorcraft'
+                backend.checked_call('export',{'format':'vectorcraft','path':str(initial)})
+                native_fingerprint(initial)
+                self.state['recovery']=self.artifact(initial,'initial-document')
+        except Exception:
+            self.state['uncertain']=True;self.persist();raise
         self.persist();return self.response()
 
     def status(self,view='full'):
@@ -188,17 +217,21 @@ class Workflow:
         if not self.state:return {'active':False,'knowledge_vault':vault,'next':'workflow_start: full for substantial designs, quick for scoped small edits','schemas':SCHEMAS}
         s=self.state
         import design_process
-        if design_process.enabled(self) and view=='working':return design_process.packet(self)
-        if focused.enabled(self) and view=='working':return focused.packet(self)
+        import efficient
+        if view=='working' and (design_process.enabled(self) or focused.enabled(self)):
+            packet=design_process.packet(self) if design_process.enabled(self) else focused.packet(self)
+            return efficient.packet(self,packet) if efficient.enabled(self) else packet
         result={'run':str(self.run),'version':3,'knowledge_vault':vault,'mode':s['mode'],'quality_profile':s.get('quality_profile','legacy-v3'),'status':s['status'],'revision':s['revision'],
           'records':[r['kind'] for r in s['records']],'pending':s['pending'],'completed_stages':s['completed_stages'],
           'working_version':s['working_version'],'best_version':s['best_version'],'ready_versions':s['ready_versions'],
           'revision_rounds':s['revision_rounds'],'stop_reason':s.get('stop_reason'),'uncertain':s['uncertain'],
           'schemas':SCHEMAS,'inspection_evidence':'Agent-observed; file hashes establish bytes, not perception or taste.'}
+        result.update(execution_profile=s.get('execution_profile','standard'),engine_identity=s.get('engine_identity'))
         if focused.enabled(self):result['working_packet']=focused.packet(self)
         if design_process.enabled(self):
             result['schemas']={**SCHEMAS,**design_process.SCHEMA}
             result['working_packet']=design_process.packet(self)
+        if efficient.enabled(self) and 'working_packet' in result:result['working_packet']=efficient.packet(self,result['working_packet'])
         return result
 
     def response(self):
@@ -270,6 +303,7 @@ class Workflow:
 
     def record(self,backend,kind,data):
         import designer,focused
+        if kind=='stop':return __import__('efficient').stop(self,data)
         self.require_active()
         import design_process
         if kind in design_process.KINDS:return design_process.record(self,backend,kind,data)
@@ -485,8 +519,8 @@ class Workflow:
                         if n.get('overflow') or n.get('fitScale',1)<1:issues.append('Text overflow/shrink: '+e['id'])
                         typ=nodes.get(str(i),{}).get('kind',{})
                         if typ.get('type')=='text' and typ.get('kind',{}).get('kind')=='area':
-                            result=result_payload(backend.checked_call('command_run',{'id':'text.areaOptions','params':{'ids':[i]}}))
-                            if isinstance(result,dict) and (result.get('overflow') or result.get('fitScale',1)<1):issues.append('Text overflow/shrink: '+e['id'])
+                            result=__import__('efficient').area_options(backend,i)
+                            if result['overflow'] or result['fitScale']<1:issues.append('Text overflow/shrink: '+e['id'])
                     if '\n'.join(actual)!=e['text']:issues.append('Rendered copy differs from spec: '+e['id'])
             for t in spec['locked_copy']:
                 if t not in '\n'.join(n.get('text','') for n in inspect_nodes.values() if n.get('kind')=='Type'):issues.append('Locked text absent: '+t)
@@ -622,6 +656,7 @@ def tool_definitions():
       ('workflow_begin','Plan an authoring batch',{'stage':{'enum':list(STAGES)},'plan':{'type':'object'}},['stage','plan']),
       ('workflow_checkpoint','Capture then confirm full/use-size previews against the target',{'version':{'type':'string'},'data':{'type':'object'}},['version','data']),
       ('workflow_status','Inspect workflow state, integrity and schemas',{'view':{'enum':['full','working'],'default':'full','description':'working returns the compact packet for focused-execution-v1; other profiles retain full status.'}},[])]
+    defs[0][2]['execution_profile']={'enum':['standard','efficient-v1'],'default':'standard','description':'Opt-in transport for full focused-execution-v1 or designer-process-v1. Resume retains the stored execution profile and engine.'}
     return [{'name':name,'title':title,'description':title+'. See workflow_status schemas. Agent judgments are observed/attested, not proven by file hashes.',
       'inputSchema':{'type':'object','properties':props,'required':required,'additionalProperties':False},
       'annotations':{'readOnlyHint':name=='workflow_status','destructiveHint':False,'idempotentHint':name=='workflow_status','openWorldHint':False}} for name,title,props,required in defs]

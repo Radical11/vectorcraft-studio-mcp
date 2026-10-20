@@ -16,7 +16,7 @@ import uuid
 from workflow import Workflow, INSTRUCTIONS, tool_definitions
 from discovery import executables
 
-VERSION = "3.2.0-alpha.1"
+VERSION = "3.3.0-alpha.1"
 UI_TOOLS = {"ui_inspect", "ui_screenshot", "inspect_ui", "type_text", "open_panel"}
 INIT = {"protocolVersion": "2025-06-18", "capabilities": {}, "clientInfo": {"name": "vectorcraft-codex-gateway", "version": VERSION}}
 
@@ -36,8 +36,9 @@ def payload(result):
 
 
 class NativeMcp:
-    def __init__(self, command, root, notify=None, init=None):
+    def __init__(self, command, root, notify=None, init=None, metrics=None):
         self.notify = notify or (lambda message: None)
+        self.metrics = metrics
         self.process = subprocess.Popen(command, cwd=root, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, encoding="utf-8", errors="replace", bufsize=1, creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0))
         self.pending = {}
         self.lock = threading.Lock()
@@ -87,6 +88,19 @@ class NativeMcp:
             self.process.stdin.flush()
 
     def request(self, method, params=None, timeout=290):
+        started = time.perf_counter(); result = None; failure = None
+        try:
+            result = self._request(method, params, timeout)
+            return result
+        except Exception as error:
+            failure = type(error).__name__
+            raise
+        finally:
+            if self.metrics:
+                tool = params.get('name', method) if isinstance(params, dict) else method
+                self.metrics.record('native', tool, params, result, started, failure)
+
+    def _request(self, method, params=None, timeout=290):
         with self.lock:
             self.next_id += 1
             request_id = self.next_id
@@ -132,16 +146,20 @@ class NativeMcp:
 
 
 class Gateway:
-    def __init__(self, root=None, notify=None):
+    def __init__(self, root=None, notify=None, cli=None, desktop=None):
         self.root = Path(root or os.getcwd()).resolve()
         self.notify = notify or (lambda message: None)
-        self.cli,self.desktop_exe = executables()
+        self.cli,self.desktop_exe = executables(cli, desktop) if cli or desktop else executables()
         self.backend = None
         self.mode = "headless"
         self.desktop = None
         self.port = None
         self.init_params = INIT
         self.session = uuid.uuid4().hex
+        from telemetry import Metrics
+        self.metrics = Metrics(self.root, self.session)
+        self.static_native_tools = None
+        self.engine_capabilities = {}
         self.recovery_dir = self.root / "work" / "vectorcraft" / self.session
         self.last_checkpoint = None
         self.checkpoint_number = 0
@@ -156,22 +174,37 @@ class Gateway:
         self.studies=Studies(self)
 
     def start_headless(self):
-        self.backend = NativeMcp([str(self.cli), "mcp", "--headless", "--automation-read-root", str(self.root), "--automation-write-root", str(self.root)], self.root, self.notify, self.init_params)
+        self.backend = NativeMcp([str(self.cli), "mcp", "--headless", "--automation-read-root", str(self.root), "--automation-write-root", str(self.root)], self.root, self.native_notify, self.init_params, self.metrics)
         self.mode = "headless"
 
     def initialize(self, params):
         self.init_params = params
         self.start_headless()
         result = copy.deepcopy(self.backend.initialize_result)
+        import efficient
+        self.workflow.engine_identity = efficient.identity(self.cli, result.get('serverInfo', {}).get('version'))
         result["serverInfo"].update(name="vectorcraft-studio",title="VectorCraft Studio — unofficial companion",version=VERSION)
         result["instructions"] = INSTRUCTIONS + '\nNative VectorCraft guidance:\n' + result.get('instructions','')
         return result
 
     def status(self):
-        return {"mode": self.mode, "project_root": str(self.root), "desktop_pid": self.desktop.pid if self.desktop and self.desktop.poll() is None else None, "port": self.port, "recovery_checkpoint": str(self.last_checkpoint) if self.last_checkpoint else None, "last_error": self.last_error, "transfer_notes": self.transfer_notes, "workflow_run": str(self.workflow.run) if self.workflow.run else None, "gateway_version": VERSION, "preserved_documents": self.preserved_documents}
+        return {"mode": self.mode, "project_root": str(self.root), "desktop_pid": self.desktop.pid if self.desktop and self.desktop.poll() is None else None, "port": self.port, "recovery_checkpoint": str(self.last_checkpoint) if self.last_checkpoint else None, "last_error": self.last_error, "transfer_notes": self.transfer_notes, "workflow_run": str(self.workflow.run) if self.workflow.run else None, "gateway_version": VERSION, "preserved_documents": self.preserved_documents,
+                "engine_identity":getattr(self.workflow,'engine_identity',None),"capabilities":self.engine_capabilities,
+                "telemetry_error":self.metrics.error}
+
+    def native_notify(self, message):
+        if message.get('method') == 'notifications/tools/list_changed':
+            self.static_native_tools = None
+            self.tool_catalog = None
+            self.engine_capabilities = {}
+        self.notify(message)
 
     def tools(self):
-        result = self.backend.request("tools/list", {})
+        if self.static_native_tools is None:
+            self.static_native_tools = self.backend.request("tools/list", {})
+        result = self.static_native_tools
+        import efficient
+        self.engine_capabilities = efficient.capabilities(result)
         result = copy.deepcopy(result)
         for tool in result["tools"]:
             if tool["name"] in UI_TOOLS:
@@ -256,7 +289,7 @@ class Gateway:
                 owned = None
             if not ready:
                 raise RuntimeError("VectorCraft desktop did not start its control channel. The background document is still available.")
-            bridge = NativeMcp([str(self.cli), "mcp", "--connect", f"127.0.0.1:{port}"], self.root, self.notify, self.init_params)
+            bridge = NativeMcp([str(self.cli), "mcp", "--connect", f"127.0.0.1:{port}"], self.root, self.native_notify, self.init_params, self.metrics)
             after = payload(bridge.checked_call("doc_inspect", {}))
             if before.get("objects") != after.get("objects") or before.get("artboards") != after.get("artboards"):
                 raise RuntimeError("Desktop handoff verification failed; the background document was retained")
@@ -268,6 +301,8 @@ class Gateway:
             self.desktop = owned
             self.port = port
             self.mode = "desktop"
+            self.static_native_tools = None
+            self.tool_catalog = None
             self.transfer_notes = ["Artwork transferred to the managed desktop. Undo history starts at the handoff checkpoint."]
             self.last_error = None
             # Once committed, metadata/old-child cleanup cannot roll back a live handoff.
@@ -303,7 +338,25 @@ class Gateway:
         return False
 
     def call(self, name, args):
-        if self.studies.active() and name not in ('workflow_status',):
+        started = time.perf_counter(); result = None; failure = None
+        try:
+            result = self._call(name, args)
+            return result
+        except Exception as error:
+            failure = type(error).__name__
+            raise
+        finally:
+            self.metrics.record('host', name, args, result, started, failure)
+
+    def _call(self, name, args):
+        import efficient
+        if name == 'command_batch':
+            if efficient.enabled(efficient.owner(self)) and self.tool_catalog is None:
+                self.tools()
+            args = efficient.batch(self, args)
+        if name=='workflow_record' and args.get('kind')=='stop':
+            return text_result(self.workflow.record(self.backend,**args))
+        if self.studies.active() and name not in ('workflow_status','workflow_start'):
             return self.studies.route(name,args)
         if name == 'workflow_begin' and args.get('plan',{}).get('context')=='study':
             return text_result(self.studies.begin(**args))
@@ -311,6 +364,9 @@ class Gateway:
             if self.studies.child:self.studies.child.workflow.verify()
             return text_result(self.workflow.status(**args))
         if name == "workflow_start":
+            if self.studies.child:raise ValueError('Resume a stopped study in a fresh connection; preserve its current recovery first')
+            if args.get('execution_profile') == efficient.PROFILE and self.tool_catalog is None:
+                self.tools()
             result=self.workflow.start(self.backend, **args)
             import design_process
             if design_process.enabled(self.workflow):self.studies.restore()
@@ -390,9 +446,12 @@ class Gateway:
             if command in {"file.new", "file.open", "document.open"}:
                 return "setup"
             reads = {"document.inspect", "document.node", "document.find", "document.formats", "text.fonts", "text.fontList", "text.getRange", "imageTrace.presets", "effect.list", "swatch.library.list", "clipboard.exportSvg", "clipboard.exportText", "document.export", "document.save", "file.save", "file.export"}
-            if command in reads or command.startswith(("select.", "view.")):
+            selection_reads = {'select.all', 'select.none', 'select.deselect', 'select.set', 'select.add', 'select.remove',
+                               'select.invert', 'select.recall', 'select.savedList', 'select.key', 'select.keyObject',
+                               'select.next', 'select.previous', 'select.sameFill', 'select.sameStroke'}
+            if command in reads or command in selection_reads or command.startswith("view."):
                 return "read"
-            if command == "text.areaOptions" and not (set(params) - {"ids"}):
+            if command == "text.areaOptions" and not (set(params) - {"ids", "id"}):
                 return "read"
             return "edit"
         if name == "command_batch":
@@ -406,6 +465,7 @@ class Gateway:
     def shutdown(self):
         self.studies.shutdown()
         if not self.backend:
+            self.metrics.close()
             return
         saved = False
         try:
@@ -426,6 +486,7 @@ class Gateway:
                 self._write_status()
             except Exception as error:
                 print("Unable to update recovery metadata: " + str(error), file=sys.stderr, flush=True)
+        self.metrics.close()
 
     def _close_owned_window(self):
         if os.name != "nt":
